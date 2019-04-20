@@ -1,0 +1,8 @@
+
+
+version 0.4		 2014-01-01
+Almost everything was changed from last version.
+
+version 0.2		 2005-04-22
+A few remarks from the University of Ottawa's Faculty of Graduate and 
+Postdoctoral Studies were added to "00readme.txt" file.
