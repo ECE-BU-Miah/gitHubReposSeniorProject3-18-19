@@ -2,7 +2,7 @@
 
 # Title: Smart Control of 2-DOF Helicopters
 
-- Glenn Janiak, Ken Vonckx, Firstname Lastname, and Dr. Suruz Miah
+- Glenn Janiak, Ken Vonckx, and Dr. Suruz Miah
 
 
 
