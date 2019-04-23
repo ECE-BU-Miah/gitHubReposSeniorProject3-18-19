@@ -22,6 +22,7 @@ As of 4/23/19 at 1:00pm, the duplicate images from the figs folder have been rem
 
 ## What still needs to be done
 Fix all of the errors and warnings in the .tex files due to these changes
+Go back and check highLevelOverview.eps, switchingOverview.eps, communicationModel
 
 
 
