@@ -15,9 +15,19 @@
 07. Final presentation 
 
 
+
 # In progress
 ## What was done last
 As of 4/23/19 at 1:00pm, the duplicate images from the figs folder have been removed.
 
 ## What still needs to be done
 Fix all of the errors and warnings in the .tex files due to these changes
+
+
+
+# Notes
+Inorder to prevent writting over eachothers changes, before working on the documentation: 
+01. Fork a new copy of the master
+02. Make changes to your fork
+03. Commit and push changes to your fork
+04. Merge the master copy and your fork
