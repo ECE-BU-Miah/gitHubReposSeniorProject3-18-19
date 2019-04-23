@@ -1,8 +1,8 @@
 # Github repository of seniorProject3-2018-2019
 
-# Title: ......
+# Title: Smart Control of 2-DOF Helicopters
 
-- Firstname Lastname, Firstname Lastname, Firstname Lastname, and Dr. Suruz Miah
+- Glenn Janiak, Ken Vonckx, Firstname Lastname, and Dr. Suruz Miah
 
 
 
@@ -13,3 +13,11 @@
 05. Poster 
 06. Final report
 07. Final presentation 
+
+
+# In progress
+## What was done last
+As of 4/23/19 at 1:00pm, the duplicate images from the figs folder have been removed.
+
+## What still needs to be done
+Fix all of the errors and warnings in the .tex files due to these changes
