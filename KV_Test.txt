@@ -1,2 +1,6 @@
+<<<<<<< HEAD
 This test 2
 this is another test
+=======
+This is a test 2
+>>>>>>> 3e90739ba96aa83e23d072810dd2f80d8fadc034
