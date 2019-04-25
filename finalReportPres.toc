@@ -1,0 +1,14 @@
+\beamer@sectionintoc {1}{Introduction}{3}{0}{1}
+\beamer@sectionintoc {2}{Background Study}{6}{0}{2}
+\beamer@subsectionintoc {2}{1}{Control Techniques}{6}{0}{2}
+\beamer@subsectionintoc {2}{2}{Modeling a 2-DOF Helicopter}{8}{0}{2}
+\beamer@subsectionintoc {2}{3}{Prior Work}{14}{0}{2}
+\beamer@sectionintoc {3}{Subsystem Level Functional Requirements}{16}{0}{3}
+\beamer@subsectionintoc {3}{1}{Block Diagram}{16}{0}{3}
+\beamer@sectionintoc {4}{Simulation}{19}{0}{4}
+\beamer@subsectionintoc {4}{1}{LQR Simulation}{19}{0}{4}
+\beamer@subsectionintoc {4}{2}{LQG Simulation}{24}{0}{4}
+\beamer@sectionintoc {5}{Implementation}{27}{0}{5}
+\beamer@subsectionintoc {5}{1}{Demonstration}{27}{0}{5}
+\beamer@sectionintoc {6}{Parts List}{29}{0}{6}
+\beamer@sectionintoc {7}{Future Directions}{30}{0}{7}
