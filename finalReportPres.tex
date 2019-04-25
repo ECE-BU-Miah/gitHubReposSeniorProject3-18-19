@@ -85,9 +85,7 @@ Advisor: Dr. Suruz Miah}
 % - Use the \inst command only if there are several affiliations.
 % - Keep it simple, no one is interested in your street address.
 
-%\date[November~27,~2018]{Tuesday, November~27,~2018}
-\date[November~29,~2018]{Thursday, November~29,~2018}
-%\date[December~4,~2018]{Tuesday, December~4,~2016}
+\date[May~4,~2019]{Saturday, May~4,~2019}
 
 % - Either use conference name or its abbreviation.
 % - Not really informative to the audience, more for people (including
@@ -123,7 +121,7 @@ Advisor: Dr. Suruz Miah}
   \titlepage
 \end{frame}
 
-\begin{frame}{Outline} %Glenn
+\begin{frame}{Outline} 
   \tableofcontents%[pausesections]
   % You might wish to add the option [pausesections]
 \end{frame}
@@ -132,7 +130,7 @@ Advisor: Dr. Suruz Miah}
 % and table of contents.
 \section{Introduction}
 
-\begin{frame}{Introduction}{} %Ken
+\begin{frame}{Introduction}{}
   % applications of mobile robot navigation and problem description
     \begin{itemize}
         \item Helicopter are important for short-distance travel
@@ -156,7 +154,7 @@ Advisor: Dr. Suruz Miah}
     \end{itemize}
 \end{frame}
 
-\begin{frame}{Introduction}{} %Glenn
+\begin{frame}{Introduction}{}
 \begin{figure}
   \centering
   \includegraphics[scale=0.31]{figs/ipe/ProblemStatementImageWhite}
@@ -165,7 +163,7 @@ Advisor: Dr. Suruz Miah}
 \end{figure}
 \end{frame}
 
-\begin{frame}{Introduction}{} %Glenn
+\begin{frame}{Introduction}{}
         \begin{itemize}
         \item This project will:
             \begin{itemize}
@@ -184,7 +182,7 @@ Advisor: Dr. Suruz Miah}
 
 \subsection{Control Techniques}
 
-\begin{frame}{Background Study}{Control Techniques} %Ken
+\begin{frame}{Background Study}{Control Techniques}
     Various control techniques have been proposed for 2-DOF helicopters such as:
     \begin{itemize}
         \item Sliding mode control \cite{Ahmed2010-Sliding} %cite 2-Sliding Mode Based Robust Control for 2-DOF Helicopter here
@@ -224,7 +222,7 @@ Advisor: Dr. Suruz Miah}
 
 \end{frame}
 
-\begin{frame}{Background Study}{Modeling a 2-DOF Helicopter} %Ken
+\begin{frame}{Background Study}{Modeling a 2-DOF Helicopter}
     \begin{itemize}
         \item Characterized by fixed base
         \begin{itemize}
@@ -244,7 +242,7 @@ Advisor: Dr. Suruz Miah}
     \end{itemize}
 \end{frame}
 
-% \begin{frame}{Background Study}{Quanser Aero} %Glenn
+% \begin{frame}{Background Study}{Quanser Aero} 
 
 % \end{frame}
 
@@ -304,7 +302,7 @@ Advisor: Dr. Suruz Miah}
 
 \subsection{Prior Work}
 
-\begin{frame}{Background Study}{Prior Work} %Glenn
+\begin{frame}{Background Study}{Prior Work}
   \begin{itemize}
       \item extensive modeling \& simulations
       \item implementation of two motion control algorithms (LQR \& ADP)
@@ -332,7 +330,7 @@ Advisor: Dr. Suruz Miah}
 
 \subsection{Block Diagram}
 
-\begin{frame}{Subsystem Level Functional Requirements}{Block Diagram} %Ken
+\begin{frame}{Subsystem Level Functional Requirements}{Block Diagram}
 
 \begin{figure}
   \centering
@@ -343,7 +341,7 @@ Advisor: Dr. Suruz Miah}
 
 \end{frame}
 
-\begin{frame}{Subsystem Level Functional Requirements}{Block Diagram} %Glenn
+\begin{frame}{Subsystem Level Functional Requirements}{Block Diagram} 
 
 \begin{figure}
   \centering 
@@ -356,165 +354,110 @@ Advisor: Dr. Suruz Miah}
 
 %----------------------------------
 
-% \subsection{Specifications}
+\section{Simulation}
 
-% \begin{frame}{Subsystem Level Functional Requirements}{Specifications} %Ken
-%   The single board computer that will be used is the Raspberry~Pi~3 Model~B:
-%     \begin{figure}
-%       \centering 
-%       \includegraphics[scale=0.35]{figs/raspberry-pi-3-model-b}
-%       \caption{Raspberry Pi 3 Model B}
-%       \label{fig:raspberry-pi-3-model-b}
-%     \end{figure}
-% \end{frame}
+\subsection{LQR Simulation}
 
-%----------------------------------
-
-\section{Preliminary Work}
-
-\subsection{LQR Simulation} %Ken
-
-\begin{frame}{Preliminary Work}{LQR Simulation}
+\begin{frame}{Simulation}{LQR Simulation (P Controller)}
     \begin{figure}
       \centering
       \subfigure[][]{
-        \label{fig:LQR_Pos_Con}    
-        \includegraphics[scale=0.38]{figs/MATLAB/LQR/simulation/LQR_Pos_Con}
+        \label{fig:LQR_Pos_Con}
+        \includegraphics[scale=0.38]{figs/MATLAB/LQR/P_Simulation/LQR_Pos_Con}
       }
       \subfigure[][]{
         \label{fig:LQR_Volt_Con}
-        \includegraphics[scale=0.38]{figs/MATLAB/LQR/simulation/LQR_Volt_Con}    
+        \includegraphics[scale=0.38]{figs/MATLAB/LQR/P_Simulation/LQR_Volt_Con}    
       }  
-      \caption{LQR Simulation \subref{fig:LQR_Pos_Con}~Position and~\subref{fig:LQR_Volt_Con}~Voltage w/ Constant Signal}
+      \caption{LQR Simulation \subref{fig:LQR_Pos_Con}~Position and~\subref{fig:LQR_Volt_Con}~Voltage w/ Step Input}
       \label{fig:LQR_Sim_Con}
     \end{figure}
 \end{frame}
 
-\begin{frame}{Preliminary Work}{LQR Simulation}
+\begin{frame}{Simulation}{LQR Simulation (P Controller)}
     \begin{figure}
       \centering 
-      \includegraphics[scale=0.5]{figs/MATLAB/LQR/simulation/LQR_Error_Con}
+      \includegraphics[scale=0.5]{figs/MATLAB/LQR/P_Simulation/LQR_Error_Con}
       \caption{LQR Simulation Error w/ Constant Signal}
       \label{fig:LQR_Error_Con}
     \end{figure}
 \end{frame}
 
+\begin{frame}{Simulation}{LQR Simulation (PI Controller)}
+    \begin{figure}
+      \centering
+      \subfigure[][]{
+        \label{fig:Pitch_LQR_Con}
+        \includegraphics[scale=0.38]{figs/MATLAB/LQR/PI_Sim/Pitch_LQR_Con}
+      }
+      \subfigure[][]{
+        \label{fig:Yaw_LQR_Con}
+        \includegraphics[scale=0.38]{figs/MATLAB/LQR/PI_Sim/Yaw_LQR_Con}    
+      }  
+      \caption{LQR Simulation (PI Controller) \subref{fig:Pitch_LQR_Con}~Pitch~Position and~\subref{fig:Yaw_LQR_Con}~Yaw~Position w/ Step Input}
+      \label{fig:LQR_PI_Sim_pos}
+    \end{figure}
+\end{frame}
+
+\begin{frame}{Simulation}{LQR Simulation (PI Controller)}
+    \begin{figure}
+      \centering
+      \subfigure[][]{
+        \label{fig:Pitch_Volt_LQR_Con}
+        \includegraphics[scale=0.38]{figs/MATLAB/LQR/PI_Sim/Pitch_Volt_LQR_Con}
+      }
+      \subfigure[][]{
+        \label{fig:Yaw_Volt_LQR_Con}
+        \includegraphics[scale=0.38]{figs/MATLAB/LQR/PI_Sim/Yaw_Volt_LQR_Con}    
+      }  
+      \caption{LQR Simulation (PI Controller) \subref{fig:Pitch_Volt_LQR_Con}~Pitch~Voltage and~\subref{fig:Yaw_Volt_LQR_Con}~Yaw~Voltage w/ Step Input}
+      \label{fig:LQR_PI_Sim_volt}
+    \end{figure}
+\end{frame}
+
+\subsection{LQG Simulation}
+\begin{frame}{Simulation}{LQG Simulation (PI Controller)}
+    \begin{figure}
+      \centering
+      \subfigure[][]{
+        \label{fig:Pitch_LQG_Con}
+        \includegraphics[scale=0.38]{figs/MATLAB/LQG/LQG_Sim/Pitch_LQG_Con}
+      }
+      \subfigure[][]{
+        \label{fig:Yaw_LQG_Con}
+        \includegraphics[scale=0.38]{figs/MATLAB/LQG/LQG_Sim/Yaw_LQG_Con}    
+      }  
+      \caption{LQG Simulation (PI Controller) \subref{fig:Pitch_LQG_Con}~Pitch~Position and~\subref{fig:Yaw_LQG_Con}~Yaw~Position w/ Step Input}
+      \label{fig:LQG_PI_Sim_pos}
+    \end{figure}
+\end{frame}
+
+\begin{frame}{Simulation}{LQG Simulation (PI Controller)}
+    \begin{figure}
+      \centering
+      \subfigure[][]{
+        \label{fig:Pitch_Volt_LQG_Con}
+        \includegraphics[scale=0.38]{figs/MATLAB/LQG/LQG_Sim/Pitch_Volt_LQG_Con}
+      }
+      \subfigure[][]{
+        \label{fig:Yaw_Volt_LQG_Con}
+        \includegraphics[scale=0.38]{figs/MATLAB/LQG/LQG_Sim/Yaw_Volt_LQG_Con}    
+      }  
+      \caption{LQR Simulation (PI Controller) \subref{fig:Pitch_Volt_LQG_Con}~Pitch~Voltage and~\subref{fig:Yaw_Volt_LQG_Con}~Yaw~Voltage w/ Step Input}
+      \label{fig:LQG_PI_Sim_volt}
+    \end{figure}
+\end{frame}
 
 %----------------------------------
 
-\subsection{LQR via USB} %Glenn
+\section{Implementation}
 
-% \begin{frame}{Preliminary Work}{LQR via USB}
-% \begin{figure}
-%       \centering 
-%       \includegraphics[scale=0.5]{figs/MATLAB/LQR/USB_results/Pitch_Pos_LQR_USB_SQU}
-%       \caption{LQR Pitch Position on PC with Square Wave Input}
-%       \label{fig:Pitch_Pos_LQR_USB_SQU}
-%     \end{figure}
-% \end{frame}
-
-% \begin{frame}{Preliminary Work}{LQR via USB}
-% \begin{figure}
-%       \centering 
-%       \includegraphics[scale=0.5]{figs/MATLAB/LQR/USB_results/Pitch_Volt_LQR_USB_SQU}
-%       \caption{LQR Pitch Voltage on PC with Square Wave Input}
-%       \label{fig:Pitch_Volt_LQR_USB_SQU}
-%     \end{figure}
-% \end{frame}
-
-\begin{frame}{Preliminary Work}{LQR via USB}
-    \begin{figure}
-      \centering
-      \subfigure[][]{
-        \label{fig:Pitch_Pos_LQR_USB_SQU}    
-        \includegraphics[scale=0.38]{figs/MATLAB/LQR/USB_results/Pitch_Pos_LQR_USB_SQU}
-      }
-      \subfigure[][]{
-        \label{fig:Pitch_Volt_LQR_USB_SQU}
-        \includegraphics[scale=0.38]{figs/MATLAB/LQR/USB_results/Pitch_Volt_LQR_USB_SQU}    
-      }  
-      \caption{LQR Pitch Position~\subref{fig:Pitch_Pos_LQR_USB_SQU}~and~Voltage~\subref{fig:Pitch_Volt_LQR_USB_SQU} on PC with Square Wave Input}
-      \label{fig:Pitch_LQR_USB_SQU}
-    \end{figure}
-\end{frame}
-
-% \begin{frame}{Preliminary Work}{LQR via USB}
-% \begin{figure}
-%       \centering 
-%       \includegraphics[scale=0.5]{figs/MATLAB/LQR/USB_results/Yaw_Pos_LQR_USB_SQU}
-%       \caption{LQR Yaw Position on PC with Square Wave Input}
-%       \label{fig:Yaw_Pos_LQR_USB_SQU}
-%     \end{figure}
-% \end{frame}
-
-% \begin{frame}{Preliminary Work}{LQR via USB}
-% \begin{figure}
-%       \centering 
-%       \includegraphics[scale=0.5]{figs/MATLAB/LQR/USB_results/Yaw_Volt_LQR_USB_SQU}
-%       \caption{LQR Yaw Voltage on PC with Square Wave Input}
-%       \label{fig:Yaw_Volt_LQR_USB_SQU}
-%     \end{figure}
-% \end{frame}
-\begin{frame}{Preliminary Work}{LQR via USB}
-    \begin{figure}
-      \centering
-      \subfigure[][]{
-        \label{fig:Yaw_Pos_LQR_USB_SQU}    
-        \includegraphics[scale=0.38]{figs/MATLAB/LQR/USB_results/Yaw_Pos_LQR_USB_SQU}
-      }
-      \subfigure[][]{
-        \label{fig:Yaw_Volt_LQR_USB_SQU}
-        \includegraphics[scale=0.38]{figs/MATLAB/LQR/USB_results/Yaw_Volt_LQR_USB_SQU}    
-      }  
-      \caption{LQR Yaw Position~\subref{fig:Yaw_Pos_LQR_USB_SQU}~and~Voltage~\subref{fig:Yaw_Volt_LQR_USB_SQU} on PC with Square Wave Input}
-      \label{fig:Yaw_LQR_USB_SQU}
-    \end{figure}
-\end{frame}
-
-
-%----------------------------------
-
-\subsection{LQR via Wireless}
-
-\begin{frame}{Preliminary Work}{LQR via Wireless} %Glenn
-  %\todo[inline]{Image of the pitch and yaw positions \& voltage will be included in this section for the final presentation}
-    \begin{figure}
-      \centering
-      \subfigure[][]{
-        \label{fig:LQR_Pitchpos}    
-        \includegraphics[scale=0.38]{figs/MATLAB/LQR/mobileResults/LQR_Pitchpos}
-      }
-      \subfigure[][]{
-        \label{fig:LQR_PitchVolt}
-        \includegraphics[scale=0.38]{figs/MATLAB/LQR/mobileResults/LQR_PitchVolt}    
-      }  
-      \caption{Performance in following user's command~\subref{fig:LQR_Pitchpos} tracking pitch angle,~and~\subref{fig:LQR_PitchVolt} pitch motor input voltage}
-      \label{fig:performancePitchConst}
-    \end{figure}
-\end{frame}
-
-\begin{frame}{Preliminary Work}{LQR via Wireless}
-    \begin{figure}
-      \centering
-      \subfigure[][]{
-        \label{fig:LQR_Yawpos}    
-        \includegraphics[scale=0.38]{figs/MATLAB/LQR/mobileResults/LQR_Yawpos}
-      }
-      \subfigure[][]{
-        \label{fig:LQR_YawVolt}
-        \includegraphics[scale=0.38]{figs/MATLAB/LQR/mobileResults/LQR_YawVolt}    
-      }  
-      \caption{Performance in following user's command~\subref{fig:LQR_Yawpos} tracking yaw angle,~and~\subref{fig:LQR_YawVolt} yaw motor input voltage.}
-      \label{fig:performanceYawConst}
-    \end{figure}
-\end{frame}
 
 %----------------------------------
 
 \subsection{Demonstration}
 
-\begin{frame}{Demonstration} %Glenn
-    %\todo[inline]{A video demonstration the mobile app will be place in this slide}
+\begin{frame}{Demonstration}
     \centering
     \includemedia[
      width=0.8\linewidth,
@@ -532,7 +475,7 @@ Advisor: Dr. Suruz Miah}
 
 \section{Parts List}
 
-\begin{frame}{Parts List}{} %Glenn
+\begin{frame}{Parts List}{}
 
   \begin{itemize}
       \item Hardware
@@ -560,107 +503,14 @@ Advisor: Dr. Suruz Miah}
 
 %----------------------------------
 
-%\section{ECE 499 Deliverables}
-%\section{Deliverables}
 
-% \subsection{Division of Labor}
-
-% \begin{frame}{Deliverables}{Division of Labor}
-%     \begin{columns}
-%     \begin{column}{0.5\textwidth}
-%         \begin{center}
-%             \textbf{Glenn}
-%         \end{center}
-%         \begin{itemize}
-%             \item one
-%             \item two
-%             \item three
-%         \end{itemize}
-%     \end{column}
-%     \begin{column}{0.5\textwidth}
-%         \begin{center}
-%             \textbf{Ken}
-%         \end{center}
-%         \begin{itemize}
-%             \item one
-%             \item two
-%             \item three
-%         \end{itemize}
-%     \end{column}
-%     \end{columns}
-% \end{frame}
-
-%----------------------------------
-
-% %\subsection{Schedule for Completion}
-% \section{Schedule for Completion}
-% \begin{frame}{Deliverables}{Schedule for Completion} %Glenn
-%    \begin{figure}
-%     \centering
-%     \begin{ganttchart}[hgrid,vgrid,x unit=.45cm, y unit title=.5cm,y unit chart=.3cm,milestone label font=\tiny,bar label font=\tiny, group label font=\small,bar/.append style={fill=green},bar incomplete/.append style={fill=red}]{1}{16}
-%     \gantttitle{2018}{16}\\
-%     \gantttitle{Sep}{4}
-%     \gantttitle{Oct}{4}
-%     \gantttitle{Nov}{4}
-%     \gantttitle{Dec}{4}\\
-%     \ganttgroup[progress = 66,group progress label font = \tiny,progress label text={$\displaystyle#1\%$},group progress label anchor = east]{Research}{1}{14} \\
-%     \ganttbar[progress = 100,progress label text={$\displaystyle#1\%$},bar progress label font = \tiny,bar progress label anchor = east]{Last Years Work}{1}{2}\\
-%     \ganttbar[progress = 100,bar progress label font = \tiny,progress label text={$\displaystyle#1\%$},bar progress label anchor = east]{LQG}{3}{8}\\
-%     \ganttbar[progress = 0,bar progress label font = \tiny,progress label text={$\displaystyle#1\%$},bar progress label anchor = east]{ADP}{9}{14}\\
-%     \ganttgroup[progress = 66,group progress label font = \tiny,progress label text={$\displaystyle#1\%$},group progress label anchor = east]{Simulation}{1}{14}\\
-%     \ganttbar[progress = 100,bar progress label font = \tiny,progress label text={$\displaystyle#1\%$},bar progress label anchor = east]{LQR}{1}{2}\\
-%     \ganttbar[progress = 100,bar progress label font = \tiny,progress label text={$\displaystyle#1\%$},bar progress label anchor = east]{LQG}{3}{8}\\
-%     \ganttbar[progress = 0,bar progress label font = \tiny,progress label text={$\displaystyle#1\%$},bar progress label anchor = east]{ADP}{9}{14}\\
-%     \ganttgroup[progress = 50,group progress label font = \tiny,progress label text={$\displaystyle#1\%$},group progress label anchor = east]{Implementation}{3}{14}\\
-%     \ganttbar[progress = 100,bar progress label font = \tiny,progress label text={$\displaystyle#1\%$},bar progress label anchor = east]{LQR USB}{3}{4}\\
-%     \ganttbar[progress = 100,bar progress label font = \tiny,progress label text={$\displaystyle#1\%$},bar progress label anchor = east]{LQR Raspberry Pi}{5}{6}\\
-%     \ganttbar[progress = 100,bar progress label font = \tiny,progress label text={$\displaystyle#1\%$},bar progress label anchor = east]{LQR Android}{7}{8}\\
-%     \ganttbar[progress = 0,bar progress label font = \tiny,progress label text={$\displaystyle#1\%$},bar progress label anchor = east]{LQG USB}{9}{10}\\
-%     \ganttbar[progress = 0,bar progress label font = \tiny,progress label text={$\displaystyle#1\%$},bar progress label anchor = east]{LQG Raspberry Pi}{11}{12}\\
-%     \ganttbar[progress = 0,bar progress label font = \tiny,progress label text={$\displaystyle#1\%$},bar progress label anchor = east]{LQG Android}{13}{14}
-%     \end{ganttchart}
-%     \caption{Gantt chart for Fall 2018}
-%     \label{fig:gantt1}
-%     \end{figure}
-% \end{frame}
-
-% \begin{frame}{Deliverables}{Schedule for Completion}
-%  \begin{figure}
-% \centering
-% \begin{ganttchart}[hgrid,vgrid,x unit=.4cm, y unit title=.5cm,y unit chart=.4cm,milestone label font=\tiny,bar label font=\tiny, group label font=\small,bar/.append style={fill=green},bar incomplete/.append style={fill=red}]{1}{18}
-% \gantttitle{2019}{18}\\
-% \gantttitle{Jan}{4}
-% \gantttitle{Feb}{4}
-% \gantttitle{Mar}{4}
-% \gantttitle{Apr}{4}
-% \gantttitle{May}{2}\\
-% \ganttgroup[progress = 0,group progress label font = \tiny,progress label text={$\displaystyle#1\%$}, group progress label anchor = east]{Implementation}{3}{8}\\
-% \ganttbar[progress = 0,bar progress label font = \tiny,progress label text={$\displaystyle#1\%$},bar progress label anchor = east]{ADP USB}{3}{4}\\
-% \ganttbar[progress = 0,bar progress label font = \tiny,progress label text={$\displaystyle#1\%$},bar progress label anchor = east]{ADP Raspberry Pi}{5}{6}\\
-% \ganttbar[progress = 0,bar progress label font = \tiny,progress label text={$\displaystyle#1\%$},bar progress label anchor = east]{ADP Android}{7}{8}\\
-% \ganttgroup[progress = 0,group progress label font = \tiny,progress label text={$\displaystyle#1\%$}, group progress label anchor = east]{Testing}{9}{16}
-% \end{ganttchart}
-% \caption{Gantt Chart for Spring 2019}
-% \label{fig:gantt2}
-% \end{figure}
-% \end{frame}
-
-%----------------------------------
-
-% \section{Discussion}
-
-% \begin{frame}{Discussion}{}
-  
-% \end{frame}
-
-%----------------------------------
 
 \section{Future Directions}
 
-\begin{frame}{Future Directions}{} %Glenn
+\begin{frame}{Future Directions}{} 
   \begin{itemize}
-    \item Two more motion control algorithms (LQG \& ADP)
-    \item Test plan
+    \item Digital Compass
+    \item Enhanced Smart Control
     \item Implmentation on 6-DOF Helicopter
   \end{itemize}
 \end{frame}
@@ -715,6 +565,8 @@ Advisor: Dr. Suruz Miah}
   \begin{itemize}
     \item Embedded implementation of control algorithms
     \item Mobile interface
+    \item PI control improves steady-state error
+    \item ADP is best when system parameters are unknown or time-varient
   \end{itemize}
   
 %   \begin{itemize}
