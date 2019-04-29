@@ -258,27 +258,62 @@ Advisor: Dr. Suruz Miah}
 \end{frame}
 
 \begin{frame}{Background Study}{Modeling a 2-DOF Helicopter}
+Due to the efficiency of the Quanser Aero, we can create a linearized system model:
 \begin{align}
-  \dot{\bf x}(t) = {\bf A}{\bf x}(t) +{\bf B}{\bf u}(t),~\mathrm{where}
+  %\dot{\bf x}(t) = {\bf A}{\bf x}(t) +{\bf B}{\bf u}(t),~\mathrm{where}
+    \dot{\bf x}(t) = {\bf A}{\bf x}(t) +{\bf B}{\bf u}(t),~\mathrm{such that}
 \label{eq:stateModel}
 \end{align}  
 %
 \begin{align*}
-{\bf A} =  
 \begin{bmatrix}
-0 & 0 & 1 & 0\\
-0 & 0 & 0 & 1\\
--\frac{K_{\text{sp}}}{J_p} & 0 & -\frac{D_p}{J_p} &  0\\
-0 & 0 & 0 & -\frac{D_y}{J_y}    
+    \dot\theta\\
+    \dot\psi\\
+    \ddot{\theta}\\
+    \ddot{\psi}
+\end{bmatrix}&=
+%\label{eq:matrixA}
+\begin{bmatrix}
+    0 & 0 & 1 & 0 \\
+    0 & 0 & 0 & 1 \\
+    0 & -K_{sp}/J_p & -D_p/J_p & 0 \\
+    0 & 0 & 1 & -D_y/J_y 
+\end{bmatrix} 
+%\label{eq:stateMatrix} 
+\begin{bmatrix}
+    \theta\\
+    \psi\\
+    \dot{\theta}\\
+    \dot{\psi}
 \end{bmatrix}
-~\text{and}~
-  {\bf B} =
+\\&+
+%\label{eq:matrixB}
 \begin{bmatrix}
-0 & 0\\
-0 & 0\\
-\frac{K_{\text{pp}}}{J_p} & \frac{K_{\text{py}}}{J_p}\\
-\frac{K_{\text{yp}}}{J_y} & \frac{K_{\text{yy}}}{J_y}                           
-\end{bmatrix},
+    0 & 0 \\
+    0 & 0 \\
+    K_{pp}/J_p & K_{py}/J_p \\
+    K_{yp}/J_y & K_{yy}/J_y 
+\end{bmatrix}
+%\label{eq:inputMatrix}
+\begin{bmatrix}
+    V_p \\
+    V_y 
+\end{bmatrix}
+%{\bf A} =  
+%\begin{bmatrix}
+%0 & 0 & 1 & 0\\
+%0 & 0 & 0 & 1\\
+%-\frac{K_{\text{sp}}}{J_p} & 0 & -\frac{D_p}{J_p} &  0\\
+%0 & 0 & 0 & -\frac{D_y}{J_y}    
+%\end{bmatrix}
+%~\text{and}~
+%  {\bf B} =
+%\begin{bmatrix}
+%0 & 0\\
+%0 & 0\\
+%\frac{K_{\text{pp}}}{J_p} & \frac{K_{\text{py}}}{J_p}\\
+%\frac{K_{\text{yp}}}{J_y} & \frac{K_{\text{yy}}}{J_y}                           
+%\end{bmatrix}
 \end{align*}
 \end{frame}
 
@@ -358,6 +393,7 @@ Advisor: Dr. Suruz Miah}
 
 \subsection{LQR Simulation}
 
+% P Controller
 \begin{frame}{Simulation}{LQR Simulation (P Controller)}
     \begin{figure}
       \centering
@@ -383,6 +419,7 @@ Advisor: Dr. Suruz Miah}
     \end{figure}
 \end{frame}
 
+% PI Controller
 \begin{frame}{Simulation}{LQR Simulation (PI Controller)}
     \begin{figure}
       \centering
@@ -415,6 +452,7 @@ Advisor: Dr. Suruz Miah}
     \end{figure}
 \end{frame}
 
+% LQG
 \subsection{LQG Simulation}
 \begin{frame}{Simulation}{LQG Simulation (PI Controller)}
     \begin{figure}
@@ -452,6 +490,41 @@ Advisor: Dr. Suruz Miah}
 
 \section{Implementation}
 
+\subsection{USB}
+%
+\begin{frame}{Implementation}{ADP and LQR (P Controller) USB}
+    \begin{figure}
+      \centering
+      \subfigure[][]{
+        \label{fig:Pitch_LQRvADP_USB}
+        \includegraphics[scale=0.38]{figs/matlab/ADPvLQR_P_USB/Pitch_ADP_LQR}
+      }
+      \subfigure[][]{
+        \label{fig:Yaw_LQRvADP_USB}
+        \includegraphics[scale=0.38]{figs/matlab/ADPvLQR_P_USB/Yaw_ADP_LQR}    
+      }  
+      \caption{USB Implementation comparison between ADP and LQR (P) for \subref{fig:Pitch_LQRvADP_USB}~Pitch and \subref{fig:Yaw_LQRvADP_USB}~Yaw orientations w/ Step Input}
+      \label{fig:LQRvADP_USB}
+    \end{figure}
+\end{frame}
+
+\subsection{Android}
+%
+\begin{frame}{Implementation}{Android}
+%    \begin{figure}
+%      \centering
+%      \subfigure[][]{
+%        \label{fig:Pitch_LQRvADP_USB}
+%        \includegraphics[scale=0.38]{figs/matlab/ADPvLQR_P_USB/Pitch_ADP_LQR}
+%      }
+%      \subfigure[][]{
+%        \label{fig:Yaw_LQRvADP_USB}
+%        \includegraphics[scale=0.38]{figs/matlab/ADPvLQR_P_USB/Yaw_ADP_LQR}    
+%      }  
+%      \caption{USB Implementation comparison between ADP and LQR (P) for \subref{fig:Pitch_LQRvADP_USB}~Pitch and \subref{fig:Yaw_LQRvADP_USB}~Yaw orientations w/ Step Input}
+%      \label{fig:LQRvADP_USB}
+%    \end{figure}
+\end{frame}
 
 %----------------------------------
 
@@ -472,34 +545,34 @@ Advisor: Dr. Suruz Miah}
 \end{frame}
 
 %----------------------------------
-
-\section{Parts List}
-
-\begin{frame}{Parts List}{}
-
-  \begin{itemize}
-      \item Hardware
-      \begin{itemize}
-        \item Two Quanser Aeros
-            \begin{itemize}
-                \item Q-flex2 Embedded Panel
-            \end{itemize}
-        \item Two Single Board Computers (Raspberry Pi 3 Model B)
-        \item Android Smart-phone or Tablet\\
-        (Note that Apple devices could also be used, however modifications are needed)
-      \end{itemize}
-      \item Software
-      \begin{itemize}
-          \item MATLAB \& Simulink
-          \begin{itemize}
-            \item Raspberry Pi Support Package
-            \item Android Support Package
-          \end{itemize}
-          \item Quanser Real-Time Control (QUARC)
-          % "Quanser’s QUARC™ software adds powerful tools and capabilities to Simulink® that make the development and deployment of sophisticated real-time mechatronics and control applications easier. QUARC™ generates real-time code directly from Simulink-designed controllers and runs it in real-time on the Windows target – all without digital signal processing or without writing a single line of code."
-      \end{itemize}
-  \end{itemize}
-\end{frame}
+%
+%\section{Parts List}
+%
+%\begin{frame}{Parts List}{}
+%
+%  \begin{itemize}
+%      \item Hardware
+%      \begin{itemize}
+%        \item Two Quanser Aeros
+%            \begin{itemize}
+%                \item Q-flex2 Embedded Panel
+%            \end{itemize}
+%        \item Two Single Board Computers (Raspberry Pi 3 Model B)
+%        \item Android Smart-phone or Tablet\\
+%        (Note that Apple devices could also be used, however modifications are needed)
+%      \end{itemize}
+%      \item Software
+%      \begin{itemize}
+%          \item MATLAB \& Simulink
+%          \begin{itemize}
+%            \item Raspberry Pi Support Package
+%            \item Android Support Package
+%          \end{itemize}
+%          \item Quanser Real-Time Control (QUARC)
+%          % "Quanser’s QUARC™ software adds powerful tools and capabilities to Simulink® that make the development and deployment of sophisticated real-time mechatronics and control applications easier. QUARC™ generates real-time code directly from Simulink-designed controllers and runs it in real-time on the Windows target – all without digital signal processing or without writing a single line of code."
+%      \end{itemize}
+%  \end{itemize}
+%\end{frame}
 
 %----------------------------------
 
@@ -509,8 +582,17 @@ Advisor: Dr. Suruz Miah}
 
 \begin{frame}{Future Directions}{} 
   \begin{itemize}
+    \item Discretization of System   
     \item Digital Compass
     \item Enhanced Smart Control
+	\vskip .2cm
+	\begin{figure}
+	  \centering
+	  \includegraphics[scale=0.28]{figs/ipe/smartAlg}
+	  \caption{Enhanced Smart Control}
+	  \label{fig:smartAlg}
+	\end{figure}
+	%\vskip -.4cm
     \item Implmentation on 6-DOF Helicopter
   \end{itemize}
 \end{frame}
@@ -567,6 +649,7 @@ Advisor: Dr. Suruz Miah}
     \item Mobile interface
     \item PI control improves steady-state error
     \item ADP is best when system parameters are unknown or time-varient
+    \item\todo[inline]{Add table for RMSE?}
   \end{itemize}
   
 %   \begin{itemize}
