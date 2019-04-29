@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/W32TeX) (preloaded format=pdflatex 2018.9.26)  29 APR 2019 15:32
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/W32TeX) (preloaded format=pdflatex 2018.9.26)  29 APR 2019 15:35
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1868,6 +1868,9 @@ Package rerunfilecheck Info: File `finalReportPres.out' has not changed.
 
 LaTeX Warning: There were undefined references.
 
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
  ) 
 Here is how much of TeX's memory you used:
  33187 strings out of 492641
@@ -1949,7 +1952,7 @@ texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi10.pfb><c:/texlive/
 2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi8.pfb><c:/texlive/2018/texm
 f-dist/fonts/type1/public/amsfonts/cm/cmssi9.pfb><c:/texlive/2018/texmf-dist/fo
 nts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on finalReportPres.pdf (38 pages, 2418176 bytes).
+Output written on finalReportPres.pdf (38 pages, 2418191 bytes).
 PDF statistics:
  1797 PDF objects out of 2073 (max. 8388607)
  1613 compressed objects within 17 object streams
