@@ -6,23 +6,26 @@
 
 
 
-01. Labnotebook
-02. System level functional requirements
-03. Proposal
-04. Proposal presentation
-05. Poster 
-06. Final report
-07. Final presentation 
-
-
-
-# In progress
-## What was done last
-As of 4/23/19 at 1:00pm, the duplicate images from the figs folder have been removed.
-
-## What still needs to be done
-Fix all of the errors and warnings in the .tex files due to these changes
-Go back and check highLevelOverview.eps, switchingOverview.eps, communicationModel
+## 01. Labnotebook
+Need to check sources
+Need to check images 
+## 02. System level functional requirements
+Need to check sources
+Need to check images 
+## 03. Proposal
+Need to check sources
+Need to check images 
+## 04. Proposal presentation
+Need to check sources 
+## 05. Poster 
+DONE
+## 06. Final report
+Need to check sources
+Need edit structure
+Need to add content
+## 07. Final presentation 
+Need to check sources
+Need to add RMSE table to conclusion
 
 
 
