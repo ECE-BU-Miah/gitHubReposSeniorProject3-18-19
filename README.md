@@ -7,24 +7,24 @@
 
 
 ## 01. Labnotebook
-Need to check sources
+Need to check sources<br />
 Need to check images 
 ## 02. System level functional requirements
-Need to check sources
+Need to check sources<br />
 Need to check images 
 ## 03. Proposal
-Need to check sources
+Need to check sources<br />
 Need to check images 
 ## 04. Proposal presentation
 Need to check sources 
 ## 05. Poster 
 DONE
 ## 06. Final report
-Need to check sources
-Need edit structure
+Need to check sources<br />
+Need edit structure<br />
 Need to add content
 ## 07. Final presentation 
-Need to check sources
+Need to check sources<br />
 Need to add RMSE table to conclusion
 
 
