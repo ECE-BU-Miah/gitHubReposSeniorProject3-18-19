@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/W32TeX) (preloaded format=pdflatex 2018.9.26)  29 APR 2019 13:47
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/W32TeX) (preloaded format=pdflatex 2018.9.26)  29 APR 2019 15:03
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1557,8 +1557,7 @@ Package: booktabs 2016/04/27 v1.618033 publication quality tables
 \@thisruleclass=\count360
 \@lastruleclass=\count361
 \@thisrulewidth=\dimen327
-)
-No file poster.aux.
+) (./poster.aux)
 \openout1 = `poster.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 96.
@@ -1577,6 +1576,7 @@ LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 96.
 LaTeX Font Info:    ... okay on input line 96.
 LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 96.
 LaTeX Font Info:    Try loading font information for TS1+cmr on input line 96.
+
 (c:/texlive/2018/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
@@ -1648,6 +1648,8 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 LaTeX Info: Redefining \ref on input line 96.
 LaTeX Info: Redefining \pageref on input line 96.
 LaTeX Info: Redefining \nameref on input line 96.
+
+(./poster.out) (./poster.out)
 \@outlinefile=\write5
 \openout5 = `poster.out'.
 
@@ -2866,10 +2868,10 @@ File: siunitx-binary.cfg 2017/11/26 v2.7k siunitx: Binary units
 )
 ABD: EverySelectfont initializing macros
 LaTeX Info: Redefining \selectfont on input line 96.
-
-No file poster.nav.
+ (./poster.nav)
 LaTeX Font Info:    Calculating math sizes for size <14.88> on input line 96.
 LaTeX Font Info:    Try loading font information for OT1+lmr on input line 96.
+
 (c:/texlive/2018/texmf-dist/tex/latex/lm/ot1lmr.fd
 File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
@@ -2927,5 +2929,220 @@ LaTeX Font Info:    Try loading font information for T1+lmr on input line 540.
 (c:/texlive/2018/texmf-dist/tex/latex/lm/t1lmr.fd
 File: t1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
+Package epstopdf Info: Source file: <figs/ipe/highLevel_gry_grn.eps>
+(epstopdf)                    date: 2019-04-29 13:14:25
+(epstopdf)                    size: 66492 bytes
+(epstopdf)             Output file: <figs/ipe/highLevel_gry_grn.pdf>
+(epstopdf)                    date: 2019-04-29 13:14:25
+(epstopdf)                    size: 22398 bytes
+(epstopdf)             Command: <repstopdf figs/ipe/highLevel_gry_grn.eps>
+(epstopdf)             \includegraphics on input line 540.
+Package epstopdf Info: Output file is already uptodate.
+<figs/ipe/highLevel_gry_grn.pdf, id=13, 596.2275pt x 410.53375pt>
+File: figs/ipe/highLevel_gry_grn.pdf Graphic file (type pdf)
+<use figs/ipe/highLevel_gry_grn.pdf>
+Package pdftex.def Info: figs/ipe/highLevel_gry_grn.pdf  used on input line 540
+.
+(pdftex.def)             Requested size: 523.30807pt x 360.32492pt.
+<figs/img/quanserAero.png, id=14, 349.5459pt x 179.2296pt>
+File: figs/img/quanserAero.png Graphic file (type png)
+<use figs/img/quanserAero.png>
+Package pdftex.def Info: figs/img/quanserAero.png  used on input line 540.
+(pdftex.def)             Requested size: 702.21025pt x 360.05815pt.
+<figs/ipe/algorithmFramework.pdf, id=16, 586.19pt x 228.855pt>
+File: figs/ipe/algorithmFramework.pdf Graphic file (type pdf)
+<use figs/ipe/algorithmFramework.pdf>
+Package pdftex.def Info: figs/ipe/algorithmFramework.pdf  used on input line 54
+0.
+(pdftex.def)             Requested size: 702.11859pt x 274.11478pt.
+<figs/img/LQG_SimulinkResize.png, id=17, 1656.1875pt x 885.3075pt>
+File: figs/img/LQG_SimulinkResize.png Graphic file (type png)
+<use figs/img/LQG_SimulinkResize.png>
+Package pdftex.def Info: figs/img/LQG_SimulinkResize.png  used on input line 54
+0.
+(pdftex.def)             Requested size: 801.33652pt x 428.36046pt.
 
-LaTeX Warning: File `figs/ipe/ProblemStateme
+Overfull \hbox (44.96107pt too wide) in paragraph at lines 540--540
+ [][][] 
+ []
+
+Package epstopdf Info: Source file: <figs/ipe/ADP_Neural_Network.eps>
+(epstopdf)                    date: 2019-04-29 13:14:25
+(epstopdf)                    size: 150374 bytes
+(epstopdf)             Output file: <figs/ipe/ADP_Neural_Network.pdf>
+(epstopdf)                    date: 2019-04-29 13:14:25
+(epstopdf)                    size: 17528 bytes
+(epstopdf)             Command: <repstopdf figs/ipe/ADP_Neural_Network.eps>
+(epstopdf)             \includegraphics on input line 540.
+Package epstopdf Info: Output file is already uptodate.
+<figs/ipe/ADP_Neural_Network.pdf, id=18, 579.16376pt x 627.34375pt>
+File: figs/ipe/ADP_Neural_Network.pdf Graphic file (type pdf)
+<use figs/ipe/ADP_Neural_Network.pdf>
+Package pdftex.def Info: figs/ipe/ADP_Neural_Network.pdf  used on input line 54
+0.
+(pdftex.def)             Requested size: 686.85323pt x 744.03076pt.
+<figs/matlab/LQG_PIvLQR_PI_Sim/Pitch.pdf, id=19, 361.35pt x 293.095pt>
+File: figs/matlab/LQG_PIvLQR_PI_Sim/Pitch.pdf Graphic file (type pdf)
+<use figs/matlab/LQG_PIvLQR_PI_Sim/Pitch.pdf>
+Package pdftex.def Info: figs/matlab/LQG_PIvLQR_PI_Sim/Pitch.pdf  used on input
+ line 540.
+(pdftex.def)             Requested size: 351.06581pt x 284.7535pt.
+<figs/matlab/LQG_PIvLQR_PI_Sim/Yaw.pdf, id=20, 367.3725pt x 293.095pt>
+File: figs/matlab/LQG_PIvLQR_PI_Sim/Yaw.pdf Graphic file (type pdf)
+<use figs/matlab/LQG_PIvLQR_PI_Sim/Yaw.pdf>
+Package pdftex.def Info: figs/matlab/LQG_PIvLQR_PI_Sim/Yaw.pdf  used on input l
+ine 540.
+(pdftex.def)             Requested size: 351.06581pt x 280.10234pt.
+<figs/matlab/LQG_PIvLQR_PI_Sim/Pitch_Volt.pdf, id=21, 365.365pt x 293.095pt>
+File: figs/matlab/LQG_PIvLQR_PI_Sim/Pitch_Volt.pdf Graphic file (type pdf)
+<use figs/matlab/LQG_PIvLQR_PI_Sim/Pitch_Volt.pdf>
+Package pdftex.def Info: figs/matlab/LQG_PIvLQR_PI_Sim/Pitch_Volt.pdf  used on 
+input line 540.
+(pdftex.def)             Requested size: 351.06581pt x 281.63632pt.
+<figs/matlab/LQG_PIvLQR_PI_Sim/Yaw_Volt.pdf, id=22, 365.365pt x 293.095pt>
+File: figs/matlab/LQG_PIvLQR_PI_Sim/Yaw_Volt.pdf Graphic file (type pdf)
+<use figs/matlab/LQG_PIvLQR_PI_Sim/Yaw_Volt.pdf>
+Package pdftex.def Info: figs/matlab/LQG_PIvLQR_PI_Sim/Yaw_Volt.pdf  used on in
+put line 540.
+(pdftex.def)             Requested size: 351.06581pt x 281.63632pt.
+Package epstopdf Info: Source file: <figs/ipe/setup.eps>
+(epstopdf)                    date: 2019-04-29 13:14:25
+(epstopdf)                    size: 2994978 bytes
+(epstopdf)             Output file: <figs/ipe/setup.pdf>
+(epstopdf)                    date: 2019-04-29 13:14:25
+(epstopdf)                    size: 294108 bytes
+(epstopdf)             Command: <repstopdf figs/ipe/setup.eps>
+(epstopdf)             \includegraphics on input line 540.
+Package epstopdf Info: Output file is already uptodate.
+<figs/ipe/setup.pdf, id=31, 597.23125pt x 405.515pt>
+File: figs/ipe/setup.pdf Graphic file (type pdf)
+<use figs/ipe/setup.pdf>
+Package pdftex.def Info: figs/ipe/setup.pdf  used on input line 540.
+(pdftex.def)             Requested size: 530.69574pt x 360.33794pt.
+<figs/matlab/ADPvLQR_P_USB/Pitch_ADP_LQR.pdf, id=32, 361.35pt x 294.09875pt>
+File: figs/matlab/ADPvLQR_P_USB/Pitch_ADP_LQR.pdf Graphic file (type pdf)
+<use figs/matlab/ADPvLQR_P_USB/Pitch_ADP_LQR.pdf>
+Package pdftex.def Info: figs/matlab/ADPvLQR_P_USB/Pitch_ADP_LQR.pdf  used on i
+nput line 540.
+(pdftex.def)             Requested size: 351.06581pt x 285.72868pt.
+<figs/matlab/ADPvLQR_P_USB/Yaw_ADP_LQR.pdf, id=33, 361.35pt x 292.09125pt>
+File: figs/matlab/ADPvLQR_P_USB/Yaw_ADP_LQR.pdf Graphic file (type pdf)
+<use figs/matlab/ADPvLQR_P_USB/Yaw_ADP_LQR.pdf>
+Package pdftex.def Info: figs/matlab/ADPvLQR_P_USB/Yaw_ADP_LQR.pdf  used on inp
+ut line 540.
+(pdftex.def)             Requested size: 351.06581pt x 283.7783pt.
+<figs/matlab/LQR_PIvLQR_P_USB/step/Pitch_LQR_RMSE.pdf, id=38, 421.575pt x 316.1
+8124pt>
+File: figs/matlab/LQR_PIvLQR_P_USB/step/Pitch_LQR_RMSE.pdf Graphic file (type p
+df)
+<use figs/matlab/LQR_PIvLQR_P_USB/step/Pitch_LQR_RMSE.pdf>
+Package pdftex.def Info: figs/matlab/LQR_PIvLQR_P_USB/step/Pitch_LQR_RMSE.pdf  
+used on input line 540.
+(pdftex.def)             Requested size: 351.06581pt x 263.3036pt.
+<figs/matlab/LQR_PIvLQR_P_USB/step/Yaw_LQR_RMSE.pdf, id=39, 421.575pt x 316.181
+24pt>
+File: figs/matlab/LQR_PIvLQR_P_USB/step/Yaw_LQR_RMSE.pdf Graphic file (type pdf
+)
+<use figs/matlab/LQR_PIvLQR_P_USB/step/Yaw_LQR_RMSE.pdf>
+Package pdftex.def Info: figs/matlab/LQR_PIvLQR_P_USB/step/Yaw_LQR_RMSE.pdf  us
+ed on input line 540.
+(pdftex.def)             Requested size: 351.06581pt x 263.3036pt.
+<figs/img/timeEquals0.jpg, id=44, 4047.12pt x 1807.75375pt>
+File: figs/img/timeEquals0.jpg Graphic file (type jpg)
+<use figs/img/timeEquals0.jpg>
+Package pdftex.def Info: figs/img/timeEquals0.jpg  used on input line 540.
+(pdftex.def)             Requested size: 305.2655pt x 136.34804pt.
+<figs/img/timeEquals10_2.jpg, id=45, 4008.9775pt x 2316.655pt>
+File: figs/img/timeEquals10_2.jpg Graphic file (type jpg)
+<use figs/img/timeEquals10_2.jpg>
+Package pdftex.def Info: figs/img/timeEquals10_2.jpg  used on input line 540.
+(pdftex.def)             Requested size: 305.24825pt x 136.94304pt.
+
+Overfull \hbox (85.92749pt too wide) has occurred while \output is active
+[]
+ []
+
+[1{c:/texlive/2018/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
+
+ <./figs/ipe/highLevel_gry_grn.pdf> <./figs/img/quanserAero.png> <./figs/ipe/al
+gorithmFramework.pdf> <./figs/img/LQG_SimulinkResize.png> <./figs/ipe/ADP_Neura
+l_Network.pdf> <./figs/matlab/LQG_PIvLQR_PI_Sim/Pitch.pdf> <./figs/matlab/LQG_P
+IvLQR_PI_Sim/Yaw.pdf> <./figs/matlab/LQG_PIvLQR_PI_Sim/Pitch_Volt.pdf> <./figs/
+matlab/LQG_PIvLQR_PI_Sim/Yaw_Volt.pdf> <./figs/ipe/setup.pdf> <./figs/matlab/AD
+PvLQR_P_USB/Pitch_ADP_LQR.pdf> <./figs/matlab/ADPvLQR_P_USB/Yaw_ADP_LQR.pdf> <.
+/figs/matlab/LQR_PIvLQR_P_USB/step/Pitch_LQR_RMSE.pdf> <./figs/matlab/LQR_PIvLQ
+R_P_USB/step/Yaw_LQR_RMSE.pdf> <./figs/img/timeEquals0.jpg> <./figs/img/timeEqu
+als10_2.jpg>]
+\tf@nav=\write6
+\openout6 = `poster.nav'.
+
+\tf@toc=\write7
+\openout7 = `poster.toc'.
+
+\tf@snm=\write8
+\openout8 = `poster.snm'.
+
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 542.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 542.
+
+(./poster.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 542.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 542.
+Package rerunfilecheck Info: File `poster.out' has not changed.
+(rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
+ ) 
+Here is how much of TeX's memory you used:
+ 36459 strings out of 492641
+ 730030 string characters out of 6133131
+ 856015 words of memory out of 5000000
+ 39646 multiletter control sequences out of 15000+600000
+ 652477 words of font info for 123 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 56i,21n,70p,773b,1295s stack positions out of 5000i,500n,10000p,200000b,80000s
+pdfTeX warning (dest): name{sub@fig:time10} has been referenced but does not 
+exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{sub@fig:time0} has been referenced but does not exi
+st, replaced by a fixed one
+
+pdfTeX warning (dest): name{sub@fig:stepYaw} has been referenced but does not e
+xist, replaced by a fixed one
+
+pdfTeX warning (dest): name{sub@fig:stepPitch} has been referenced but does not
+ exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{sub@fig:stepYawADP} has been referenced but does no
+t exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{sub@fig:stepPitchADP} has been referenced but does 
+not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{sub@fig:simYawVolt} has been referenced but does no
+t exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{sub@fig:simPitchVolt} has been referenced but does 
+not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{sub@fig:simStepYaw} has been referenced but does no
+t exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{sub@fig:simStepPitch} has been referenced but does 
+not exist, replaced by a fixed one
+
+{c:/texlive/2018/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{c:/texlive/2018/texmf
+-dist/fonts/enc/dvips/lm/lm-mathit.enc}{c:/texlive/2018/texmf-dist/fonts/enc/dv
+ips/lm/lm-mathex.enc}{c:/texlive/2018/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}{
+c:/texlive/2018/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}<c:/texlive/2018/te
+xmf-dist/fonts/type1/public/lm/lmbx12.pfb><c:/texlive/2018/texmf-dist/fonts/typ
+e1/public/lm/lmex10.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/lm/lmmi1
+2.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/lm/lmr17.pfb><c:/texlive/2
+018/texmf-dist/fonts/type1/public/lm/lmss17.pfb><c:/texlive/2018/texmf-dist/fon
+ts/type1/public/lm/lmssbx10.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/
+lm/lmsy10.pfb>
+Output written on poster.pdf (1 page, 3691432 bytes).
+PDF statistics:
+ 240 PDF objects out of 1000 (max. 8388607)
+ 168 compressed objects within 2 object streams
+ 33 named destinations out of 1000 (max. 500000)
+ 123 words of extra memory for PDF output out of 10000 (max. 10000000)
+

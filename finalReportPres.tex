@@ -147,9 +147,9 @@ Advisor: Dr. Suruz Miah}
             \end{itemize}
         \item Which is better?
             \begin{itemize}
-                \item Fundamental (LQR)
-                \item Noise Filtering (LQG) 
-                \item Machine Learning (ADP)
+                \item Optimal Control (Linear Quadratic Regulator)
+                \item Optimal Noise Resistant Control (Linear Quadratic Gaussian) 
+                \item Machine Learning (Approximate Dynamic Programming)
             \end{itemize}
     \end{itemize}
 \end{frame}
@@ -261,7 +261,7 @@ Advisor: Dr. Suruz Miah}
 Due to the efficiency of the Quanser Aero, we can create a linearized system model:
 \begin{align}
   %\dot{\bf x}(t) = {\bf A}{\bf x}(t) +{\bf B}{\bf u}(t),~\mathrm{where}
-    \dot{\bf x}(t) = {\bf A}{\bf x}(t) +{\bf B}{\bf u}(t),~\mathrm{such that}
+    \dot{\bf x}(t) = {\bf A}{\bf x}(t) +{\bf B}{\bf u}(t),~\mathrm{such}~\mathrm{that}
 \label{eq:stateModel}
 \end{align}  
 %
@@ -391,10 +391,10 @@ Due to the efficiency of the Quanser Aero, we can create a linearized system mod
 
 \section{Simulation}
 
-\subsection{LQR Simulation}
+\subsection{Optimal Control Simulation}
 
 % P Controller
-\begin{frame}{Simulation}{LQR Simulation (P Controller)}
+\begin{frame}{Simulation}{Optimal Control Simulation (P Controller)}
     \begin{figure}
       \centering
       \subfigure[][]{
@@ -405,22 +405,22 @@ Due to the efficiency of the Quanser Aero, we can create a linearized system mod
         \label{fig:LQR_Volt_Con}
         \includegraphics[scale=0.38]{figs/MATLAB/LQR/P_Simulation/LQR_Volt_Con}    
       }  
-      \caption{LQR Simulation \subref{fig:LQR_Pos_Con}~Position and~\subref{fig:LQR_Volt_Con}~Voltage w/ Step Input}
+      \caption{Optimal Control (P Controller) Simulation \subref{fig:LQR_Pos_Con}~Position and~\subref{fig:LQR_Volt_Con}~Voltage w/ Step Input}
       \label{fig:LQR_Sim_Con}
     \end{figure}
 \end{frame}
 
-\begin{frame}{Simulation}{LQR Simulation (P Controller)}
+\begin{frame}{Simulation}{Optimal Control Simulation (P Controller)}
     \begin{figure}
       \centering 
       \includegraphics[scale=0.5]{figs/MATLAB/LQR/P_Simulation/LQR_Error_Con}
-      \caption{LQR Simulation Error w/ Constant Signal}
+      \caption{Optimal Control (P Controller) Simulation w/ Constant Signal}
       \label{fig:LQR_Error_Con}
     \end{figure}
 \end{frame}
 
 % PI Controller
-\begin{frame}{Simulation}{LQR Simulation (PI Controller)}
+\begin{frame}{Simulation}{Optimal Control Simulation (PI Controller)}
     \begin{figure}
       \centering
       \subfigure[][]{
@@ -431,12 +431,12 @@ Due to the efficiency of the Quanser Aero, we can create a linearized system mod
         \label{fig:Yaw_LQR_Sim}
         \includegraphics[scale=0.38]{figs/MATLAB/LQR/PI_Sim/Yaw_LQR_Sim}    
       }  
-      \caption{LQR Simulation (PI Controller) \subref{fig:Pitch_LQR_Sim}~Pitch~Position and~\subref{fig:Yaw_LQR_Sim}~Yaw~Position w/ Step Input}
+      \caption{Optimal Control (PI Controller) Simulation \subref{fig:Pitch_LQR_Sim}~Pitch~Position and~\subref{fig:Yaw_LQR_Sim}~Yaw~Position w/ Step Input}
       \label{fig:LQR_PI_Sim_pos}
     \end{figure}
 \end{frame}
 
-\begin{frame}{Simulation}{LQR Simulation (PI Controller)}
+\begin{frame}{Simulation}{Optimal Control (PI Controller) Simulation}
     \begin{figure}
       \centering
       \subfigure[][]{
@@ -447,14 +447,14 @@ Due to the efficiency of the Quanser Aero, we can create a linearized system mod
         \label{fig:Yaw_Volt_LQR_Sim}
         \includegraphics[scale=0.38]{figs/MATLAB/LQR/PI_Sim/Yaw_Volt_LQR_Sim}    
       }  
-      \caption{LQR Simulation (PI Controller) \subref{fig:Pitch_Volt_LQR_Sim}~Pitch~Voltage and~\subref{fig:Yaw_Volt_LQR_Sim}~Yaw~Voltage w/ Step Input}
+      \caption{Optimal Control (PI Controller) Simulation \subref{fig:Pitch_Volt_LQR_Sim}~Pitch~Voltage and~\subref{fig:Yaw_Volt_LQR_Sim}~Yaw~Voltage w/ Step Input}
       \label{fig:LQR_PI_Sim_volt}
     \end{figure}
 \end{frame}
 
 % LQG
-\subsection{LQG Simulation}
-\begin{frame}{Simulation}{LQG Simulation (PI Controller)}
+\subsection{Optimal Noise Resistant Control Simulation}
+\begin{frame}{Simulation}{Optimal Noise Resistant Control (PI Controller) Simulation}
     \begin{figure}
       \centering
       \subfigure[][]{
@@ -465,12 +465,12 @@ Due to the efficiency of the Quanser Aero, we can create a linearized system mod
         \label{fig:Yaw_LQG_Sim}
         \includegraphics[scale=0.38]{figs/MATLAB/LQG/LQG_Sim/Yaw_LQG_Sim}    
       }  
-      \caption{LQG Simulation (PI Controller) \subref{fig:Pitch_LQG_Sim}~Pitch~Position and~\subref{fig:Yaw_LQG_Sim}~Yaw~Position w/ Step Input}
+      \caption{Optimal Noise Resistant Control (PI Controller) \subref{fig:Pitch_LQG_Sim}~Pitch~Position and~\subref{fig:Yaw_LQG_Sim}~Yaw~Position w/ Step Input}
       \label{fig:LQG_PI_Sim_pos}
     \end{figure}
 \end{frame}
 
-\begin{frame}{Simulation}{LQG Simulation (PI Controller)}
+\begin{frame}{Simulation}{Optimal Noise Resistant Control (PI Controller) Simulation}
     \begin{figure}
       \centering
       \subfigure[][]{
@@ -481,7 +481,7 @@ Due to the efficiency of the Quanser Aero, we can create a linearized system mod
         \label{fig:Yaw_Volt_LQG_Sim}
         \includegraphics[scale=0.38]{figs/MATLAB/LQG/LQG_Sim/Yaw_Volt_LQG_Sim}    
       }  
-      \caption{LQR Simulation (PI Controller) \subref{fig:Pitch_Volt_LQG_Sim}~Pitch~Voltage and~\subref{fig:Yaw_Volt_LQG_Sim}~Yaw~Voltage w/ Step Input}
+      \caption{Optimal Noise Resistant Control Simulation (PI Controller) \subref{fig:Pitch_Volt_LQG_Sim}~Pitch~Voltage and~\subref{fig:Yaw_Volt_LQG_Sim}~Yaw~Voltage w/ Step Input}
       \label{fig:LQG_PI_Sim_volt}
     \end{figure}
 \end{frame}
@@ -492,7 +492,7 @@ Due to the efficiency of the Quanser Aero, we can create a linearized system mod
 
 \subsection{USB}
 %
-\begin{frame}{Implementation}{ADP and LQR (P Controller) USB}
+\begin{frame}{Implementation}{Machine Learning and Optimal Control (P Controller) USB}
     \begin{figure}
       \centering
       \subfigure[][]{
@@ -503,27 +503,75 @@ Due to the efficiency of the Quanser Aero, we can create a linearized system mod
         \label{fig:Yaw_LQRvADP_USB}
         \includegraphics[scale=0.38]{figs/matlab/ADPvLQR_P_USB/Yaw_ADP_LQR}    
       }  
-      \caption{USB Implementation comparison between ADP and LQR (P) for \subref{fig:Pitch_LQRvADP_USB}~Pitch and \subref{fig:Yaw_LQRvADP_USB}~Yaw orientations w/ Step Input}
+      \caption{USB Implementation comparison between Machine Learning and Optimal Control (P Controller) for \subref{fig:Pitch_LQRvADP_USB}~Pitch and \subref{fig:Yaw_LQRvADP_USB}~Yaw orientations w/ Step Input}
       \label{fig:LQRvADP_USB}
     \end{figure}
 \end{frame}
 
 \subsection{Android}
+%LQR
+\begin{frame}{Implementation}{Optimal Control (P Controller) via Android}
+    \begin{figure}
+      \centering
+      \subfigure[][]{
+        \label{fig:LQR_Pitchpos}
+        \includegraphics[scale=0.38]{figs/matlab/LQR/P_Android/LQR_Pitchpos}
+      }
+      \subfigure[][]{
+        \label{fig:LQR_Yawpos}
+        \includegraphics[scale=0.38]{figs/matlab/LQR/P_Android/LQR_Yawpos}    
+      }  
+      \caption{Optimal Control (P Controller) \subref{fig:LQR_Pitchpos}~Pitch~Position and~\subref{fig:LQR_Yawpos}~Yaw~Position w/ input from Mobile Phone}
+      \label{fig:LQR_pos}
+    \end{figure}
+\end{frame}
 %
-\begin{frame}{Implementation}{Android}
-%    \begin{figure}
-%      \centering
-%      \subfigure[][]{
-%        \label{fig:Pitch_LQRvADP_USB}
-%        \includegraphics[scale=0.38]{figs/matlab/ADPvLQR_P_USB/Pitch_ADP_LQR}
-%      }
-%      \subfigure[][]{
-%        \label{fig:Yaw_LQRvADP_USB}
-%        \includegraphics[scale=0.38]{figs/matlab/ADPvLQR_P_USB/Yaw_ADP_LQR}    
-%      }  
-%      \caption{USB Implementation comparison between ADP and LQR (P) for \subref{fig:Pitch_LQRvADP_USB}~Pitch and \subref{fig:Yaw_LQRvADP_USB}~Yaw orientations w/ Step Input}
-%      \label{fig:LQRvADP_USB}
-%    \end{figure}
+\begin{frame}{Implementation}{Optimal Control (P Controller) via Android}
+    \begin{figure}
+      \centering
+      \subfigure[][]{
+        \label{fig:LQR_PitchVolt}
+        \includegraphics[scale=0.38]{figs/matlab/LQR/P_Android/LQR_PitchVolt}
+      }
+      \subfigure[][]{
+        \label{fig:LQR_YawVolt}
+        \includegraphics[scale=0.38]{figs/matlab/LQR/P_Android/LQR_YawVolt}    
+      }  
+      \caption{Optimal Control (P Controller) \subref{fig:LQR_PitchVolt}~Pitch~Voltage and~\subref{fig:LQR_YawVolt}~Yaw~Voltage w/ input from Mobile Phone}
+      \label{fig:LQR_Volt}
+    \end{figure}
+\end{frame}
+%ADP
+\begin{frame}{Implementation}{Machine Learning via Android}
+    \begin{figure}
+      \centering
+      \subfigure[][]{
+        \label{fig:ADP_Pitch_Wireless}
+        \includegraphics[scale=0.38]{figs/matlab/ADP/Android/ADP_Pitch_Wireless}
+      }
+      \subfigure[][]{
+        \label{fig:ADP_Yaw_Wireless}
+        \includegraphics[scale=0.38]{figs/matlab/ADP/Android/ADP_Yaw_Wireless}    
+      }  
+      \caption{Machine Learning \subref{fig:ADP_Pitch_Wireless}~Pitch~Position and~\subref{fig:ADP_Yaw_Wireless}~Yaw~Position w/ input from Mobile Phone}
+      \label{fig:ADP_Wireless}
+    \end{figure}
+\end{frame}
+%
+\begin{frame}{Implementation}{Machine Learning via Android}
+    \begin{figure}
+      \centering
+      \subfigure[][]{
+        \label{fig:ADP_Pitch_Volt_Wireless}
+        \includegraphics[scale=0.38]{figs/matlab/ADP/Android/ADP_Pitch_Volt_Wireless}
+      }
+      \subfigure[][]{
+        \label{fig:ADP_Yaw_Volt_Wireless}
+        \includegraphics[scale=0.38]{figs/matlab/ADP/Android/ADP_Yaw_Volt_Wireless}    
+      }  
+      \caption{Optimal Control (P Controller) \subref{fig:ADP_Pitch_Volt_Wireless}~Pitch~Voltage and~\subref{fig:ADP_Yaw_Volt_Wireless}~Yaw~Voltage w/ input from Mobile Phone}
+      \label{fig:ADP_Volt_Wireless}
+    \end{figure}
 \end{frame}
 
 %----------------------------------

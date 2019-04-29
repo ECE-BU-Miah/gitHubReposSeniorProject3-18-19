@@ -6,10 +6,10 @@
 \beamer@sectionintoc {3}{Subsystem Level Functional Requirements}{16}{0}{3}
 \beamer@subsectionintoc {3}{1}{Block Diagram}{16}{0}{3}
 \beamer@sectionintoc {4}{Simulation}{19}{0}{4}
-\beamer@subsectionintoc {4}{1}{LQR Simulation}{19}{0}{4}
-\beamer@subsectionintoc {4}{2}{LQG Simulation}{24}{0}{4}
+\beamer@subsectionintoc {4}{1}{Optimal Control Simulation}{19}{0}{4}
+\beamer@subsectionintoc {4}{2}{Optimal Noise Resistant Control Simulation}{24}{0}{4}
 \beamer@sectionintoc {5}{Implementation}{27}{0}{5}
 \beamer@subsectionintoc {5}{1}{USB}{27}{0}{5}
 \beamer@subsectionintoc {5}{2}{Android}{29}{0}{5}
-\beamer@subsectionintoc {5}{3}{Demonstration}{31}{0}{5}
-\beamer@sectionintoc {6}{Future Directions}{33}{0}{6}
+\beamer@subsectionintoc {5}{3}{Demonstration}{34}{0}{5}
+\beamer@sectionintoc {6}{Future Directions}{36}{0}{6}
