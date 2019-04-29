@@ -23,4 +23,16 @@
 \beamer@slide {fig:Pitch_LQRvADP_USB}{28}
 \beamer@slide {fig:Yaw_LQRvADP_USB}{28}
 \beamer@slide {fig:LQRvADP_USB}{28}
-\beamer@slide {fig:smartAlg}{33}
+\beamer@slide {fig:LQR_Pitchpos}{30}
+\beamer@slide {fig:LQR_Yawpos}{30}
+\beamer@slide {fig:LQR_pos}{30}
+\beamer@slide {fig:LQR_PitchVolt}{31}
+\beamer@slide {fig:LQR_YawVolt}{31}
+\beamer@slide {fig:LQR_Volt}{31}
+\beamer@slide {fig:ADP_Pitch_Wireless}{32}
+\beamer@slide {fig:ADP_Yaw_Wireless}{32}
+\beamer@slide {fig:ADP_Wireless}{32}
+\beamer@slide {fig:ADP_Pitch_Volt_Wireless}{33}
+\beamer@slide {fig:ADP_Yaw_Volt_Wireless}{33}
+\beamer@slide {fig:ADP_Volt_Wireless}{33}
+\beamer@slide {fig:smartAlg}{36}
