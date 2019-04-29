@@ -20,3 +20,7 @@
 \beamer@slide {fig:Pitch_Volt_LQG_Sim}{26}
 \beamer@slide {fig:Yaw_Volt_LQG_Sim}{26}
 \beamer@slide {fig:LQG_PI_Sim_volt}{26}
+\beamer@slide {fig:Pitch_LQRvADP_USB}{28}
+\beamer@slide {fig:Yaw_LQRvADP_USB}{28}
+\beamer@slide {fig:LQRvADP_USB}{28}
+\beamer@slide {fig:smartAlg}{33}

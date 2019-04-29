@@ -9,6 +9,7 @@
 \beamer@subsectionintoc {4}{1}{LQR Simulation}{19}{0}{4}
 \beamer@subsectionintoc {4}{2}{LQG Simulation}{24}{0}{4}
 \beamer@sectionintoc {5}{Implementation}{27}{0}{5}
-\beamer@subsectionintoc {5}{1}{Demonstration}{27}{0}{5}
-\beamer@sectionintoc {6}{Parts List}{29}{0}{6}
-\beamer@sectionintoc {7}{Future Directions}{30}{0}{7}
+\beamer@subsectionintoc {5}{1}{USB}{27}{0}{5}
+\beamer@subsectionintoc {5}{2}{Android}{29}{0}{5}
+\beamer@subsectionintoc {5}{3}{Demonstration}{31}{0}{5}
+\beamer@sectionintoc {6}{Future Directions}{33}{0}{6}
