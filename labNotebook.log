@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/W32TeX) (preloaded format=pdflatex 2018.9.26)  30 APR 2019 14:54
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/W32TeX) (preloaded format=pdflatex 2018.9.26)  30 APR 2019 16:21
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1340,4 +1340,349 @@ File: pgfmodulematrix.code.tex 2013/09/17  (rcs-revision 1.8)
 brarytopaths.code.tex
 File: tikzlibrarytopaths.code.tex 2008/06/17 v3.0.1a (rcs-revision 1.2)
 )))
-(c:/texlive/2018/texmf-dist/te
+(c:/texlive/2018/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzli
+brarypositioning.code.tex
+File: tikzlibrarypositioning.code.tex 2008/10/06 v3.0.1a (rcs-revision 1.7)
+) (c:/texlive/2018/texmf-dist/tex/latex/tools/calc.sty
+Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count160
+\calc@Bcount=\count161
+\calc@Adimen=\dimen194
+\calc@Bdimen=\dimen195
+\calc@Askip=\skip65
+\calc@Bskip=\skip66
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
+\calc@Ccount=\count162
+\calc@Cskip=\skip67
+)
+\c@@todonotes@numberoftodonotes=\count163
+)
+No file labNotebook.aux.
+\openout1 = `labNotebook.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 177.
+LaTeX Font Info:    ... okay on input line 177.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 177.
+LaTeX Font Info:    ... okay on input line 177.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 177.
+LaTeX Font Info:    ... okay on input line 177.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 177.
+LaTeX Font Info:    ... okay on input line 177.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 177.
+LaTeX Font Info:    ... okay on input line 177.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 177.
+LaTeX Font Info:    ... okay on input line 177.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 177.
+LaTeX Font Info:    ... okay on input line 177.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 177.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 177.
+
+(c:/texlive/2018/texmf-dist/tex/latex/base/ts1cmr.fd
+File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    ... okay on input line 177.
+LaTeX Font Info:    Try loading font information for T1+pplj on input line 177.
+
+
+(c:/texlive/2018/texmf-dist/tex/latex/psnfss/t1pplj.fd
+File: t1pplj.fd 2004/09/06 font definitions for T1/pplj.
+)
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: <default>
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: twoside 
+* h-part:(L,W,R)=(73.71613pt, 430.00462pt, 110.57425pt)
+* v-part:(T,H,B)=(95.39737pt, 590.07234pt, 109.50027pt)
+* \paperwidth=614.295pt
+* \paperheight=794.96999pt
+* \textwidth=430.00462pt
+* \textheight=590.07234pt
+* \oddsidemargin=1.44614pt
+* \evensidemargin=38.30426pt
+* \topmargin=-14.27263pt
+* \headheight=25.0pt
+* \headsep=20.40001pt
+* \topskip=11.0pt
+* \footskip=47.6pt
+* \marginparwidth=131.63463pt
+* \marginparsep=12.8401pt
+* \columnsep=10.0pt
+* \skip\footins=14.0pt plus 6.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidetrue
+* \@mparswitchtrue
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+(c:/texlive/2018/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count164
+\scratchdimen=\dimen196
+\scratchbox=\box48
+\nofMPsegments=\count165
+\nofMParguments=\count166
+\everyMPshowfont=\toks44
+\MPscratchCnt=\count167
+\MPscratchDim=\dimen197
+\MPnumerator=\count168
+\makeMPintoPDFobject=\count169
+\everyMPtoPDFconversion=\toks45
+)
+Package lastpage Info: Please have a look at the pageslts package at
+(lastpage)             https://www.ctan.org/pkg/pageslts
+(lastpage)             ! on input line 177.
+\AtBeginShipoutBox=\box49
+Package hyperref Info: Link coloring ON on input line 177.
+ (c:/texlive/2018/texmf-dist/tex/latex/hyperref/nameref.sty
+Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
+
+(c:/texlive/2018/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
+Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
+)
+\c@section@level=\count170
+)
+LaTeX Info: Redefining \ref on input line 177.
+LaTeX Info: Redefining \pageref on input line 177.
+LaTeX Info: Redefining \nameref on input line 177.
+
+(./labNotebook.out) (./labNotebook.out)
+\@outlinefile=\write5
+\openout5 = `labNotebook.out'.
+
+LaTeX Info: Redefining \microtypecontext on input line 177.
+Package microtype Info: Generating PDF output.
+Package microtype Info: Character protrusion enabled (level 2).
+Package microtype Info: Using default protrusion set `alltext'.
+Package microtype Info: Automatic font expansion enabled (level 2),
+(microtype)             stretch: 10, shrink: 10, step: 1, non-selected.
+Package microtype Info: Using default expansion set `basictext'.
+Package microtype Info: No adjustment of tracking.
+Package microtype Info: No adjustment of interword spacing.
+Package microtype Info: No adjustment of character kerning.
+
+(c:/texlive/2018/texmf-dist/tex/latex/microtype/mt-ppl.cfg
+File: mt-ppl.cfg 2005/11/16 v1.6 microtype config. file: Palatino (RS)
+)
+\c@lstlisting=\count171
+
+ABD: EveryShipout initializing macros
+LaTeX Font Info:    Try loading font information for T1+fvs on input line 200.
+
+(c:/texlive/2018/texmf-dist/tex/latex/bera/t1fvs.fd
+File: t1fvs.fd 2004/09/07 scalable font definitions for T1/fvs.
+)
+LaTeX Font Info:    Font shape `T1/fvs/m/n' will be
+(Font)              scaled to size 9.41699pt on input line 200.
+Package microtype Info: Loading generic protrusion settings for font family
+(microtype)             `fvs' (encoding: T1).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
+LaTeX Font Info:    Font shape `T1/fvs/bx/n' in size <10.95> not available
+(Font)              Font shape `T1/fvs/b/n' tried instead on input line 200.
+LaTeX Font Info:    Font shape `T1/fvs/b/n' will be
+(Font)              scaled to size 9.41699pt on input line 200.
+LaTeX Font Info:    Font shape `T1/fvs/bx/n' in size <24.88> not available
+(Font)              Font shape `T1/fvs/b/n' tried instead on input line 200.
+LaTeX Font Info:    Font shape `T1/fvs/b/n' will be
+(Font)              scaled to size 21.3968pt on input line 200.
+LaTeX Font Info:    Font shape `T1/fvs/bx/n' in size <20.74> not available
+(Font)              Font shape `T1/fvs/b/n' tried instead on input line 200.
+LaTeX Font Info:    Font shape `T1/fvs/b/n' will be
+(Font)              scaled to size 17.83641pt on input line 200.
+<figs/logoBU1-Print.pdf, id=8, 481.8pt x 160.6pt>
+File: figs/logoBU1-Print.pdf Graphic file (type pdf)
+<use figs/logoBU1-Print.pdf>
+Package pdftex.def Info: figs/logoBU1-Print.pdf  used on input line 200.
+(pdftex.def)             Requested size: 108.40031pt x 36.135pt.
+LaTeX Font Info:    Font shape `T1/fvs/bx/n' in size <14.4> not available
+(Font)              Font shape `T1/fvs/b/n' tried instead on input line 200.
+LaTeX Font Info:    Font shape `T1/fvs/b/n' will be
+(Font)              scaled to size 12.384pt on input line 200.
+LaTeX Font Info:    Try loading font information for OT1+ppl on input line 200.
+
+
+(c:/texlive/2018/texmf-dist/tex/latex/psnfss/ot1ppl.fd
+File: ot1ppl.fd 2001/06/04 font definitions for OT1/ppl.
+)
+LaTeX Font Info:    Try loading font information for OML+zplm on input line 200
+.
+
+(c:/texlive/2018/texmf-dist/tex/latex/psnfss/omlzplm.fd
+File: omlzplm.fd 2002/09/08 Fontinst v1.914 font definitions for OML/zplm.
+)
+LaTeX Font Info:    Try loading font information for OMS+zplm on input line 200
+.
+
+(c:/texlive/2018/texmf-dist/tex/latex/psnfss/omszplm.fd
+File: omszplm.fd 2002/09/08 Fontinst v1.914 font definitions for OMS/zplm.
+)
+LaTeX Font Info:    Try loading font information for OMX+zplm on input line 200
+.
+
+(c:/texlive/2018/texmf-dist/tex/latex/psnfss/omxzplm.fd
+File: omxzplm.fd 2002/09/08 Fontinst v1.914 font definitions for OMX/zplm.
+)
+LaTeX Font Info:    Try loading font information for OT1+zplm on input line 200
+.
+
+(c:/texlive/2018/texmf-dist/tex/latex/psnfss/ot1zplm.fd
+File: ot1zplm.fd 2002/09/08 Fontinst v1.914 font definitions for OT1/zplm.
+)
+Package microtype Info: Loading generic protrusion settings for font family
+(microtype)             `zplm' (encoding: OT1).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
+ [1
+
+
+
+{c:/texlive/2018/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./figs/logoBU1-
+Print.pdf>]
+No file labNotebook.ind.
+Package tocbasic Info: character protrusion at toc deactivated on input line 20
+4.
+
+Package hyperref Warning: old toc file detected, not used; run LaTeX again.
+
+\tf@toc=\write6
+\openout6 = `labNotebook.toc'.
+
+LaTeX Font Info:    Font shape `T1/pplj/m/sl' in size <10.95> not available
+(Font)              Font shape `T1/pplj/m/it' tried instead on input line 205.
+LaTeX Font Info:    Font shape `T1/pplj/bx/n' in size <10.95> not available
+(Font)              Font shape `T1/pplj/b/n' tried instead on input line 205.
+
+LaTeX Warning: Reference `LastPage' on page 2 undefined on input line 205.
+
+[2
+
+]
+
+LaTeX Warning: Reference `LastPage' on page 3 undefined on input line 215.
+
+[3]
+chapter without number
+
+Class scrbook Warning: \float@addtolists detected!
+(scrbook)              Implementation of \float@addtolist became
+(scrbook)              deprecated in KOMA-Script v3.01 2008/11/14 and
+(scrbook)              has been replaced by several more flexible
+(scrbook)              features of package `tocbasic`.
+(scrbook)              Since Version 3.12 support for deprecated
+(scrbook)              \float@addtolist interface has been
+(scrbook)              restricted to only some of the KOMA-Script
+(scrbook)              features and been removed from others.
+(scrbook)              Loading of package `scrhack' may help to
+(scrbook)              avoid this warning, if you are using a
+(scrbook)              a package that still implements the
+(scrbook)              deprecated \float@addtolist interface .
+
+
+LaTeX Warning: Reference `LastPage' on page 4 undefined on input line 223.
+
+[4
+
+]
+chapter without number
+
+LaTeX Warning: Reference `LastPage' on page 5 undefined on input line 231.
+
+[5
+
+]
+chapter without number
+
+LaTeX Warning: Reference `eq:RPM' on page 6 undefined on input line 243.
+
+
+LaTeX Warning: Reference `LastPage' on page 6 undefined on input line 249.
+
+[6
+
+]
+
+LaTeX Warning: Citation `quanserAeroUserManual' on page 7 undefined on input li
+ne 254.
+
+
+LaTeX Warning: Reference `fig:quanserAeroSystemParameters' on page 7 undefined 
+on input line 254.
+
+<figs/img/quanserAeroSystemParameters.png, id=59, 394.47375pt x 472.01344pt>
+File: figs/img/quanserAeroSystemParameters.png Graphic file (type png)
+<use figs/img/quanserAeroSystemParameters.png>
+Package pdftex.def Info: figs/img/quanserAeroSystemParameters.png  used on inpu
+t line 258.
+(pdftex.def)             Requested size: 258.00539pt x 308.72092pt.
+LaTeX Font Info:    Font shape `T1/pplj/bx/n' in size <9> not available
+(Font)              Font shape `T1/pplj/b/n' tried instead on input line 259.
+
+LaTeX Warning: Reference `eq:RPM' on page 7 undefined on input line 263.
+
+
+LaTeX Warning: Citation `aeroIntegrationWorkbook' on page 7 undefined on input 
+line 263.
+
+
+LaTeX Warning: Reference `eq:RPM' on page 7 undefined on input line 263.
+
+
+LaTeX Warning: Reference `tab:integrationData' on page 7 undefined on input lin
+e 263.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+LaTeX Warning: Reference `LastPage' on page 7 undefined on input line 264.
+
+[7 <./figs/img/quanserAeroSystemParameters.png>]
+
+LaTeX Warning: Reference `LastPage' on page 8 undefined on input line 285.
+
+[8]
+chapter without number
+
+LaTeX Warning: Citation `Article1' on page 9 undefined on input line 297.
+
+
+LaTeX Warning: Citation `Article2' on page 9 undefined on input line 302.
+
+
+LaTeX Warning: Reference `LastPage' on page 9 undefined on input line 304.
+
+[9
+
+]
+
+LaTeX Warning: Citation `Article3' on page 10 undefined on input line 307.
+
+
+LaTeX Warning: Citation `Article3' on page 10 undefined on input line 307.
+
+
+LaTeX Warning: Citation `Article3' on page 10 undefined on input line 307.
+
+
+LaTeX Warning: Citation `Article4' on page 10 undefined on input line 311.
+
+
+LaTeX Warning: Citation `Article5' on page 10 undefined on input line 315.
+
+
+LaTeX Warning: Citation `Article5' on page 10 undefined on input line 315.
+
+
+LaTeX Warning: Citation `Article5' on page 10 undefined on input line 315.
+
+
+LaTeX Warning: Refere
