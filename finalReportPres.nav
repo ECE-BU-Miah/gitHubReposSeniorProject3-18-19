@@ -34,98 +34,113 @@
 \headcommand {\beamer@framepages {12}{12}}
 \headcommand {\slideentry {2}{2}{6}{13/13}{Modeling a 2-DOF Helicopter}{0}}
 \headcommand {\beamer@framepages {13}{13}}
-\headcommand {\beamer@subsectionpages {8}{13}}
-\headcommand {\beamer@subsectionentry {0}{2}{3}{14}{Prior Work}}
-\headcommand {\slideentry {2}{3}{1}{14/14}{Prior Work}{0}}
+\headcommand {\slideentry {2}{2}{7}{14/14}{Modeling a 2-DOF Helicopter}{0}}
 \headcommand {\beamer@framepages {14}{14}}
-\headcommand {\slideentry {2}{3}{2}{15/15}{Prior Work}{0}}
+\headcommand {\slideentry {2}{2}{8}{15/15}{Modeling a 2-DOF Helicopter}{0}}
 \headcommand {\beamer@framepages {15}{15}}
-\headcommand {\beamer@sectionpages {6}{15}}
-\headcommand {\beamer@subsectionpages {14}{15}}
-\headcommand {\sectionentry {3}{Subsystem Level Functional Requirements}{16}{Subsystem Level Functional Requirements}{0}}
-\headcommand {\beamer@subsectionpages {16}{15}}
-\headcommand {\beamer@subsectionentry {0}{3}{1}{16}{Block Diagram}}
-\headcommand {\slideentry {3}{1}{1}{16/16}{Block Diagram}{0}}
+\headcommand {\slideentry {2}{2}{9}{16/16}{Modeling a 2-DOF Helicopter}{0}}
 \headcommand {\beamer@framepages {16}{16}}
-\headcommand {\slideentry {3}{1}{2}{17/17}{Block Diagram}{0}}
+\headcommand {\beamer@subsectionpages {8}{16}}
+\headcommand {\beamer@subsectionentry {0}{2}{3}{17}{Prior Work}}
+\headcommand {\slideentry {2}{3}{1}{17/17}{Prior Work}{0}}
 \headcommand {\beamer@framepages {17}{17}}
-\headcommand {\slideentry {3}{1}{3}{18/18}{Block Diagram}{0}}
+\headcommand {\slideentry {2}{3}{2}{18/18}{Prior Work}{0}}
 \headcommand {\beamer@framepages {18}{18}}
-\headcommand {\beamer@sectionpages {16}{18}}
-\headcommand {\beamer@subsectionpages {16}{18}}
-\headcommand {\sectionentry {4}{Simulation}{19}{Simulation}{0}}
+\headcommand {\beamer@sectionpages {6}{18}}
+\headcommand {\beamer@subsectionpages {17}{18}}
+\headcommand {\sectionentry {3}{Subsystem Level Functional Requirements}{19}{Subsystem Level Functional Requirements}{0}}
 \headcommand {\beamer@subsectionpages {19}{18}}
-\headcommand {\beamer@subsectionentry {0}{4}{1}{19}{Optimal Control Simulation}}
-\headcommand {\slideentry {4}{1}{1}{19/19}{Optimal Control Simulation}{0}}
+\headcommand {\beamer@subsectionentry {0}{3}{1}{19}{Block Diagram}}
+\headcommand {\slideentry {3}{1}{1}{19/19}{Block Diagram}{0}}
 \headcommand {\beamer@framepages {19}{19}}
-\headcommand {\slideentry {4}{1}{2}{20/20}{Optimal Control Simulation}{0}}
+\headcommand {\slideentry {3}{1}{2}{20/20}{Block Diagram}{0}}
 \headcommand {\beamer@framepages {20}{20}}
-\headcommand {\slideentry {4}{1}{3}{21/21}{Optimal Control Simulation}{0}}
+\headcommand {\slideentry {3}{1}{3}{21/21}{Block Diagram}{0}}
 \headcommand {\beamer@framepages {21}{21}}
+\headcommand {\beamer@sectionpages {19}{21}}
 \headcommand {\beamer@subsectionpages {19}{21}}
-\headcommand {\beamer@subsectionentry {0}{4}{2}{22}{Optimal and Noise Resistant Control Simulation}}
-\headcommand {\slideentry {4}{2}{1}{22/22}{Optimal and Noise Resistant Control Simulation}{0}}
+\headcommand {\sectionentry {4}{Simulation}{22}{Simulation}{0}}
+\headcommand {\beamer@subsectionpages {22}{21}}
+\headcommand {\beamer@subsectionentry {0}{4}{1}{22}{Optimal Control Simulation}}
+\headcommand {\slideentry {4}{1}{1}{22/22}{Optimal Control Simulation}{0}}
 \headcommand {\beamer@framepages {22}{22}}
-\headcommand {\slideentry {4}{2}{2}{23/23}{Optimal and Noise Resistant Control Simulation}{0}}
+\headcommand {\slideentry {4}{1}{2}{23/23}{Optimal Control Simulation}{0}}
 \headcommand {\beamer@framepages {23}{23}}
-\headcommand {\slideentry {4}{2}{3}{24/24}{Optimal and Noise Resistant Control Simulation}{0}}
+\headcommand {\slideentry {4}{1}{3}{24/24}{Optimal Control Simulation}{0}}
 \headcommand {\beamer@framepages {24}{24}}
-\headcommand {\beamer@sectionpages {19}{24}}
 \headcommand {\beamer@subsectionpages {22}{24}}
-\headcommand {\sectionentry {5}{Implementation}{25}{Implementation}{0}}
-\headcommand {\beamer@subsectionpages {25}{24}}
-\headcommand {\beamer@subsectionentry {0}{5}{1}{25}{USB}}
-\headcommand {\slideentry {5}{1}{1}{25/25}{USB}{0}}
+\headcommand {\beamer@subsectionentry {0}{4}{2}{25}{Optimal and Noise Resistant Control Simulation}}
+\headcommand {\slideentry {4}{2}{1}{25/25}{Optimal and Noise Resistant Control Simulation}{0}}
 \headcommand {\beamer@framepages {25}{25}}
-\headcommand {\slideentry {5}{1}{2}{26/26}{USB}{0}}
+\headcommand {\slideentry {4}{2}{2}{26/26}{Optimal and Noise Resistant Control Simulation}{0}}
 \headcommand {\beamer@framepages {26}{26}}
-\headcommand {\slideentry {5}{1}{3}{27/27}{USB}{0}}
+\headcommand {\slideentry {4}{2}{3}{27/27}{Optimal and Noise Resistant Control Simulation}{0}}
 \headcommand {\beamer@framepages {27}{27}}
-\headcommand {\slideentry {5}{1}{4}{28/28}{USB}{0}}
+\headcommand {\beamer@sectionpages {22}{27}}
+\headcommand {\beamer@subsectionpages {25}{27}}
+\headcommand {\sectionentry {5}{Implementation}{28}{Implementation}{0}}
+\headcommand {\beamer@subsectionpages {28}{27}}
+\headcommand {\beamer@subsectionentry {0}{5}{1}{28}{USB}}
+\headcommand {\slideentry {5}{1}{1}{28/28}{USB}{0}}
 \headcommand {\beamer@framepages {28}{28}}
-\headcommand {\beamer@subsectionpages {25}{28}}
-\headcommand {\beamer@subsectionentry {0}{5}{2}{29}{Android}}
-\headcommand {\slideentry {5}{2}{1}{29/29}{Android}{0}}
+\headcommand {\slideentry {5}{1}{2}{29/29}{USB}{0}}
 \headcommand {\beamer@framepages {29}{29}}
-\headcommand {\slideentry {5}{2}{2}{30/30}{Android}{0}}
+\headcommand {\slideentry {5}{1}{3}{30/30}{USB}{0}}
 \headcommand {\beamer@framepages {30}{30}}
-\headcommand {\slideentry {5}{2}{3}{31/31}{Android}{0}}
+\headcommand {\slideentry {5}{1}{4}{31/31}{USB}{0}}
 \headcommand {\beamer@framepages {31}{31}}
-\headcommand {\slideentry {5}{2}{4}{32/32}{Android}{0}}
+\headcommand {\slideentry {5}{1}{5}{32/32}{USB}{0}}
 \headcommand {\beamer@framepages {32}{32}}
-\headcommand {\slideentry {5}{2}{5}{33/33}{Android}{0}}
+\headcommand {\beamer@subsectionpages {28}{32}}
+\headcommand {\beamer@subsectionentry {0}{5}{2}{33}{Android}}
+\headcommand {\slideentry {5}{2}{1}{33/33}{Android}{0}}
 \headcommand {\beamer@framepages {33}{33}}
-\headcommand {\beamer@subsectionpages {29}{33}}
-\headcommand {\beamer@subsectionentry {0}{5}{3}{34}{Demonstration}}
-\headcommand {\slideentry {5}{3}{1}{34/34}{Demonstration}{0}}
+\headcommand {\slideentry {5}{2}{2}{34/34}{Android}{0}}
 \headcommand {\beamer@framepages {34}{34}}
-\headcommand {\slideentry {5}{3}{2}{35/35}{Demonstration}{0}}
+\headcommand {\slideentry {5}{2}{3}{35/35}{Android}{0}}
 \headcommand {\beamer@framepages {35}{35}}
-\headcommand {\beamer@sectionpages {25}{35}}
-\headcommand {\beamer@subsectionpages {34}{35}}
-\headcommand {\sectionentry {6}{Future Directions}{36}{Future Directions}{0}}
-\headcommand {\slideentry {6}{0}{1}{36/36}{}{0}}
+\headcommand {\slideentry {5}{2}{4}{36/36}{Android}{0}}
 \headcommand {\beamer@framepages {36}{36}}
-\headcommand {\beamer@sectionpages {36}{36}}
-\headcommand {\beamer@subsectionpages {36}{36}}
-\headcommand {\sectionentry {7}{Summary}{37}{Summary}{0}}
-\headcommand {\slideentry {7}{0}{1}{37/37}{}{0}}
+\headcommand {\slideentry {5}{2}{5}{37/37}{Android}{0}}
 \headcommand {\beamer@framepages {37}{37}}
-\headcommand {\gdef \insertmainframenumber {37}}
-\headcommand {\partentry {\translate {Appendix}}{1}}
-\headcommand {\beamer@partpages {1}{37}}
-\headcommand {\beamer@sectionpages {37}{37}}
-\headcommand {\beamer@subsectionpages {37}{37}}
-\headcommand {\beamer@appendixpages {38}}
-\headcommand {\beamer@sectionpages {38}{37}}
-\headcommand {\beamer@subsectionpages {38}{37}}
-\headcommand {\sectionentry {8}{\translate {Appendix}}{38}{\translate {Appendix}}{1}}
-\headcommand {\beamer@subsectionpages {38}{37}}
-\headcommand {\beamer@subsectionentry {1}{8}{1}{38}{For Further Reading}}
-\headcommand {\slideentry {8}{1}{1}{38/38}{For Further Reading}{1}}
+\headcommand {\beamer@subsectionpages {33}{37}}
+\headcommand {\beamer@subsectionentry {0}{5}{3}{38}{Demonstration}}
+\headcommand {\slideentry {5}{3}{1}{38/38}{Demonstration}{0}}
 \headcommand {\beamer@framepages {38}{38}}
-\headcommand {\beamer@partpages {38}{38}}
-\headcommand {\beamer@subsectionpages {38}{38}}
-\headcommand {\beamer@sectionpages {38}{38}}
-\headcommand {\beamer@documentpages {38}}
-\headcommand {\gdef \inserttotalframenumber {38}}
+\headcommand {\slideentry {5}{3}{2}{39/39}{Demonstration}{0}}
+\headcommand {\beamer@framepages {39}{39}}
+\headcommand {\beamer@sectionpages {28}{39}}
+\headcommand {\beamer@subsectionpages {38}{39}}
+\headcommand {\sectionentry {6}{Future Directions}{40}{Future Directions}{0}}
+\headcommand {\slideentry {6}{0}{1}{40/40}{}{0}}
+\headcommand {\beamer@framepages {40}{40}}
+\headcommand {\beamer@sectionpages {40}{40}}
+\headcommand {\beamer@subsectionpages {40}{40}}
+\headcommand {\sectionentry {7}{Summary}{41}{Summary}{0}}
+\headcommand {\slideentry {7}{0}{1}{41/41}{}{0}}
+\headcommand {\beamer@framepages {41}{41}}
+\headcommand {\beamer@sectionpages {41}{41}}
+\headcommand {\beamer@subsectionpages {41}{41}}
+\headcommand {\sectionentry {8}{Acknowledgement}{42}{Acknowledgement}{0}}
+\headcommand {\slideentry {8}{0}{1}{42/42}{}{0}}
+\headcommand {\beamer@framepages {42}{42}}
+\headcommand {\gdef \insertmainframenumber {42}}
+\headcommand {\partentry {\translate {Appendix}}{1}}
+\headcommand {\beamer@partpages {1}{42}}
+\headcommand {\beamer@sectionpages {42}{42}}
+\headcommand {\beamer@subsectionpages {42}{42}}
+\headcommand {\beamer@appendixpages {43}}
+\headcommand {\beamer@sectionpages {43}{42}}
+\headcommand {\beamer@subsectionpages {43}{42}}
+\headcommand {\sectionentry {9}{\translate {Appendix}}{43}{\translate {Appendix}}{1}}
+\headcommand {\beamer@subsectionpages {43}{42}}
+\headcommand {\beamer@subsectionentry {1}{9}{1}{43}{For Further Reading}}
+\headcommand {\slideentry {9}{1}{1}{43/43}{For Further Reading}{1}}
+\headcommand {\beamer@framepages {43}{43}}
+\headcommand {\slideentry {9}{1}{1}{43/44}{For Further Reading}{1}}
+\headcommand {\beamer@framepages {43}{44}}
+\headcommand {\beamer@partpages {43}{44}}
+\headcommand {\beamer@subsectionpages {43}{44}}
+\headcommand {\beamer@sectionpages {43}{44}}
+\headcommand {\beamer@documentpages {44}}
+\headcommand {\gdef \inserttotalframenumber {44}}
