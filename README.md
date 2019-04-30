@@ -9,14 +9,12 @@
 ## 01. Labnotebook
 Need to check sources<br />
 Need to check images<br />
-ERROR
 ## 02. System level functional requirements
-Need to check sources<br />
+DONE
 ## 03. Proposal
-Need to check sources<br />
+DONE
 ## 04. Proposal presentation
-Need to check sources <br />
-ERROR
+ERROR with gantt chart
 ## 05. Poster 
 DONE
 ## 06. Final report
@@ -24,8 +22,8 @@ Need to check sources<br />
 Need edit structure<br />
 Need to add content
 ## 07. Final presentation 
-Need to check sources<br />
-Need to add RMSE table to conclusion
+Glenn, please create the new figure for the ADP section<br />
+and find the correct figure for LQR P VS. LQR PI w/ step input
 
 
 
