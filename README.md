@@ -8,15 +8,15 @@
 
 ## 01. Labnotebook
 Need to check sources<br />
-Need to check images 
+Need to check images<br />
+ERROR
 ## 02. System level functional requirements
 Need to check sources<br />
-Need to check images 
 ## 03. Proposal
 Need to check sources<br />
-Need to check images 
 ## 04. Proposal presentation
-Need to check sources 
+Need to check sources <br />
+ERROR
 ## 05. Poster 
 DONE
 ## 06. Final report
