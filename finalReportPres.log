@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/W32TeX) (preloaded format=pdflatex 2018.9.26)  30 APR 2019 13:01
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/W32TeX) (preloaded format=pdflatex 2018.9.26)  30 APR 2019 16:10
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -391,8 +391,6 @@ Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
 
 (c:/texlive/2018/texmf-dist/tex/latex/hyperref/pd1enc.def
 File: pd1enc.def 2018/02/06 v6.86b Hyperref: PDFDocEncoding definition (HO)
-Now handling font encoding PD1 ...
-... no UTF-8 mapping file for font encoding PD1
 )
 \Hy@SavedSpaceFactor=\count122
 
@@ -1031,23 +1029,53 @@ Package: subfigure 2002/03/15 v2.1.5 subfigure package
 \subfig@top=\skip70
 \subfig@bottom=\skip71
 )
-No file finalReportPres.aux.
+(c:/texlive/2018/texmf-dist/tex/latex/booktabs/booktabs.sty
+Package: booktabs 2016/04/27 v1.618033 publication quality tables
+\heavyrulewidth=\dimen295
+\lightrulewidth=\dimen296
+\cmidrulewidth=\dimen297
+\belowrulesep=\dimen298
+\belowbottomsep=\dimen299
+\aboverulesep=\dimen300
+\abovetopsep=\dimen301
+\cmidrulesep=\dimen302
+\cmidrulekern=\dimen303
+\defaultaddspace=\dimen304
+\@cmidla=\count356
+\@cmidlb=\count357
+\@aboverulesep=\dimen305
+\@belowrulesep=\dimen306
+\@thisruleclass=\count358
+\@lastruleclass=\count359
+\@thisrulewidth=\dimen307
+)
+(c:/texlive/2018/texmf-dist/tex/latex/tools/array.sty
+Package: array 2018/04/30 v2.4h Tabular extension package (FMi)
+\col@sep=\dimen308
+\ar@mcellbox=\box77
+\extrarowheight=\dimen309
+\NC@list=\toks47
+\extratabsurround=\skip72
+\backup@length=\skip73
+\ar@cellbox=\box78
+) (./finalReportPres.aux)
 \openout1 = `finalReportPres.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 118.
-LaTeX Font Info:    ... okay on input line 118.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 118.
-LaTeX Font Info:    ... okay on input line 118.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 118.
-LaTeX Font Info:    ... okay on input line 118.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 118.
-LaTeX Font Info:    ... okay on input line 118.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 118.
-LaTeX Font Info:    ... okay on input line 118.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 118.
-LaTeX Font Info:    ... okay on input line 118.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 118.
-LaTeX Font Info:    ... okay on input line 118.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 120.
+LaTeX Font Info:    ... okay on input line 120.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 120.
+LaTeX Font Info:    ... okay on input line 120.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 120.
+LaTeX Font Info:    ... okay on input line 120.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 120.
+LaTeX Font Info:    ... okay on input line 120.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 120.
+LaTeX Font Info:    ... okay on input line 120.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 120.
+LaTeX Font Info:    ... okay on input line 120.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 120.
+LaTeX Font Info:    ... okay on input line 120.
+
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
 *geometry* verbose mode - [ preamble ] result:
@@ -1084,17 +1112,17 @@ LaTeX Font Info:    ... okay on input line 118.
 
 (c:/texlive/2018/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count356
-\scratchdimen=\dimen295
-\scratchbox=\box77
-\nofMPsegments=\count357
-\nofMParguments=\count358
-\everyMPshowfont=\toks47
-\MPscratchCnt=\count359
-\MPscratchDim=\dimen296
-\MPnumerator=\count360
-\makeMPintoPDFobject=\count361
-\everyMPtoPDFconversion=\toks48
+\scratchcounter=\count360
+\scratchdimen=\dimen310
+\scratchbox=\box79
+\nofMPsegments=\count361
+\nofMParguments=\count362
+\everyMPshowfont=\toks48
+\MPscratchCnt=\count363
+\MPscratchDim=\dimen311
+\MPnumerator=\count364
+\makeMPintoPDFobject=\count365
+\everyMPtoPDFconversion=\toks49
 ) (c:/texlive/2018/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
 
@@ -1113,8 +1141,8 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
 ABD: EveryShipout initializing macros
-\AtBeginShipoutBox=\box78
-Package hyperref Info: Link coloring OFF on input line 118.
+\AtBeginShipoutBox=\box80
+Package hyperref Info: Link coloring OFF on input line 120.
 
 (c:/texlive/2018/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
@@ -1122,66 +1150,68 @@ Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 (c:/texlive/2018/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
-\c@section@level=\count362
+\c@section@level=\count366
 )
-LaTeX Info: Redefining \ref on input line 118.
-LaTeX Info: Redefining \pageref on input line 118.
-LaTeX Info: Redefining \nameref on input line 118.
+LaTeX Info: Redefining \ref on input line 120.
+LaTeX Info: Redefining \pageref on input line 120.
+LaTeX Info: Redefining \nameref on input line 120.
+
+(./finalReportPres.out) (./finalReportPres.out)
 \@outlinefile=\write5
 \openout5 = `finalReportPres.out'.
 
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/cmr/m/n --> OT1/cmss/m/n on input line 118.
+(Font)                  OT1/cmr/m/n --> OT1/cmss/m/n on input line 120.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/cmr/bx/n --> OT1/cmss/bx/n on input line 118.
+(Font)                  OT1/cmr/bx/n --> OT1/cmss/bx/n on input line 120.
 \symnumbers=\mathgroup6
 \sympureletters=\mathgroup7
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `normal'
-(Font)                  OT1/cmss/m/n --> OT1/cmr/m/n on input line 118.
-LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 118.
+(Font)                  OT1/cmss/m/n --> OT1/cmr/m/n on input line 120.
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 120.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/cmr/bx/n --> OT1/cmss/bx/n on input line 118.
+(Font)                  OT1/cmr/bx/n --> OT1/cmss/bx/n on input line 120.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  OT1/cmr/bx/n --> OT1/cmss/bx/n on input line 118.
-LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 118.
+(Font)                  OT1/cmr/bx/n --> OT1/cmss/bx/n on input line 120.
+LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 120.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/cmss/m/n --> OT1/cmss/m/n on input line 118.
+(Font)                  OT1/cmss/m/n --> OT1/cmss/m/n on input line 120.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> OT1/cmss/m/n on input line 118.
-LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 118.
+(Font)                  OT1/cmss/bx/n --> OT1/cmss/m/n on input line 120.
+LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 120.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/cmr/m/it --> OT1/cmss/m/it on input line 118.
+(Font)                  OT1/cmr/m/it --> OT1/cmss/m/it on input line 120.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/cmr/bx/it --> OT1/cmss/m/it on input line 118.
-LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 118.
+(Font)                  OT1/cmr/bx/it --> OT1/cmss/m/it on input line 120.
+LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 120.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/cmtt/m/n --> OT1/cmtt/m/n on input line 118.
+(Font)                  OT1/cmtt/m/n --> OT1/cmtt/m/n on input line 120.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> OT1/cmtt/m/n on input line 118.
+(Font)                  OT1/cmtt/m/n --> OT1/cmtt/m/n on input line 120.
 LaTeX Font Info:    Overwriting symbol font `numbers' in version `bold'
-(Font)                  OT1/cmss/m/n --> OT1/cmss/bx/n on input line 118.
+(Font)                  OT1/cmss/m/n --> OT1/cmss/bx/n on input line 120.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
-(Font)                  OT1/cmss/m/it --> OT1/cmss/bx/it on input line 118.
+(Font)                  OT1/cmss/m/it --> OT1/cmss/bx/it on input line 120.
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `bold'
-(Font)                  OT1/cmss/bx/n --> OT1/cmr/bx/n on input line 118.
+(Font)                  OT1/cmss/bx/n --> OT1/cmr/bx/n on input line 120.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> OT1/cmss/bx/n on input line 118.
+(Font)                  OT1/cmss/bx/n --> OT1/cmss/bx/n on input line 120.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/m/n --> OT1/cmss/bx/n on input line 118.
+(Font)                  OT1/cmss/m/n --> OT1/cmss/bx/n on input line 120.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/cmss/m/it --> OT1/cmss/bx/it on input line 118.
+(Font)                  OT1/cmss/m/it --> OT1/cmss/bx/it on input line 120.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> OT1/cmtt/bx/n on input line 118.
-LaTeX Font Info:    Redeclaring symbol font `pureletters' on input line 118.
+(Font)                  OT1/cmtt/m/n --> OT1/cmtt/bx/n on input line 120.
+LaTeX Font Info:    Redeclaring symbol font `pureletters' on input line 120.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `normal'
 (Font)                  OT1/cmss/m/it --> OT1/mathkerncmss/m/sl on input line 1
-18.
+20.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
 (Font)                  OT1/cmss/bx/it --> OT1/mathkerncmss/m/sl on input line 
-118.
+120.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
 (Font)                  OT1/mathkerncmss/m/sl --> OT1/mathkerncmss/bx/sl on inp
-ut line 118.
+ut line 120.
 
 (c:/texlive/2018/texmf-dist/tex/latex/translator/translator-basic-dictionary-En
 glish.dict
@@ -1211,107 +1241,82 @@ Dictionary: translator-theorem-dictionary, Language: English
 Package todonotes Warning: The length marginparwidth is less than 2cm and will 
 most likely cause issues with the appearance of inserted todonotes. The issue c
 an be solved by adding a line like \setlength {\marginparwidth }{2cm} prior to 
-loading the todonotes package. on input line 118.
+loading the todonotes package. on input line 120.
 
 (./finalReportPres.nav)
-<figs/logoBU1-Print.pdf, id=21, 481.8pt x 160.6pt>
+<figs/logoBU1-Print.pdf, id=101, 481.8pt x 160.6pt>
 File: figs/logoBU1-Print.pdf Graphic file (type pdf)
 <use figs/logoBU1-Print.pdf>
-Package pdftex.def Info: figs/logoBU1-Print.pdf  used on input line 122.
+Package pdftex.def Info: figs/logoBU1-Print.pdf  used on input line 124.
 (pdftex.def)             Requested size: 21.33955pt x 7.11151pt.
  [1
 
 {c:/texlive/2018/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./figs/logoBU1-
-Print.pdf>]
-No file finalReportPres.toc.
+Print.pdf>] (./finalReportPres.toc)
 File: figs/logoBU1-Print.pdf Graphic file (type pdf)
 <use figs/logoBU1-Print.pdf>
-Package pdftex.def Info: figs/logoBU1-Print.pdf  used on input line 127.
+Package pdftex.def Info: figs/logoBU1-Print.pdf  used on input line 129.
 (pdftex.def)             Requested size: 21.33955pt x 7.11151pt.
-[2
+ [2
 
 ]
 File: figs/logoBU1-Print.pdf Graphic file (type pdf)
 <use figs/logoBU1-Print.pdf>
-Package pdftex.def Info: figs/logoBU1-Print.pdf  used on input line 155.
+Package pdftex.def Info: figs/logoBU1-Print.pdf  used on input line 157.
 (pdftex.def)             Requested size: 21.33955pt x 7.11151pt.
  [3
 
 ]
-<figs/ipe/highLevel_wht_grn.pdf, id=126, 596.2275pt x 410.53375pt>
+<figs/ipe/highLevel_wht_grn.pdf, id=233, 596.2275pt x 410.53375pt>
 File: figs/ipe/highLevel_wht_grn.pdf Graphic file (type pdf)
 <use figs/ipe/highLevel_wht_grn.pdf>
-Package pdftex.def Info: figs/ipe/highLevel_wht_grn.pdf  used on input line 164
+Package pdftex.def Info: figs/ipe/highLevel_wht_grn.pdf  used on input line 166
 .
 (pdftex.def)             Requested size: 184.82861pt x 127.26414pt.
 File: figs/logoBU1-Print.pdf Graphic file (type pdf)
 <use figs/logoBU1-Print.pdf>
-Package pdftex.def Info: figs/logoBU1-Print.pdf  used on input line 164.
+Package pdftex.def Info: figs/logoBU1-Print.pdf  used on input line 166.
 (pdftex.def)             Requested size: 21.33955pt x 7.11151pt.
  [4
 
  <./figs/ipe/highLevel_wht_grn.pdf>]
 File: figs/logoBU1-Print.pdf Graphic file (type pdf)
 <use figs/logoBU1-Print.pdf>
-Package pdftex.def Info: figs/logoBU1-Print.pdf  used on input line 177.
+Package pdftex.def Info: figs/logoBU1-Print.pdf  used on input line 179.
 (pdftex.def)             Requested size: 21.33955pt x 7.11151pt.
  [5
 
-]
-No file finalReportPres.toc.
+] (./finalReportPres.toc)
 File: figs/logoBU1-Print.pdf Graphic file (type pdf)
 <use figs/logoBU1-Print.pdf>
-Package pdftex.def Info: figs/logoBU1-Print.pdf  used on input line 183.
+Package pdftex.def Info: figs/logoBU1-Print.pdf  used on input line 185.
 (pdftex.def)             Requested size: 21.33955pt x 7.11151pt.
-[6
+ [6
 
 ]
-
-LaTeX Warning: Citation `Ahmed2010-Sliding' on page 7 undefined on input line 1
-98.
-
-
-LaTeX Warning: Citation `Chang2017-Fuzzy' on page 7 undefined on input line 198
-.
-
-
-LaTeX Warning: Citation `Kayacan2016-Fuzzy' on page 7 undefined on input line 1
-98.
-
-
-LaTeX Warning: Citation `Mendez-Monroy2012-Fuzzy' on page 7 undefined on input 
-line 198.
-
-
-LaTeX Warning: Citation `Gao2016-DataDriven' on page 7 undefined on input line 
-198.
-
-
-LaTeX Warning: Citation `Hernandez-Gonzalez2012-Decentralized' on page 7 undefi
-ned on input line 198.
-
 File: figs/logoBU1-Print.pdf Graphic file (type pdf)
 <use figs/logoBU1-Print.pdf>
-Package pdftex.def Info: figs/logoBU1-Print.pdf  used on input line 198.
+Package pdftex.def Info: figs/logoBU1-Print.pdf  used on input line 200.
 (pdftex.def)             Requested size: 21.33955pt x 7.11151pt.
-[7
+ [7
 
 ]
-No file finalReportPres.toc.
+(./finalReportPres.toc)
 File: figs/logoBU1-Print.pdf Graphic file (type pdf)
 <use figs/logoBU1-Print.pdf>
-Package pdftex.def Info: figs/logoBU1-Print.pdf  used on input line 202.
+Package pdftex.def Info: figs/logoBU1-Print.pdf  used on input line 204.
 (pdftex.def)             Requested size: 21.33955pt x 7.11151pt.
-[8
+ [8
 
 ]
-<figs/img/helicopterModel.png, id=292, 404.26031pt x 292.84406pt>
+<figs/img/helicopterModel.png, id=438, 404.26031pt x 292.84406pt>
 File: figs/img/helicopterModel.png Graphic file (type png)
 <use figs/img/helicopterModel.png>
 Package pdftex.def Info: figs/img/helicopterModel.png  used on input line 223.
 (pdftex.def)             Requested size: 171.14764pt x 123.98119pt.
 LaTeX Font Info:    Try loading font information for U+msa on input line 223.
- (c:/texlive/2018/texmf-dist/tex/latex/amsfonts/umsa.fd
+
+(c:/texlive/2018/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
 LaTeX Font Info:    Try loading font information for U+msb on input line 223.
@@ -1326,7 +1331,7 @@ line 223.
 File: ot1mathkerncmss.fd 2013/03/27 Fontinst v1.933 font definitions for OT1/ma
 thkerncmss.
 )
-<figs/img/QuanserAero.png, id=294, 349.5459pt x 179.2296pt>
+<figs/img/QuanserAero.png, id=440, 349.5459pt x 179.2296pt>
 File: figs/img/QuanserAero.png Graphic file (type png)
 <use figs/img/QuanserAero.png>
 Package pdftex.def Info: figs/img/QuanserAero.png  used on input line 223.
@@ -1368,240 +1373,217 @@ Package pdftex.def Info: figs/logoBU1-Print.pdf  used on input line 332.
  [13
 
 ]
-No file finalReportPres.toc.
 File: figs/logoBU1-Print.pdf Graphic file (type pdf)
 <use figs/logoBU1-Print.pdf>
-Package pdftex.def Info: figs/logoBU1-Print.pdf  used on input line 338.
+Package pdftex.def Info: figs/logoBU1-Print.pdf  used on input line 358.
 (pdftex.def)             Requested size: 21.33955pt x 7.11151pt.
-[14
+ [14
 
 ]
-File: figs/logoBU1-Print.pdf Graphic file (type pdf)
-<use figs/logoBU1-Print.pdf>
-Package pdftex.def Info: figs/logoBU1-Print.pdf  used on input line 347.
-(pdftex.def)             Requested size: 21.33955pt x 7.11151pt.
- [15
+<figs/img/LQG_SimulinkResize.png, id=633, 1656.1875pt x 885.3075pt>
+File: figs/img/LQG_SimulinkResize.png Graphic file (type png)
+<use figs/img/LQG_SimulinkResize.png>
+Package pdftex.def Info: figs/img/LQG_SimulinkResize.png  used on input line 37
+1.
+(pdftex.def)             Requested size: 273.83728pt x 146.38013pt.
 
-]
-No file finalReportPres.toc.
+Overfull \vbox (5.18317pt too high) detected at line 371
+ []
+
 File: figs/logoBU1-Print.pdf Graphic file (type pdf)
 <use figs/logoBU1-Print.pdf>
-Package pdftex.def Info: figs/logoBU1-Print.pdf  used on input line 366.
+Package pdftex.def Info: figs/logoBU1-Print.pdf  used on input line 371.
+(pdftex.def)             Requested size: 21.33955pt x 7.11151pt.
+[15
+
+ <./figs/img/LQG_SimulinkResize.png>]
+<figs/ipe/ADP_Neural_Network.pdf, id=664, 579.16376pt x 627.34375pt>
+File: figs/ipe/ADP_Neural_Network.pdf Graphic file (type pdf)
+<use figs/ipe/ADP_Neural_Network.pdf>
+Package pdftex.def Info: figs/ipe/ADP_Neural_Network.pdf  used on input line 39
+0.
+(pdftex.def)             Requested size: 171.14764pt x 185.38069pt.
+File: figs/ipe/ADP_Neural_Network.pdf Graphic file (type pdf)
+<use figs/ipe/ADP_Neural_Network.pdf>
+Package pdftex.def Info: figs/ipe/ADP_Neural_Network.pdf  used on input line 39
+0.
+(pdftex.def)             Requested size: 171.14764pt x 185.38069pt.
+
+Overfull \vbox (10.85455pt too high) detected at line 390
+ []
+
+File: figs/logoBU1-Print.pdf Graphic file (type pdf)
+<use figs/logoBU1-Print.pdf>
+Package pdftex.def Info: figs/logoBU1-Print.pdf  used on input line 390.
 (pdftex.def)             Requested size: 21.33955pt x 7.11151pt.
 [16
 
-]
-<figs/ipe/TCPModel.pdf, id=544, 484.81125pt x 429.605pt>
-File: figs/ipe/TCPModel.pdf Graphic file (type pdf)
-<use figs/ipe/TCPModel.pdf>
-Package pdftex.def Info: figs/ipe/TCPModel.pdf  used on input line 377.
-(pdftex.def)             Requested size: 150.28993pt x 133.17616pt.
+ <./figs/ipe/ADP_Neural_Network.pdf>] (./finalReportPres.toc)
 File: figs/logoBU1-Print.pdf Graphic file (type pdf)
 <use figs/logoBU1-Print.pdf>
-Package pdftex.def Info: figs/logoBU1-Print.pdf  used on input line 377.
+Package pdftex.def Info: figs/logoBU1-Print.pdf  used on input line 393.
 (pdftex.def)             Requested size: 21.33955pt x 7.11151pt.
  [17
 
- <./figs/ipe/TCPModel.pdf>]
-<figs/ipe/lowLevel.pdf, id=588, 564.1075pt x 354.32375pt>
-File: figs/ipe/lowLevel.pdf Graphic file (type pdf)
-<use figs/ipe/lowLevel.pdf>
-Package pdftex.def Info: figs/ipe/lowLevel.pdf  used on input line 388.
-(pdftex.def)             Requested size: 174.8715pt x 109.83922pt.
+]
 File: figs/logoBU1-Print.pdf Graphic file (type pdf)
 <use figs/logoBU1-Print.pdf>
-Package pdftex.def Info: figs/logoBU1-Print.pdf  used on input line 388.
+Package pdftex.def Info: figs/logoBU1-Print.pdf  used on input line 402.
 (pdftex.def)             Requested size: 21.33955pt x 7.11151pt.
  [18
 
- <./figs/ipe/lowLevel.pdf>]
-No file finalReportPres.toc.
+]
+(./finalReportPres.toc)
 File: figs/logoBU1-Print.pdf Graphic file (type pdf)
 <use figs/logoBU1-Print.pdf>
-Package pdftex.def Info: figs/logoBU1-Print.pdf  used on input line 394.
+Package pdftex.def Info: figs/logoBU1-Print.pdf  used on input line 421.
 (pdftex.def)             Requested size: 21.33955pt x 7.11151pt.
-[19
+ [19
 
 ]
-<figs/MATLAB/LQR/P_Simulation/LQR_Pos_Con.pdf, id=659, 421.575pt x 316.18124pt>
+<figs/ipe/TCPModel.pdf, id=842, 484.81125pt x 429.605pt>
+File: figs/ipe/TCPModel.pdf Graphic file (type pdf)
+<use figs/ipe/TCPModel.pdf>
+Package pdftex.def Info: figs/ipe/TCPModel.pdf  used on input line 432.
+(pdftex.def)             Requested size: 150.28993pt x 133.17616pt.
+File: figs/logoBU1-Print.pdf Graphic file (type pdf)
+<use figs/logoBU1-Print.pdf>
+Package pdftex.def Info: figs/logoBU1-Print.pdf  used on input line 432.
+(pdftex.def)             Requested size: 21.33955pt x 7.11151pt.
+ [20
+
+ <./figs/ipe/TCPModel.pdf>]
+<figs/ipe/lowLevel.pdf, id=885, 564.1075pt x 354.32375pt>
+File: figs/ipe/lowLevel.pdf Graphic file (type pdf)
+<use figs/ipe/lowLevel.pdf>
+Package pdftex.def Info: figs/ipe/lowLevel.pdf  used on input line 443.
+(pdftex.def)             Requested size: 174.8715pt x 109.83922pt.
+File: figs/logoBU1-Print.pdf Graphic file (type pdf)
+<use figs/logoBU1-Print.pdf>
+Package pdftex.def Info: figs/logoBU1-Print.pdf  used on input line 443.
+(pdftex.def)             Requested size: 21.33955pt x 7.11151pt.
+ [21
+
+ <./figs/ipe/lowLevel.pdf>] (./finalReportPres.toc)
+File: figs/logoBU1-Print.pdf Graphic file (type pdf)
+<use figs/logoBU1-Print.pdf>
+Package pdftex.def Info: figs/logoBU1-Print.pdf  used on input line 449.
+(pdftex.def)             Requested size: 21.33955pt x 7.11151pt.
+ [22
+
+]
+<figs/MATLAB/LQR/P_Simulation/LQR_Pos_Con.pdf, id=967, 421.575pt x 316.18124pt>
 
 File: figs/MATLAB/LQR/P_Simulation/LQR_Pos_Con.pdf Graphic file (type pdf)
 <use figs/MATLAB/LQR/P_Simulation/LQR_Pos_Con.pdf>
 Package pdftex.def Info: figs/MATLAB/LQR/P_Simulation/LQR_Pos_Con.pdf  used on 
-input line 411.
+input line 466.
 (pdftex.def)             Requested size: 160.20015pt x 120.15012pt.
-<figs/MATLAB/LQR/P_Simulation/LQR_Volt_Con.pdf, id=660, 421.575pt x 316.18124pt
+<figs/MATLAB/LQR/P_Simulation/LQR_Volt_Con.pdf, id=968, 421.575pt x 316.18124pt
 >
 File: figs/MATLAB/LQR/P_Simulation/LQR_Volt_Con.pdf Graphic file (type pdf)
 <use figs/MATLAB/LQR/P_Simulation/LQR_Volt_Con.pdf>
 Package pdftex.def Info: figs/MATLAB/LQR/P_Simulation/LQR_Volt_Con.pdf  used on
- input line 411.
+ input line 466.
 (pdftex.def)             Requested size: 160.20015pt x 120.15012pt.
-
-
-LaTeX Warning: Reference `sub@fig:LQR_Pos_Con' on page 20 undefined on input li
-ne 411.
-
-
-LaTeX Warning: Reference `sub@fig:LQR_Volt_Con' on page 20 undefined on input l
-ine 411.
-
-
-LaTeX Warning: Reference `sub@fig:LQR_Pos_Con' on page 20 undefined on input li
-ne 411.
-
-
-LaTeX Warning: Reference `sub@fig:LQR_Volt_Con' on page 20 undefined on input l
-ine 411.
-
 File: figs/logoBU1-Print.pdf Graphic file (type pdf)
 <use figs/logoBU1-Print.pdf>
-Package pdftex.def Info: figs/logoBU1-Print.pdf  used on input line 411.
+Package pdftex.def Info: figs/logoBU1-Print.pdf  used on input line 466.
 (pdftex.def)             Requested size: 21.33955pt x 7.11151pt.
-[20
+ [23
 
  <./figs/matlab/LQR/P_Simulation/LQR_Pos_Con.pdf> <./figs/matlab/LQR/P_Simulati
 on/LQR_Volt_Con.pdf>]
-<figs/MATLAB/LQR/P_Simulation/LQR_Error_Con.pdf, id=722, 421.575pt x 316.18124p
-t>
+<figs/MATLAB/LQR/P_Simulation/LQR_Error_Con.pdf, id=1029, 421.575pt x 316.18124
+pt>
 File: figs/MATLAB/LQR/P_Simulation/LQR_Error_Con.pdf Graphic file (type pdf)
 <use figs/MATLAB/LQR/P_Simulation/LQR_Error_Con.pdf>
 Package pdftex.def Info: figs/MATLAB/LQR/P_Simulation/LQR_Error_Con.pdf  used o
-n input line 420.
+n input line 475.
 (pdftex.def)             Requested size: 210.78697pt x 158.09023pt.
 File: figs/logoBU1-Print.pdf Graphic file (type pdf)
 <use figs/logoBU1-Print.pdf>
-Package pdftex.def Info: figs/logoBU1-Print.pdf  used on input line 420.
+Package pdftex.def Info: figs/logoBU1-Print.pdf  used on input line 475.
 (pdftex.def)             Requested size: 21.33955pt x 7.11151pt.
- [21
+ [24
 
- <./figs/matlab/LQR/P_Simulation/LQR_Error_Con.pdf>]
-No file finalReportPres.toc.
+ <./figs/matlab/LQR/P_Simulation/LQR_Error_Con.pdf>] (./finalReportPres.toc)
 File: figs/logoBU1-Print.pdf Graphic file (type pdf)
 <use figs/logoBU1-Print.pdf>
-Package pdftex.def Info: figs/logoBU1-Print.pdf  used on input line 423.
+Package pdftex.def Info: figs/logoBU1-Print.pdf  used on input line 478.
 (pdftex.def)             Requested size: 21.33955pt x 7.11151pt.
-[22
+ [25
 
 ]
-<figs/matlab/LQG_PIvLQR_PI_Sim/Pitch.pdf, id=801, 361.35pt x 293.095pt>
+<figs/matlab/LQG_PIvLQR_PI_Sim/Pitch.pdf, id=1124, 361.35pt x 293.095pt>
 File: figs/matlab/LQG_PIvLQR_PI_Sim/Pitch.pdf Graphic file (type pdf)
 <use figs/matlab/LQG_PIvLQR_PI_Sim/Pitch.pdf>
 Package pdftex.def Info: figs/matlab/LQG_PIvLQR_PI_Sim/Pitch.pdf  used on input
- line 438.
+ line 493.
 (pdftex.def)             Requested size: 137.31442pt x 111.37724pt.
-<figs/matlab/LQG_PIvLQR_PI_Sim/Yaw.pdf, id=802, 367.3725pt x 293.095pt>
+<figs/matlab/LQG_PIvLQR_PI_Sim/Yaw.pdf, id=1125, 367.3725pt x 293.095pt>
 File: figs/matlab/LQG_PIvLQR_PI_Sim/Yaw.pdf Graphic file (type pdf)
 <use figs/matlab/LQG_PIvLQR_PI_Sim/Yaw.pdf>
 Package pdftex.def Info: figs/matlab/LQG_PIvLQR_PI_Sim/Yaw.pdf  used on input l
-ine 438.
+ine 493.
 (pdftex.def)             Requested size: 139.60298pt x 111.37724pt.
-
-
-LaTeX Warning: Reference `sub@fig:Pitch' on page 23 undefined on input line 438
-.
-
-
-LaTeX Warning: Reference `sub@fig:Yaw' on page 23 undefined on input line 438.
-
-
-LaTeX Warning: Reference `sub@fig:Pitch' on page 23 undefined on input line 438
-.
-
-
-LaTeX Warning: Reference `sub@fig:Yaw' on page 23 undefined on input line 438.
-
 File: figs/logoBU1-Print.pdf Graphic file (type pdf)
 <use figs/logoBU1-Print.pdf>
-Package pdftex.def Info: figs/logoBU1-Print.pdf  used on input line 438.
+Package pdftex.def Info: figs/logoBU1-Print.pdf  used on input line 493.
 (pdftex.def)             Requested size: 21.33955pt x 7.11151pt.
-[23
+
+[26
 
  <./figs/matlab/LQG_PIvLQR_PI_Sim/Pitch.pdf> <./figs/matlab/LQG_PIvLQR_PI_Sim/Y
 aw.pdf>]
-<figs/matlab/LQG_PIvLQR_PI_Sim/Pitch_Volt.pdf, id=851, 365.365pt x 293.095pt>
+<figs/matlab/LQG_PIvLQR_PI_Sim/Pitch_Volt.pdf, id=1173, 365.365pt x 293.095pt>
 File: figs/matlab/LQG_PIvLQR_PI_Sim/Pitch_Volt.pdf Graphic file (type pdf)
 <use figs/matlab/LQG_PIvLQR_PI_Sim/Pitch_Volt.pdf>
 Package pdftex.def Info: figs/matlab/LQG_PIvLQR_PI_Sim/Pitch_Volt.pdf  used on 
-input line 454.
+input line 509.
 (pdftex.def)             Requested size: 138.84013pt x 111.37724pt.
-<figs/matlab/LQG_PIvLQR_PI_Sim/Yaw_Volt.pdf, id=852, 365.365pt x 293.095pt>
+<figs/matlab/LQG_PIvLQR_PI_Sim/Yaw_Volt.pdf, id=1174, 365.365pt x 293.095pt>
 File: figs/matlab/LQG_PIvLQR_PI_Sim/Yaw_Volt.pdf Graphic file (type pdf)
 <use figs/matlab/LQG_PIvLQR_PI_Sim/Yaw_Volt.pdf>
 Package pdftex.def Info: figs/matlab/LQG_PIvLQR_PI_Sim/Yaw_Volt.pdf  used on in
-put line 454.
+put line 509.
 (pdftex.def)             Requested size: 138.84013pt x 111.37724pt.
-
-
-LaTeX Warning: Reference `sub@fig:Pitch_Volt' on page 24 undefined on input lin
-e 454.
-
-
-LaTeX Warning: Reference `sub@fig:Yaw_Volt' on page 24 undefined on input line 
-454.
-
-
-LaTeX Warning: Reference `sub@fig:Pitch_Volt' on page 24 undefined on input lin
-e 454.
-
-
-LaTeX Warning: Reference `sub@fig:Yaw_Volt' on page 24 undefined on input line 
-454.
-
 File: figs/logoBU1-Print.pdf Graphic file (type pdf)
 <use figs/logoBU1-Print.pdf>
-Package pdftex.def Info: figs/logoBU1-Print.pdf  used on input line 454.
+Package pdftex.def Info: figs/logoBU1-Print.pdf  used on input line 509.
 (pdftex.def)             Requested size: 21.33955pt x 7.11151pt.
-[24
+ [27
 
  <./figs/matlab/LQG_PIvLQR_PI_Sim/Pitch_Volt.pdf> <./figs/matlab/LQG_PIvLQR_PI_
-Sim/Yaw_Volt.pdf>]
-No file finalReportPres.toc.
+Sim/Yaw_Volt.pdf>] (./finalReportPres.toc)
 File: figs/logoBU1-Print.pdf Graphic file (type pdf)
 <use figs/logoBU1-Print.pdf>
-Package pdftex.def Info: figs/logoBU1-Print.pdf  used on input line 527.
+Package pdftex.def Info: figs/logoBU1-Print.pdf  used on input line 582.
 (pdftex.def)             Requested size: 21.33955pt x 7.11151pt.
-[25
+ [28
 
 ]
-<figs/matlab/LQR_PIvLQR_P_USB/step/Pitch_LQR_RMSE.pdf, id=936, 421.575pt x 316.
-18124pt>
+<figs/matlab/LQR_PIvLQR_P_USB/step/Pitch_LQR_RMSE.pdf, id=1269, 421.575pt x 316
+.18124pt>
 File: figs/matlab/LQR_PIvLQR_P_USB/step/Pitch_LQR_RMSE.pdf Graphic file (type p
 df)
 <use figs/matlab/LQR_PIvLQR_P_USB/step/Pitch_LQR_RMSE.pdf>
 Package pdftex.def Info: figs/matlab/LQR_PIvLQR_P_USB/step/Pitch_LQR_RMSE.pdf  
-used on input line 543.
+used on input line 598.
 (pdftex.def)             Requested size: 160.20015pt x 120.15012pt.
-<figs/matlab/LQR_PIvLQR_P_USB/step/Yaw_LQR_RMSE.pdf, id=937, 421.575pt x 316.18
-124pt>
+<figs/matlab/LQR_PIvLQR_P_USB/step/Yaw_LQR_RMSE.pdf, id=1270, 421.575pt x 316.1
+8124pt>
 File: figs/matlab/LQR_PIvLQR_P_USB/step/Yaw_LQR_RMSE.pdf Graphic file (type pdf
 )
 <use figs/matlab/LQR_PIvLQR_P_USB/step/Yaw_LQR_RMSE.pdf>
 Package pdftex.def Info: figs/matlab/LQR_PIvLQR_P_USB/step/Yaw_LQR_RMSE.pdf  us
-ed on input line 543.
+ed on input line 598.
 (pdftex.def)             Requested size: 160.20015pt x 120.15012pt.
-
-
-LaTeX Warning: Reference `sub@fig:Pitch_LQR_RMSE' on page 26 undefined on input
- line 543.
-
-
-LaTeX Warning: Reference `sub@fig:Yaw_LQR_RMSE' on page 26 undefined on input l
-ine 543.
-
-
-LaTeX Warning: Reference `sub@fig:Pitch_LQR_RMSE' on page 26 undefined on input
- line 543.
-
-
-LaTeX Warning: Reference `sub@fig:Yaw_LQR_RMSE' on page 26 undefined on input l
-ine 543.
-
 File: figs/logoBU1-Print.pdf Graphic file (type pdf)
 <use figs/logoBU1-Print.pdf>
-Package pdftex.def Info: figs/logoBU1-Print.pdf  used on input line 543.
+Package pdftex.def Info: figs/logoBU1-Print.pdf  used on input line 598.
 (pdftex.def)             Requested size: 21.33955pt x 7.11151pt.
-[26
+ [29
 
  <./figs/matlab/LQR_PIvLQR_P_USB/step/Pitch_LQR_RMSE.pdf> <./figs/matlab/LQR_PI
 vLQR_P_USB/step/Yaw_LQR_RMSE.pdf>]
@@ -1616,16 +1598,16 @@ tage_LQR_RMSE-eps-converted-to.pdf>
 (epstopdf)             Command: <repstopdf --outfile=figs/matlab/LQR_PIvLQR_P_U
 SB/step/PitchVoltage_LQR_RMSE-eps-converted-to.pdf figs/matlab/LQR_PIvLQR_P_USB
 /step/PitchVoltage_LQR_RMSE.eps>
-(epstopdf)             \includegraphics on input line 559.
+(epstopdf)             \includegraphics on input line 614.
 Package epstopdf Info: Output file is already uptodate.
 <figs/matlab/LQR_PIvLQR_P_USB/step/PitchVoltage_LQR_RMSE-eps-converted-to.pdf, 
-id=985, 364.36125pt x 304.13625pt>
+id=1320, 364.36125pt x 304.13625pt>
 File: figs/matlab/LQR_PIvLQR_P_USB/step/PitchVoltage_LQR_RMSE-eps-converted-to.
 pdf Graphic file (type pdf)
 <use figs/matlab/LQR_PIvLQR_P_USB/step/PitchVoltage_LQR_RMSE-eps-converted-to.p
 df>
 Package pdftex.def Info: figs/matlab/LQR_PIvLQR_P_USB/step/PitchVoltage_LQR_RMS
-E-eps-converted-to.pdf  used on input line 559.
+E-eps-converted-to.pdf  used on input line 614.
 (pdftex.def)             Requested size: 138.45871pt x 115.57297pt.
 Package epstopdf Info: Source file: <figs/matlab/LQR_PIvLQR_P_USB/step/YawVolta
 ge_LQR_RMSE.eps>
@@ -1638,303 +1620,239 @@ ge_LQR_RMSE-eps-converted-to.pdf>
 (epstopdf)             Command: <repstopdf --outfile=figs/matlab/LQR_PIvLQR_P_U
 SB/step/YawVoltage_LQR_RMSE-eps-converted-to.pdf figs/matlab/LQR_PIvLQR_P_USB/s
 tep/YawVoltage_LQR_RMSE.eps>
-(epstopdf)             \includegraphics on input line 559.
+(epstopdf)             \includegraphics on input line 614.
 Package epstopdf Info: Output file is already uptodate.
 <figs/matlab/LQR_PIvLQR_P_USB/step/YawVoltage_LQR_RMSE-eps-converted-to.pdf, id
-=986, 364.36125pt x 304.13625pt>
+=1321, 364.36125pt x 304.13625pt>
 File: figs/matlab/LQR_PIvLQR_P_USB/step/YawVoltage_LQR_RMSE-eps-converted-to.pd
 f Graphic file (type pdf)
 <use figs/matlab/LQR_PIvLQR_P_USB/step/YawVoltage_LQR_RMSE-eps-converted-to.pdf
 >
 Package pdftex.def Info: figs/matlab/LQR_PIvLQR_P_USB/step/YawVoltage_LQR_RMSE-
-eps-converted-to.pdf  used on input line 559.
+eps-converted-to.pdf  used on input line 614.
 (pdftex.def)             Requested size: 138.45871pt x 115.57297pt.
-
-
-LaTeX Warning: Reference `sub@fig:PitchVoltage_LQR_RMSE' on page 27 undefined o
-n input line 559.
-
-
-LaTeX Warning: Reference `sub@fig:YawVoltage_LQR_RMSE' on page 27 undefined on 
-input line 559.
-
-
-LaTeX Warning: Reference `sub@fig:PitchVoltage_LQR_RMSE' on page 27 undefined o
-n input line 559.
-
-
-LaTeX Warning: Reference `sub@fig:YawVoltage_LQR_RMSE' on page 27 undefined on 
-input line 559.
-
 File: figs/logoBU1-Print.pdf Graphic file (type pdf)
 <use figs/logoBU1-Print.pdf>
-Package pdftex.def Info: figs/logoBU1-Print.pdf  used on input line 559.
+Package pdftex.def Info: figs/logoBU1-Print.pdf  used on input line 614.
 (pdftex.def)             Requested size: 21.33955pt x 7.11151pt.
-[27
+ [30
 
  <./figs/matlab/LQR_PIvLQR_P_USB/step/PitchVoltage_LQR_RMSE-eps-converted-to.pd
 f> <./figs/matlab/LQR_PIvLQR_P_USB/step/YawVoltage_LQR_RMSE-eps-converted-to.pd
 f>]
-<figs/matlab/ADPvLQR_P_USB/Pitch_ADP_LQR.pdf, id=1043, 361.35pt x 294.09875pt>
+Overfull \vbox (6.25394pt too high) detected at line 642
+ []
+
+File: figs/logoBU1-Print.pdf Graphic file (type pdf)
+<use figs/logoBU1-Print.pdf>
+Package pdftex.def Info: figs/logoBU1-Print.pdf  used on input line 642.
+(pdftex.def)             Requested size: 21.33955pt x 7.11151pt.
+[31
+
+]
+<figs/matlab/ADPvLQR_P_USB/Pitch_ADP_LQR.pdf, id=1407, 361.35pt x 294.09875pt>
 File: figs/matlab/ADPvLQR_P_USB/Pitch_ADP_LQR.pdf Graphic file (type pdf)
 <use figs/matlab/ADPvLQR_P_USB/Pitch_ADP_LQR.pdf>
 Package pdftex.def Info: figs/matlab/ADPvLQR_P_USB/Pitch_ADP_LQR.pdf  used on i
-nput line 576.
+nput line 673.
 (pdftex.def)             Requested size: 137.31442pt x 111.75868pt.
-<figs/matlab/ADPvLQR_P_USB/Yaw_ADP_LQR.pdf, id=1044, 361.35pt x 292.09125pt>
+<figs/matlab/ADPvLQR_P_USB/Yaw_ADP_LQR.pdf, id=1408, 361.35pt x 292.09125pt>
 File: figs/matlab/ADPvLQR_P_USB/Yaw_ADP_LQR.pdf Graphic file (type pdf)
 <use figs/matlab/ADPvLQR_P_USB/Yaw_ADP_LQR.pdf>
 Package pdftex.def Info: figs/matlab/ADPvLQR_P_USB/Yaw_ADP_LQR.pdf  used on inp
-ut line 576.
+ut line 673.
 (pdftex.def)             Requested size: 137.31442pt x 110.99582pt.
-
-
-LaTeX Warning: Reference `sub@fig:Pitch_LQRvADP_USB' on page 28 undefined on in
-put line 576.
-
-
-LaTeX Warning: Reference `sub@fig:Yaw_LQRvADP_USB' on page 28 undefined on inpu
-t line 576.
-
-
-LaTeX Warning: Reference `sub@fig:Pitch_LQRvADP_USB' on page 28 undefined on in
-put line 576.
-
-
-LaTeX Warning: Reference `sub@fig:Yaw_LQRvADP_USB' on page 28 undefined on inpu
-t line 576.
-
 File: figs/logoBU1-Print.pdf Graphic file (type pdf)
 <use figs/logoBU1-Print.pdf>
-Package pdftex.def Info: figs/logoBU1-Print.pdf  used on input line 576.
+Package pdftex.def Info: figs/logoBU1-Print.pdf  used on input line 673.
 (pdftex.def)             Requested size: 21.33955pt x 7.11151pt.
-[28
+ [32
 
  <./figs/matlab/ADPvLQR_P_USB/Pitch_ADP_LQR.pdf> <./figs/matlab/ADPvLQR_P_USB/Y
-aw_ADP_LQR.pdf>]
-No file finalReportPres.toc.
+aw_ADP_LQR.pdf>] (./finalReportPres.toc)
 File: figs/logoBU1-Print.pdf Graphic file (type pdf)
 <use figs/logoBU1-Print.pdf>
-Package pdftex.def Info: figs/logoBU1-Print.pdf  used on input line 578.
+Package pdftex.def Info: figs/logoBU1-Print.pdf  used on input line 675.
 (pdftex.def)             Requested size: 21.33955pt x 7.11151pt.
-[29
+ [33
 
 ]
 
 pdfTeX warning: pdflatex.exe (file ./figs/matlab/LQR/P_Android/LQR_Pitchpos.pdf
 ): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<figs/matlab/LQR/P_Android/LQR_Pitchpos.pdf, id=1124, 421.575pt x 316.18124pt>
+<figs/matlab/LQR/P_Android/LQR_Pitchpos.pdf, id=1501, 421.575pt x 316.18124pt>
 File: figs/matlab/LQR/P_Android/LQR_Pitchpos.pdf Graphic file (type pdf)
 <use figs/matlab/LQR/P_Android/LQR_Pitchpos.pdf>
 Package pdftex.def Info: figs/matlab/LQR/P_Android/LQR_Pitchpos.pdf  used on in
-put line 594.
+put line 691.
 (pdftex.def)             Requested size: 160.20015pt x 120.15012pt.
 
 
 pdfTeX warning: pdflatex.exe (file ./figs/matlab/LQR/P_Android/LQR_Yawpos.pdf):
  PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<figs/matlab/LQR/P_Android/LQR_Yawpos.pdf, id=1125, 421.575pt x 316.18124pt>
+<figs/matlab/LQR/P_Android/LQR_Yawpos.pdf, id=1502, 421.575pt x 316.18124pt>
 File: figs/matlab/LQR/P_Android/LQR_Yawpos.pdf Graphic file (type pdf)
 <use figs/matlab/LQR/P_Android/LQR_Yawpos.pdf>
 Package pdftex.def Info: figs/matlab/LQR/P_Android/LQR_Yawpos.pdf  used on inpu
-t line 594.
+t line 691.
 (pdftex.def)             Requested size: 160.20015pt x 120.15012pt.
-
-LaTeX Warning: Reference `sub@fig:LQR_Pitchpos' on page 30 undefined on input l
-ine 594.
-
-
-LaTeX Warning: Reference `sub@fig:LQR_Yawpos' on page 30 undefined on input lin
-e 594.
-
-
-LaTeX Warning: Reference `sub@fig:LQR_Pitchpos' on page 30 undefined on input l
-ine 594.
-
-
-LaTeX Warning: Reference `sub@fig:LQR_Yawpos' on page 30 undefined on input lin
-e 594.
-
 File: figs/logoBU1-Print.pdf Graphic file (type pdf)
 <use figs/logoBU1-Print.pdf>
-Package pdftex.def Info: figs/logoBU1-Print.pdf  used on input line 594.
+Package pdftex.def Info: figs/logoBU1-Print.pdf  used on input line 691.
 (pdftex.def)             Requested size: 21.33955pt x 7.11151pt.
-[30
+[34
 
  <./figs/matlab/LQR/P_Android/LQR_Pitchpos.pdf> <./figs/matlab/LQR/P_Android/LQ
 R_Yawpos.pdf>]
 
 pdfTeX warning: pdflatex.exe (file ./figs/matlab/LQR/P_Android/LQR_PitchVolt.pd
 f): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<figs/matlab/LQR/P_Android/LQR_PitchVolt.pdf, id=1174, 421.575pt x 316.18124pt>
+<figs/matlab/LQR/P_Android/LQR_PitchVolt.pdf, id=1552, 421.575pt x 316.18124pt>
 
 File: figs/matlab/LQR/P_Android/LQR_PitchVolt.pdf Graphic file (type pdf)
 <use figs/matlab/LQR/P_Android/LQR_PitchVolt.pdf>
 Package pdftex.def Info: figs/matlab/LQR/P_Android/LQR_PitchVolt.pdf  used on i
-nput line 610.
+nput line 707.
 (pdftex.def)             Requested size: 160.20015pt x 120.15012pt.
 
 
 pdfTeX warning: pdflatex.exe (file ./figs/matlab/LQR/P_Android/LQR_YawVolt.pdf)
 : PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<figs/matlab/LQR/P_Android/LQR_YawVolt.pdf, id=1175, 421.575pt x 316.18124pt>
+<figs/matlab/LQR/P_Android/LQR_YawVolt.pdf, id=1553, 421.575pt x 316.18124pt>
 File: figs/matlab/LQR/P_Android/LQR_YawVolt.pdf Graphic file (type pdf)
 <use figs/matlab/LQR/P_Android/LQR_YawVolt.pdf>
 Package pdftex.def Info: figs/matlab/LQR/P_Android/LQR_YawVolt.pdf  used on inp
-ut line 610.
+ut line 707.
 (pdftex.def)             Requested size: 160.20015pt x 120.15012pt.
-
-LaTeX Warning: Reference `sub@fig:LQR_PitchVolt' on page 31 undefined on input 
-line 610.
-
-
-LaTeX Warning: Reference `sub@fig:LQR_YawVolt' on page 31 undefined on input li
-ne 610.
-
-
-LaTeX Warning: Reference `sub@fig:LQR_PitchVolt' on page 31 undefined on input 
-line 610.
-
-
-LaTeX Warning: Reference `sub@fig:LQR_YawVolt' on page 31 undefined on input li
-ne 610.
-
 File: figs/logoBU1-Print.pdf Graphic file (type pdf)
 <use figs/logoBU1-Print.pdf>
-Package pdftex.def Info: figs/logoBU1-Print.pdf  used on input line 610.
+Package pdftex.def Info: figs/logoBU1-Print.pdf  used on input line 707.
 (pdftex.def)             Requested size: 21.33955pt x 7.11151pt.
-[31
+[35
 
  <./figs/matlab/LQR/P_Android/LQR_PitchVolt.pdf> <./figs/matlab/LQR/P_Android/L
 QR_YawVolt.pdf>]
-<figs/matlab/ADP/Android/ADP_Pitch_Wireless.pdf, id=1224, 421.575pt x 316.18124
+<figs/matlab/ADP/Android/ADP_Pitch_Wireless.pdf, id=1602, 421.575pt x 316.18124
 pt>
 File: figs/matlab/ADP/Android/ADP_Pitch_Wireless.pdf Graphic file (type pdf)
 <use figs/matlab/ADP/Android/ADP_Pitch_Wireless.pdf>
 Package pdftex.def Info: figs/matlab/ADP/Android/ADP_Pitch_Wireless.pdf  used o
-n input line 626.
+n input line 723.
 (pdftex.def)             Requested size: 160.20015pt x 120.15012pt.
-<figs/matlab/ADP/Android/ADP_Yaw_Wireless.pdf, id=1225, 421.575pt x 316.18124pt
+<figs/matlab/ADP/Android/ADP_Yaw_Wireless.pdf, id=1603, 421.575pt x 316.18124pt
 >
 File: figs/matlab/ADP/Android/ADP_Yaw_Wireless.pdf Graphic file (type pdf)
 <use figs/matlab/ADP/Android/ADP_Yaw_Wireless.pdf>
 Package pdftex.def Info: figs/matlab/ADP/Android/ADP_Yaw_Wireless.pdf  used on 
-input line 626.
+input line 723.
 (pdftex.def)             Requested size: 160.20015pt x 120.15012pt.
-
-
-LaTeX Warning: Reference `sub@fig:ADP_Pitch_Wireless' on page 32 undefined on i
-nput line 626.
-
-
-LaTeX Warning: Reference `sub@fig:ADP_Yaw_Wireless' on page 32 undefined on inp
-ut line 626.
-
-
-LaTeX Warning: Reference `sub@fig:ADP_Pitch_Wireless' on page 32 undefined on i
-nput line 626.
-
-
-LaTeX Warning: Reference `sub@fig:ADP_Yaw_Wireless' on page 32 undefined on inp
-ut line 626.
-
 File: figs/logoBU1-Print.pdf Graphic file (type pdf)
 <use figs/logoBU1-Print.pdf>
-Package pdftex.def Info: figs/logoBU1-Print.pdf  used on input line 626.
+Package pdftex.def Info: figs/logoBU1-Print.pdf  used on input line 723.
 (pdftex.def)             Requested size: 21.33955pt x 7.11151pt.
-[32
+ [36
 
  <./figs/matlab/ADP/Android/ADP_Pitch_Wireless.pdf> <./figs/matlab/ADP/Android/
 ADP_Yaw_Wireless.pdf>]
-<figs/matlab/ADP/Android/ADP_Pitch_Volt_Wireless.pdf, id=1273, 421.575pt x 316.
+<figs/matlab/ADP/Android/ADP_Pitch_Volt_Wireless.pdf, id=1652, 421.575pt x 316.
 18124pt>
 File: figs/matlab/ADP/Android/ADP_Pitch_Volt_Wireless.pdf Graphic file (type pd
 f)
 <use figs/matlab/ADP/Android/ADP_Pitch_Volt_Wireless.pdf>
 Package pdftex.def Info: figs/matlab/ADP/Android/ADP_Pitch_Volt_Wireless.pdf  u
-sed on input line 642.
+sed on input line 739.
 (pdftex.def)             Requested size: 160.20015pt x 120.15012pt.
-<figs/matlab/ADP/Android/ADP_Yaw_Volt_Wireless.pdf, id=1274, 421.575pt x 316.18
+<figs/matlab/ADP/Android/ADP_Yaw_Volt_Wireless.pdf, id=1653, 421.575pt x 316.18
 124pt>
 File: figs/matlab/ADP/Android/ADP_Yaw_Volt_Wireless.pdf Graphic file (type pdf)
 
 <use figs/matlab/ADP/Android/ADP_Yaw_Volt_Wireless.pdf>
 Package pdftex.def Info: figs/matlab/ADP/Android/ADP_Yaw_Volt_Wireless.pdf  use
-d on input line 642.
+d on input line 739.
 (pdftex.def)             Requested size: 160.20015pt x 120.15012pt.
-
-
-LaTeX Warning: Reference `sub@fig:ADP_Pitch_Volt_Wireless' on page 33 undefined
- on input line 642.
-
-
-LaTeX Warning: Reference `sub@fig:ADP_Yaw_Volt_Wireless' on page 33 undefined o
-n input line 642.
-
-
-LaTeX Warning: Reference `sub@fig:ADP_Pitch_Volt_Wireless' on page 33 undefined
- on input line 642.
-
-
-LaTeX Warning: Reference `sub@fig:ADP_Yaw_Volt_Wireless' on page 33 undefined o
-n input line 642.
-
 File: figs/logoBU1-Print.pdf Graphic file (type pdf)
 <use figs/logoBU1-Print.pdf>
-Package pdftex.def Info: figs/logoBU1-Print.pdf  used on input line 642.
+Package pdftex.def Info: figs/logoBU1-Print.pdf  used on input line 739.
 (pdftex.def)             Requested size: 21.33955pt x 7.11151pt.
-[33
+ [37
 
  <./figs/matlab/ADP/Android/ADP_Pitch_Volt_Wireless.pdf> <./figs/matlab/ADP/And
-roid/ADP_Yaw_Volt_Wireless.pdf>]
-No file finalReportPres.toc.
+roid/ADP_Yaw_Volt_Wireless.pdf>] (./finalReportPres.toc)
 File: figs/logoBU1-Print.pdf Graphic file (type pdf)
 <use figs/logoBU1-Print.pdf>
-Package pdftex.def Info: figs/logoBU1-Print.pdf  used on input line 646.
+Package pdftex.def Info: figs/logoBU1-Print.pdf  used on input line 743.
 (pdftex.def)             Requested size: 21.33955pt x 7.11151pt.
-[34
+ [38
 
 ]<<VPlayer.swf>><<videos/Demonstration_Trim.mp4>>
 File: figs/logoBU1-Print.pdf Graphic file (type pdf)
 <use figs/logoBU1-Print.pdf>
-Package pdftex.def Info: figs/logoBU1-Print.pdf  used on input line 660.
+Package pdftex.def Info: figs/logoBU1-Print.pdf  used on input line 757.
 (pdftex.def)             Requested size: 21.33955pt x 7.11151pt.
- [35
+[39
 
 ]
-<figs/ipe/smartAlg.pdf, id=1401, 564.1075pt x 450.68375pt>
+<figs/ipe/smartAlg.pdf, id=1794, 564.1075pt x 450.68375pt>
 File: figs/ipe/smartAlg.pdf Graphic file (type pdf)
 <use figs/ipe/smartAlg.pdf>
-Package pdftex.def Info: figs/ipe/smartAlg.pdf  used on input line 713.
+Package pdftex.def Info: figs/ipe/smartAlg.pdf  used on input line 810.
 (pdftex.def)             Requested size: 157.94902pt x 126.19058pt.
 File: figs/logoBU1-Print.pdf Graphic file (type pdf)
 <use figs/logoBU1-Print.pdf>
-Package pdftex.def Info: figs/logoBU1-Print.pdf  used on input line 713.
+Package pdftex.def Info: figs/logoBU1-Print.pdf  used on input line 810.
 (pdftex.def)             Requested size: 21.33955pt x 7.11151pt.
- [36
+ [40
 
  <./figs/ipe/smartAlg.pdf>]
 File: figs/logoBU1-Print.pdf Graphic file (type pdf)
 <use figs/logoBU1-Print.pdf>
-Package pdftex.def Info: figs/logoBU1-Print.pdf  used on input line 777.
+Package pdftex.def Info: figs/logoBU1-Print.pdf  used on input line 874.
 (pdftex.def)             Requested size: 21.33955pt x 7.11151pt.
- [37
+ [41
+
+]
+File: figs/logoBU1-Print.pdf Graphic file (type pdf)
+<use figs/logoBU1-Print.pdf>
+Package pdftex.def Info: figs/logoBU1-Print.pdf  used on input line 901.
+(pdftex.def)             Requested size: 21.33955pt x 7.11151pt.
+ [42
 
 ]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\translate ' on input line 804.
+(hyperref)                removing `\translate ' on input line 905.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\translate ' on input line 804.
+(hyperref)                removing `\translate ' on input line 905.
 
-No file finalReportPres.bbl.
+(./finalReportPres.bbl
+** WARNING: IEEEtran.bst: No hyphenation pattern has been
+** loaded for the language `English'. Using the pattern for
+** the default language instead.
+** WARNING: IEEEtran.bst: No hyphenation pattern has been
+** loaded for the language `English'. Using the pattern for
+** the default language instead.
+Missing character: There is no Ã in font cmss10!
+Missing character: There is no © in font cmss10!
+Missing character: There is no Ã in font cmss10!
+Missing character: There is no ­ in font cmss10!
+Missing character: There is no Ã in font cmss10!
+Missing character: There is no © in font cmss10!
+)
 File: figs/logoBU1-Print.pdf Graphic file (type pdf)
 <use figs/logoBU1-Print.pdf>
-Package pdftex.def Info: figs/logoBU1-Print.pdf  used on input line 855.
+Package pdftex.def Info: figs/logoBU1-Print.pdf  used on input line 956.
 (pdftex.def)             Requested size: 21.33955pt x 7.11151pt.
-[38
+ [43
+
+]
+File: figs/logoBU1-Print.pdf Graphic file (type pdf)
+<use figs/logoBU1-Print.pdf>
+Package pdftex.def Info: figs/logoBU1-Print.pdf  used on input line 956.
+(pdftex.def)             Requested size: 21.33955pt x 7.11151pt.
+ [44
+
 
 ]
 \tf@nav=\write6
@@ -1946,41 +1864,22 @@ Package pdftex.def Info: figs/logoBU1-Print.pdf  used on input line 855.
 \tf@snm=\write8
 \openout8 = `finalReportPres.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 857.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 857.
- (./finalReportPres.aux
-*************************************************
-* pdfbase warning: "rerun"
-* 
-* Rerun to get internal references right!
-*************************************************
-)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 857.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 857.
-
-
-Package rerunfilecheck Warning: File `finalReportPres.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `finalReportPres.out':
-(rerunfilecheck)             Before: <no file>
-(rerunfilecheck)             After:  85B33B0A7D94289A3E4BFF65BAD97906;1142.
-
-LaTeX Warning: There were undefined references.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 958.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 958.
+ (./finalReportPres.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 958.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 958.
+Package rerunfilecheck Info: File `finalReportPres.out' has not changed.
+(rerunfilecheck)             Checksum: 087EB26A388D3E7E8DD19024E7B89C2A;1193.
  ) 
 Here is how much of TeX's memory you used:
- 33069 strings out of 492641
- 671821 string characters out of 6133131
- 727739 words of memory out of 5000000
- 36208 multiletter control sequences out of 15000+600000
- 544819 words of font info for 68 fonts, out of 8000000 for 9000
+ 33383 strings out of 492641
+ 678317 string characters out of 6133131
+ 734159 words of memory out of 5000000
+ 36462 multiletter control sequences out of 15000+600000
+ 544881 words of font info for 68 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 58i,16n,82p,782b,855s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 58i,16n,70p,782b,729s stack positions out of 5000i,500n,10000p,200000b,80000s
 pdfTeX warning (dest): name{sub@fig:ADP_Yaw_Volt_Wireless} has been reference
 d but does not exist, replaced by a fixed one
 
@@ -2052,11 +1951,12 @@ fb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb><c:/
 texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi10.pfb><c:/texlive/
 2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi8.pfb><c:/texlive/2018/texm
 f-dist/fonts/type1/public/amsfonts/cm/cmssi9.pfb><c:/texlive/2018/texmf-dist/fo
-nts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on finalReportPres.pdf (38 pages, 2949143 bytes).
+nts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2018/texmf-dist/fonts/type1
+/public/amsfonts/cm/cmsy8.pfb>
+Output written on finalReportPres.pdf (44 pages, 3109366 bytes).
 PDF statistics:
- 1584 PDF objects out of 1728 (max. 8388607)
- 1403 compressed objects within 15 object streams
- 154 named destinations out of 1000 (max. 500000)
- 279 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 2041 PDF objects out of 2073 (max. 8388607)
+ 1835 compressed objects within 19 object streams
+ 177 named destinations out of 1000 (max. 500000)
+ 479 words of extra memory for PDF output out of 10000 (max. 10000000)
 

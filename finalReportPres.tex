@@ -10,6 +10,7 @@
 % modify this file as you see fit and even to delete this copyright
 % notice. 
 
+\UseRawInputEncoding
 \documentclass{beamer}
 
 % There are many different themes available for Beamer. A comprehensive
@@ -49,6 +50,7 @@
 \usepackage{todonotes}
 \usepackage{media9}
 \usepackage{subfigure}
+\usepackage{booktabs,array}
 
 
 % Customize Warsaw color 
@@ -218,8 +220,6 @@ Advisor: Dr. Suruz Miah}
       \label{fig:QuanserAero}
     \end{figure}    
     \end{columns}
-
-
 \end{frame}
 
 \begin{frame}{Background Study}{Modeling a 2-DOF Helicopter}
@@ -332,7 +332,62 @@ Due to the efficiency of the Quanser Aero, we can create a linearized system mod
 \end{frame}
 
 %----------------------------------
-
+\begin{frame}{Background Study}{Control Algorithm Overview - Optimal Control}
+\begin{enumerate}
+    \item Employ state-space representation of 2-DOF helicopter:
+    \begin{align*}
+        \dot{\mathbf{x}} = \mathbf{A}\mathbf{x} + \mathbf{B}\mathbf{u}
+    \end{align*}
+    \item Use state feedback law
+    \begin{center}
+        $\mathbf{u} = -\mathbf{K}\mathbf{x}$
+    \end{center}
+    to minimize the quadratic cost function:
+    \begin{align*}
+        J(\mathbf{u}) = \int_0^\infty (\mathbf{x}^T\mathbf{Q}\mathbf{x} + \mathbf{u}^T\mathbf{R}\mathbf{u} + 2\mathbf{x}^T\mathbf{N}\mathbf{u})\mathrm{dt}
+    \end{align*}
+    \item Find the solution $\mathbf{S}$ to the Riccati equation
+    \begin{align*}
+        \mathbf{A}^T\mathbf{S}+\mathbf{SA}-(\mathbf{SB}+\mathbf{N})\mathbf{R}^{-1}(\mathbf{B}^T\mathbf{S}+\mathbf{N}^T)+\mathbf{Q}=0
+    \end{align*}    
+    \item Calculate gain, $\mathbf{K}$
+    \begin{center}
+        $\mathbf{K}=\mathbf{R}^{-1}(\mathbf{B}^T\mathbf{S}+\mathbf{N}^T)$
+    \end{center}
+\end{enumerate}
+\end{frame}
+%----------------------------------
+\begin{frame}{Background Study}{Control Algorithm Overview - Optimal Noise Resistant Control}
+\begin{itemize}
+    \item Utilizes gain calculated in LQR
+    \item Added Kalman filter to reduce external disturbances to the system
+\end{itemize} 
+\begin{figure}
+    \centering
+    \includegraphics[width=.8\textwidth,keepaspectratio=true]{figs/img/LQG_SimulinkResize.png}
+    \caption{Noise resistant 2-DOF helicopter model.}
+    \label{fig:LQGModel}
+\end{figure}
+\end{frame}
+%----------------------------------
+\begin{frame}{Background Study}{Control Algorithm Overview - Machine Learning}
+    \begin{columns}
+    \column{0.5\textwidth}
+    \begin{figure}
+        \centering
+        \includegraphics[width=\textwidth]{figs/ipe/ADP_Neural_Network}
+        \caption{Neural Network}
+        \label{fig:ADP_Neural_Networkl}
+    \end{figure}
+    \column{0.5\textwidth}
+    \begin{figure}
+      \centering 
+      \includegraphics[width=\textwidth]{figs/ipe/ADP_Neural_Network}
+      \caption{Neural Network}
+      \label{fig:ADP_Neural_Network2}
+    \end{figure}    
+    \end{columns}
+\end{frame}
 %----------------------------------
 
 \subsection{Prior Work}
@@ -558,6 +613,48 @@ Due to the efficiency of the Quanser Aero, we can create a linearized system mod
     \end{figure}
 \end{frame}
 %
+\begin{frame}{Implementation}{Optimal Control P and PI Controller USB}
+\begin{table}
+    \centering
+    \begin{tabular}{l|l|l}
+        \toprule
+        \textbf{} & \textbf{Pitch Step} & \textbf{Yaw Step}\\
+        \toprule
+        LQR P & 3.5025 & 5.8502\\
+        LQR PI & 1.2349 & 5.5058\\
+        Improvement & 64.7437\% & 0.5408\% \\
+        \toprule
+        \textbf{} & \textbf{Pitch Square} & \textbf{Yaw Square}\\
+        \toprule
+        LQR P & 6.2819 & 20.4623\\
+        LQR PI & 6.9206 & 21.0709\\
+        Improvement & -10.1675\% & -2.9740\% \\
+        \toprule
+        \textbf{} & \textbf{Pitch Sine} & \textbf{Yaw Sine}\\
+        \toprule
+        LQR P & 4.2469 & 2.8644\\
+        LQR PI & 1.3383 & 1.7852\\
+        Improvement & 68.4872\% & 63.2998\% \\
+    \end{tabular}
+    \caption{Root Mean Squared Error}
+    \label{tab:RMSE}
+\end{table}
+\end{frame}
+%\begin{frame}{Implementation}{Optimal Control P and PI Controller USB}
+%\begin{table}
+%    \centering
+%    \begin{tabular}{l|l|l|l|l|l|l}
+%        \toprule
+%        \textbf{0} & \textbf{Pitch Step} & \textbf{Yaw Step} & \textbf{Pitch Square} & \textbf{Yaw Square} & \textbf{Pitch Sine} & \textbf{Yaw Sine}\\
+%        \toprule
+%        LQR P & 3.5025 & 5.8502 & 6.2819 & 20.4623 & 4.2469 & 2.8644\\
+%        LQR PI & 1.2349 & 5.5058 & 6.9206 & 21.0709 & 1.3383 & 1.7852
+%        \bottomrule
+%    \end{tabular}
+%    \caption{Root Mean Squared Error}
+%    \label{tab:RMSE}
+%\end{table}
+%\end{frame}
 %Machine vs LQR
 \begin{frame}{Implementation}{Machine Learning and Optimal Control (P Controller) USB}
     \begin{figure}
@@ -764,7 +861,7 @@ Due to the efficiency of the Quanser Aero, we can create a linearized system mod
     \item Mobile interface
     \item PI control improves steady-state error
     \item Machine Learning is best when system parameters are unknown or time-varient
-    \item\todo[inline]{Add table for RMSE?}
+    %\item\todo[inline]{Add table for RMSE?}
   \end{itemize}
   
 %   \begin{itemize}
@@ -797,7 +894,11 @@ Due to the efficiency of the Quanser Aero, we can create a linearized system mod
 %   \end{itemize}
 % \end{frame}
 
-
+\section*{Acknowledgement}
+  \begin{frame}{Acknowledgement} 
+    \centering
+    Special Thanks to Andrew Fandel, Anthony Birge, and Dr. Suruz Miah for their work with Machine Learning on a 2-DOF Helicopter
+  \end{frame}
 
 % All of the following is optional and typically not needed. 
 \appendix
