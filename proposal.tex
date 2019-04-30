@@ -230,41 +230,41 @@ Over the next few sections we will describe the functional requirements of our p
 
 \subsection{System Architecture}
 %system architecture
-For our project, we consider the high level system shown in \autoref{fig:ProblemStatementImage} where mobile devices are used to to control a team of two degree of freedom helicopters. 
+For our project, we consider the high level system shown in \autoref{fig:highLevel} where mobile devices are used to to control a team of two degree of freedom helicopters. 
 %
 \begin{figure}
   \centering
   \begin{mdframed}[backgroundcolor=yellow!20, roundcorner=7pt,outerlinewidth=1.2pt,outerlinecolor=blue!50]
-  \includegraphics[scale=0.31]{figs/ipe/ProblemStatementImage}
+  \includegraphics[scale=0.31]{figs/ipe/highLevel_yel_grn}
   \end{mdframed}
-  \caption{General High-Level System Architecture}
-  \label{fig:ProblemStatementImage}
+  \caption{General high-level system architecture}
+  \label{fig:highLevel}
 \end{figure}
 %
 In our case we will be using one mobile device and two helicopters.  Information sent by the users will be transmitted through a wireless TCP/IP network.  We will be using Raspberry Pi 3's to accomplish the wireless communication between the mobile devices and the helicopters.  Their inputs will interface with our proposed smart control algorithm and change the configuration of the helicopters.
 
-Each of the helicopters used will have fixed bases as shown in \autoref{fig:QuanserAero} (courtesy of Quanser Inc.\footnote{\url{https://www.quanser.com/products/quanser-aero/}}). %
+Each of the helicopters used will have fixed bases as shown in \autoref{fig:quanserAero} (courtesy of Quanser Inc.\footnote{\url{https://www.quanser.com/products/quanser-aero/}}). %
 %
 \begin{figure}
   \centering
-  \includegraphics[scale=0.6]{figs/img/QuanserAero}
-  \caption{Quanser Aero 2-DOF Helicopter.}
-  \label{fig:QuanserAero}
+  \includegraphics[scale=0.6]{figs/img/quanserAero}
+  \caption{Quanser Aero 2-DOF helicopter.}
+  \label{fig:quanserAero}
 \end{figure}
 %
 The tail of the helicopter has a motor that controls its yaw motion.  Similarly, the main rotor changes the pitch of the helicopter.  The directions in which the motors spin will be determined by the polarity of the applied voltages.  This will be regulated by our smart control algorithm.
 
 \subsection{Proposed Smart Control Algorithm}
 %system level
-The system we propose for our project in \autoref{fig:ProblemStatementImage} has a mystery box with our smart control algorithm.  \autoref{fig:ProposalImage} shows our subsystem level smart control algorithm.  
+The system we propose for our project in \autoref{fig:highLevel} has a mystery box with our smart control algorithm.  \autoref{fig:lowLevel} shows our subsystem level smart control algorithm.  
 %subsystem level
 \begin{figure}
   \centering
   \begin{mdframed}[backgroundcolor=yellow!20, roundcorner=7pt,outerlinewidth=1.2pt,outerlinecolor=blue!50]
-  \includegraphics[scale=0.335]{figs/ipe/ProposalImage}
+  \includegraphics[scale=0.335]{figs/ipe/lowLevel}
   \end{mdframed}
   \caption{Low Level Smart Control Diagram}
-  \label{fig:ProposalImage}
+  \label{fig:lowLevel}
 \end{figure}
 %
 This would be loaded to our Raspberry Pi 3 which is connected to the Quanser Aero, and wirelessly communicates with the mobile device.  From the mobile device you choose a desired pitch and yaw angle for your helicopters to move from their initial positions and you select a control algorithm, which is talked about later.  The algorithm selector will enable one of the three algorithms while disabling the other two.  Then the enabled algorithm takes in the desired pitch and yaw angles and the actual pitch and yaw angles, which are recorded from the helicopter, as inputs.  The actual pitch and yaw angles will also be displayed on the mobile device.  With the inputs going into the desired algorithm, voltages are calculated for each of the two motors on the helicopter to move to the desired angles. 
@@ -420,21 +420,21 @@ Before we implemented LQR using a USB connection, we ran simulations in MATLAB t
 
 \begin{figure}
   \centering
-  \includegraphics[width=0.4\textwidth]{figs/matlab/LQR/LQR_Simulation/LQR_Error_Con}
+  \includegraphics[width=0.4\textwidth]{figs/matlab/LQR/P_Simulation/LQR_Error_Con}
   \caption{LQR Simulation Error w/ Constant Signal}
   \label{fig:LQR_Error_Con}
 \end{figure}
 
 \begin{figure}
   \centering
-  \includegraphics[width=0.4\textwidth]{figs/matlab/LQR/LQR_Simulation/LQR_Pos_Con}
+  \includegraphics[width=0.4\textwidth]{figs/matlab/LQR/P_Simulation/LQR_Pos_Con}
   \caption{LQR Simulation Position w/ Constant Signal}
   \label{fig:LQR_Pos_Con}
 \end{figure}
 
 \begin{figure}
   \centering
-  \includegraphics[width=0.4\textwidth]{figs/matlab/LQR/LQR_Simulation/LQR_Volt_Con}
+  \includegraphics[width=0.4\textwidth]{figs/matlab/LQR/P_Simulation/LQR_Volt_Con}
   \caption{LQR Simulation Voltage w/ Constant Signal}
   \label{fig:LQR_Volt_Con}
 \end{figure}
@@ -453,28 +453,28 @@ Our first task that needed to be accomplished was testing and implementing the L
 % Figures for Square wave with LQR USB
 \begin{figure}
   \centering
-  \includegraphics[width=0.4\textwidth]{figs/matlab/LQR/Pitch_Pos_LQR_USB_SQU}
+  \includegraphics[width=0.4\textwidth]{figs/matlab/LQR/P_USB/Pitch_Pos_LQR_USB_SQU}
   \caption{LQR USB Pitch Encoder w/ Square Wave}
   \label{fig:Pitch_Pos_LQR_USB_SQU}
 \end{figure}
 
 \begin{figure}
   \centering
-  \includegraphics[width=0.4\textwidth]{figs/matlab/LQR/Pitch_Volt_LQR_USB_SQU}
+  \includegraphics[width=0.4\textwidth]{figs/matlab/LQR/P_USB/Pitch_Volt_LQR_USB_SQU}
   \caption{LQR USB Pitch Motor w/ Square Wave}
   \label{fig:Pitch_Volt_LQR_USB_SQU}
 \end{figure}
 
 \begin{figure}
   \centering
-  \includegraphics[width=0.4\textwidth]{figs/matlab/LQR/Yaw_Pos_LQR_USB_SQU}
+  \includegraphics[width=0.4\textwidth]{figs/matlab/LQR/P_USB/Yaw_Pos_LQR_USB_SQU}
   \caption{LQR USB Yaw Encoder w/ Square Wave}
   \label{fig:Yaw_Pos_LQR_USB_SQU}
 \end{figure}
 
 \begin{figure}
   \centering
-  \includegraphics[width=0.4\textwidth]{figs/matlab/LQR/Yaw_Volt_LQR_USB_SQU}
+  \includegraphics[width=0.4\textwidth]{figs/matlab/LQR/P_USB/Yaw_Volt_LQR_USB_SQU}
   \caption{LQR USB Yaw Motor w/ Square Wave}
   \label{fig:Yaw_Volt_LQR_USB_SQU}
 \end{figure}
@@ -482,28 +482,28 @@ Our first task that needed to be accomplished was testing and implementing the L
 % Sine wave figures for LQR USB
 \begin{figure}
   \centering
-  \includegraphics[width=0.4\textwidth]{figs/matlab/LQR/Pitch_Pos_LQR_USB_SIN}
+  \includegraphics[width=0.4\textwidth]{figs/matlab/LQR/P_USB/Pitch_Pos_LQR_USB_SIN}
   \caption{LQR USB Pitch Encoder w/ Sine Wave}
   \label{fig:Pitch_Pos_LQR_USB_SIN}
 \end{figure}
 
 \begin{figure}
   \centering
-  \includegraphics[width=0.4\textwidth]{figs/matlab/LQR/Pitch_Volt_LQR_USB_SIN}
+  \includegraphics[width=0.4\textwidth]{figs/matlab/LQR/P_USB/Pitch_Volt_LQR_USB_SIN}
   \caption{LQR USB Pitch Motor w/ Sine Wave}
   \label{fig:Pitch_Volt_LQR_USB_SIN}
 \end{figure}
 
 \begin{figure}
   \centering
-  \includegraphics[width=0.4\textwidth]{figs/matlab/LQR/Yaw_Pos_LQR_USB_SIN}
+  \includegraphics[width=0.4\textwidth]{figs/matlab/LQR/P_USB/Yaw_Pos_LQR_USB_SIN}
   \caption{LQR USB Yaw Encoder w/ Sine Wave}
   \label{fig:Yaw_Pos_LQR_USB_SIN}
 \end{figure}
 
 \begin{figure}
   \centering
-  \includegraphics[width=0.4\textwidth]{figs/MATLAB/LQR/Yaw_Volt_LQR_USB_SIN}
+  \includegraphics[width=0.4\textwidth]{figs/MATLAB/LQR/P_USB/Yaw_Volt_LQR_USB_SIN}
   \caption{LQR USB Yaw Motor w/ Sine Wave}
   \label{fig:Yaw_Volt_LQR_USB_SIN}
 \end{figure}
@@ -511,41 +511,41 @@ Our first task that needed to be accomplished was testing and implementing the L
 % Constant input figures for LQR USB
 \begin{figure}
   \centering
-  \includegraphics[width=0.4\textwidth]{figs/matlab/LQR/Pitch_Pos_LQR_USB_CON}
+  \includegraphics[width=0.4\textwidth]{figs/matlab/LQR/P_USB/Pitch_Pos_LQR_USB_CON}
   \caption{LQR USB Pitch Encoder w/ Constant Input}
   \label{fig:Pitch_Pos_LQR_USB_CON}
 \end{figure}
 
 \begin{figure}
   \centering
-  \includegraphics[width=0.4\textwidth]{figs/matlab/LQR/Pitch_Volt_LQR_USB_CON}
+  \includegraphics[width=0.4\textwidth]{figs/matlab/LQR/P_USB/Pitch_Volt_LQR_USB_CON}
   \caption{LQR USB Pitch Motor w/ Constant Input}
   \label{fig:Pitch_Volt_LQR_USB_CON}
 \end{figure}
 
 \begin{figure}
   \centering
-  \includegraphics[width=0.45\textwidth]{figs/matlab/LQR/Yaw_Pos_LQR_USB_CON}
+  \includegraphics[width=0.45\textwidth]{figs/matlab/LQR/P_USB/Yaw_Pos_LQR_USB_CON}
   \caption{LQR USB Yaw Encoder w/ Constant Input}
   \label{fig:Yaw_Pos_LQR_USB_CON}
 \end{figure}
 
 \begin{figure}
   \centering
-  \includegraphics[width=0.45\textwidth]{figs/matlab/LQR/Yaw_Volt_LQR_USB_CON}
+  \includegraphics[width=0.45\textwidth]{figs/matlab/LQR/P_USB/Yaw_Volt_LQR_USB_CON}
   \caption{LQR USB Yaw Motor w/ Constant Input}
   \label{fig:Yaw_Volt_LQR_USB_CON}
 \end{figure}
 
 \subsection{LQR Raspberry Pi Implementation} \label{sec:LQR_RPi_imp}
 
-For using the Raspberry Pi 3 we needed to use a local network for wireless communication with the PC.  This took a little time, but we did achieve this.  Next was the issue of using SPI communication between the Raspberry Pi and the Aero.  Luckily for us, since this project is a continuation, last year's group already had a Simulink model that can implement SPI communication between the Raspberry Pi and the Aero.  After recreating every block and matching every configuration, we were able to send \autoref{fig:Basic_PI} to the Raspberry Pi 3.  \autoref{fig:SPI_COM} is the inside of the SPI Communication block in \autoref{fig:Basic_PI}.  These Simulink models are just the basic implementation of the SPI communication.  After testing it we learned a few things.  One, the initial position of the Aero is set when the Aero is started up.  Two, we need some type of user interface to be able to change the desired angles while the program is running.  That second difficulty is what we hope to be solved by the android application.
+For using the Raspberry Pi 3 we needed to use a local network for wireless communication with the PC.  This took a little time, but we did achieve this.  Next was the issue of using SPI communication between the Raspberry Pi and the Aero.  Luckily for us, since this project is a continuation, last year's group already had a Simulink model that can implement SPI communication between the Raspberry Pi and the Aero.  After recreating every block and matching every configuration, we were able to send \autoref{fig:Basic_SPI_Communication} to the Raspberry Pi 3.  \autoref{fig:SPI_COM} is the inside of the SPI Communication block in \autoref{fig:Basic_SPI_Communication}.  These Simulink models are just the basic implementation of the SPI communication.  After testing it we learned a few things.  One, the initial position of the Aero is set when the Aero is started up.  Two, we need some type of user interface to be able to change the desired angles while the program is running.  That second difficulty is what we hope to be solved by the android application.
 
 \begin{figure}
   \centering
-  \includegraphics[width=0.4\textwidth]{figs/img/Basic_PI}
+  \includegraphics[width=0.4\textwidth]{figs/img/Basic_SPI_Communication}
   \caption{Basic Top Simulink Model}
-  \label{fig:Basic_PI}
+  \label{fig:Basic_SPI_Communication}
 \end{figure}
 
 \begin{figure}
@@ -579,11 +579,11 @@ Fig.~\ref{fig:LQR_PitchVolt} and Fig.~\ref{fig:LQR_YawVolt} show the voltages th
   \centering
   \subfigure[][]{
     \label{fig:LQR_Pitchpos}    
-    \includegraphics[width=0.33\textwidth,height=0.15\textheight]{figs/matlab/LQR/LQR_Android/LQR_Pitchpos}
+    \includegraphics[width=0.33\textwidth,height=0.15\textheight]{figs/matlab/LQR/P_Android/LQR_Pitchpos}
   }
   \subfigure[][]{
     \label{fig:LQR_PitchVolt}
-    \includegraphics[width=0.33\textwidth,height=0.15\textheight]{figs/matlab/LQR/LQR_Android/LQR_PitchVolt}    
+    \includegraphics[width=0.33\textwidth,height=0.15\textheight]{figs/matlab/LQR/P_Android/LQR_PitchVolt}    
   }  
   \caption{Performance in following user's command~\subref{fig:LQR_Pitchpos} tracking pitch angle,~and~\subref{fig:LQR_PitchVolt} pitch motor input voltage.}
   \label{fig:performancePitchConst}
@@ -593,11 +593,11 @@ Fig.~\ref{fig:LQR_PitchVolt} and Fig.~\ref{fig:LQR_YawVolt} show the voltages th
   \centering
   \subfigure[][]{
     \label{fig:LQR_Yawpos}    
-    \includegraphics[width=0.33\textwidth,height=0.15\textheight]{figs/matlab/LQR/LQR_Android/LQR_Yawpos}
+    \includegraphics[width=0.33\textwidth,height=0.15\textheight]{figs/matlab/LQR/P_Android/LQR_Yawpos}
   }
   \subfigure[][]{
     \label{fig:LQR_YawVolt}
-    \includegraphics[width=0.33\textwidth,height=0.15\textheight]{figs/matlab/LQR/LQR_Android/LQR_YawVolt}    
+    \includegraphics[width=0.33\textwidth,height=0.15\textheight]{figs/matlab/LQR/P_Android/LQR_YawVolt}    
   }  
   \caption{Performance in following user's command~\subref{fig:LQR_Yawpos} tracking yaw angle,~and~\subref{fig:LQR_YawVolt} yaw motor input voltage.}
   \label{fig:performanceYawConst}
@@ -626,7 +626,7 @@ We are also considering some add-ons to our project.  When testing, we would lik
 The workload for this project is split by semester.  In the Fall of 2018, \autoref{fig:gantt1}, we hope to complete LQR and LQG up to implementation on an Android phone.  In the Spring of 2019, \autoref{fig:gantt2}, we plan to complete the ADP implementation as well as testing for all three methods.
 
 \bibliographystyle{IEEEtran}
-\bibliography{bib/references.bib}
+\bibliography{bib/references.bib,bib/refsHelicopter.bib,bib/refsSuruzWeb.bib}
 
 \clearpage
 %\begin{figure}

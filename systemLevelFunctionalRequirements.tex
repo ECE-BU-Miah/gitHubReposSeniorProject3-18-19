@@ -99,15 +99,15 @@ In this project, we are proposing an algorithm for smart control of a team of tw
 \section{System Architecture}
 %Multiple helicopters will be controlled via embedded hardware interfacing devices which will receive input from a smart mobile device.  This general architecture is shown in \autoref{fig:ProblemStatementImage}.
 %
-\autoref{fig:ProblemStatementImage} shows the high-level system architecture of the proposed project for control of a team of helicopters.  %
+\autoref{fig:highLevel} shows the high-level system architecture of the proposed project for control of a team of helicopters.  %
 %
 \begin{figure}
   \centering
   \begin{mdframed}[backgroundcolor=yellow!20, roundcorner=7pt,outerlinewidth=1.2pt,outerlinecolor=blue!50]
-  \includegraphics[scale=0.749]{figs/ipe/ProblemStatementImage}
+  \includegraphics[scale=0.749]{figs/ipe/highLevel_yel_grn}
   \end{mdframed}
   \caption{General High-Level System Architecture}
-  \label{fig:ProblemStatementImage}
+  \label{fig:highLevel}
 \end{figure}
 %
 As shown, mobile devices will serve as terminals for users to communicate with the helicopters.  Mobile devices can be used in a wider variety of locations over stationary and is desired by more people.  Information sent by the users will be transmitted through a wireless TCP/IP network.  Their inputs will interface with our proposed smart control algorithm and change the configuration of the helicopters.  In particular, we will be applying Linear Quadratic Regression (LQR), Linear Quadratic Gaussian (LQG), and a machine learning based algorithm for the control of these helicopters, Approximate Dynamic Programming (ADP).  
