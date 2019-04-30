@@ -419,79 +419,146 @@ Due to the efficiency of the Quanser Aero, we can create a linearized system mod
     \end{figure}
 \end{frame}
 
-% PI Controller
-\begin{frame}{Simulation}{Optimal Control Simulation (PI Controller)}
+% PI LQR vs LQG
+\subsection{Optimal and Noise Resistant Control Simulation}
+\begin{frame}{Simulation}{Optimal and Noise Resistant Control (PI Controller) Simulation}
     \begin{figure}
       \centering
       \subfigure[][]{
-        \label{fig:Pitch_LQR_Sim}
-        \includegraphics[scale=0.38]{figs/MATLAB/LQR/PI_Sim/Pitch_LQR_Sim}
+        \label{fig:Pitch}
+        \includegraphics[scale=0.38]{figs/matlab/LQG_PIvLQR_PI_Sim/Pitch}
       }
       \subfigure[][]{
-        \label{fig:Yaw_LQR_Sim}
-        \includegraphics[scale=0.38]{figs/MATLAB/LQR/PI_Sim/Yaw_LQR_Sim}    
+        \label{fig:Yaw}
+        \includegraphics[scale=0.38]{figs/matlab/LQG_PIvLQR_PI_Sim/Yaw}    
       }  
-      \caption{Optimal Control (PI Controller) Simulation \subref{fig:Pitch_LQR_Sim}~Pitch~Position and~\subref{fig:Yaw_LQR_Sim}~Yaw~Position w/ Step Input}
-      \label{fig:LQR_PI_Sim_pos}
+      \caption{Optimal Control (PI Controller) Simulation \subref{fig:Pitch}~Pitch~Position and~\subref{fig:Yaw}~Yaw~Position w/ Step Input}
+      \label{fig:LQR_LQG_Sim_pos}
     \end{figure}
 \end{frame}
 
-\begin{frame}{Simulation}{Optimal Control (PI Controller) Simulation}
+\begin{frame}{Simulation}{Optimal and Noise Resistant Controll (PI Controller) Simulation}
     \begin{figure}
       \centering
       \subfigure[][]{
-        \label{fig:Pitch_Volt_LQR_Sim}
-        \includegraphics[scale=0.38]{figs/MATLAB/LQR/PI_Sim/Pitch_Volt_LQR_Sim}
+        \label{fig:Pitch_Volt}
+        \includegraphics[scale=0.38]{figs/matlab/LQG_PIvLQR_PI_Sim/Pitch_Volt}
       }
       \subfigure[][]{
-        \label{fig:Yaw_Volt_LQR_Sim}
-        \includegraphics[scale=0.38]{figs/MATLAB/LQR/PI_Sim/Yaw_Volt_LQR_Sim}    
+        \label{fig:Yaw_Volt}
+        \includegraphics[scale=0.38]{figs/matlab/LQG_PIvLQR_PI_Sim/Yaw_Volt}    
       }  
-      \caption{Optimal Control (PI Controller) Simulation \subref{fig:Pitch_Volt_LQR_Sim}~Pitch~Voltage and~\subref{fig:Yaw_Volt_LQR_Sim}~Yaw~Voltage w/ Step Input}
+      \caption{Optimal Control (PI Controller) Simulation \subref{fig:Pitch_Volt}~Pitch~Voltage and~\subref{fig:Yaw_Volt}~Yaw~Voltage w/ Step Input}
       \label{fig:LQR_PI_Sim_volt}
     \end{figure}
 \end{frame}
 
-% LQG
-\subsection{Optimal Noise Resistant Control Simulation}
-\begin{frame}{Simulation}{Optimal Noise Resistant Control (PI Controller) Simulation}
-    \begin{figure}
-      \centering
-      \subfigure[][]{
-        \label{fig:Pitch_LQG_Sim}
-        \includegraphics[scale=0.38]{figs/MATLAB/LQG/LQG_Sim/Pitch_LQG_Sim}
-      }
-      \subfigure[][]{
-        \label{fig:Yaw_LQG_Sim}
-        \includegraphics[scale=0.38]{figs/MATLAB/LQG/LQG_Sim/Yaw_LQG_Sim}    
-      }  
-      \caption{Optimal Noise Resistant Control (PI Controller) \subref{fig:Pitch_LQG_Sim}~Pitch~Position and~\subref{fig:Yaw_LQG_Sim}~Yaw~Position w/ Step Input}
-      \label{fig:LQG_PI_Sim_pos}
-    \end{figure}
-\end{frame}
-
-\begin{frame}{Simulation}{Optimal Noise Resistant Control (PI Controller) Simulation}
-    \begin{figure}
-      \centering
-      \subfigure[][]{
-        \label{fig:Pitch_Volt_LQG_Sim}
-        \includegraphics[scale=0.38]{figs/MATLAB/LQG/LQG_Sim/Pitch_Volt_LQG_Sim}
-      }
-      \subfigure[][]{
-        \label{fig:Yaw_Volt_LQG_Sim}
-        \includegraphics[scale=0.38]{figs/MATLAB/LQG/LQG_Sim/Yaw_Volt_LQG_Sim}    
-      }  
-      \caption{Optimal Noise Resistant Control Simulation (PI Controller) \subref{fig:Pitch_Volt_LQG_Sim}~Pitch~Voltage and~\subref{fig:Yaw_Volt_LQG_Sim}~Yaw~Voltage w/ Step Input}
-      \label{fig:LQG_PI_Sim_volt}
-    \end{figure}
-\end{frame}
+%% PI Controller
+%\begin{frame}{Simulation}{Optimal Control Simulation (PI Controller)}
+%    \begin{figure}
+%      \centering
+%      \subfigure[][]{
+%        \label{fig:Pitch_LQR_Sim}
+%        \includegraphics[scale=0.38]{figs/MATLAB/LQR/PI_Sim/Pitch_LQR_Sim}
+%      }
+%      \subfigure[][]{
+%        \label{fig:Yaw_LQR_Sim}
+%        \includegraphics[scale=0.38]{figs/MATLAB/LQR/PI_Sim/Yaw_LQR_Sim}    
+%      }  
+%      \caption{Optimal Control (PI Controller) Simulation \subref{fig:Pitch_LQR_Sim}~Pitch~Position and~\subref{fig:Yaw_LQR_Sim}~Yaw~Position w/ Step Input}
+%      \label{fig:LQR_PI_Sim_pos}
+%    \end{figure}
+%\end{frame}
+%
+%\begin{frame}{Simulation}{Optimal Control (PI Controller) Simulation}
+%    \begin{figure}
+%      \centering
+%      \subfigure[][]{
+%        \label{fig:Pitch_Volt_LQR_Sim}
+%        \includegraphics[scale=0.38]{figs/MATLAB/LQR/PI_Sim/Pitch_Volt_LQR_Sim}
+%      }
+%      \subfigure[][]{
+%        \label{fig:Yaw_Volt_LQR_Sim}
+%        \includegraphics[scale=0.38]{figs/MATLAB/LQR/PI_Sim/Yaw_Volt_LQR_Sim}    
+%      }  
+%      \caption{Optimal Control (PI Controller) Simulation \subref{fig:Pitch_Volt_LQR_Sim}~Pitch~Voltage and~\subref{fig:Yaw_Volt_LQR_Sim}~Yaw~Voltage w/ Step Input}
+%      \label{fig:LQR_PI_Sim_volt}
+%    \end{figure}
+%\end{frame}
+%
+%% LQG
+%\subsection{Optimal Noise Resistant Control Simulation}
+%\begin{frame}{Simulation}{Optimal Noise Resistant Control (PI Controller) Simulation}
+%    \begin{figure}
+%      \centering
+%      \subfigure[][]{
+%        \label{fig:Pitch_LQG_Sim}
+%        \includegraphics[scale=0.38]{figs/MATLAB/LQG/LQG_Sim/Pitch_LQG_Sim}
+%      }
+%      \subfigure[][]{
+%        \label{fig:Yaw_LQG_Sim}
+%        \includegraphics[scale=0.38]{figs/MATLAB/LQG/LQG_Sim/Yaw_LQG_Sim}    
+%      }  
+%      \caption{Optimal Noise Resistant Control (PI Controller) \subref{fig:Pitch_LQG_Sim}~Pitch~Position and~\subref{fig:Yaw_LQG_Sim}~Yaw~Position w/ Step Input}
+%      \label{fig:LQG_PI_Sim_pos}
+%    \end{figure}
+%\end{frame}
+%
+%\begin{frame}{Simulation}{Optimal Noise Resistant Control (PI Controller) Simulation}
+%    \begin{figure}
+%      \centering
+%      \subfigure[][]{
+%        \label{fig:Pitch_Volt_LQG_Sim}
+%        \includegraphics[scale=0.38]{figs/MATLAB/LQG/LQG_Sim/Pitch_Volt_LQG_Sim}
+%      }
+%      \subfigure[][]{
+%        \label{fig:Yaw_Volt_LQG_Sim}
+%        \includegraphics[scale=0.38]{figs/MATLAB/LQG/LQG_Sim/Yaw_Volt_LQG_Sim}    
+%      }  
+%      \caption{Optimal Noise Resistant Control Simulation (PI Controller) \subref{fig:Pitch_Volt_LQG_Sim}~Pitch~Voltage and~\subref{fig:Yaw_Volt_LQG_Sim}~Yaw~Voltage w/ Step Input}
+%      \label{fig:LQG_PI_Sim_volt}
+%    \end{figure}
+%\end{frame}
 
 %----------------------------------
 
 \section{Implementation}
 
 \subsection{USB}
+%LQR
+\begin{frame}{Implementation}{Optimal Control P and PI Controller USB}
+    \begin{figure}
+      \centering
+      \subfigure[][]{
+        \label{fig:Pitch_LQR_RMSE}
+        \includegraphics[scale=0.38]{figs/matlab/LQR_PIvLQR_P_USB/step/Pitch_LQR_RMSE}
+      }
+      \subfigure[][]{
+        \label{fig:Yaw_LQR_RMSE}
+        \includegraphics[scale=0.38]{figs/matlab/LQR_PIvLQR_P_USB/step/Yaw_LQR_RMSE}    
+      }  
+      \caption{USB Implementation comparison between Machine Learning and Optimal Control (P Controller) for \subref{fig:Pitch_LQR_RMSE}~Pitch and \subref{fig:Yaw_LQR_RMSE}~Yaw orientations w/ Step Input}
+      \label{fig:PvPI_USB}
+    \end{figure}
+\end{frame}
 %
+\begin{frame}{Implementation}{Optimal Control P and PI Controller USB}
+    \begin{figure}
+      \centering
+      \subfigure[][]{
+        \label{fig:PitchVoltage_LQR_RMSE}
+        \includegraphics[scale=0.38]{figs/matlab/LQR_PIvLQR_P_USB/step/PitchVoltage_LQR_RMSE}
+      }
+      \subfigure[][]{
+        \label{fig:YawVoltage_LQR_RMSE}
+        \includegraphics[scale=0.38]{figs/matlab/LQR_PIvLQR_P_USB/step/YawVoltage_LQR_RMSE}    
+      }  
+      \caption{USB Implementation comparison between Machine Learning and Optimal Control (P Controller) for \subref{fig:PitchVoltage_LQR_RMSE}~Pitch and \subref{fig:YawVoltage_LQR_RMSE}~Yaw orientations w/ Step Input}
+      \label{fig:PvPIVoltage_USB}
+    \end{figure}
+\end{frame}
+%
+%Machine vs LQR
 \begin{frame}{Implementation}{Machine Learning and Optimal Control (P Controller) USB}
     \begin{figure}
       \centering
