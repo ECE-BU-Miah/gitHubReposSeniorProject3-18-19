@@ -47,14 +47,15 @@
 \BOOKMARK [1][-]{section.A.2}{State-Space Model}{appendix.A}% 47
 \BOOKMARK [0][-]{appendix.B}{MATLAB Simulation Code}{}% 48
 \BOOKMARK [1][-]{section.B.1}{LQR \(P controller\)}{appendix.B}% 49
-\BOOKMARK [1][-]{section.B.2}{LQR \(PI controller\)}{appendix.B}% 50
-\BOOKMARK [1][-]{section.B.3}{LQG \(PI Controller\)}{appendix.B}% 51
-\BOOKMARK [0][-]{appendix.C}{USB MATLAB Code}{}% 52
-\BOOKMARK [0][-]{appendix.D}{Raspberry Pi MATLAB Code}{}% 53
-\BOOKMARK [1][-]{section.D.1}{}{appendix.D}% 54
-\BOOKMARK [1][-]{section.D.2}{Initialization Code}{appendix.D}% 55
-\BOOKMARK [0][-]{appendix.E}{Tutorials}{}% 56
-\BOOKMARK [1][-]{section.E.1}{USB Connection}{appendix.E}% 57
-\BOOKMARK [1][-]{section.E.2}{Raspberry Pi Implementation}{appendix.E}% 58
-\BOOKMARK [1][-]{section.E.3}{Android Application}{appendix.E}% 59
-\BOOKMARK [0][-]{section.E.3}{References}{}% 60
+\BOOKMARK [0][-]{appendix.C}{USB MATLAB Code}{}% 50
+\BOOKMARK [0][-]{appendix.D}{Raspberry Pi MATLAB Code}{}% 51
+\BOOKMARK [1][-]{section.D.1}{Initialization Code}{appendix.D}% 52
+\BOOKMARK [1][-]{section.D.2}{SPI Protocol}{appendix.D}% 53
+\BOOKMARK [0][-]{appendix.E}{ADP MATLAB Code}{}% 54
+\BOOKMARK [1][-]{section.E.1}{Initialization Code}{appendix.E}% 55
+\BOOKMARK [1][-]{section.E.2}{Update Weights}{appendix.E}% 56
+\BOOKMARK [0][-]{appendix.F}{Tutorials}{}% 57
+\BOOKMARK [1][-]{section.F.1}{USB Connection}{appendix.F}% 58
+\BOOKMARK [1][-]{section.F.2}{Raspberry Pi Implementation}{appendix.F}% 59
+\BOOKMARK [1][-]{section.F.3}{Android Application}{appendix.F}% 60
+\BOOKMARK [0][-]{section.F.3}{References}{}% 61
