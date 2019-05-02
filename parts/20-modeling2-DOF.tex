@@ -6,16 +6,16 @@ The 2-DOF helicopter, Quanser Aero [manufactured by Quanser Inc. (\href{https://
     \centering
     \includegraphics[width=.75\textwidth,keepaspectratio=true]{figs/img/quanserAero.png}
     \label{fig:quanserAero}
-    \caption{Quanser Aero}
+    \caption{The Quanser Aero 2-DOF used for experiments in the project.}
 \end{figure}
 The front rotor (horizontal to the ground) is configured to rotate about pitch axis and the tail rotor (parallel to vertical plane) is mounted to rotate about yaw axis. To measure the pitch $(\theta)$ and yaw $(\psi)$ angles, two position sensors (encoders) are mounted as shown in Fig.~\ref{fig:quanserAero}. For sake of simplicity in modeling 2-DOF helicopter, the  dynamic coupling of the Quanser Aero is omitted due to high-efficiency rotors mounted on it\footnote{See Quanser Aero user manual for details.}. The main (tail) rotor is attached to the horizontal (vertical) propeller, which is rotated by applying input voltages to corresponding DC motors. Let $v_p(v_y)$ denote the input voltage to pitch (yaw) DC motor and the state of the 2-DOF helicopter at time $t\ge 0$ is denoted by ${\bf x}^T(t) \equiv [\theta(t),\psi(t),\dot\theta(t),\dot\psi(t)],$ where $\dot\theta(\dot\psi)$ denote the rotational speed of the pitch (yaw). The free-body diagram of the 2-DOF helicopter is shown in Fig.~\ref{fig:helicopterModel}, 
 
 \begin{figure}[!htbp]
  \begin{center}
-  \includegraphics[scale=.75]{figs/img/helicoterModel.png}
+  \includegraphics[scale=.75]{figs/img/helicopterModel.png}
  \end{center}
-\caption{Helicopter Model}
-\label{fig:helicoterModel}
+\caption{Freebody diagram of the forces exerted on a 2-DOF helicopter.}
+\label{fig:helicopterModel}
 \end{figure}
 
 where $F_p(F_y)$ is force from the pitch (yaw) motor. If ${\bf u}^T(t)  \equiv [v_p(t),v_y(t)]$ denote the vector of the input voltages for DC motors at time $t\ge 0,$ then the state-space model of the 2-DOF helicopter (Quanser Aero) is described by~\cite{FaBiMi2018-c1}:

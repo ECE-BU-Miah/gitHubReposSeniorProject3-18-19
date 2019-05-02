@@ -64,6 +64,7 @@
 
 % Specify the document class, default style attributes, and page dimensions
 % For hyperlinked PDF, suitable for viewing on a computer, use this:
+\UseRawInputEncoding
 \documentclass[letterpaper,12pt,titlepage,oneside,final]{book}
  
 % For PDF, suitable for double-sided printing, change the PrintVersion variable below
@@ -152,7 +153,7 @@ Smart Control of 2-Degree of Freedom Helicopters
 \newcommand{\academicunit}{Caterpillar College of Engineering and Technology}
 %\newcommand{\faculty}{Faculty of Engineering}
 \newcommand{\nameOfUniversity}{Bradley University}
-\newcommand{\graduationyear}{2017}
+\newcommand{\graduationyear}{2019}
 %
 \input{private/00-frontpage}
 
@@ -204,12 +205,13 @@ Smart Control of 2-Degree of Freedom Helicopters
 % Include your "sub" source files here (must have extension .tex)
 \input{parts/10-introduction}
 \input{parts/20-modeling2-DOF.tex}
-\input{parts/30-labSetup.tex}
+%\input{parts/30-labSetup.tex}
 \input{parts/40-controlAlgorithms.tex}
 \input{parts/50-simulations.tex}
-\input{parts/60-QFLEX2USB.tex}
-\input{parts/70-raspberryPi.tex}
-\input{parts/80-mobileDevice.tex}
+\input{parts/60-implementation.tex}
+%\input{parts/60-QFLEX2USB.tex}
+%\input{parts/70-raspberryPi.tex}
+%\input{parts/80-mobileDevice.tex}
 \input{parts/90-conclusion.tex}
 
 % %----------------------------------------------------------------------
