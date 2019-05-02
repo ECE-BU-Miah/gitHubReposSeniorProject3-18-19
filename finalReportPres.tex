@@ -690,7 +690,33 @@ Due to the efficiency of the Quanser Aero, we can create a linearized system mod
       \label{fig:LQRvADP_USB}
     \end{figure}
 \end{frame}
-
+\begin{frame}{Implementation}{Optimal Control P and PI Controller USB}
+\begin{table}
+    \centering
+    \begin{tabular}{l|l|l}
+        \toprule
+        \textbf{} & \textbf{Pitch Step} & \textbf{Yaw Step}\\
+        \toprule
+        LQR P & 3.5025 & 5.8502\\
+        ADP P &  & \\
+        Improvement & \% & \% \\
+        \toprule
+        \textbf{} & \textbf{Pitch Square} & \textbf{Yaw Square}\\
+        \toprule
+        LQR P & 6.2819 & 20.4623\\
+        ADP P &  & \\
+        Improvement & \% & \% \\
+        \toprule
+        \textbf{} & \textbf{Pitch Sine} & \textbf{Yaw Sine}\\
+        \toprule
+        LQR P & 4.2469 & 2.8644\\
+        ADP P &  & \\
+        Improvement & \% & \% \\
+    \end{tabular}
+    \caption{Root Mean Squared Error}
+    \label{tab:RMSE}
+\end{table}
+\end{frame}
 \subsection{Android}
 %LQR
 \begin{frame}{Implementation}{Optimal Control (P Controller) via Android}

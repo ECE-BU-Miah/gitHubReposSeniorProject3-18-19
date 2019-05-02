@@ -99,56 +99,58 @@
 \headcommand {\beamer@framepages {34}{34}}
 \headcommand {\slideentry {5}{1}{5}{35/35}{USB}{0}}
 \headcommand {\beamer@framepages {35}{35}}
-\headcommand {\beamer@subsectionpages {31}{35}}
-\headcommand {\beamer@subsectionentry {0}{5}{2}{36}{Android}}
-\headcommand {\slideentry {5}{2}{1}{36/36}{Android}{0}}
+\headcommand {\slideentry {5}{1}{6}{36/36}{USB}{0}}
 \headcommand {\beamer@framepages {36}{36}}
-\headcommand {\slideentry {5}{2}{2}{37/37}{Android}{0}}
+\headcommand {\beamer@subsectionpages {31}{36}}
+\headcommand {\beamer@subsectionentry {0}{5}{2}{37}{Android}}
+\headcommand {\slideentry {5}{2}{1}{37/37}{Android}{0}}
 \headcommand {\beamer@framepages {37}{37}}
-\headcommand {\slideentry {5}{2}{3}{38/38}{Android}{0}}
+\headcommand {\slideentry {5}{2}{2}{38/38}{Android}{0}}
 \headcommand {\beamer@framepages {38}{38}}
-\headcommand {\slideentry {5}{2}{4}{39/39}{Android}{0}}
+\headcommand {\slideentry {5}{2}{3}{39/39}{Android}{0}}
 \headcommand {\beamer@framepages {39}{39}}
-\headcommand {\slideentry {5}{2}{5}{40/40}{Android}{0}}
+\headcommand {\slideentry {5}{2}{4}{40/40}{Android}{0}}
 \headcommand {\beamer@framepages {40}{40}}
-\headcommand {\beamer@subsectionpages {36}{40}}
-\headcommand {\beamer@subsectionentry {0}{5}{3}{41}{Demonstration}}
-\headcommand {\slideentry {5}{3}{1}{41/41}{Demonstration}{0}}
+\headcommand {\slideentry {5}{2}{5}{41/41}{Android}{0}}
 \headcommand {\beamer@framepages {41}{41}}
-\headcommand {\slideentry {5}{3}{2}{42/42}{Demonstration}{0}}
+\headcommand {\beamer@subsectionpages {37}{41}}
+\headcommand {\beamer@subsectionentry {0}{5}{3}{42}{Demonstration}}
+\headcommand {\slideentry {5}{3}{1}{42/42}{Demonstration}{0}}
 \headcommand {\beamer@framepages {42}{42}}
-\headcommand {\beamer@sectionpages {31}{42}}
-\headcommand {\beamer@subsectionpages {41}{42}}
-\headcommand {\sectionentry {6}{Future Directions}{43}{Future Directions}{0}}
-\headcommand {\slideentry {6}{0}{1}{43/43}{}{0}}
+\headcommand {\slideentry {5}{3}{2}{43/43}{Demonstration}{0}}
 \headcommand {\beamer@framepages {43}{43}}
-\headcommand {\beamer@sectionpages {43}{43}}
-\headcommand {\beamer@subsectionpages {43}{43}}
-\headcommand {\sectionentry {7}{Summary}{44}{Summary}{0}}
-\headcommand {\slideentry {7}{0}{1}{44/44}{}{0}}
+\headcommand {\beamer@sectionpages {31}{43}}
+\headcommand {\beamer@subsectionpages {42}{43}}
+\headcommand {\sectionentry {6}{Future Directions}{44}{Future Directions}{0}}
+\headcommand {\slideentry {6}{0}{1}{44/44}{}{0}}
 \headcommand {\beamer@framepages {44}{44}}
 \headcommand {\beamer@sectionpages {44}{44}}
 \headcommand {\beamer@subsectionpages {44}{44}}
-\headcommand {\sectionentry {8}{Acknowledgement}{45}{Acknowledgement}{0}}
-\headcommand {\slideentry {8}{0}{1}{45/45}{}{0}}
+\headcommand {\sectionentry {7}{Summary}{45}{Summary}{0}}
+\headcommand {\slideentry {7}{0}{1}{45/45}{}{0}}
 \headcommand {\beamer@framepages {45}{45}}
-\headcommand {\gdef \insertmainframenumber {45}}
-\headcommand {\partentry {\translate {Appendix}}{1}}
-\headcommand {\beamer@partpages {1}{45}}
 \headcommand {\beamer@sectionpages {45}{45}}
 \headcommand {\beamer@subsectionpages {45}{45}}
-\headcommand {\beamer@appendixpages {46}}
-\headcommand {\beamer@sectionpages {46}{45}}
-\headcommand {\beamer@subsectionpages {46}{45}}
-\headcommand {\sectionentry {9}{\translate {Appendix}}{46}{\translate {Appendix}}{1}}
-\headcommand {\beamer@subsectionpages {46}{45}}
-\headcommand {\beamer@subsectionentry {1}{9}{1}{46}{For Further Reading}}
-\headcommand {\slideentry {9}{1}{1}{46/46}{For Further Reading}{1}}
+\headcommand {\sectionentry {8}{Acknowledgement}{46}{Acknowledgement}{0}}
+\headcommand {\slideentry {8}{0}{1}{46/46}{}{0}}
 \headcommand {\beamer@framepages {46}{46}}
-\headcommand {\slideentry {9}{1}{1}{46/47}{For Further Reading}{1}}
-\headcommand {\beamer@framepages {46}{47}}
-\headcommand {\beamer@partpages {46}{47}}
-\headcommand {\beamer@subsectionpages {46}{47}}
-\headcommand {\beamer@sectionpages {46}{47}}
-\headcommand {\beamer@documentpages {47}}
-\headcommand {\gdef \inserttotalframenumber {47}}
+\headcommand {\gdef \insertmainframenumber {46}}
+\headcommand {\partentry {\translate {Appendix}}{1}}
+\headcommand {\beamer@partpages {1}{46}}
+\headcommand {\beamer@sectionpages {46}{46}}
+\headcommand {\beamer@subsectionpages {46}{46}}
+\headcommand {\beamer@appendixpages {47}}
+\headcommand {\beamer@sectionpages {47}{46}}
+\headcommand {\beamer@subsectionpages {47}{46}}
+\headcommand {\sectionentry {9}{\translate {Appendix}}{47}{\translate {Appendix}}{1}}
+\headcommand {\beamer@subsectionpages {47}{46}}
+\headcommand {\beamer@subsectionentry {1}{9}{1}{47}{For Further Reading}}
+\headcommand {\slideentry {9}{1}{1}{47/47}{For Further Reading}{1}}
+\headcommand {\beamer@framepages {47}{47}}
+\headcommand {\slideentry {9}{1}{1}{47/48}{For Further Reading}{1}}
+\headcommand {\beamer@framepages {47}{48}}
+\headcommand {\beamer@partpages {47}{48}}
+\headcommand {\beamer@subsectionpages {47}{48}}
+\headcommand {\beamer@sectionpages {47}{48}}
+\headcommand {\beamer@documentpages {48}}
+\headcommand {\gdef \inserttotalframenumber {48}}
