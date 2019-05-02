@@ -1,0 +1,25 @@
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {2.1}{\ignorespaces The Quanser Aero 2-DOF used for experiments in the project.}}{4}{figure.2.1}
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Freebody diagram of the forces exerted on a 2-DOF helicopter.}}{5}{figure.2.2}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Input nodes are connected to the hidden layer and then to the output layer.}}{7}{figure.3.1}
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Data is collected for every $\tau $ seconds and then the weights are adjusted every $T$ seconds.}}{7}{figure.3.2}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Simulations for proportional gain calculated by LQR.}}{10}{figure.4.1}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Block diagram of SPI communication protocol used for communication between the Raspberry Pi and Quanser Aero.}}{11}{figure.5.1}
+\contentsline {figure}{\numberline {5.2}{\ignorespaces Illustration of the TCP model which describes how packets are sent and recieved from mobile devices to the Quanser Aero.}}{12}{figure.5.2}
+\contentsline {figure}{\numberline {5.3}{\ignorespaces Experiment setup for controlling the Quanser Aeros via a mobile device.}}{12}{figure.5.3}
+\contentsline {figure}{\numberline {5.4}{\ignorespaces LQR Android Results}}{15}{figure.5.4}
+\contentsline {figure}{\numberline {5.5}{\ignorespaces ADP Android Results}}{16}{figure.5.5}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {6.1}{\ignorespaces Smart Algorithm Server Connectivity}}{17}{figure.6.1}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {A.1}{\ignorespaces Quanser Aero System Parameters}}{19}{figure.A.1}
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {E.1}{\ignorespaces Quanser Aero with QFLEX 2 USB panel installed}}{27}{figure.E.1}
+\contentsline {figure}{\numberline {E.2}{\ignorespaces Quanser Aero with QFLEX 2 Embedded panel installed}}{29}{figure.E.2}
