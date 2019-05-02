@@ -18,12 +18,9 @@ ERROR with gantt chart
 ## 05. Poster 
 DONE
 ## 06. Final report
-Need to check sources<br />
-Need edit structure<br />
 Need to add content
 ## 07. Final presentation 
-Glenn, please create the new figure for the ADP section<br />
-and find the correct figure for LQR P VS. LQR PI w/ step input
+DONE
 
 
 
