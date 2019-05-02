@@ -57,4 +57,4 @@
 \contentsline {section}{\numberline {E.1}USB Connection}{27}{section.E.1}
 \contentsline {section}{\numberline {E.2}Raspberry Pi Implementation}{28}{section.E.2}
 \contentsline {section}{\numberline {E.3}Android Application}{29}{section.E.3}
-\contentsline {chapter}{\textbf {References}}{29}{section.E.3}
+\contentsline {chapter}{\textbf {References}}{30}{Item.62}
