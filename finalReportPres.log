@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/W32TeX) (preloaded format=pdflatex 2018.9.26)  2 MAY 2019 11:12
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/W32TeX) (preloaded format=pdflatex 2018.9.26)  2 MAY 2019 12:44
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1641,13 +1641,26 @@ df)
 Package pdftex.def Info: figs/matlab/LQR_PIvLQR_P_USB/step/Pitch_LQR_RMSE.pdf  
 used on input line 617.
 (pdftex.def)             Requested size: 160.20015pt x 120.15012pt.
-<figs/matlab/LQR_PIvLQR_P_USB/step/Yaw_LQR_RMSE.pdf, id=1434, 421.575pt x 316.1
-8124pt>
-File: figs/matlab/LQR_PIvLQR_P_USB/step/Yaw_LQR_RMSE.pdf Graphic file (type pdf
-)
-<use figs/matlab/LQR_PIvLQR_P_USB/step/Yaw_LQR_RMSE.pdf>
-Package pdftex.def Info: figs/matlab/LQR_PIvLQR_P_USB/step/Yaw_LQR_RMSE.pdf  us
-ed on input line 617.
+Package epstopdf Info: Source file: <figs/matlab/LQR_PIvLQR_P_USB/step/Yaw_LQR_
+RMSE.eps>
+(epstopdf)                    date: 2019-05-02 12:42:16
+(epstopdf)                    size: 651933 bytes
+(epstopdf)             Output file: <figs/matlab/LQR_PIvLQR_P_USB/step/Yaw_LQR_
+RMSE-eps-converted-to.pdf>
+(epstopdf)                    date: 2019-05-02 12:42:27
+(epstopdf)                    size: 91554 bytes
+(epstopdf)             Command: <repstopdf --outfile=figs/matlab/LQR_PIvLQR_P_U
+SB/step/Yaw_LQR_RMSE-eps-converted-to.pdf figs/matlab/LQR_PIvLQR_P_USB/step/Yaw
+_LQR_RMSE.eps>
+(epstopdf)             \includegraphics on input line 617.
+Package epstopdf Info: Output file is already uptodate.
+<figs/matlab/LQR_PIvLQR_P_USB/step/Yaw_LQR_RMSE-eps-converted-to.pdf, id=1434, 
+421.575pt x 316.18124pt>
+File: figs/matlab/LQR_PIvLQR_P_USB/step/Yaw_LQR_RMSE-eps-converted-to.pdf Graph
+ic file (type pdf)
+<use figs/matlab/LQR_PIvLQR_P_USB/step/Yaw_LQR_RMSE-eps-converted-to.pdf>
+Package pdftex.def Info: figs/matlab/LQR_PIvLQR_P_USB/step/Yaw_LQR_RMSE-eps-con
+verted-to.pdf  used on input line 617.
 (pdftex.def)             Requested size: 160.20015pt x 120.15012pt.
 File: figs/logoBU1-Print.pdf Graphic file (type pdf)
 <use figs/logoBU1-Print.pdf>
@@ -1656,7 +1669,7 @@ Package pdftex.def Info: figs/logoBU1-Print.pdf  used on input line 617.
  [32
 
  <./figs/matlab/LQR_PIvLQR_P_USB/step/Pitch_LQR_RMSE.pdf> <./figs/matlab/LQR_PI
-vLQR_P_USB/step/Yaw_LQR_RMSE.pdf>]
+vLQR_P_USB/step/Yaw_LQR_RMSE-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <figs/matlab/LQR_PIvLQR_P_USB/step/PitchVol
 tage_LQR_RMSE.eps>
 (epstopdf)                    date: 2019-04-25 15:35:37
@@ -1964,7 +1977,7 @@ LaTeX Warning: There were multiply-defined labels.
  ) 
 Here is how much of TeX's memory you used:
  33424 strings out of 492641
- 679248 string characters out of 6133131
+ 679316 string characters out of 6133131
  734995 words of memory out of 5000000
  36487 multiletter control sequences out of 15000+600000
  544881 words of font info for 68 fonts, out of 8000000 for 9000
@@ -2043,7 +2056,7 @@ texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi10.pfb><c:/texlive/
 f-dist/fonts/type1/public/amsfonts/cm/cmssi9.pfb><c:/texlive/2018/texmf-dist/fo
 nts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2018/texmf-dist/fonts/type1
 /public/amsfonts/cm/cmsy8.pfb>
-Output written on finalReportPres.pdf (48 pages, 3135574 bytes).
+Output written on finalReportPres.pdf (48 pages, 3056440 bytes).
 PDF statistics:
  2238 PDF objects out of 2487 (max. 8388607)
  2012 compressed objects within 21 object streams
