@@ -7,19 +7,25 @@
 \contentsline {figure}{\numberline {3.2}{\ignorespaces Data is collected for every $\tau $ seconds and then the weights are adjusted every $T$ seconds.}}{7}{figure.3.2}
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {4.1}{\ignorespaces Simulations for proportional gain calculated by LQR.}}{10}{figure.4.1}
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Simulations for proportional and integral gain calculated by LQR.}}{11}{figure.4.2}
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Simulations for proportional and integral gain calculated by LQG.}}{12}{figure.4.3}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {5.1}{\ignorespaces Block diagram of SPI communication protocol used for communication between the Raspberry Pi and Quanser Aero.}}{11}{figure.5.1}
-\contentsline {figure}{\numberline {5.2}{\ignorespaces Illustration of the TCP model which describes how packets are sent and recieved from mobile devices to the Quanser Aero.}}{12}{figure.5.2}
-\contentsline {figure}{\numberline {5.3}{\ignorespaces Experiment setup for controlling the Quanser Aeros via a mobile device.}}{12}{figure.5.3}
-\contentsline {figure}{\numberline {5.4}{\ignorespaces LQR Android Results}}{15}{figure.5.4}
-\contentsline {figure}{\numberline {5.5}{\ignorespaces ADP Android Results}}{16}{figure.5.5}
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Block diagram of SPI communication protocol used for communication between the Raspberry Pi and Quanser Aero.}}{13}{figure.5.1}
+\contentsline {figure}{\numberline {5.2}{\ignorespaces Illustration of the TCP model which describes how packets are sent and recieved from mobile devices to the Quanser Aero.}}{14}{figure.5.2}
+\contentsline {figure}{\numberline {5.3}{\ignorespaces Experiment setup for controlling the Quanser Aeros via a mobile device.}}{14}{figure.5.3}
+\contentsline {figure}{\numberline {5.4}{\ignorespaces USB implementation for proportional controller and proportional-integral controller calculated by LQR with a step input.}}{15}{figure.5.4}
+\contentsline {figure}{\numberline {5.5}{\ignorespaces USB implementation for proportional controller and proportional-integral controller calculated by LQR with a square wave input.}}{16}{figure.5.5}
+\contentsline {figure}{\numberline {5.6}{\ignorespaces USB implementation for proportional controller and proportional-integral controller calculated by LQR with a sinusoidal input.}}{17}{figure.5.6}
+\contentsline {figure}{\numberline {5.7}{\ignorespaces LQR Android Results}}{20}{figure.5.7}
+\contentsline {figure}{\numberline {5.8}{\ignorespaces ADP Android Results}}{21}{figure.5.8}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {6.1}{\ignorespaces Smart Algorithm Server Connectivity}}{17}{figure.6.1}
+\contentsline {figure}{\numberline {6.1}{\ignorespaces Smart Algorithm Server Connectivity}}{22}{figure.6.1}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {A.1}{\ignorespaces Quanser Aero System Parameters}}{19}{figure.A.1}
-\addvspace {10\p@ }
-\addvspace {10\p@ }
+\contentsline {figure}{\numberline {A.1}{\ignorespaces Quanser Aero System Parameters}}{24}{figure.A.1}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {E.1}{\ignorespaces Quanser Aero with QFLEX 2 USB panel installed}}{27}{figure.E.1}
-\contentsline {figure}{\numberline {E.2}{\ignorespaces Quanser Aero with QFLEX 2 Embedded panel installed}}{29}{figure.E.2}
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {F.1}{\ignorespaces Quanser Aero with QFLEX 2 USB panel installed}}{59}{figure.F.1}
+\contentsline {figure}{\numberline {F.2}{\ignorespaces Quanser Aero with QFLEX 2 Embedded panel installed}}{61}{figure.F.2}

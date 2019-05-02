@@ -18,27 +18,22 @@ R_Mat_ADP = 0.005*diag([1 1]);
 
 [n,~] = size(B);
 
-nbar = T/tau;     % Why is this 100, we would think this would be
-                % T/tau = 20 
+nbar = T/tau;     % T/tau = 20 
                
-e_vec = (2*(pi)).*rand(n,nbar) - (pi); % does this initialize 
-                                       % the weights?
+e_vec = (2*(pi)).*rand(n,nbar) - (pi); 
 
-% What are fbar and gbar
 fbar = @(e) A*e;
 gbar = -B;
 
 f = @(e) fbar(e)*tau + e;
 g = gbar*tau;
 
-% ???
 Qbar = @(e) e'*Q_Mat_ADP*e; 
 Rbar = R_Mat_ADP;
 
 Q = @(e) Qbar(e)*tau;
 R = Rbar*tau;
 
-% Is this the P matrix
 
 rho = @(e) [e(1); e(2); e(3); e(4);...
             e(1)^2; e(1)*e(2); e(1)*e(3); e(1)*e(4);...
@@ -68,11 +63,8 @@ outerLoopMax = 700;
 % Number of inner loop iterations
 innerLoopMax = 100;
 
-% So does this mean that T is iterated 700 times and 
-% and inner loop is iterated 700/100 = 7 times per loop?
-
 % Number of training samples
-[~,nbar] = size(e_vec); % resizing nbar?
+[~,nbar] = size(e_vec); 
 
 % WEIGHT INITIALIZATION
 % Initialize the weights of the critic neural network to zero

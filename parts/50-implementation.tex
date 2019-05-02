@@ -1,9 +1,10 @@
 %======================================================================
 \chapter{Implementation}
+\label{ch: Chapter5}
 %======================================================================
 
+%======================================================================
 \section{Experimental Setup}
-
 %----------------------------------------------------------------------
 \subsection{USB}
 %----------------------------------------------------------------------
@@ -38,13 +39,98 @@ The communication protocol utilized by the Q-Flex2 embedded panel is SPI.
     \caption{Experiment setup for controlling the Quanser Aeros via a mobile device.}
 \end{figure}
 
-
+%======================================================================
 \section{USB}
-
 %----------------------------------------------------------------------
 \subsection{LQR}
 %----------------------------------------------------------------------
 
+\begin{figure}[!htbp]
+    \centering
+    \subfigure[][]{
+    \includegraphics[width=.46\textwidth,keepaspectratio=true]{figs/matlab/LQR_PIvLQR_P_USB/step/Pitch_LQR_RMSE.eps}
+    \label{fig:Pitch_LQR_RMSE_Step}
+    }
+    \subfigure[][]{
+    \includegraphics[width=.46\textwidth,keepaspectratio=true]{figs/matlab/LQR_PIvLQR_P_USB/step/Yaw_LQR_RMSE.eps}
+    \label{fig:Yaw_LQR_RMSE_Step}
+    }    
+    \subfigure[][]{
+    \includegraphics[width=.46\textwidth,keepaspectratio=true]{figs/matlab/LQR_PIvLQR_P_USB/step/PitchVoltage_LQR_RMSE.eps}
+    \label{fig:PitchVoltage_LQR_RMSE_Step}
+    }    
+    \subfigure[][]{
+    \includegraphics[width=.46\textwidth,keepaspectratio=true]{figs/matlab/LQR_PIvLQR_P_USB/step/YawVoltage_LQR_RMSE.eps}
+    \label{fig:YawVoltage_LQR_RMSE_Step}
+    }
+    \subfigure[][]{
+    \includegraphics[width=.46\textwidth,keepaspectratio=true]{figs/matlab/LQR_PIvLQR_P_USB/step/PitchSpeed_LQR_RMSE.eps}
+    \label{fig:PitchSpeed_LQR_RMSE_Step}
+    }
+    \subfigure[][]{
+    \includegraphics[width=.46\textwidth,keepaspectratio=true]{figs/matlab/LQR_PIvLQR_P_USB/step/YawSpeed_LQR_RMSE.eps}
+    \label{fig:PitchSpeed_LQR_RMSE_Step}
+    }
+    \caption{USB implementation for proportional controller and proportional-integral controller calculated by LQR with a step input.}
+\end{figure}
+
+\begin{figure}[!htbp]
+    \centering
+    \subfigure[][]{
+    \includegraphics[width=.46\textwidth,keepaspectratio=true]{figs/matlab/LQR_PIvLQR_P_USB/square/Pitch_LQR_RMSE.eps}
+    \label{fig:Pitch_LQR_RMSE_Square}
+    }
+    \subfigure[][]{
+    \includegraphics[width=.46\textwidth,keepaspectratio=true]{figs/matlab/LQR_PIvLQR_P_USB/square/Yaw_LQR_RMSE.eps}
+    \label{fig:Yaw_LQR_RMSE_Square}
+    }    
+    \subfigure[][]{
+    \includegraphics[width=.46\textwidth,keepaspectratio=true]{figs/matlab/LQR_PIvLQR_P_USB/square/PitchVoltage_LQR_RMSE.eps}
+    \label{fig:PitchVoltage_LQR_RMSE_Square}
+    }    
+    \subfigure[][]{
+    \includegraphics[width=.46\textwidth,keepaspectratio=true]{figs/matlab/LQR_PIvLQR_P_USB/square/YawVoltage_LQR_RMSE.eps}
+    \label{fig:YawVoltage_LQR_RMSE_Square}
+    }
+    \subfigure[][]{
+    \includegraphics[width=.46\textwidth,keepaspectratio=true]{figs/matlab/LQR_PIvLQR_P_USB/square/PitchSpeed_LQR_RMSE.eps}
+    \label{fig:PitchSpeed_LQR_RMSE_Square}
+    }
+    \subfigure[][]{
+    \includegraphics[width=.46\textwidth,keepaspectratio=true]{figs/matlab/LQR_PIvLQR_P_USB/square/YawSpeed_LQR_RMSE.eps}
+    \label{fig:PitchSpeed_LQR_RMSE_Square}
+    }
+    \caption{USB implementation for proportional controller and proportional-integral controller calculated by LQR with a square wave input.}
+\end{figure}
+
+\begin{figure}[!htbp]
+    \centering
+    \subfigure[][]{
+    \includegraphics[width=.46\textwidth,keepaspectratio=true]{figs/matlab/LQR_PIvLQR_P_USB/sine/Pitch_LQR_RMSE.eps}
+    \label{fig:Pitch_LQR_RMSE_Sine}
+    }
+    \subfigure[][]{
+    \includegraphics[width=.46\textwidth,keepaspectratio=true]{figs/matlab/LQR_PIvLQR_P_USB/sine/Yaw_LQR_RMSE.eps}
+    \label{fig:Yaw_LQR_RMSE_Sine}
+    }    
+    \subfigure[][]{
+    \includegraphics[width=.46\textwidth,keepaspectratio=true]{figs/matlab/LQR_PIvLQR_P_USB/sine/PitchVoltage_LQR_RMSE.eps}
+    \label{fig:PitchVoltage_LQR_RMSE_Sine}
+    }    
+    \subfigure[][]{
+    \includegraphics[width=.46\textwidth,keepaspectratio=true]{figs/matlab/LQR_PIvLQR_P_USB/sine/YawVoltage_LQR_RMSE.eps}
+    \label{fig:YawVoltage_LQR_RMSE_Sine}
+    }
+    \subfigure[][]{
+    \includegraphics[width=.46\textwidth,keepaspectratio=true]{figs/matlab/LQR_PIvLQR_P_USB/sine/PitchSpeed_LQR_RMSE.eps}
+    \label{fig:PitchSpeed_LQR_RMSE_Sine}
+    }
+    \subfigure[][]{
+    \includegraphics[width=.46\textwidth,keepaspectratio=true]{figs/matlab/LQR_PIvLQR_P_USB/sine/YawSpeed_LQR_RMSE.eps}
+    \label{fig:PitchSpeed_LQR_RMSE_Sine}
+    }
+    \caption{USB implementation for proportional controller and proportional-integral controller calculated by LQR with a sinusoidal input.}
+\end{figure}
 %----------------------------------------------------------------------
 \subsection{LQG (PI Controller)}
 %----------------------------------------------------------------------
@@ -52,6 +138,8 @@ The communication protocol utilized by the Q-Flex2 embedded panel is SPI.
 %----------------------------------------------------------------------
 \subsection{ADP}
 %----------------------------------------------------------------------
+
+
 
 %----------------------------------------------------------------------
 \subsection{Conclusions}
@@ -80,6 +168,7 @@ Note: sine used pitch XXXX degrees with period of XXXX, yaw XXXX degrees with pe
 Based on the results XXXX preformed better for USB.
 %----------------------------------------------------------------------
 
+%======================================================================
 \section{Raspberry Pi}
 
 %----------------------------------------------------------------------
@@ -116,6 +205,7 @@ Note: sine used pitch XXXX degrees with period of XXXX, yaw XXXX degrees with pe
 Based on the results XXXX preformed better for Raspberry Pi.
 %----------------------------------------------------------------------
 
+%======================================================================
 \section{Mobile Device}
 
 %----------------------------------------------------------------------
