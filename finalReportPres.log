@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/W32TeX) (preloaded format=pdflatex 2018.9.26)  2 MAY 2019 10:30
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/W32TeX) (preloaded format=pdflatex 2018.9.26)  2 MAY 2019 11:12
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1415,11 +1415,11 @@ Package pdftex.def Info: figs/ipe/ADP_Neural_Network.pdf  used on input line 39
 1.
 (pdftex.def)             Requested size: 171.14764pt x 185.38069pt.
 Package epstopdf Info: Source file: <figs/ipe/ADP_Samples.eps>
-(epstopdf)                    date: 2019-05-01 11:20:48
-(epstopdf)                    size: 57747 bytes
+(epstopdf)                    date: 2019-05-02 10:34:35
+(epstopdf)                    size: 58684 bytes
 (epstopdf)             Output file: <figs/ipe/ADP_Samples-eps-converted-to.pdf>
 
-(epstopdf)                    date: 2019-05-01 11:22:05
+(epstopdf)                    date: 2019-05-02 10:34:35
 (epstopdf)                    size: 8893 bytes
 (epstopdf)             Command: <repstopdf --outfile=figs/ipe/ADP_Samples-eps-c
 onverted-to.pdf figs/ipe/ADP_Samples.eps>
@@ -1444,10 +1444,10 @@ Package pdftex.def Info: figs/logoBU1-Print.pdf  used on input line 391.
  <./figs/ipe/ADP_Neural_Network.pdf> <./figs/ipe/ADP_Samples-eps-converted-to.p
 df>]
 Package epstopdf Info: Source file: <figs/ipe/P_Control.eps>
-(epstopdf)                    date: 2019-05-01 11:41:11
-(epstopdf)                    size: 49874 bytes
+(epstopdf)                    date: 2019-05-02 10:34:35
+(epstopdf)                    size: 50679 bytes
 (epstopdf)             Output file: <figs/ipe/P_Control-eps-converted-to.pdf>
-(epstopdf)                    date: 2019-05-01 11:41:48
+(epstopdf)                    date: 2019-05-02 10:34:35
 (epstopdf)                    size: 6977 bytes
 (epstopdf)             Command: <repstopdf --outfile=figs/ipe/P_Control-eps-con
 verted-to.pdf figs/ipe/P_Control.eps>
@@ -1467,10 +1467,10 @@ Package pdftex.def Info: figs/logoBU1-Print.pdf  used on input line 400.
 
  <./figs/ipe/P_Control-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <figs/ipe/PI_Control.eps>
-(epstopdf)                    date: 2019-05-01 11:37:11
-(epstopdf)                    size: 80023 bytes
+(epstopdf)                    date: 2019-05-02 10:34:35
+(epstopdf)                    size: 81277 bytes
 (epstopdf)             Output file: <figs/ipe/PI_Control-eps-converted-to.pdf>
-(epstopdf)                    date: 2019-05-01 11:38:35
+(epstopdf)                    date: 2019-05-02 10:34:35
 (epstopdf)                    size: 9379 bytes
 (epstopdf)             Command: <repstopdf --outfile=figs/ipe/PI_Control-eps-co
 nverted-to.pdf figs/ipe/PI_Control.eps>
@@ -1659,11 +1659,11 @@ Package pdftex.def Info: figs/logoBU1-Print.pdf  used on input line 617.
 vLQR_P_USB/step/Yaw_LQR_RMSE.pdf>]
 Package epstopdf Info: Source file: <figs/matlab/LQR_PIvLQR_P_USB/step/PitchVol
 tage_LQR_RMSE.eps>
-(epstopdf)                    date: 2019-04-29 13:14:27
+(epstopdf)                    date: 2019-04-25 15:35:37
 (epstopdf)                    size: 605813 bytes
 (epstopdf)             Output file: <figs/matlab/LQR_PIvLQR_P_USB/step/PitchVol
 tage_LQR_RMSE-eps-converted-to.pdf>
-(epstopdf)                    date: 2019-04-30 13:00:52
+(epstopdf)                    date: 2019-05-02 10:34:35
 (epstopdf)                    size: 172543 bytes
 (epstopdf)             Command: <repstopdf --outfile=figs/matlab/LQR_PIvLQR_P_U
 SB/step/PitchVoltage_LQR_RMSE-eps-converted-to.pdf figs/matlab/LQR_PIvLQR_P_USB
@@ -1681,11 +1681,11 @@ E-eps-converted-to.pdf  used on input line 633.
 (pdftex.def)             Requested size: 138.45871pt x 115.57297pt.
 Package epstopdf Info: Source file: <figs/matlab/LQR_PIvLQR_P_USB/step/YawVolta
 ge_LQR_RMSE.eps>
-(epstopdf)                    date: 2019-04-29 13:14:27
+(epstopdf)                    date: 2019-04-25 15:35:37
 (epstopdf)                    size: 607435 bytes
 (epstopdf)             Output file: <figs/matlab/LQR_PIvLQR_P_USB/step/YawVolta
 ge_LQR_RMSE-eps-converted-to.pdf>
-(epstopdf)                    date: 2019-04-30 13:00:53
+(epstopdf)                    date: 2019-05-02 10:34:35
 (epstopdf)                    size: 170455 bytes
 (epstopdf)             Command: <repstopdf --outfile=figs/matlab/LQR_PIvLQR_P_U
 SB/step/YawVoltage_LQR_RMSE-eps-converted-to.pdf figs/matlab/LQR_PIvLQR_P_USB/s
@@ -2043,7 +2043,7 @@ texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi10.pfb><c:/texlive/
 f-dist/fonts/type1/public/amsfonts/cm/cmssi9.pfb><c:/texlive/2018/texmf-dist/fo
 nts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2018/texmf-dist/fonts/type1
 /public/amsfonts/cm/cmsy8.pfb>
-Output written on finalReportPres.pdf (48 pages, 3135502 bytes).
+Output written on finalReportPres.pdf (48 pages, 3135574 bytes).
 PDF statistics:
  2238 PDF objects out of 2487 (max. 8388607)
  2012 compressed objects within 21 object streams
