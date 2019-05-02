@@ -11,6 +11,6 @@
 \beamer@subsectionintoc {4}{2}{Optimal and Noise Resistant Control Simulation}{28}{0}{4}
 \beamer@sectionintoc {5}{Implementation}{31}{0}{5}
 \beamer@subsectionintoc {5}{1}{USB}{31}{0}{5}
-\beamer@subsectionintoc {5}{2}{Android}{36}{0}{5}
-\beamer@subsectionintoc {5}{3}{Demonstration}{41}{0}{5}
-\beamer@sectionintoc {6}{Future Directions}{43}{0}{6}
+\beamer@subsectionintoc {5}{2}{Android}{37}{0}{5}
+\beamer@subsectionintoc {5}{3}{Demonstration}{42}{0}{5}
+\beamer@sectionintoc {6}{Future Directions}{44}{0}{6}
