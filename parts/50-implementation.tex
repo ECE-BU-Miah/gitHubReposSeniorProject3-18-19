@@ -2,7 +2,7 @@
 \chapter{Implementation}
 \label{ch: Chapter5}
 %======================================================================
-
+This chapter discusses the implementaion method setups and results for the three control algorithms.  The implementation methods are USB, raspberry pi, and mobile device.
 %======================================================================
 \section{Experimental Setup}
 %----------------------------------------------------------------------
@@ -31,6 +31,8 @@ The communication protocol utilized by the Q-Flex2 embedded panel is SPI.
     \label{fig:TCPModel}
     \caption{Illustration of the TCP model which describes how packets are sent and recieved from mobile devices to the Quanser Aero.}
 \end{figure}
+
+\todo[inline]{Insert block diagram fro mobile app here.}
 
 \begin{figure}[!htbp]
     \centering
@@ -158,6 +160,13 @@ The communication protocol utilized by the Q-Flex2 embedded panel is SPI.
     \label{fig:ADP_P_USB_Block_Diagram}
     \caption{Block Diagram for ADP P type controller with a USB connection.}
 \end{figure}
+\begin{figure}[!htbp]
+    \centering
+    \includegraphics[width=.8\textwidth,keepaspectratio=true]{figs/img/ADP_Black_Box}
+    \label{fig:ADP_P_BlackBox}
+    \caption{Block Diagram for ADP P type controller algorithm.}
+\end{figure}
+Figure~\ref{fig:ADP_P_BlackBox} is the same for USB, raspberry pi, and the mobile device.
 %\todo[inline]{Insert ADP P Results}
 \begin{figure}[!htbp]
     \centering
