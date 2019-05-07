@@ -50,13 +50,13 @@ The communication protocol utilized by the Q-Flex2 embedded panel is SPI.
     \label{fig:LQR_P_USB_Block_Diagram}
     \caption{Block Diagram for LQR P type controller with a USB connection.}
 \end{figure}
-\todo[inline]{Insert LQR PI Block Diagram}
-%\begin{figure}[!htbp]
-%    \centering
-%    \includegraphics[width=.8\textwidth,keepaspectratio=true]{figs/img/LQR_PI_USB}
-%    \label{fig:LQR_PI_USB_Block_Diagram}
-%    \caption{Block Diagram for LQR PI type controller with a USB connection.}
-%\end{figure}
+%\todo[inline]{Insert LQR PI Block Diagram}
+\begin{figure}[!htbp]
+    \centering
+    \includegraphics[width=.8\textwidth,keepaspectratio=true]{figs/img/LQR_PI_USB}
+    \label{fig:LQR_PI_USB_Block_Diagram}
+    \caption{Block Diagram for LQR PI type controller with a USB connection.}
+\end{figure}
 \begin{figure}[!htbp]
     \centering
     \subfigure[][]{
@@ -143,42 +143,137 @@ The communication protocol utilized by the Q-Flex2 embedded panel is SPI.
     }
     \caption{USB implementation for proportional controller and proportional-integral controller calculated by LQR with a sinusoidal input.}
 \end{figure}
-%----------------------------------------------------------------------
-\subsection{LQG (PI Controller)}
-%----------------------------------------------------------------------
-\todo[inline]{Insert LQG PI Block Diagram}
-\todo[inline]{Insert LQG PI Results}
-%----------------------------------------------------------------------
+%%----------------------------------------------------------------------
+%\subsection{LQG (PI Controller)}
+%%----------------------------------------------------------------------
+%\todo[inline]{Insert LQG PI Block Diagram}
+%\todo[inline]{Insert LQG PI Results}
+%%----------------------------------------------------------------------
 \subsection{ADP}
 %----------------------------------------------------------------------
-\todo[inline]{Insert ADP P Block Diagram}
-\todo[inline]{Insert ADP P Results}
+%\todo[inline]{Insert ADP P Block Diagram}
+\begin{figure}[!htbp]
+    \centering
+    \includegraphics[width=.8\textwidth,keepaspectratio=true]{figs/img/ADP_USB}
+    \label{fig:ADP_P_USB_Block_Diagram}
+    \caption{Block Diagram for ADP P type controller with a USB connection.}
+\end{figure}
+%\todo[inline]{Insert ADP P Results}
+\begin{figure}[!htbp]
+    \centering
+    \subfigure[][]{
+    \includegraphics[width=.46\textwidth,keepaspectratio=true]{figs/matlab/ADP/USB/Pitch_ADP_Constant.eps}
+    \label{fig:Pitch_ADP_RMSE_Step}
+    }
+    \subfigure[][]{
+    \includegraphics[width=.46\textwidth,keepaspectratio=true]{figs/matlab/ADP/USB/Yaw_ADP_Constant.eps}
+    \label{fig:Yaw_ADP_RMSE_Step}
+    }    
+    \subfigure[][]{
+    \includegraphics[width=.46\textwidth,keepaspectratio=true]{figs/matlab/ADP/USB/PitchVoltage_ADP_Constant.eps}
+    \label{fig:PitchVoltage_ADP_RMSE_Step}
+    }    
+    \subfigure[][]{
+    \includegraphics[width=.46\textwidth,keepaspectratio=true]{figs/matlab/ADP/USB/YawVoltage_ADP_Constant.eps}
+    \label{fig:YawVoltage_ADP_RMSE_Step}
+    }
+    \caption{USB implementation for ADP proportional controller with a step input.}
+\end{figure}
 
+\begin{figure}[!htbp]
+    \centering
+    \subfigure[][]{
+    \includegraphics[width=.46\textwidth,keepaspectratio=true]{figs/matlab/ADP/USB/Pitch_ADP_Square.eps}
+    \label{fig:Pitch_ADP_RMSE_Square}
+    }
+    \subfigure[][]{
+    \includegraphics[width=.46\textwidth,keepaspectratio=true]{figs/matlab/ADP/USB/Yaw_ADP_Square.eps}
+    \label{fig:Yaw_ADP_RMSE_Square}
+    }    
+    \subfigure[][]{
+    \includegraphics[width=.46\textwidth,keepaspectratio=true]{figs/matlab/ADP/USB/PitchVoltage_ADP_Square.eps}
+    \label{fig:PitchVoltage_ADP_RMSE_Square}
+    }    
+    \subfigure[][]{
+    \includegraphics[width=.46\textwidth,keepaspectratio=true]{figs/matlab/ADP/USB/YawVoltage_ADP_Square.eps}
+    \label{fig:YawVoltage_ADP_RMSE_Square}
+    }
+    \caption{USB implementation for ADP proportional controller with a square wave input.}
+\end{figure}
+
+\begin{figure}[!htbp]
+    \centering
+    \subfigure[][]{
+    \includegraphics[width=.46\textwidth,keepaspectratio=true]{figs/matlab/ADP/USB/Pitch_ADP_Sine.eps}
+    \label{fig:Pitch_ADP_RMSE_Sine}
+    }
+    \subfigure[][]{
+    \includegraphics[width=.46\textwidth,keepaspectratio=true]{figs/matlab/ADP/USB/Yaw_ADP_Sine.eps}
+    \label{fig:Yaw_ADP_RMSE_Sine}
+    }    
+    \subfigure[][]{
+    \includegraphics[width=.46\textwidth,keepaspectratio=true]{figs/matlab/ADP/USB/PitchVoltage_ADP_Sine.eps}
+    \label{fig:PitchVoltage_ADP_RMSE_Sine}
+    }    
+    \subfigure[][]{
+    \includegraphics[width=.46\textwidth,keepaspectratio=true]{figs/matlab/ADP/USB/YawVoltage_ADP_Sine.eps}
+    \label{fig:YawVoltage_ADP_RMSE_Sine}
+    }
+    \caption{USB implementation for ADP proportional controller with a sinusoidal input.}
+\end{figure}
 %----------------------------------------------------------------------
 \subsection{Conclusions}
 %----------------------------------------------------------------------
 Note: constant used pitch 10 degrees, yaw 45 degrees\\
 Note: square used pitch XXXX degrees with period of XXXX, yaw XXXX degrees with period of XXXX\\
 Note: sine used pitch XXXX degrees with period of XXXX, yaw XXXX degrees with period of XXXX\\
-\begin{table}[h!]
+%\begin{table}[h!]
+%    \centering
+%    \begin{tabular}{l|l|l|l|l|l|l}
+%        \toprule
+%        \textbf{} & \textbf{LQR(P)} & \textbf{LQR(PI)} &
+%        \textbf{ADP(P)} \\
+%        \toprule
+%        RMSE Pitch Step & 2.6454 & ? & 1.3067 \\
+%        RMSE Yaw Step & 5.7991 & ? & 6.1991 \\
+%        RMSE Pitch Square & ? & ? & ? \\
+%        RMSE Yaw Square & ? & ? & ? \\
+%        RMSE Pitch Sine & ? & ? & ? \\
+%        RMSE Yaw Sine & ? & ? & ? \\
+%        \bottomrule
+%    \end{tabular}
+%    \caption{Error Comparison for USB Algorithms}
+%    \label{tab:USB_RMSE}
+%\end{table}
+%Based on the results XXXX preformed better for USB.
+
+\begin{table}
     \centering
     \begin{tabular}{l|l|l|l|l|l|l}
         \toprule
-        \textbf{} & \textbf{LQR(P)} & \textbf{LQR(PI)} &
-        \textbf{ADP(P)} \\
+        \textbf{} & \textbf{Pitch Step} & \textbf{Yaw Step} & \textbf{Pitch Square} & \textbf{Yaw Square} & \textbf{Pitch Sine} & \textbf{Yaw Sine}\\
         \toprule
-        RMSE Pitch Step & 2.6454 & ? & 1.3067 \\
-        RMSE Yaw Step & 5.7991 & ? & 6.1991 \\
-        RMSE Pitch Square & ? & ? & ? \\
-        RMSE Yaw Square & ? & ? & ? \\
-        RMSE Pitch Sine & ? & ? & ? \\
-        RMSE Yaw Sine & ? & ? & ? \\
-        \bottomrule
+        LQR P & 3.5025 & 5.8502 & 6.2819 & 20.4623 & 4.2469 & 2.8644\\
+        LQR PI & 1.2349 & 5.5058 & 6.9206 & 21.0709 & 1.3383 & 1.7852\\
+        Improvement & 64.7437\% & 0.5408\% & -10.1675\% & -2.9740\% & 68.4872\% & 63.2998\% \\
     \end{tabular}
-    \caption{Error Comparison for USB Algorithms}
-    \label{tab:USB_RMSE}
+    \caption{Root mean squared error and improvement for LQR P and PI controller}
+    \label{tab:RMSE_P_PI}
 \end{table}
-Based on the results XXXX preformed better for USB.
+
+\begin{table}
+    \centering
+    \begin{tabular}{l|l|l|l|l|l|l}
+        \toprule
+        \textbf{} & \textbf{Pitch Step} & \textbf{Yaw Step} & \textbf{Pitch Square} & \textbf{Yaw Square} & \textbf{Pitch Sine} & \textbf{Yaw Sine}\\
+        \toprule
+        LQR P & 3.5025 & 5.8502 & 6.2819 & 20.4623 & 4.2469 & 2.8644\\
+        ADP P & 1.3067 & 6.1991 & 6.5790 & 21.1923 & 2.1877 & 3.6307\\
+        Improvement & 62.6923\% & -5.9638\%  & -4.7294\% & -0.3567\% & 48.4871\% & -26.7525\% \\
+    \end{tabular}
+    \caption{Root mean squared error and improvement for LQR P and ADP P controller}
+    \label{tab:RMSE_LQR_ADP}
+\end{table}
 %----------------------------------------------------------------------
 
 %======================================================================
@@ -187,35 +282,39 @@ Based on the results XXXX preformed better for USB.
 %----------------------------------------------------------------------
 \subsection{LQR (P Controller)}
 %----------------------------------------------------------------------
+\todo[inline]{Insert LQR P Block Diagram}
+\todo[inline]{Insert ADP P Results}
 
 %----------------------------------------------------------------------
 \subsection{ADP}
 %----------------------------------------------------------------------
+\todo[inline]{Insert ADP P Block Diagram}
+\todo[inline]{Insert ADP P Results}
 
-%----------------------------------------------------------------------
-\subsection{Conclusions}
-%----------------------------------------------------------------------
-Note: constant used pitch XXXX degrees, yaw XXXX degrees\\
-Note: square used pitch XXXX degrees with period of XXXX, yaw XXXX degrees with period of XXXX\\
-Note: sine used pitch XXXX degrees with period of XXXX, yaw XXXX degrees with period of XXXX\\
-\begin{table}[h!]
-    \centering
-    \begin{tabular}{l|l|l|l|l|l|l}
-        \toprule
-        \textbf{} & \textbf{LQR(P)} & \textbf{ADP(P)} \\
-        \toprule
-        RMSE Pitch Step & ? & ?  \\
-        RMSE Yaw Step & ? & ? \\
-        RMSE Pitch Square & ? & ? \\
-        RMSE Yaw Square & ? & ? \\
-        RMSE Pitch Sine & ? & ? \\
-        RMSE Yaw Sine & ? & ? \\
-        \bottomrule
-    \end{tabular}
-    \caption{Error Comparison for USB Algorithms}
-    \label{tab:USB_RMSE}
-\end{table}
-Based on the results XXXX preformed better for Raspberry Pi.
+%%----------------------------------------------------------------------
+%\subsection{Conclusions}
+%%----------------------------------------------------------------------
+%Note: constant used pitch XXXX degrees, yaw XXXX degrees\\
+%Note: square used pitch XXXX degrees with period of XXXX, yaw XXXX degrees with period of XXXX\\
+%Note: sine used pitch XXXX degrees with period of XXXX, yaw XXXX degrees with period of XXXX\\
+%\begin{table}[h!]
+%    \centering
+%    \begin{tabular}{l|l|l|l|l|l|l}
+%        \toprule
+%        \textbf{} & \textbf{LQR(P)} & \textbf{ADP(P)} \\
+%        \toprule
+%        RMSE Pitch Step & ? & ?  \\
+%        RMSE Yaw Step & ? & ? \\
+%        RMSE Pitch Square & ? & ? \\
+%        RMSE Yaw Square & ? & ? \\
+%        RMSE Pitch Sine & ? & ? \\
+%        RMSE Yaw Sine & ? & ? \\
+%        \bottomrule
+%    \end{tabular}
+%    \caption{Error Comparison for USB Algorithms}
+%    \label{tab:USB_RMSE}
+%\end{table}
+%Based on the results XXXX preformed better for Raspberry Pi.
 %----------------------------------------------------------------------
 
 %======================================================================
@@ -224,6 +323,7 @@ Based on the results XXXX preformed better for Raspberry Pi.
 %----------------------------------------------------------------------
 \subsection{LQR (P Controller)}
 %----------------------------------------------------------------------
+\todo[inline]{Insert LQR P Block Diagram}
 \begin{figure}
     \centering
     \subfigure[][]{
@@ -250,7 +350,7 @@ Based on the results XXXX preformed better for Raspberry Pi.
 %----------------------------------------------------------------------
 \subsection{ADP}
 %----------------------------------------------------------------------
-
+\todo[inline]{Insert ADP P Block Diagram}
 \begin{figure}
     \centering
     \subfigure[][]{
@@ -273,30 +373,30 @@ Based on the results XXXX preformed better for Raspberry Pi.
     \label{fig:AndroidADP}
 \end{figure}
 
-%----------------------------------------------------------------------
-\subsection{Conclusions}
-%----------------------------------------------------------------------
-Note: constant used pitch XXXX degrees, yaw XXXX degrees\\
-Note: square used pitch XXXX degrees with period of XXXX, yaw XXXX degrees with period of XXXX\\
-Note: sine used pitch XXXX degrees with period of XXXX, yaw XXXX degrees with period of XXXX\\
-\begin{table}[h!]
-    \centering
-    \begin{tabular}{l|l|l|l|l|l|l}
-        \toprule
-        \textbf{} & \textbf{LQR(P)} & \textbf{ADP(P)} \\
-        \toprule
-        RMSE Pitch Step & ? & ?  \\
-        RMSE Yaw Step & ? & ? \\
-        RMSE Pitch Square & ? & ? \\
-        RMSE Yaw Square & ? & ? \\
-        RMSE Pitch Sine & ? & ? \\
-        RMSE Yaw Sine & ? & ? \\
-        \bottomrule
-    \end{tabular}
-    \caption{Error Comparison for USB Algorithms}
-    \label{tab:USB_RMSE}
-\end{table}
-Based on the results XXXX preformed better for Android.
+%%----------------------------------------------------------------------
+%\subsection{Conclusions}
+%%----------------------------------------------------------------------
+%Note: constant used pitch XXXX degrees, yaw XXXX degrees\\
+%Note: square used pitch XXXX degrees with period of XXXX, yaw XXXX degrees with period of XXXX\\
+%Note: sine used pitch XXXX degrees with period of XXXX, yaw XXXX degrees with period of XXXX\\
+%\begin{table}[h!]
+%    \centering
+%    \begin{tabular}{l|l|l|l|l|l|l}
+%        \toprule
+%        \textbf{} & \textbf{LQR(P)} & \textbf{ADP(P)} \\
+%        \toprule
+%        RMSE Pitch Step & ? & ?  \\
+%        RMSE Yaw Step & ? & ? \\
+%        RMSE Pitch Square & ? & ? \\
+%        RMSE Yaw Square & ? & ? \\
+%        RMSE Pitch Sine & ? & ? \\
+%        RMSE Yaw Sine & ? & ? \\
+%        \bottomrule
+%    \end{tabular}
+%    \caption{Error Comparison for USB Algorithms}
+%    \label{tab:USB_RMSE}
+%\end{table}
+%Based on the results XXXX preformed better for Android.
 
 %----------------------------------------------------------------------
 

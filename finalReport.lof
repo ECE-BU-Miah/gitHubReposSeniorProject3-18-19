@@ -15,19 +15,25 @@
 \contentsline {figure}{\numberline {5.1}{\ignorespaces Block diagram of SPI communication protocol used for communication between the Raspberry Pi and Quanser Aero.}}{15}{figure.5.1}
 \contentsline {figure}{\numberline {5.2}{\ignorespaces Illustration of the TCP model which describes how packets are sent and recieved from mobile devices to the Quanser Aero.}}{16}{figure.5.2}
 \contentsline {figure}{\numberline {5.3}{\ignorespaces Experiment setup for controlling the Quanser Aeros via a mobile device.}}{16}{figure.5.3}
-\contentsline {figure}{\numberline {5.4}{\ignorespaces USB implementation for proportional controller and proportional-integral controller calculated by LQR with a step input.}}{17}{figure.5.4}
-\contentsline {figure}{\numberline {5.5}{\ignorespaces USB implementation for proportional controller and proportional-integral controller calculated by LQR with a square wave input.}}{18}{figure.5.5}
-\contentsline {figure}{\numberline {5.6}{\ignorespaces USB implementation for proportional controller and proportional-integral controller calculated by LQR with a sinusoidal input.}}{19}{figure.5.6}
-\contentsline {figure}{\numberline {5.7}{\ignorespaces LQR Android Results}}{22}{figure.5.7}
-\contentsline {figure}{\numberline {5.8}{\ignorespaces ADP Android Results}}{23}{figure.5.8}
+\contentsline {figure}{\numberline {5.4}{\ignorespaces Block Diagram for LQR P type controller with a USB connection.}}{17}{figure.5.4}
+\contentsline {figure}{\numberline {5.5}{\ignorespaces Block Diagram for LQR PI type controller with a USB connection.}}{17}{figure.5.5}
+\contentsline {figure}{\numberline {5.6}{\ignorespaces USB implementation for proportional controller and proportional-integral controller calculated by LQR with a step input.}}{18}{figure.5.6}
+\contentsline {figure}{\numberline {5.7}{\ignorespaces USB implementation for proportional controller and proportional-integral controller calculated by LQR with a square wave input.}}{19}{figure.5.7}
+\contentsline {figure}{\numberline {5.8}{\ignorespaces USB implementation for proportional controller and proportional-integral controller calculated by LQR with a sinusoidal input.}}{20}{figure.5.8}
+\contentsline {figure}{\numberline {5.9}{\ignorespaces Block Diagram for ADP P type controller with a USB connection.}}{21}{figure.5.9}
+\contentsline {figure}{\numberline {5.10}{\ignorespaces USB implementation for ADP proportional controller with a step input.}}{22}{figure.5.10}
+\contentsline {figure}{\numberline {5.11}{\ignorespaces USB implementation for ADP proportional controller with a square wave input.}}{23}{figure.5.11}
+\contentsline {figure}{\numberline {5.12}{\ignorespaces USB implementation for ADP proportional controller with a sinusoidal input.}}{24}{figure.5.12}
+\contentsline {figure}{\numberline {5.13}{\ignorespaces LQR Android Results}}{26}{figure.5.13}
+\contentsline {figure}{\numberline {5.14}{\ignorespaces ADP Android Results}}{27}{figure.5.14}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {6.1}{\ignorespaces Smart Algorithm Server Connectivity}}{24}{figure.6.1}
+\contentsline {figure}{\numberline {6.1}{\ignorespaces Smart Algorithm Server Connectivity}}{28}{figure.6.1}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {A.1}{\ignorespaces Quanser Aero System Parameters}}{26}{figure.A.1}
-\addvspace {10\p@ }
-\addvspace {10\p@ }
+\contentsline {figure}{\numberline {A.1}{\ignorespaces Quanser Aero System Parameters}}{30}{figure.A.1}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {F.1}{\ignorespaces Quanser Aero with QFLEX 2 USB panel installed}}{61}{figure.F.1}
-\contentsline {figure}{\numberline {F.2}{\ignorespaces Quanser Aero with QFLEX 2 Embedded panel installed}}{63}{figure.F.2}
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {F.1}{\ignorespaces Quanser Aero with QFLEX 2 USB panel installed}}{65}{figure.F.1}
+\contentsline {figure}{\numberline {F.2}{\ignorespaces Quanser Aero with QFLEX 2 Embedded panel installed}}{67}{figure.F.2}
