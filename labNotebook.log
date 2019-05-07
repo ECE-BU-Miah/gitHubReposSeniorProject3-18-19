@@ -1,0 +1,2913 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/W32TeX) (preloaded format=pdflatex 2018.9.26)  7 MAY 2019 11:08
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**labNotebook.tex
+(./labNotebook.tex
+LaTeX2e <2018-04-01> patch level 5
+(./labbook.cls
+Document Class: labbook 2003/05/20 v1.1 LaTeX2e labbook document class
+(c:/texlive/2018/texmf-dist/tex/latex/koma-script/scrbook.cls
+Document Class: scrbook 2018/03/30 v3.25 KOMA-Script document class (book)
+(c:/texlive/2018/texmf-dist/tex/latex/koma-script/scrkbase.sty
+Package: scrkbase 2018/03/30 v3.25 KOMA-Script package (KOMA-Script-dependent b
+asics and keyval usage)
+
+(c:/texlive/2018/texmf-dist/tex/latex/koma-script/scrbase.sty
+Package: scrbase 2018/03/30 v3.25 KOMA-Script package (KOMA-Script-independent 
+basics and keyval usage)
+
+(c:/texlive/2018/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks14
+)
+(c:/texlive/2018/texmf-dist/tex/latex/koma-script/scrlfile.sty
+Package: scrlfile 2018/03/30 v3.25 KOMA-Script package (loading files)
+)))
+(c:/texlive/2018/texmf-dist/tex/latex/koma-script/tocbasic.sty
+Package: tocbasic 2018/03/30 v3.25 KOMA-Script package (handling toc-files)
+\scr@dte@tocline@numberwidth=\skip41
+\scr@dte@tocline@numbox=\box26
+)
+Package tocbasic Info: omitting babel extension for `toc'
+(tocbasic)             because of feature `nobabel' available
+(tocbasic)             for `toc' on input line 136.
+Package tocbasic Info: defining new hook before heading of `' on input line 166
+3.
+Class scrbook Info: You've used standard option `openany'.
+(scrbook)           This is correct!
+(scrbook)           Internally I'm using `open=any'.
+(scrbook)           If you'd like to set the option with \KOMAoptions,
+(scrbook)           you'd have to use `open=any' there
+(scrbook)           instead of `openany', too.
+Class scrbook Info: File `scrsize11pt.clo' used to setup font sizes on input li
+ne 2331.
+
+(c:/texlive/2018/texmf-dist/tex/latex/koma-script/scrsize11pt.clo
+File: scrsize11pt.clo 2018/03/30 v3.25 KOMA-Script font size class option (11pt
+)
+)
+(c:/texlive/2018/texmf-dist/tex/latex/koma-script/typearea.sty
+Package: typearea 2018/03/30 v3.25 KOMA-Script package (type area)
+\ta@bcor=\skip42
+\ta@div=\count80
+\ta@hblk=\skip43
+\ta@vblk=\skip44
+\ta@temp=\skip45
+\footheight=\skip46
+Package typearea Info: With paper sizes other than (almost) `A4' predefined
+(typearea)             DIV values do not exist. Using DIV calculation for good
+(typearea)             line width (unless using `version=3.24` or prior).
+
+DIV calculation for typearea with good linewidth.
+Package typearea Info: These are the values describing the layout:
+(typearea)             DIV  = 7
+(typearea)             BCOR = 0.0pt
+(typearea)             \paperwidth      = 614.295pt
+(typearea)              \textwidth      = 351.02573pt
+(typearea)              DIV departure   = 3%
+(typearea)              \evensidemargin = 103.24286pt
+(typearea)              \oddsidemargin  = 15.48643pt
+(typearea)             \paperheight     = 794.96999pt
+(typearea)              \textheight     = 459.8002pt
+(typearea)              \topmargin      = 3.89714pt
+(typearea)              \headheight     = 17.0pt
+(typearea)              \headsep        = 20.40001pt
+(typearea)              \topskip        = 11.0pt
+(typearea)              \footskip       = 47.6pt
+(typearea)              \baselineskip   = 13.6pt
+(typearea)              on input line 1706.
+)
+\c@part=\count81
+\c@chapter=\count82
+\c@section=\count83
+\c@subsection=\count84
+\c@subsubsection=\count85
+\c@paragraph=\count86
+\c@subparagraph=\count87
+\scr@dte@part@maxnumwidth=\skip47
+\scr@dte@chapter@maxnumwidth=\skip48
+\scr@dte@section@maxnumwidth=\skip49
+\scr@dte@subsection@maxnumwidth=\skip50
+\scr@dte@subsubsection@maxnumwidth=\skip51
+\scr@dte@paragraph@maxnumwidth=\skip52
+\scr@dte@subparagraph@maxnumwidth=\skip53
+\abovecaptionskip=\skip54
+\belowcaptionskip=\skip55
+\c@pti@nb@sid@b@x=\box27
+\scr@dte@figure@maxnumwidth=\skip56
+Package tocbasic Info: omitting babel extension for `lof'
+(tocbasic)             because of feature `nobabel' available
+(tocbasic)             for `lof' on input line 6251.
+\c@figure=\count88
+\scr@dte@table@maxnumwidth=\skip57
+Package tocbasic Info: omitting babel extension for `lot'
+(tocbasic)             because of feature `nobabel' available
+(tocbasic)             for `lot' on input line 6272.
+\c@table=\count89
+Class scrbook Info: Redefining `\numberline' on input line 6445.
+\bibindent=\dimen102
+) (c:/texlive/2018/texmf-dist/tex/latex/base/makeidx.sty
+Package: makeidx 2014/09/29 v1.0m Standard LaTeX package
+)
+\@indexfile=\write3
+\openout3 = `labNotebook.idx'.
+
+
+Writing index file labNotebook.idx
+\FK@toks@=\toks15
+\c@fk@commasep@argnumber=\count90
+\c@fk@atdashsep@argnumber=\count91
+\c@labday=\count92
+\c@experiment=\count93
+\c@subexperiment=\count94
+) (c:/texlive/2018/texmf-dist/tex/latex/geometry/geometry.sty
+Package: geometry 2018/04/16 v5.8 Page Geometry
+
+(c:/texlive/2018/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+Package: ifpdf 2018/09/07 v3.3 Provides the ifpdf switch
+)
+(c:/texlive/2018/texmf-dist/tex/generic/oberdiek/ifvtex.sty
+Package: ifvtex 2016/05/16 v1.6 Detect VTeX and its facilities (HO)
+Package ifvtex Info: VTeX not detected.
+)
+(c:/texlive/2018/texmf-dist/tex/generic/ifxetex/ifxetex.sty
+Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
+)
+\Gm@cnth=\count95
+\Gm@cntv=\count96
+\c@Gm@tempcnt=\count97
+\Gm@bindingoffset=\dimen103
+\Gm@wd@mp=\dimen104
+\Gm@odd@mp=\dimen105
+\Gm@even@mp=\dimen106
+\Gm@layoutwidth=\dimen107
+\Gm@layoutheight=\dimen108
+\Gm@layouthoffset=\dimen109
+\Gm@layoutvoffset=\dimen110
+\Gm@dimlist=\toks16
+)
+(c:/texlive/2018/texmf-dist/tex/generic/babel/babel.sty
+Package: babel 2018/09/02 3.23 The Babel package
+
+(c:/texlive/2018/texmf-dist/tex/generic/babel/switch.def
+File: switch.def 2018/09/02 3.23 Babel switching mechanism
+)
+(c:/texlive/2018/texmf-dist/tex/generic/babel-english/english.ldf
+Language: english 2017/06/06 v3.3r English support from the babel system
+
+(c:/texlive/2018/texmf-dist/tex/generic/babel/babel.def
+File: babel.def 2018/09/02 3.23 Babel common definitions
+\babel@savecnt=\count98
+\U@D=\dimen111
+
+(c:/texlive/2018/texmf-dist/tex/generic/babel/txtbabel.def)
+\bbl@dirlevel=\count99
+)
+\l@canadian = a dialect from \language\l@american 
+\l@australian = a dialect from \language\l@british 
+\l@newzealand = a dialect from \language\l@british 
+))
+(c:/texlive/2018/texmf-dist/tex/latex/lipsum/lipsum.sty
+Package: lipsum 2014/07/27 v1.3 150 paragraphs of Lorem Ipsum dummy text
+\c@lips@count=\count100
+)
+(c:/texlive/2018/texmf-dist/tex/latex/base/inputenc.sty
+Package: inputenc 2018/04/06 v1.3b Input encoding file
+\inpenc@prehook=\toks17
+\inpenc@posthook=\toks18
+
+(c:/texlive/2018/texmf-dist/tex/latex/base/utf8.def
+File: utf8.def 2018/04/05 v1.2c UTF-8 support for inputenc
+Now handling font encoding OML ...
+... no UTF-8 mapping file for font encoding OML
+Now handling font encoding T1 ...
+... processing UTF-8 mapping file for font encoding T1
+
+(c:/texlive/2018/texmf-dist/tex/latex/base/t1enc.dfu
+File: t1enc.dfu 2018/04/05 v1.2c UTF-8 support for inputenc
+   defining Unicode char U+00A0 (decimal 160)
+   defining Unicode char U+00A1 (decimal 161)
+   defining Unicode char U+00A3 (decimal 163)
+   defining Unicode char U+00AB (decimal 171)
+   defining Unicode char U+00AD (decimal 173)
+   defining Unicode char U+00BB (decimal 187)
+   defining Unicode char U+00BF (decimal 191)
+   defining Unicode char U+00C0 (decimal 192)
+   defining Unicode char U+00C1 (decimal 193)
+   defining Unicode char U+00C2 (decimal 194)
+   defining Unicode char U+00C3 (decimal 195)
+   defining Unicode char U+00C4 (decimal 196)
+   defining Unicode char U+00C5 (decimal 197)
+   defining Unicode char U+00C6 (decimal 198)
+   defining Unicode char U+00C7 (decimal 199)
+   defining Unicode char U+00C8 (decimal 200)
+   defining Unicode char U+00C9 (decimal 201)
+   defining Unicode char U+00CA (decimal 202)
+   defining Unicode char U+00CB (decimal 203)
+   defining Unicode char U+00CC (decimal 204)
+   defining Unicode char U+00CD (decimal 205)
+   defining Unicode char U+00CE (decimal 206)
+   defining Unicode char U+00CF (decimal 207)
+   defining Unicode char U+00D0 (decimal 208)
+   defining Unicode char U+00D1 (decimal 209)
+   defining Unicode char U+00D2 (decimal 210)
+   defining Unicode char U+00D3 (decimal 211)
+   defining Unicode char U+00D4 (decimal 212)
+   defining Unicode char U+00D5 (decimal 213)
+   defining Unicode char U+00D6 (decimal 214)
+   defining Unicode char U+00D8 (decimal 216)
+   defining Unicode char U+00D9 (decimal 217)
+   defining Unicode char U+00DA (decimal 218)
+   defining Unicode char U+00DB (decimal 219)
+   defining Unicode char U+00DC (decimal 220)
+   defining Unicode char U+00DD (decimal 221)
+   defining Unicode char U+00DE (decimal 222)
+   defining Unicode char U+00DF (decimal 223)
+   defining Unicode char U+00E0 (decimal 224)
+   defining Unicode char U+00E1 (decimal 225)
+   defining Unicode char U+00E2 (decimal 226)
+   defining Unicode char U+00E3 (decimal 227)
+   defining Unicode char U+00E4 (decimal 228)
+   defining Unicode char U+00E5 (decimal 229)
+   defining Unicode char U+00E6 (decimal 230)
+   defining Unicode char U+00E7 (decimal 231)
+   defining Unicode char U+00E8 (decimal 232)
+   defining Unicode char U+00E9 (decimal 233)
+   defining Unicode char U+00EA (decimal 234)
+   defining Unicode char U+00EB (decimal 235)
+   defining Unicode char U+00EC (decimal 236)
+   defining Unicode char U+00ED (decimal 237)
+   defining Unicode char U+00EE (decimal 238)
+   defining Unicode char U+00EF (decimal 239)
+   defining Unicode char U+00F0 (decimal 240)
+   defining Unicode char U+00F1 (decimal 241)
+   defining Unicode char U+00F2 (decimal 242)
+   defining Unicode char U+00F3 (decimal 243)
+   defining Unicode char U+00F4 (decimal 244)
+   defining Unicode char U+00F5 (decimal 245)
+   defining Unicode char U+00F6 (decimal 246)
+   defining Unicode char U+00F8 (decimal 248)
+   defining Unicode char U+00F9 (decimal 249)
+   defining Unicode char U+00FA (decimal 250)
+   defining Unicode char U+00FB (decimal 251)
+   defining Unicode char U+00FC (decimal 252)
+   defining Unicode char U+00FD (decimal 253)
+   defining Unicode char U+00FE (decimal 254)
+   defining Unicode char U+00FF (decimal 255)
+   defining Unicode char U+0100 (decimal 256)
+   defining Unicode char U+0101 (decimal 257)
+   defining Unicode char U+0102 (decimal 258)
+   defining Unicode char U+0103 (decimal 259)
+   defining Unicode char U+0104 (decimal 260)
+   defining Unicode char U+0105 (decimal 261)
+   defining Unicode char U+0106 (decimal 262)
+   defining Unicode char U+0107 (decimal 263)
+   defining Unicode char U+0108 (decimal 264)
+   defining Unicode char U+0109 (decimal 265)
+   defining Unicode char U+010A (decimal 266)
+   defining Unicode char U+010B (decimal 267)
+   defining Unicode char U+010C (decimal 268)
+   defining Unicode char U+010D (decimal 269)
+   defining Unicode char U+010E (decimal 270)
+   defining Unicode char U+010F (decimal 271)
+   defining Unicode char U+0110 (decimal 272)
+   defining Unicode char U+0111 (decimal 273)
+   defining Unicode char U+0112 (decimal 274)
+   defining Unicode char U+0113 (decimal 275)
+   defining Unicode char U+0114 (decimal 276)
+   defining Unicode char U+0115 (decimal 277)
+   defining Unicode char U+0116 (decimal 278)
+   defining Unicode char U+0117 (decimal 279)
+   defining Unicode char U+0118 (decimal 280)
+   defining Unicode char U+0119 (decimal 281)
+   defining Unicode char U+011A (decimal 282)
+   defining Unicode char U+011B (decimal 283)
+   defining Unicode char U+011C (decimal 284)
+   defining Unicode char U+011D (decimal 285)
+   defining Unicode char U+011E (decimal 286)
+   defining Unicode char U+011F (decimal 287)
+   defining Unicode char U+0120 (decimal 288)
+   defining Unicode char U+0121 (decimal 289)
+   defining Unicode char U+0122 (decimal 290)
+   defining Unicode char U+0123 (decimal 291)
+   defining Unicode char U+0124 (decimal 292)
+   defining Unicode char U+0125 (decimal 293)
+   defining Unicode char U+0128 (decimal 296)
+   defining Unicode char U+0129 (decimal 297)
+   defining Unicode char U+012A (decimal 298)
+   defining Unicode char U+012B (decimal 299)
+   defining Unicode char U+012C (decimal 300)
+   defining Unicode char U+012D (decimal 301)
+   defining Unicode char U+012E (decimal 302)
+   defining Unicode char U+012F (decimal 303)
+   defining Unicode char U+0130 (decimal 304)
+   defining Unicode char U+0131 (decimal 305)
+   defining Unicode char U+0132 (decimal 306)
+   defining Unicode char U+0133 (decimal 307)
+   defining Unicode char U+0134 (decimal 308)
+   defining Unicode char U+0135 (decimal 309)
+   defining Unicode char U+0136 (decimal 310)
+   defining Unicode char U+0137 (decimal 311)
+   defining Unicode char U+0139 (decimal 313)
+   defining Unicode char U+013A (decimal 314)
+   defining Unicode char U+013B (decimal 315)
+   defining Unicode char U+013C (decimal 316)
+   defining Unicode char U+013D (decimal 317)
+   defining Unicode char U+013E (decimal 318)
+   defining Unicode char U+0141 (decimal 321)
+   defining Unicode char U+0142 (decimal 322)
+   defining Unicode char U+0143 (decimal 323)
+   defining Unicode char U+0144 (decimal 324)
+   defining Unicode char U+0145 (decimal 325)
+   defining Unicode char U+0146 (decimal 326)
+   defining Unicode char U+0147 (decimal 327)
+   defining Unicode char U+0148 (decimal 328)
+   defining Unicode char U+014A (decimal 330)
+   defining Unicode char U+014B (decimal 331)
+   defining Unicode char U+014C (decimal 332)
+   defining Unicode char U+014D (decimal 333)
+   defining Unicode char U+014E (decimal 334)
+   defining Unicode char U+014F (decimal 335)
+   defining Unicode char U+0150 (decimal 336)
+   defining Unicode char U+0151 (decimal 337)
+   defining Unicode char U+0152 (decimal 338)
+   defining Unicode char U+0153 (decimal 339)
+   defining Unicode char U+0154 (decimal 340)
+   defining Unicode char U+0155 (decimal 341)
+   defining Unicode char U+0156 (decimal 342)
+   defining Unicode char U+0157 (decimal 343)
+   defining Unicode char U+0158 (decimal 344)
+   defining Unicode char U+0159 (decimal 345)
+   defining Unicode char U+015A (decimal 346)
+   defining Unicode char U+015B (decimal 347)
+   defining Unicode char U+015C (decimal 348)
+   defining Unicode char U+015D (decimal 349)
+   defining Unicode char U+015E (decimal 350)
+   defining Unicode char U+015F (decimal 351)
+   defining Unicode char U+0160 (decimal 352)
+   defining Unicode char U+0161 (decimal 353)
+   defining Unicode char U+0162 (decimal 354)
+   defining Unicode char U+0163 (decimal 355)
+   defining Unicode char U+0164 (decimal 356)
+   defining Unicode char U+0165 (decimal 357)
+   defining Unicode char U+0168 (decimal 360)
+   defining Unicode char U+0169 (decimal 361)
+   defining Unicode char U+016A (decimal 362)
+   defining Unicode char U+016B (decimal 363)
+   defining Unicode char U+016C (decimal 364)
+   defining Unicode char U+016D (decimal 365)
+   defining Unicode char U+016E (decimal 366)
+   defining Unicode char U+016F (decimal 367)
+   defining Unicode char U+0170 (decimal 368)
+   defining Unicode char U+0171 (decimal 369)
+   defining Unicode char U+0172 (decimal 370)
+   defining Unicode char U+0173 (decimal 371)
+   defining Unicode char U+0174 (decimal 372)
+   defining Unicode char U+0175 (decimal 373)
+   defining Unicode char U+0176 (decimal 374)
+   defining Unicode char U+0177 (decimal 375)
+   defining Unicode char U+0178 (decimal 376)
+   defining Unicode char U+0179 (decimal 377)
+   defining Unicode char U+017A (decimal 378)
+   defining Unicode char U+017B (decimal 379)
+   defining Unicode char U+017C (decimal 380)
+   defining Unicode char U+017D (decimal 381)
+   defining Unicode char U+017E (decimal 382)
+   defining Unicode char U+01CD (decimal 461)
+   defining Unicode char U+01CE (decimal 462)
+   defining Unicode char U+01CF (decimal 463)
+   defining Unicode char U+01D0 (decimal 464)
+   defining Unicode char U+01D1 (decimal 465)
+   defining Unicode char U+01D2 (decimal 466)
+   defining Unicode char U+01D3 (decimal 467)
+   defining Unicode char U+01D4 (decimal 468)
+   defining Unicode char U+01E2 (decimal 482)
+   defining Unicode char U+01E3 (decimal 483)
+   defining Unicode char U+01E6 (decimal 486)
+   defining Unicode char U+01E7 (decimal 487)
+   defining Unicode char U+01E8 (decimal 488)
+   defining Unicode char U+01E9 (decimal 489)
+   defining Unicode char U+01EA (decimal 490)
+   defining Unicode char U+01EB (decimal 491)
+   defining Unicode char U+01F0 (decimal 496)
+   defining Unicode char U+01F4 (decimal 500)
+   defining Unicode char U+01F5 (decimal 501)
+   defining Unicode char U+0218 (decimal 536)
+   defining Unicode char U+0219 (decimal 537)
+   defining Unicode char U+021A (decimal 538)
+   defining Unicode char U+021B (decimal 539)
+   defining Unicode char U+0232 (decimal 562)
+   defining Unicode char U+0233 (decimal 563)
+   defining Unicode char U+1E02 (decimal 7682)
+   defining Unicode char U+1E03 (decimal 7683)
+   defining Unicode char U+200C (decimal 8204)
+   defining Unicode char U+2010 (decimal 8208)
+   defining Unicode char U+2011 (decimal 8209)
+   defining Unicode char U+2012 (decimal 8210)
+   defining Unicode char U+2013 (decimal 8211)
+   defining Unicode char U+2014 (decimal 8212)
+   defining Unicode char U+2015 (decimal 8213)
+   defining Unicode char U+2018 (decimal 8216)
+   defining Unicode char U+2019 (decimal 8217)
+   defining Unicode char U+201A (decimal 8218)
+   defining Unicode char U+201C (decimal 8220)
+   defining Unicode char U+201D (decimal 8221)
+   defining Unicode char U+201E (decimal 8222)
+   defining Unicode char U+2030 (decimal 8240)
+   defining Unicode char U+2031 (decimal 8241)
+   defining Unicode char U+2039 (decimal 8249)
+   defining Unicode char U+203A (decimal 8250)
+   defining Unicode char U+2423 (decimal 9251)
+   defining Unicode char U+1E20 (decimal 7712)
+   defining Unicode char U+1E21 (decimal 7713)
+)
+Now handling font encoding OT1 ...
+... processing UTF-8 mapping file for font encoding OT1
+
+(c:/texlive/2018/texmf-dist/tex/latex/base/ot1enc.dfu
+File: ot1enc.dfu 2018/04/05 v1.2c UTF-8 support for inputenc
+   defining Unicode char U+00A0 (decimal 160)
+   defining Unicode char U+00A1 (decimal 161)
+   defining Unicode char U+00A3 (decimal 163)
+   defining Unicode char U+00AD (decimal 173)
+   defining Unicode char U+00B8 (decimal 184)
+   defining Unicode char U+00BF (decimal 191)
+   defining Unicode char U+00C5 (decimal 197)
+   defining Unicode char U+00C6 (decimal 198)
+   defining Unicode char U+00D8 (decimal 216)
+   defining Unicode char U+00DF (decimal 223)
+   defining Unicode char U+00E6 (decimal 230)
+   defining Unicode char U+00EC (decimal 236)
+   defining Unicode char U+00ED (decimal 237)
+   defining Unicode char U+00EE (decimal 238)
+   defining Unicode char U+00EF (decimal 239)
+   defining Unicode char U+00F8 (decimal 248)
+   defining Unicode char U+0131 (decimal 305)
+   defining Unicode char U+0141 (decimal 321)
+   defining Unicode char U+0142 (decimal 322)
+   defining Unicode char U+0152 (decimal 338)
+   defining Unicode char U+0153 (decimal 339)
+   defining Unicode char U+0174 (decimal 372)
+   defining Unicode char U+0175 (decimal 373)
+   defining Unicode char U+0176 (decimal 374)
+   defining Unicode char U+0177 (decimal 375)
+   defining Unicode char U+0218 (decimal 536)
+   defining Unicode char U+0219 (decimal 537)
+   defining Unicode char U+021A (decimal 538)
+   defining Unicode char U+021B (decimal 539)
+   defining Unicode char U+2013 (decimal 8211)
+   defining Unicode char U+2014 (decimal 8212)
+   defining Unicode char U+2018 (decimal 8216)
+   defining Unicode char U+2019 (decimal 8217)
+   defining Unicode char U+201C (decimal 8220)
+   defining Unicode char U+201D (decimal 8221)
+)
+Now handling font encoding OMS ...
+... processing UTF-8 mapping file for font encoding OMS
+
+(c:/texlive/2018/texmf-dist/tex/latex/base/omsenc.dfu
+File: omsenc.dfu 2018/04/05 v1.2c UTF-8 support for inputenc
+   defining Unicode char U+00A7 (decimal 167)
+   defining Unicode char U+00B6 (decimal 182)
+   defining Unicode char U+00B7 (decimal 183)
+   defining Unicode char U+2020 (decimal 8224)
+   defining Unicode char U+2021 (decimal 8225)
+   defining Unicode char U+2022 (decimal 8226)
+)
+Now handling font encoding OMX ...
+... no UTF-8 mapping file for font encoding OMX
+Now handling font encoding U ...
+... no UTF-8 mapping file for font encoding U
+   defining Unicode char U+00A9 (decimal 169)
+   defining Unicode char U+00AA (decimal 170)
+   defining Unicode char U+00AE (decimal 174)
+   defining Unicode char U+00BA (decimal 186)
+   defining Unicode char U+02C6 (decimal 710)
+   defining Unicode char U+02DC (decimal 732)
+   defining Unicode char U+200C (decimal 8204)
+   defining Unicode char U+2026 (decimal 8230)
+   defining Unicode char U+2122 (decimal 8482)
+   defining Unicode char U+2423 (decimal 9251)
+   defining Unicode char U+FEFF (decimal 65279)
+))
+(c:/texlive/2018/texmf-dist/tex/latex/base/fontenc.sty
+Package: fontenc 2017/04/05 v2.0i Standard LaTeX package
+
+(c:/texlive/2018/texmf-dist/tex/latex/base/t1enc.def
+File: t1enc.def 2017/04/05 v2.0i Standard LaTeX file
+LaTeX Font Info:    Redeclaring font encoding T1 on input line 48.
+))
+(c:/texlive/2018/texmf-dist/tex/latex/psnfss/mathpazo.sty
+Package: mathpazo 2005/04/12 PSNFSS-v9.2a Palatino w/ Pazo Math (D.Puga, WaS) 
+\symupright=\mathgroup4
+)
+(c:/texlive/2018/texmf-dist/tex/latex/bera/beramono.sty
+Package: beramono 2004/01/31 (WaS)
+)
+(c:/texlive/2018/texmf-dist/tex/latex/bera/berasans.sty
+Package: berasans 2004/01/30 (WaS)
+)
+(c:/texlive/2018/texmf-dist/tex/latex/booktabs/booktabs.sty
+Package: booktabs 2016/04/27 v1.618033 publication quality tables
+\heavyrulewidth=\dimen112
+\lightrulewidth=\dimen113
+\cmidrulewidth=\dimen114
+\belowrulesep=\dimen115
+\belowbottomsep=\dimen116
+\aboverulesep=\dimen117
+\abovetopsep=\dimen118
+\cmidrulesep=\dimen119
+\cmidrulekern=\dimen120
+\defaultaddspace=\dimen121
+\@cmidla=\count101
+\@cmidlb=\count102
+\@aboverulesep=\dimen122
+\@belowrulesep=\dimen123
+\@thisruleclass=\count103
+\@lastruleclass=\count104
+\@thisrulewidth=\dimen124
+)
+(c:/texlive/2018/texmf-dist/tex/latex/tools/array.sty
+Package: array 2018/04/30 v2.4h Tabular extension package (FMi)
+\col@sep=\dimen125
+\ar@mcellbox=\box28
+\extrarowheight=\dimen126
+\NC@list=\toks19
+\extratabsurround=\skip58
+\backup@length=\skip59
+\ar@cellbox=\box29
+)
+(c:/texlive/2018/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2017/09/02 v2.17a AMS math features
+\@mathmargin=\skip60
+
+For additional information on amsmath, use the `?' option.
+(c:/texlive/2018/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2000/06/29 v2.01 AMS text
+
+(c:/texlive/2018/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks20
+\ex@=\dimen127
+))
+(c:/texlive/2018/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen128
+)
+(c:/texlive/2018/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 2016/03/08 v2.02 operator names
+)
+\inf@bad=\count105
+LaTeX Info: Redefining \frac on input line 213.
+\uproot@=\count106
+\leftroot@=\count107
+LaTeX Info: Redefining \overline on input line 375.
+\classnum@=\count108
+\DOTSCASE@=\count109
+LaTeX Info: Redefining \ldots on input line 472.
+LaTeX Info: Redefining \dots on input line 475.
+LaTeX Info: Redefining \cdots on input line 596.
+\Mathstrutbox@=\box30
+\strutbox@=\box31
+\big@size=\dimen129
+LaTeX Font Info:    Redeclaring font encoding OML on input line 712.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 713.
+\macc@depth=\count110
+\c@MaxMatrixCols=\count111
+\dotsspace@=\muskip10
+\c@parentequation=\count112
+\dspbrk@lvl=\count113
+\tag@help=\toks21
+\row@=\count114
+\column@=\count115
+\maxfields@=\count116
+\andhelp@=\toks22
+\eqnshift@=\dimen130
+\alignsep@=\dimen131
+\tagshift@=\dimen132
+\tagwidth@=\dimen133
+\totwidth@=\dimen134
+\lineht@=\dimen135
+\@envbody=\toks23
+\multlinegap=\skip61
+\multlinetaggap=\skip62
+\mathdisplay@stack=\toks24
+LaTeX Info: Redefining \[ on input line 2817.
+LaTeX Info: Redefining \] on input line 2818.
+)
+(c:/texlive/2018/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
+
+(c:/texlive/2018/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2017/06/25 v1.2c Standard LaTeX Graphics (DPC,SPQR)
+
+(c:/texlive/2018/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+(c:/texlive/2018/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 99.
+
+(c:/texlive/2018/texmf-dist/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen136
+\Gin@req@width=\dimen137
+)
+(c:/texlive/2018/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+Package: etoolbox 2018/08/19 v2.5f e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count117
+)
+(c:/texlive/2018/texmf-dist/tex/latex/footmisc/footmisc.sty
+Package: footmisc 2011/06/06 v5.5b a miscellany of footnote facilities
+\FN@temptoken=\toks25
+\footnotemargin=\dimen138
+\c@pp@next@reset=\count118
+Package footmisc Info: Declaring symbol style bringhurst on input line 855.
+Package footmisc Info: Declaring symbol style chicago on input line 863.
+Package footmisc Info: Declaring symbol style wiley on input line 872.
+Package footmisc Info: Declaring symbol style lamport-robust on input line 883.
+
+Package footmisc Info: Declaring symbol style lamport* on input line 903.
+Package footmisc Info: Declaring symbol style lamport*-robust on input line 924
+.
+)
+(c:/texlive/2018/texmf-dist/tex/latex/lastpage/lastpage.sty
+Package: lastpage 2015/03/29 v1.2m Refers to last page's name (HMM; JPG)
+)
+(c:/texlive/2018/texmf-dist/tex/latex/float/float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count119
+\float@exts=\toks26
+\float@box=\box32
+\@float@everytoks=\toks27
+\@floatcapt=\box33
+)
+(c:/texlive/2018/texmf-dist/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
+
+(c:/texlive/2018/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: pdftex.def on input line 225.
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1352.
+Package xcolor Info: Model `RGB' extended on input line 1364.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1366.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1367.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1368.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
+
+(c:/texlive/2018/texmf-dist/tex/latex/graphics/dvipsnam.def
+File: dvipsnam.def 2016/06/17 v3.0m Driver-dependent file (DPC,SPQR)
+))
+(c:/texlive/2018/texmf-dist/tex/latex/oberdiek/epstopdf.sty
+Package: epstopdf 2016/05/15 v2.6 Conversion with epstopdf on the fly (HO)
+
+(c:/texlive/2018/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
+
+(c:/texlive/2018/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
+)
+(c:/texlive/2018/texmf-dist/tex/latex/oberdiek/grfext.sty
+Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
+
+(c:/texlive/2018/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
+Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
+
+(c:/texlive/2018/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
+)))
+(c:/texlive/2018/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
+
+(c:/texlive/2018/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
+Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
+
+(c:/texlive/2018/texmf-dist/tex/generic/oberdiek/etexcmds.sty
+Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
+
+(c:/texlive/2018/texmf-dist/tex/generic/oberdiek/ifluatex.sty
+Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+)))
+(c:/texlive/2018/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
+Package: pdftexcmds 2018/09/10 v0.29 Utility functions of pdfTeX for LuaTeX (HO
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+38.
+Package grfext Info: Graphics extension search list:
+(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 456.
+
+(c:/texlive/2018/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+)))
+Package scrkbase Info: You've told me to extend the font selection of the
+(scrkbase)             element `pagehead' that is an alias of element
+(scrkbase)             `pageheadfoot' on input line 97.
+LaTeX Font Info:    Try loading font information for T1+phv on input line 106.
+
+(c:/texlive/2018/texmf-dist/tex/latex/psnfss/t1phv.fd
+File: t1phv.fd 2001/06/04 scalable font definitions for T1/phv.
+)
+LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <42.67912> not available
+(Font)              Font shape `T1/phv/b/n' tried instead on input line 106.
+LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <22.76228> not available
+(Font)              Font shape `T1/phv/b/n' tried instead on input line 107.
+
+(c:/texlive/2018/texmf-dist/tex/latex/koma-script/scrpage2.sty
+Package: scrpage2 2018/03/30 v3.25 KOMA-Script package (page head and foot)
+
+
+Package scrpage2 Warning: usage of obsolete package!
+(scrpage2)                Package `scrpage2' is obsolete.
+(scrpage2)                You should not longer use package `scrpage2'.
+(scrpage2)                You should replace usage of package `scrpage2'
+(scrpage2)                by `scrlayer-scrpage' on input line 52.
+
+LaTeX Info: Redefining \pagemark on input line 180.
+) (c:/texlive/2018/texmf-dist/tex/latex/chngcntr/chngcntr.sty
+Package: chngcntr 2018/04/09 v1.1a change counter resetting
+Package chngcntr Info: \counterwithout already defined.
+(chngcntr)             Quitting chngcntr on input line 21.
+)
+(c:/texlive/2018/texmf-dist/tex/latex/hyperref/hyperref.sty
+Package: hyperref 2018/02/06 v6.86b Hypertext links for LaTeX
+
+(c:/texlive/2018/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
+Package: hobsub-hyperref 2016/05/16 v1.14 Bundle oberdiek, subset hyperref (HO)
+
+
+(c:/texlive/2018/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty
+Package: hobsub-generic 2016/05/16 v1.14 Bundle oberdiek, subset generic (HO)
+Package: hobsub 2016/05/16 v1.14 Construct package bundles (HO)
+Package hobsub Info: Skipping package `infwarerr' (already loaded).
+Package hobsub Info: Skipping package `ltxcmds' (already loaded).
+Package hobsub Info: Skipping package `ifluatex' (already loaded).
+Package hobsub Info: Skipping package `ifvtex' (already loaded).
+Package: intcalc 2016/05/16 v1.2 Expandable calculations with integers (HO)
+Package hobsub Info: Skipping package `ifpdf' (already loaded).
+Package hobsub Info: Skipping package `etexcmds' (already loaded).
+Package hobsub Info: Skipping package `kvsetkeys' (already loaded).
+Package hobsub Info: Skipping package `kvdefinekeys' (already loaded).
+Package hobsub Info: Skipping package `pdftexcmds' (already loaded).
+Package: pdfescape 2016/05/16 v1.14 Implements pdfTeX's escape features (HO)
+Package: bigintcalc 2016/05/16 v1.4 Expandable calculations on big integers (HO
+)
+Package: bitset 2016/05/16 v1.2 Handle bit-vector datatype (HO)
+Package: uniquecounter 2016/05/16 v1.3 Provide unlimited unique counter (HO)
+)
+Package hobsub Info: Skipping package `hobsub' (already loaded).
+Package: letltxmacro 2016/05/16 v1.5 Let assignment for LaTeX macros (HO)
+Package: hopatch 2016/05/16 v1.3 Wrapper for package hooks (HO)
+Package: xcolor-patch 2016/05/16 xcolor patch
+Package: atveryend 2016/05/16 v1.9 Hooks at the very end of document (HO)
+Package: atbegshi 2016/06/09 v1.18 At begin shipout hook (HO)
+Package: refcount 2016/05/16 v3.5 Data extraction from label references (HO)
+Package: hycolor 2016/05/16 v1.8 Color options for hyperref/bookmark (HO)
+)
+(c:/texlive/2018/texmf-dist/tex/latex/oberdiek/auxhook.sty
+Package: auxhook 2016/05/16 v1.4 Hooks for auxiliary files (HO)
+)
+\@linkdim=\dimen139
+\Hy@linkcounter=\count120
+\Hy@pagecounter=\count121
+
+(c:/texlive/2018/texmf-dist/tex/latex/hyperref/pd1enc.def
+File: pd1enc.def 2018/02/06 v6.86b Hyperref: PDFDocEncoding definition (HO)
+Now handling font encoding PD1 ...
+... no UTF-8 mapping file for font encoding PD1
+)
+\Hy@SavedSpaceFactor=\count122
+
+(c:/texlive/2018/texmf-dist/tex/latex/latexconfig/hyperref.cfg
+File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
+)
+Package hyperref Info: Option `bookmarksopen' set `true' on input line 4383.
+Package hyperref Info: Option `linktocpage' set `true' on input line 4383.
+Package hyperref Info: Option `pdfpagelabels' set `true' on input line 4383.
+Package hyperref Info: Option `plainpages' set `false' on input line 4383.
+Package hyperref Info: Option `colorlinks' set `true' on input line 4383.
+Package hyperref Info: Option `bookmarks' set `true' on input line 4383.
+Package hyperref Info: Hyper figures OFF on input line 4509.
+Package hyperref Info: Link nesting OFF on input line 4514.
+Package hyperref Info: Hyper index ON on input line 4517.
+Package hyperref Info: Plain pages OFF on input line 4524.
+Package hyperref Info: Backreferencing ON on input line 4527.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4762.
+
+(c:/texlive/2018/texmf-dist/tex/latex/hyperref/backref.sty
+Package: backref 2016/05/21 v1.39 Bibliographical back referencing
+
+(c:/texlive/2018/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
+Package: rerunfilecheck 2016/05/16 v1.8 Rerun checks for auxiliary files (HO)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
+82.
+))
+\c@Hy@tempcnt=\count123
+
+(c:/texlive/2018/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip11
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 5115.
+\XeTeXLinkMargin=\dimen140
+\Fld@menulength=\count124
+\Field@Width=\dimen141
+\Fld@charsize=\dimen142
+Package hyperref Info: Hyper figures OFF on input line 6369.
+Package hyperref Info: Link nesting OFF on input line 6374.
+Package hyperref Info: Hyper index ON on input line 6377.
+Package hyperref Info: backreferencing ON on input line 6382.
+Package hyperref Info: Link coloring ON on input line 6387.
+Package hyperref Info: Link coloring with OCG OFF on input line 6394.
+Package hyperref Info: PDF/A mode OFF on input line 6399.
+LaTeX Info: Redefining \ref on input line 6439.
+LaTeX Info: Redefining \pageref on input line 6443.
+\Hy@abspage=\count125
+\c@Item=\count126
+\c@Hfootnote=\count127
+)
+Package hyperref Info: Driver (autodetected): hpdftex.
+
+(c:/texlive/2018/texmf-dist/tex/latex/hyperref/hpdftex.def
+File: hpdftex.def 2018/02/06 v6.86b Hyperref driver for pdfTeX
+\Fld@listcount=\count128
+\c@bookmark@seq@number=\count129
+\Hy@SectionHShift=\skip63
+)
+(c:/texlive/2018/texmf-dist/tex/latex/microtype/microtype.sty
+Package: microtype 2018/01/14 v2.7a Micro-typographical refinements (RS)
+\MT@toks=\toks28
+\MT@count=\count130
+LaTeX Info: Redefining \textls on input line 793.
+\MT@outer@kern=\dimen143
+LaTeX Info: Redefining \textmicrotypecontext on input line 1339.
+\MT@listname@count=\count131
+
+(c:/texlive/2018/texmf-dist/tex/latex/microtype/microtype-pdftex.def
+File: microtype-pdftex.def 2018/01/14 v2.7a Definitions specific to pdftex (RS)
+
+LaTeX Info: Redefining \lsstyle on input line 913.
+LaTeX Info: Redefining \lslig on input line 913.
+\MT@outer@space=\skip64
+)
+Package microtype Info: Loading configuration file microtype.cfg.
+
+(c:/texlive/2018/texmf-dist/tex/latex/microtype/microtype.cfg
+File: microtype.cfg 2018/01/14 v2.7a microtype main configuration file (RS)
+)) (./mcode.sty
+-- Package: `mcode' 2.5 <2014/03/06> --
+Package: mcode 2014/03/06 2.5
+ - settings optimized for display (colour formating)
+ - line numbering enabled
+ - literate programming (character replacements) enabled
+ - automatic line breaking enabled (careful, buggy!)
+ - framed listings
+(c:/texlive/2018/texmf-dist/tex/latex/listings/listings.sty
+\lst@mode=\count132
+\lst@gtempboxa=\box34
+\lst@token=\toks29
+\lst@length=\count133
+\lst@currlwidth=\dimen144
+\lst@column=\count134
+\lst@pos=\count135
+\lst@lostspace=\dimen145
+\lst@width=\dimen146
+\lst@newlines=\count136
+\lst@lineno=\count137
+\lst@maxwidth=\dimen147
+
+(c:/texlive/2018/texmf-dist/tex/latex/listings/lstmisc.sty
+File: lstmisc.sty 2018/09/02 1.7 (Carsten Heinz)
+\c@lstnumber=\count138
+\lst@skipnumbers=\count139
+\lst@framebox=\box35
+)
+(c:/texlive/2018/texmf-dist/tex/latex/listings/listings.cfg
+File: listings.cfg 2018/09/02 1.7 listings configuration
+))
+Package: listings 2018/09/02 1.7 (Carsten Heinz)
+
+(c:/texlive/2018/texmf-dist/tex/latex/base/textcomp.sty
+Package: textcomp 2017/04/05 v2.0i Standard LaTeX package
+Package textcomp Info: Sub-encoding information:
+(textcomp)               5 = only ISO-Adobe without \textcurrency
+(textcomp)               4 = 5 + \texteuro
+(textcomp)               3 = 4 + \textohm
+(textcomp)               2 = 3 + \textestimated + \textcurrency
+(textcomp)               1 = TS1 - \textcircled - \t
+(textcomp)               0 = TS1 (full)
+(textcomp)             Font families with sub-encoding setting implement
+(textcomp)             only a restricted character set as indicated.
+(textcomp)             Family '?' is the default used for unknown fonts.
+(textcomp)             See the documentation for details.
+Package textcomp Info: Setting ? sub-encoding to TS1/1 on input line 79.
+
+(c:/texlive/2018/texmf-dist/tex/latex/base/ts1enc.def
+File: ts1enc.def 2001/06/05 v3.0e (jk/car/fm) Standard LaTeX file
+Now handling font encoding TS1 ...
+... processing UTF-8 mapping file for font encoding TS1
+
+(c:/texlive/2018/texmf-dist/tex/latex/base/ts1enc.dfu
+File: ts1enc.dfu 2018/04/05 v1.2c UTF-8 support for inputenc
+   defining Unicode char U+00A2 (decimal 162)
+   defining Unicode char U+00A3 (decimal 163)
+   defining Unicode char U+00A4 (decimal 164)
+   defining Unicode char U+00A5 (decimal 165)
+   defining Unicode char U+00A6 (decimal 166)
+   defining Unicode char U+00A7 (decimal 167)
+   defining Unicode char U+00A8 (decimal 168)
+   defining Unicode char U+00A9 (decimal 169)
+   defining Unicode char U+00AA (decimal 170)
+   defining Unicode char U+00AC (decimal 172)
+   defining Unicode char U+00AE (decimal 174)
+   defining Unicode char U+00AF (decimal 175)
+   defining Unicode char U+00B0 (decimal 176)
+   defining Unicode char U+00B1 (decimal 177)
+   defining Unicode char U+00B2 (decimal 178)
+   defining Unicode char U+00B3 (decimal 179)
+   defining Unicode char U+00B4 (decimal 180)
+   defining Unicode char U+00B5 (decimal 181)
+   defining Unicode char U+00B6 (decimal 182)
+   defining Unicode char U+00B7 (decimal 183)
+   defining Unicode char U+00B9 (decimal 185)
+   defining Unicode char U+00BA (decimal 186)
+   defining Unicode char U+00BC (decimal 188)
+   defining Unicode char U+00BD (decimal 189)
+   defining Unicode char U+00BE (decimal 190)
+   defining Unicode char U+00D7 (decimal 215)
+   defining Unicode char U+00F7 (decimal 247)
+   defining Unicode char U+0192 (decimal 402)
+   defining Unicode char U+02C7 (decimal 711)
+   defining Unicode char U+02D8 (decimal 728)
+   defining Unicode char U+02DD (decimal 733)
+   defining Unicode char U+0E3F (decimal 3647)
+   defining Unicode char U+2016 (decimal 8214)
+   defining Unicode char U+2020 (decimal 8224)
+   defining Unicode char U+2021 (decimal 8225)
+   defining Unicode char U+2022 (decimal 8226)
+   defining Unicode char U+2030 (decimal 8240)
+   defining Unicode char U+2031 (decimal 8241)
+   defining Unicode char U+203B (decimal 8251)
+   defining Unicode char U+203D (decimal 8253)
+   defining Unicode char U+2044 (decimal 8260)
+   defining Unicode char U+204E (decimal 8270)
+   defining Unicode char U+2052 (decimal 8274)
+   defining Unicode char U+20A1 (decimal 8353)
+   defining Unicode char U+20A4 (decimal 8356)
+   defining Unicode char U+20A6 (decimal 8358)
+   defining Unicode char U+20A9 (decimal 8361)
+   defining Unicode char U+20AB (decimal 8363)
+   defining Unicode char U+20AC (decimal 8364)
+   defining Unicode char U+20B1 (decimal 8369)
+   defining Unicode char U+2103 (decimal 8451)
+   defining Unicode char U+2116 (decimal 8470)
+   defining Unicode char U+2117 (decimal 8471)
+   defining Unicode char U+211E (decimal 8478)
+   defining Unicode char U+2120 (decimal 8480)
+   defining Unicode char U+2122 (decimal 8482)
+   defining Unicode char U+2126 (decimal 8486)
+   defining Unicode char U+2127 (decimal 8487)
+   defining Unicode char U+212E (decimal 8494)
+   defining Unicode char U+2190 (decimal 8592)
+   defining Unicode char U+2191 (decimal 8593)
+   defining Unicode char U+2192 (decimal 8594)
+   defining Unicode char U+2193 (decimal 8595)
+   defining Unicode char U+2329 (decimal 9001)
+   defining Unicode char U+232A (decimal 9002)
+   defining Unicode char U+2422 (decimal 9250)
+   defining Unicode char U+25E6 (decimal 9702)
+   defining Unicode char U+25EF (decimal 9711)
+   defining Unicode char U+266A (decimal 9834)
+   defining Unicode char U+FEFF (decimal 65279)
+))
+LaTeX Info: Redefining \oldstylenums on input line 334.
+Package textcomp Info: Setting cmr sub-encoding to TS1/0 on input line 349.
+Package textcomp Info: Setting cmss sub-encoding to TS1/0 on input line 350.
+Package textcomp Info: Setting cmtt sub-encoding to TS1/0 on input line 351.
+Package textcomp Info: Setting cmvtt sub-encoding to TS1/0 on input line 352.
+Package textcomp Info: Setting cmbr sub-encoding to TS1/0 on input line 353.
+Package textcomp Info: Setting cmtl sub-encoding to TS1/0 on input line 354.
+Package textcomp Info: Setting ccr sub-encoding to TS1/0 on input line 355.
+Package textcomp Info: Setting ptm sub-encoding to TS1/4 on input line 356.
+Package textcomp Info: Setting pcr sub-encoding to TS1/4 on input line 357.
+Package textcomp Info: Setting phv sub-encoding to TS1/4 on input line 358.
+Package textcomp Info: Setting ppl sub-encoding to TS1/3 on input line 359.
+Package textcomp Info: Setting pag sub-encoding to TS1/4 on input line 360.
+Package textcomp Info: Setting pbk sub-encoding to TS1/4 on input line 361.
+Package textcomp Info: Setting pnc sub-encoding to TS1/4 on input line 362.
+Package textcomp Info: Setting pzc sub-encoding to TS1/4 on input line 363.
+Package textcomp Info: Setting bch sub-encoding to TS1/4 on input line 364.
+Package textcomp Info: Setting put sub-encoding to TS1/5 on input line 365.
+Package textcomp Info: Setting uag sub-encoding to TS1/5 on input line 366.
+Package textcomp Info: Setting ugq sub-encoding to TS1/5 on input line 367.
+Package textcomp Info: Setting ul8 sub-encoding to TS1/4 on input line 368.
+Package textcomp Info: Setting ul9 sub-encoding to TS1/4 on input line 369.
+Package textcomp Info: Setting augie sub-encoding to TS1/5 on input line 370.
+Package textcomp Info: Setting dayrom sub-encoding to TS1/3 on input line 371.
+Package textcomp Info: Setting dayroms sub-encoding to TS1/3 on input line 372.
+
+Package textcomp Info: Setting pxr sub-encoding to TS1/0 on input line 373.
+Package textcomp Info: Setting pxss sub-encoding to TS1/0 on input line 374.
+Package textcomp Info: Setting pxtt sub-encoding to TS1/0 on input line 375.
+Package textcomp Info: Setting txr sub-encoding to TS1/0 on input line 376.
+Package textcomp Info: Setting txss sub-encoding to TS1/0 on input line 377.
+Package textcomp Info: Setting txtt sub-encoding to TS1/0 on input line 378.
+Package textcomp Info: Setting lmr sub-encoding to TS1/0 on input line 379.
+Package textcomp Info: Setting lmdh sub-encoding to TS1/0 on input line 380.
+Package textcomp Info: Setting lmss sub-encoding to TS1/0 on input line 381.
+Package textcomp Info: Setting lmssq sub-encoding to TS1/0 on input line 382.
+Package textcomp Info: Setting lmvtt sub-encoding to TS1/0 on input line 383.
+Package textcomp Info: Setting lmtt sub-encoding to TS1/0 on input line 384.
+Package textcomp Info: Setting qhv sub-encoding to TS1/0 on input line 385.
+Package textcomp Info: Setting qag sub-encoding to TS1/0 on input line 386.
+Package textcomp Info: Setting qbk sub-encoding to TS1/0 on input line 387.
+Package textcomp Info: Setting qcr sub-encoding to TS1/0 on input line 388.
+Package textcomp Info: Setting qcs sub-encoding to TS1/0 on input line 389.
+Package textcomp Info: Setting qpl sub-encoding to TS1/0 on input line 390.
+Package textcomp Info: Setting qtm sub-encoding to TS1/0 on input line 391.
+Package textcomp Info: Setting qzc sub-encoding to TS1/0 on input line 392.
+Package textcomp Info: Setting qhvc sub-encoding to TS1/0 on input line 393.
+Package textcomp Info: Setting futs sub-encoding to TS1/4 on input line 394.
+Package textcomp Info: Setting futx sub-encoding to TS1/4 on input line 395.
+Package textcomp Info: Setting futj sub-encoding to TS1/4 on input line 396.
+Package textcomp Info: Setting hlh sub-encoding to TS1/3 on input line 397.
+Package textcomp Info: Setting hls sub-encoding to TS1/3 on input line 398.
+Package textcomp Info: Setting hlst sub-encoding to TS1/3 on input line 399.
+Package textcomp Info: Setting hlct sub-encoding to TS1/5 on input line 400.
+Package textcomp Info: Setting hlx sub-encoding to TS1/5 on input line 401.
+Package textcomp Info: Setting hlce sub-encoding to TS1/5 on input line 402.
+Package textcomp Info: Setting hlcn sub-encoding to TS1/5 on input line 403.
+Package textcomp Info: Setting hlcw sub-encoding to TS1/5 on input line 404.
+Package textcomp Info: Setting hlcf sub-encoding to TS1/5 on input line 405.
+Package textcomp Info: Setting pplx sub-encoding to TS1/3 on input line 406.
+Package textcomp Info: Setting pplj sub-encoding to TS1/3 on input line 407.
+Package textcomp Info: Setting ptmx sub-encoding to TS1/4 on input line 408.
+Package textcomp Info: Setting ptmj sub-encoding to TS1/4 on input line 409.
+)
+\lbreakdots=\box36
+LaTeX Font Info:    Try loading font information for T1+pcr on input line 228.
+
+(c:/texlive/2018/texmf-dist/tex/latex/psnfss/t1pcr.fd
+File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
+))
+(c:/texlive/2018/texmf-dist/tex/latex/todonotes/todonotes.sty
+Package: todonotes 2015/07/09 .dtx Todonotes source and documentation.
+Package: todonotes 2012/07/25
+
+(c:/texlive/2018/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+)
+(c:/texlive/2018/texmf-dist/tex/latex/xkeyval/xkeyval.sty
+Package: xkeyval 2014/12/03 v2.7a package option processing (HA)
+
+(c:/texlive/2018/texmf-dist/tex/generic/xkeyval/xkeyval.tex
+(c:/texlive/2018/texmf-dist/tex/generic/xkeyval/xkvutils.tex
+\XKV@toks=\toks30
+\XKV@tempa@toks=\toks31
+)
+\XKV@depth=\count140
+File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
+))
+(c:/texlive/2018/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty
+(c:/texlive/2018/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty
+(c:/texlive/2018/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty
+(c:/texlive/2018/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.tex
+\pgfutil@everybye=\toks32
+\pgfutil@tempdima=\dimen148
+\pgfutil@tempdimb=\dimen149
+
+(c:/texlive/2018/texmf-dist/tex/generic/pgf/utilities/pgfutil-common-lists.tex)
+) (c:/texlive/2018/texmf-dist/tex/generic/pgf/utilities/pgfutil-latex.def
+\pgfutil@abb=\box37
+
+(c:/texlive/2018/texmf-dist/tex/latex/ms/everyshi.sty
+Package: everyshi 2001/05/15 v3.00 EveryShipout Package (MS)
+))
+(c:/texlive/2018/texmf-dist/tex/generic/pgf/utilities/pgfrcs.code.tex
+Package: pgfrcs 2015/08/07 v3.0.1a (rcs-revision 1.31)
+))
+Package: pgf 2015/08/07 v3.0.1a (rcs-revision 1.15)
+
+(c:/texlive/2018/texmf-dist/tex/latex/pgf/basiclayer/pgfcore.sty
+(c:/texlive/2018/texmf-dist/tex/latex/pgf/systemlayer/pgfsys.sty
+(c:/texlive/2018/texmf-dist/tex/generic/pgf/systemlayer/pgfsys.code.tex
+Package: pgfsys 2014/07/09 v3.0.1a (rcs-revision 1.48)
+
+(c:/texlive/2018/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
+\pgfkeys@pathtoks=\toks33
+\pgfkeys@temptoks=\toks34
+
+(c:/texlive/2018/texmf-dist/tex/generic/pgf/utilities/pgfkeysfiltered.code.tex
+\pgfkeys@tmptoks=\toks35
+))
+\pgf@x=\dimen150
+\pgf@y=\dimen151
+\pgf@xa=\dimen152
+\pgf@ya=\dimen153
+\pgf@xb=\dimen154
+\pgf@yb=\dimen155
+\pgf@xc=\dimen156
+\pgf@yc=\dimen157
+\w@pgf@writea=\write4
+\r@pgf@reada=\read1
+\c@pgf@counta=\count141
+\c@pgf@countb=\count142
+\c@pgf@countc=\count143
+\c@pgf@countd=\count144
+\t@pgf@toka=\toks36
+\t@pgf@tokb=\toks37
+\t@pgf@tokc=\toks38
+ (c:/texlive/2018/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg
+File: pgf.cfg 2008/05/14  (rcs-revision 1.7)
+)
+Driver file for pgf: pgfsys-pdftex.def
+
+(c:/texlive/2018/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-pdftex.def
+File: pgfsys-pdftex.def 2014/10/11  (rcs-revision 1.35)
+
+(c:/texlive/2018/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-common-pdf.def
+File: pgfsys-common-pdf.def 2013/10/10  (rcs-revision 1.13)
+)))
+(c:/texlive/2018/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.code.tex
+File: pgfsyssoftpath.code.tex 2013/09/09  (rcs-revision 1.9)
+\pgfsyssoftpath@smallbuffer@items=\count145
+\pgfsyssoftpath@bigbuffer@items=\count146
+)
+(c:/texlive/2018/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.code.tex
+File: pgfsysprotocol.code.tex 2006/10/16  (rcs-revision 1.4)
+)) (c:/texlive/2018/texmf-dist/tex/generic/pgf/basiclayer/pgfcore.code.tex
+Package: pgfcore 2010/04/11 v3.0.1a (rcs-revision 1.7)
+
+(c:/texlive/2018/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex
+(c:/texlive/2018/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.tex
+(c:/texlive/2018/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex)
+(c:/texlive/2018/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
+\pgfmath@dimen=\dimen158
+\pgfmath@count=\count147
+\pgfmath@box=\box38
+\pgfmath@toks=\toks39
+\pgfmath@stack@operand=\toks40
+\pgfmath@stack@operation=\toks41
+)
+(c:/texlive/2018/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.code.tex
+(c:/texlive/2018/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.basic.code.te
+x)
+(c:/texlive/2018/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.trigonometric
+.code.tex)
+(c:/texlive/2018/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.random.code.t
+ex)
+(c:/texlive/2018/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.comparison.co
+de.tex)
+(c:/texlive/2018/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.base.code.tex
+)
+(c:/texlive/2018/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.round.code.te
+x)
+(c:/texlive/2018/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.misc.code.tex
+)
+(c:/texlive/2018/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.integerarithm
+etics.code.tex)))
+(c:/texlive/2018/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex
+\c@pgfmathroundto@lastzeros=\count148
+))
+(c:/texlive/2018/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.code.tex
+File: pgfcorepoints.code.tex 2013/10/07  (rcs-revision 1.27)
+\pgf@picminx=\dimen159
+\pgf@picmaxx=\dimen160
+\pgf@picminy=\dimen161
+\pgf@picmaxy=\dimen162
+\pgf@pathminx=\dimen163
+\pgf@pathmaxx=\dimen164
+\pgf@pathminy=\dimen165
+\pgf@pathmaxy=\dimen166
+\pgf@xx=\dimen167
+\pgf@xy=\dimen168
+\pgf@yx=\dimen169
+\pgf@yy=\dimen170
+\pgf@zx=\dimen171
+\pgf@zy=\dimen172
+)
+(c:/texlive/2018/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathconstruct.cod
+e.tex
+File: pgfcorepathconstruct.code.tex 2013/10/07  (rcs-revision 1.29)
+\pgf@path@lastx=\dimen173
+\pgf@path@lasty=\dimen174
+)
+(c:/texlive/2018/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathusage.code.te
+x
+File: pgfcorepathusage.code.tex 2014/11/02  (rcs-revision 1.24)
+\pgf@shorten@end@additional=\dimen175
+\pgf@shorten@start@additional=\dimen176
+)
+(c:/texlive/2018/texmf-dist/tex/generic/pgf/basiclayer/pgfcorescopes.code.tex
+File: pgfcorescopes.code.tex 2015/05/08  (rcs-revision 1.46)
+\pgfpic=\box39
+\pgf@hbox=\box40
+\pgf@layerbox@main=\box41
+\pgf@picture@serial@count=\count149
+)
+(c:/texlive/2018/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicstate.code
+.tex
+File: pgfcoregraphicstate.code.tex 2014/11/02  (rcs-revision 1.12)
+\pgflinewidth=\dimen177
+)
+(c:/texlive/2018/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransformations.c
+ode.tex
+File: pgfcoretransformations.code.tex 2015/08/07  (rcs-revision 1.20)
+\pgf@pt@x=\dimen178
+\pgf@pt@y=\dimen179
+\pgf@pt@temp=\dimen180
+)
+(c:/texlive/2018/texmf-dist/tex/generic/pgf/basiclayer/pgfcorequick.code.tex
+File: pgfcorequick.code.tex 2008/10/09  (rcs-revision 1.3)
+)
+(c:/texlive/2018/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreobjects.code.tex
+File: pgfcoreobjects.code.tex 2006/10/11  (rcs-revision 1.2)
+)
+(c:/texlive/2018/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathprocessing.co
+de.tex
+File: pgfcorepathprocessing.code.tex 2013/09/09  (rcs-revision 1.9)
+)
+(c:/texlive/2018/texmf-dist/tex/generic/pgf/basiclayer/pgfcorearrows.code.tex
+File: pgfcorearrows.code.tex 2015/05/14  (rcs-revision 1.43)
+\pgfarrowsep=\dimen181
+)
+(c:/texlive/2018/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.code.tex
+File: pgfcoreshade.code.tex 2013/07/15  (rcs-revision 1.15)
+\pgf@max=\dimen182
+\pgf@sys@shading@range@num=\count150
+)
+(c:/texlive/2018/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.code.tex
+File: pgfcoreimage.code.tex 2013/07/15  (rcs-revision 1.18)
+
+(c:/texlive/2018/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreexternal.code.tex
+File: pgfcoreexternal.code.tex 2014/07/09  (rcs-revision 1.21)
+\pgfexternal@startupbox=\box42
+))
+(c:/texlive/2018/texmf-dist/tex/generic/pgf/basiclayer/pgfcorelayers.code.tex
+File: pgfcorelayers.code.tex 2013/07/18  (rcs-revision 1.7)
+)
+(c:/texlive/2018/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransparency.code
+.tex
+File: pgfcoretransparency.code.tex 2013/09/30  (rcs-revision 1.5)
+)
+(c:/texlive/2018/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepatterns.code.tex
+File: pgfcorepatterns.code.tex 2013/11/07  (rcs-revision 1.5)
+)))
+(c:/texlive/2018/texmf-dist/tex/generic/pgf/modules/pgfmoduleshapes.code.tex
+File: pgfmoduleshapes.code.tex 2014/03/21  (rcs-revision 1.35)
+\pgfnodeparttextbox=\box43
+)
+(c:/texlive/2018/texmf-dist/tex/generic/pgf/modules/pgfmoduleplot.code.tex
+File: pgfmoduleplot.code.tex 2015/08/03  (rcs-revision 1.13)
+)
+(c:/texlive/2018/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-0-65.st
+y
+Package: pgfcomp-version-0-65 2007/07/03 v3.0.1a (rcs-revision 1.7)
+\pgf@nodesepstart=\dimen183
+\pgf@nodesepend=\dimen184
+)
+(c:/texlive/2018/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-1-18.st
+y
+Package: pgfcomp-version-1-18 2007/07/23 v3.0.1a (rcs-revision 1.1)
+)) (c:/texlive/2018/texmf-dist/tex/latex/pgf/utilities/pgffor.sty
+(c:/texlive/2018/texmf-dist/tex/latex/pgf/utilities/pgfkeys.sty
+(c:/texlive/2018/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex))
+(c:/texlive/2018/texmf-dist/tex/latex/pgf/math/pgfmath.sty
+(c:/texlive/2018/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex))
+(c:/texlive/2018/texmf-dist/tex/generic/pgf/utilities/pgffor.code.tex
+Package: pgffor 2013/12/13 v3.0.1a (rcs-revision 1.25)
+
+(c:/texlive/2018/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex)
+\pgffor@iter=\dimen185
+\pgffor@skip=\dimen186
+\pgffor@stack=\toks42
+\pgffor@toks=\toks43
+))
+(c:/texlive/2018/texmf-dist/tex/generic/pgf/frontendlayer/tikz/tikz.code.tex
+Package: tikz 2015/08/07 v3.0.1a (rcs-revision 1.151)
+
+(c:/texlive/2018/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothandlers.co
+de.tex
+File: pgflibraryplothandlers.code.tex 2013/08/31 v3.0.1a (rcs-revision 1.20)
+\pgf@plot@mark@count=\count151
+\pgfplotmarksize=\dimen187
+)
+\tikz@lastx=\dimen188
+\tikz@lasty=\dimen189
+\tikz@lastxsaved=\dimen190
+\tikz@lastysaved=\dimen191
+\tikzleveldistance=\dimen192
+\tikzsiblingdistance=\dimen193
+\tikz@figbox=\box44
+\tikz@figbox@bg=\box45
+\tikz@tempbox=\box46
+\tikz@tempbox@bg=\box47
+\tikztreelevel=\count152
+\tikznumberofchildren=\count153
+\tikznumberofcurrentchild=\count154
+\tikz@fig@count=\count155
+
+(c:/texlive/2018/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.code.tex
+File: pgfmodulematrix.code.tex 2013/09/17  (rcs-revision 1.8)
+\pgfmatrixcurrentrow=\count156
+\pgfmatrixcurrentcolumn=\count157
+\pgf@matrix@numberofcolumns=\count158
+)
+\tikz@expandcount=\count159
+
+(c:/texlive/2018/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzli
+brarytopaths.code.tex
+File: tikzlibrarytopaths.code.tex 2008/06/17 v3.0.1a (rcs-revision 1.2)
+)))
+(c:/texlive/2018/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzli
+brarypositioning.code.tex
+File: tikzlibrarypositioning.code.tex 2008/10/06 v3.0.1a (rcs-revision 1.7)
+) (c:/texlive/2018/texmf-dist/tex/latex/tools/calc.sty
+Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count160
+\calc@Bcount=\count161
+\calc@Adimen=\dimen194
+\calc@Bdimen=\dimen195
+\calc@Askip=\skip65
+\calc@Bskip=\skip66
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
+\calc@Ccount=\count162
+\calc@Cskip=\skip67
+)
+\c@@todonotes@numberoftodonotes=\count163
+) (./labNotebook.aux
+
+LaTeX Warning: Label `fig:LQR_PI_Pitch' multiply defined.
+
+
+LaTeX Warning: Label `fig:LQG_PI_Pitch' multiply defined.
+
+
+LaTeX Warning: Label `fig:LQR_PI_Pitchmk2' multiply defined.
+
+)
+\openout1 = `labNotebook.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 177.
+LaTeX Font Info:    ... okay on input line 177.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 177.
+LaTeX Font Info:    ... okay on input line 177.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 177.
+LaTeX Font Info:    ... okay on input line 177.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 177.
+LaTeX Font Info:    ... okay on input line 177.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 177.
+LaTeX Font Info:    ... okay on input line 177.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 177.
+LaTeX Font Info:    ... okay on input line 177.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 177.
+LaTeX Font Info:    ... okay on input line 177.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 177.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 177.
+
+ (c:/texlive/2018/texmf-dist/tex/latex/base/ts1cmr.fd
+File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    ... okay on input line 177.
+LaTeX Font Info:    Try loading font information for T1+pplj on input line 177.
+
+
+(c:/texlive/2018/texmf-dist/tex/latex/psnfss/t1pplj.fd
+File: t1pplj.fd 2004/09/06 font definitions for T1/pplj.
+)
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: <default>
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: twoside 
+* h-part:(L,W,R)=(73.71613pt, 430.00462pt, 110.57425pt)
+* v-part:(T,H,B)=(95.39737pt, 590.07234pt, 109.50027pt)
+* \paperwidth=614.295pt
+* \paperheight=794.96999pt
+* \textwidth=430.00462pt
+* \textheight=590.07234pt
+* \oddsidemargin=1.44614pt
+* \evensidemargin=38.30426pt
+* \topmargin=-14.27263pt
+* \headheight=25.0pt
+* \headsep=20.40001pt
+* \topskip=11.0pt
+* \footskip=47.6pt
+* \marginparwidth=131.63463pt
+* \marginparsep=12.8401pt
+* \columnsep=10.0pt
+* \skip\footins=14.0pt plus 6.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidetrue
+* \@mparswitchtrue
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+(c:/texlive/2018/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count164
+\scratchdimen=\dimen196
+\scratchbox=\box48
+\nofMPsegments=\count165
+\nofMParguments=\count166
+\everyMPshowfont=\toks44
+\MPscratchCnt=\count167
+\MPscratchDim=\dimen197
+\MPnumerator=\count168
+\makeMPintoPDFobject=\count169
+\everyMPtoPDFconversion=\toks45
+)
+Package lastpage Info: Please have a look at the pageslts package at
+(lastpage)             https://www.ctan.org/pkg/pageslts
+(lastpage)             ! on input line 177.
+\AtBeginShipoutBox=\box49
+Package hyperref Info: Link coloring ON on input line 177.
+ (c:/texlive/2018/texmf-dist/tex/latex/hyperref/nameref.sty
+Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
+
+(c:/texlive/2018/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
+Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
+)
+\c@section@level=\count170
+)
+LaTeX Info: Redefining \ref on input line 177.
+LaTeX Info: Redefining \pageref on input line 177.
+LaTeX Info: Redefining \nameref on input line 177.
+
+(./labNotebook.out) (./labNotebook.out)
+\@outlinefile=\write5
+\openout5 = `labNotebook.out'.
+
+LaTeX Info: Redefining \microtypecontext on input line 177.
+Package microtype Info: Generating PDF output.
+Package microtype Info: Character protrusion enabled (level 2).
+Package microtype Info: Using default protrusion set `alltext'.
+Package microtype Info: Automatic font expansion enabled (level 2),
+(microtype)             stretch: 10, shrink: 10, step: 1, non-selected.
+Package microtype Info: Using default expansion set `basictext'.
+Package microtype Info: No adjustment of tracking.
+Package microtype Info: No adjustment of interword spacing.
+Package microtype Info: No adjustment of character kerning.
+
+(c:/texlive/2018/texmf-dist/tex/latex/microtype/mt-ppl.cfg
+File: mt-ppl.cfg 2005/11/16 v1.6 microtype config. file: Palatino (RS)
+)
+\c@lstlisting=\count171
+
+ABD: EveryShipout initializing macros
+LaTeX Font Info:    Try loading font information for T1+fvs on input line 200.
+
+(c:/texlive/2018/texmf-dist/tex/latex/bera/t1fvs.fd
+File: t1fvs.fd 2004/09/07 scalable font definitions for T1/fvs.
+)
+LaTeX Font Info:    Font shape `T1/fvs/m/n' will be
+(Font)              scaled to size 9.41699pt on input line 200.
+Package microtype Info: Loading generic protrusion settings for font family
+(microtype)             `fvs' (encoding: T1).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
+LaTeX Font Info:    Font shape `T1/fvs/bx/n' in size <10.95> not available
+(Font)              Font shape `T1/fvs/b/n' tried instead on input line 200.
+LaTeX Font Info:    Font shape `T1/fvs/b/n' will be
+(Font)              scaled to size 9.41699pt on input line 200.
+LaTeX Font Info:    Font shape `T1/fvs/bx/n' in size <24.88> not available
+(Font)              Font shape `T1/fvs/b/n' tried instead on input line 200.
+LaTeX Font Info:    Font shape `T1/fvs/b/n' will be
+(Font)              scaled to size 21.3968pt on input line 200.
+LaTeX Font Info:    Font shape `T1/fvs/bx/n' in size <20.74> not available
+(Font)              Font shape `T1/fvs/b/n' tried instead on input line 200.
+LaTeX Font Info:    Font shape `T1/fvs/b/n' will be
+(Font)              scaled to size 17.83641pt on input line 200.
+<figs/logoBU1-Print.pdf, id=687, 481.8pt x 160.6pt>
+File: figs/logoBU1-Print.pdf Graphic file (type pdf)
+<use figs/logoBU1-Print.pdf>
+Package pdftex.def Info: figs/logoBU1-Print.pdf  used on input line 200.
+(pdftex.def)             Requested size: 108.40031pt x 36.135pt.
+LaTeX Font Info:    Font shape `T1/fvs/bx/n' in size <14.4> not available
+(Font)              Font shape `T1/fvs/b/n' tried instead on input line 200.
+LaTeX Font Info:    Font shape `T1/fvs/b/n' will be
+(Font)              scaled to size 12.384pt on input line 200.
+LaTeX Font Info:    Try loading font information for OT1+ppl on input line 200.
+
+
+(c:/texlive/2018/texmf-dist/tex/latex/psnfss/ot1ppl.fd
+File: ot1ppl.fd 2001/06/04 font definitions for OT1/ppl.
+)
+LaTeX Font Info:    Try loading font information for OML+zplm on input line 200
+.
+
+(c:/texlive/2018/texmf-dist/tex/latex/psnfss/omlzplm.fd
+File: omlzplm.fd 2002/09/08 Fontinst v1.914 font definitions for OML/zplm.
+)
+LaTeX Font Info:    Try loading font information for OMS+zplm on input line 200
+.
+
+(c:/texlive/2018/texmf-dist/tex/latex/psnfss/omszplm.fd
+File: omszplm.fd 2002/09/08 Fontinst v1.914 font definitions for OMS/zplm.
+)
+LaTeX Font Info:    Try loading font information for OMX+zplm on input line 200
+.
+
+(c:/texlive/2018/texmf-dist/tex/latex/psnfss/omxzplm.fd
+File: omxzplm.fd 2002/09/08 Fontinst v1.914 font definitions for OMX/zplm.
+)
+LaTeX Font Info:    Try loading font information for OT1+zplm on input line 200
+.
+
+(c:/texlive/2018/texmf-dist/tex/latex/psnfss/ot1zplm.fd
+File: ot1zplm.fd 2002/09/08 Fontinst v1.914 font definitions for OT1/zplm.
+)
+Package microtype Info: Loading generic protrusion settings for font family
+(microtype)             `zplm' (encoding: OT1).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
+ [1
+
+
+
+{c:/texlive/2018/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./figs/logoBU1-
+Print.pdf>]
+No file labNotebook.ind.
+Package tocbasic Info: character protrusion at toc deactivated on input line 20
+4.
+(./labNotebook.toc
+Underfull \vbox (badness 1137) has occurred while \output is active []
+
+LaTeX Font Info:    Font shape `T1/pplj/m/sl' in size <10.95> not available
+(Font)              Font shape `T1/pplj/m/it' tried instead on input line 29.
+ [2
+
+]
+[3] [4] [5]
+Overfull \hbox (2.69012pt too wide) detected at line 134
+ [][][]\T1/fvs/b/n/10.95 101[][]
+ []
+
+
+Overfull \hbox (2.69012pt too wide) detected at line 136
+ [][][]\T1/fvs/b/n/10.95 107[][]
+ []
+
+
+Overfull \hbox (2.69012pt too wide) detected at line 138
+ [][][]\T1/fvs/b/n/10.95 108[][]
+ []
+
+
+Overfull \hbox (2.69012pt too wide) detected at line 140
+ [][][]\T1/fvs/b/n/10.95 115[][]
+ []
+
+
+Overfull \hbox (2.69012pt too wide) detected at line 142
+ [][][]\T1/fvs/b/n/10.95 116[][]
+ []
+
+
+Overfull \hbox (2.69012pt too wide) detected at line 144
+ [][][]\T1/fvs/b/n/10.95 118[][]
+ []
+
+
+Overfull \hbox (2.69012pt too wide) detected at line 146
+ [][][]\T1/fvs/b/n/10.95 119[][]
+ []
+
+
+Overfull \hbox (2.69012pt too wide) detected at line 148
+ [][][]\T1/fvs/b/n/10.95 120[][]
+ []
+
+
+Overfull \hbox (2.69012pt too wide) detected at line 150
+ [][][]\T1/fvs/b/n/10.95 121[][]
+ []
+
+
+Underfull \vbox (badness 1221) has occurred while \output is active []
+
+ [6]
+Overfull \hbox (2.69012pt too wide) detected at line 152
+ [][][]\T1/fvs/b/n/10.95 122[][]
+ []
+
+
+Overfull \hbox (2.69012pt too wide) detected at line 154
+ [][][]\T1/fvs/b/n/10.95 123[][]
+ []
+
+
+Overfull \hbox (2.69012pt too wide) detected at line 157
+ [][][]\T1/fvs/b/n/10.95 124[][]
+ []
+
+
+Overfull \hbox (2.69012pt too wide) detected at line 159
+ [][][]\T1/fvs/b/n/10.95 125[][]
+ []
+
+
+Overfull \hbox (2.69012pt too wide) detected at line 164
+ [][][]\T1/fvs/b/n/10.95 127[][]
+ []
+
+
+Overfull \hbox (2.69012pt too wide) detected at line 167
+ [][][]\T1/fvs/b/n/10.95 128[][]
+ []
+
+
+Overfull \hbox (2.69012pt too wide) detected at line 169
+ [][][]\T1/fvs/b/n/10.95 129[][]
+ []
+
+)
+\tf@toc=\write6
+\openout6 = `labNotebook.toc'.
+
+ [7] [8]
+chapter without number
+
+Class scrbook Warning: \float@addtolists detected!
+(scrbook)              Implementation of \float@addtolist became
+(scrbook)              deprecated in KOMA-Script v3.01 2008/11/14 and
+(scrbook)              has been replaced by several more flexible
+(scrbook)              features of package `tocbasic`.
+(scrbook)              Since Version 3.12 support for deprecated
+(scrbook)              \float@addtolist interface has been
+(scrbook)              restricted to only some of the KOMA-Script
+(scrbook)              features and been removed from others.
+(scrbook)              Loading of package `scrhack' may help to
+(scrbook)              avoid this warning, if you are using a
+(scrbook)              a package that still implements the
+(scrbook)              deprecated \float@addtolist interface .
+
+[9
+
+]
+chapter without number
+[10
+
+]
+chapter without number
+[11
+
+]
+<figs/img/quanserAeroSystemParameters.png, id=935, 394.47375pt x 472.01344pt>
+File: figs/img/quanserAeroSystemParameters.png Graphic file (type png)
+<use figs/img/quanserAeroSystemParameters.png>
+Package pdftex.def Info: figs/img/quanserAeroSystemParameters.png  used on inpu
+t line 258.
+(pdftex.def)             Requested size: 258.00539pt x 308.72092pt.
+LaTeX Font Info:    Font shape `T1/pplj/bx/n' in size <9> not available
+(Font)              Font shape `T1/pplj/b/n' tried instead on input line 259.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [12 <./figs/img/quanserAeroSystemParameters.png>]
+LaTeX Font Info:    Font shape `T1/pplj/bx/n' in size <10.95> not available
+(Font)              Font shape `T1/pplj/b/n' tried instead on input line 269.
+ [13]
+chapter without number
+[14
+
+] [15] [16]
+chapter without number
+
+
+pdfTeX warning: pdflatex.exe (file ./figs/img/LQR_USB.pdf): PDF inclusion: foun
+d PDF version <1.7>, but at most version <1.5> allowed
+<figs/img/LQR_USB.pdf, id=997, 794.97pt x 614.295pt>
+File: figs/img/LQR_USB.pdf Graphic file (type pdf)
+<use figs/img/LQR_USB.pdf>
+Package pdftex.def Info: figs/img/LQR_USB.pdf  used on input line 333.
+(pdftex.def)             Requested size: 430.00462pt x 332.28613pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<figs/matlab/LQR/P_USB/Pitch_Pos_LQR_USB_SQU.pdf, id=998, 364.36125pt x 304.136
+25pt>
+File: figs/matlab/LQR/P_USB/Pitch_Pos_LQR_USB_SQU.pdf Graphic file (type pdf)
+<use figs/matlab/LQR/P_USB/Pitch_Pos_LQR_USB_SQU.pdf>
+Package pdftex.def Info: figs/matlab/LQR/P_USB/Pitch_Pos_LQR_USB_SQU.pdf  used 
+on input line 341.
+(pdftex.def)             Requested size: 258.00539pt x 215.36743pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<figs/matlab/LQR/P_USB/Pitch_Volt_LQR_USB_SQU.pdf, id=999, 364.36125pt x 304.13
+625pt>
+File: figs/matlab/LQR/P_USB/Pitch_Volt_LQR_USB_SQU.pdf Graphic file (type pdf)
+<use figs/matlab/LQR/P_USB/Pitch_Volt_LQR_USB_SQU.pdf>
+Package pdftex.def Info: figs/matlab/LQR/P_USB/Pitch_Volt_LQR_USB_SQU.pdf  used
+ on input line 348.
+(pdftex.def)             Requested size: 258.00539pt x 215.36743pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<figs/matlab/LQR/P_USB/Yaw_Pos_LQR_USB_SQU.pdf, id=1000, 364.36125pt x 304.1362
+5pt>
+File: figs/matlab/LQR/P_USB/Yaw_Pos_LQR_USB_SQU.pdf Graphic file (type pdf)
+<use figs/matlab/LQR/P_USB/Yaw_Pos_LQR_USB_SQU.pdf>
+Package pdftex.def Info: figs/matlab/LQR/P_USB/Yaw_Pos_LQR_USB_SQU.pdf  used on
+ input line 355.
+(pdftex.def)             Requested size: 258.00539pt x 215.36743pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<figs/matlab/LQR/P_USB/Yaw_Volt_LQR_USB_SQU.pdf, id=1001, 364.36125pt x 304.136
+25pt>
+File: figs/matlab/LQR/P_USB/Yaw_Volt_LQR_USB_SQU.pdf Graphic file (type pdf)
+<use figs/matlab/LQR/P_USB/Yaw_Volt_LQR_USB_SQU.pdf>
+Package pdftex.def Info: figs/matlab/LQR/P_USB/Yaw_Volt_LQR_USB_SQU.pdf  used o
+n input line 362.
+(pdftex.def)             Requested size: 258.00539pt x 215.36743pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[17
+
+] [18 <./figs/img/LQR_USB.pdf>] [19 <./figs/matlab/LQR/P_USB/Pitch_Pos_LQR_USB_
+SQU.pdf> <./figs/matlab/LQR/P_USB/Pitch_Volt_LQR_USB_SQU.pdf>] [20 <./figs/matl
+ab/LQR/P_USB/Yaw_Pos_LQR_USB_SQU.pdf> <./figs/matlab/LQR/P_USB/Yaw_Volt_LQR_USB
+_SQU.pdf>]
+chapter without number
+<figs/matlab/LQR/P_USB/Pitch_Pos_LQR_USB_SIN.pdf, id=1076, 364.36125pt x 304.13
+625pt>
+File: figs/matlab/LQR/P_USB/Pitch_Pos_LQR_USB_SIN.pdf Graphic file (type pdf)
+<use figs/matlab/LQR/P_USB/Pitch_Pos_LQR_USB_SIN.pdf>
+Package pdftex.def Info: figs/matlab/LQR/P_USB/Pitch_Pos_LQR_USB_SIN.pdf  used 
+on input line 381.
+(pdftex.def)             Requested size: 258.00539pt x 215.36743pt.
+<figs/matlab/LQR/P_USB/Pitch_Volt_LQR_USB_SIN.pdf, id=1077, 364.36125pt x 304.1
+3625pt>
+File: figs/matlab/LQR/P_USB/Pitch_Volt_LQR_USB_SIN.pdf Graphic file (type pdf)
+<use figs/matlab/LQR/P_USB/Pitch_Volt_LQR_USB_SIN.pdf>
+Package pdftex.def Info: figs/matlab/LQR/P_USB/Pitch_Volt_LQR_USB_SIN.pdf  used
+ on input line 388.
+(pdftex.def)             Requested size: 258.00539pt x 215.36743pt.
+[21
+
+ <./figs/matlab/LQR/P_USB/Pitch_Pos_LQR_USB_SIN.pdf>]
+<figs/matlab/LQR/P_USB/Yaw_Pos_LQR_USB_SIN.pdf, id=1099, 364.36125pt x 304.1362
+5pt>
+File: figs/matlab/LQR/P_USB/Yaw_Pos_LQR_USB_SIN.pdf Graphic file (type pdf)
+<use figs/matlab/LQR/P_USB/Yaw_Pos_LQR_USB_SIN.pdf>
+Package pdftex.def Info: figs/matlab/LQR/P_USB/Yaw_Pos_LQR_USB_SIN.pdf  used on
+ input line 395.
+(pdftex.def)             Requested size: 258.00539pt x 215.36743pt.
+<figs/matlab/LQR/P_USB/Yaw_Volt_LQR_USB_SIN.pdf, id=1100, 364.36125pt x 304.136
+25pt>
+File: figs/matlab/LQR/P_USB/Yaw_Volt_LQR_USB_SIN.pdf Graphic file (type pdf)
+<use figs/matlab/LQR/P_USB/Yaw_Volt_LQR_USB_SIN.pdf>
+Package pdftex.def Info: figs/matlab/LQR/P_USB/Yaw_Volt_LQR_USB_SIN.pdf  used o
+n input line 402.
+(pdftex.def)             Requested size: 258.00539pt x 215.36743pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [22 <./figs/matlab/LQR/P_USB/Pitch_Volt_LQR_USB_SIN.pdf> <./figs/matlab/LQR/P_
+USB/Yaw_Pos_LQR_USB_SIN.pdf>]
+<figs/matlab/LQR/P_USB/Pitch_Pos_LQR_USB_CON.pdf, id=1123, 361.35pt x 304.13625
+pt>
+File: figs/matlab/LQR/P_USB/Pitch_Pos_LQR_USB_CON.pdf Graphic file (type pdf)
+<use figs/matlab/LQR/P_USB/Pitch_Pos_LQR_USB_CON.pdf>
+Package pdftex.def Info: figs/matlab/LQR/P_USB/Pitch_Pos_LQR_USB_CON.pdf  used 
+on input line 410.
+(pdftex.def)             Requested size: 258.00539pt x 217.15411pt.
+<figs/matlab/LQR/P_USB/Pitch_Volt_LQR_USB_CON.pdf, id=1124, 364.36125pt x 304.1
+3625pt>
+File: figs/matlab/LQR/P_USB/Pitch_Volt_LQR_USB_CON.pdf Graphic file (type pdf)
+<use figs/matlab/LQR/P_USB/Pitch_Volt_LQR_USB_CON.pdf>
+Package pdftex.def Info: figs/matlab/LQR/P_USB/Pitch_Volt_LQR_USB_CON.pdf  used
+ on input line 417.
+(pdftex.def)             Requested size: 258.00539pt x 215.36743pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [23 <./figs/matlab/LQR/P_USB/Yaw_Volt_LQR_USB_SIN.pdf> <./figs/matlab/LQR/P_US
+B/Pitch_Pos_LQR_USB_CON.pdf>]
+<figs/matlab/LQR/P_USB/Yaw_Pos_LQR_USB_CON.pdf, id=1146, 361.35pt x 304.13625pt
+>
+File: figs/matlab/LQR/P_USB/Yaw_Pos_LQR_USB_CON.pdf Graphic file (type pdf)
+<use figs/matlab/LQR/P_USB/Yaw_Pos_LQR_USB_CON.pdf>
+Package pdftex.def Info: figs/matlab/LQR/P_USB/Yaw_Pos_LQR_USB_CON.pdf  used on
+ input line 424.
+(pdftex.def)             Requested size: 258.00539pt x 217.15411pt.
+<figs/matlab/LQR/P_USB/Yaw_Volt_LQR_USB_CON.pdf, id=1147, 361.35pt x 304.13625p
+t>
+File: figs/matlab/LQR/P_USB/Yaw_Volt_LQR_USB_CON.pdf Graphic file (type pdf)
+<use figs/matlab/LQR/P_USB/Yaw_Volt_LQR_USB_CON.pdf>
+Package pdftex.def Info: figs/matlab/LQR/P_USB/Yaw_Volt_LQR_USB_CON.pdf  used o
+n input line 431.
+(pdftex.def)             Requested size: 258.00539pt x 217.15411pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [24 <./figs/matlab/LQR/P_USB/Pitch_Volt_LQR_USB_CON.pdf> <./figs/matlab/LQR/P_
+USB/Yaw_Pos_LQR_USB_CON.pdf>]
+
+pdfTeX warning: pdflatex.exe (file ./figs/img/LQG_USB_Quanser.pdf): PDF inclusi
+on: found PDF version <1.7>, but at most version <1.5> allowed
+<figs/img/LQG_USB_Quanser.pdf, id=1183, 794.97pt x 614.295pt>
+File: figs/img/LQG_USB_Quanser.pdf Graphic file (type pdf)
+<use figs/img/LQG_USB_Quanser.pdf>
+Package pdftex.def Info: figs/img/LQG_USB_Quanser.pdf  used on input line 463.
+(pdftex.def)             Requested size: 430.00462pt x 332.28613pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<figs/matlab/LQG/LQG_USB/Pitch_Pos_deg_LQG_USB_SQU.pdf, id=1184, 364.36125pt x 
+304.13625pt>
+File: figs/matlab/LQG/LQG_USB/Pitch_Pos_deg_LQG_USB_SQU.pdf Graphic file (type 
+pdf)
+<use figs/matlab/LQG/LQG_USB/Pitch_Pos_deg_LQG_USB_SQU.pdf>
+Package pdftex.def Info: figs/matlab/LQG/LQG_USB/Pitch_Pos_deg_LQG_USB_SQU.pdf 
+ used on input line 471.
+(pdftex.def)             Requested size: 258.00539pt x 215.36743pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<figs/matlab/LQG/LQG_USB/Pitch_Pos_Rad_LQG_USB_SQU.pdf, id=1185, 366.36874pt x 
+304.13625pt>
+File: figs/matlab/LQG/LQG_USB/Pitch_Pos_Rad_LQG_USB_SQU.pdf Graphic file (type 
+pdf)
+<use figs/matlab/LQG/LQG_USB/Pitch_Pos_Rad_LQG_USB_SQU.pdf>
+Package pdftex.def Info: figs/matlab/LQG/LQG_USB/Pitch_Pos_Rad_LQG_USB_SQU.pdf 
+ used on input line 478.
+(pdftex.def)             Requested size: 258.00539pt x 214.19331pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<figs/matlab/LQG/LQG_USB/Pitch_Volt_LQG_USB_SQU.pdf, id=1186, 364.36125pt x 304
+.13625pt>
+File: figs/matlab/LQG/LQG_USB/Pitch_Volt_LQG_USB_SQU.pdf Graphic file (type pdf
+)
+<use figs/matlab/LQG/LQG_USB/Pitch_Volt_LQG_USB_SQU.pdf>
+Package pdftex.def Info: figs/matlab/LQG/LQG_USB/Pitch_Volt_LQG_USB_SQU.pdf  us
+ed on input line 485.
+(pdftex.def)             Requested size: 258.00539pt x 215.36743pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<figs/matlab/LQG/LQG_USB/Pitch_Speed_LQG_USB_SQU.pdf, id=1187, 367.3725pt x 305
+.14pt>
+File: figs/matlab/LQG/LQG_USB/Pitch_Speed_LQG_USB_SQU.pdf Graphic file (type pd
+f)
+<use figs/matlab/LQG/LQG_USB/Pitch_Speed_LQG_USB_SQU.pdf>
+Package pdftex.def Info: figs/matlab/LQG/LQG_USB/Pitch_Speed_LQG_USB_SQU.pdf  u
+sed on input line 492.
+(pdftex.def)             Requested size: 258.00539pt x 214.31355pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<figs/matlab/LQG/LQG_USB/Pitch_Pos_deg_LQG_USB_SIN.pdf, id=1188, 364.36125pt x 
+304.13625pt>
+File: figs/matlab/LQG/LQG_USB/Pitch_Pos_deg_LQG_USB_SIN.pdf Graphic file (type 
+pdf)
+<use figs/matlab/LQG/LQG_USB/Pitch_Pos_deg_LQG_USB_SIN.pdf>
+Package pdftex.def Info: figs/matlab/LQG/LQG_USB/Pitch_Pos_deg_LQG_USB_SIN.pdf 
+ used on input line 500.
+(pdftex.def)             Requested size: 258.00539pt x 215.36743pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<figs/matlab/LQG/LQG_USB/Pitch_Pos_Rad_LQG_USB_SIN.pdf, id=1189, 370.38374pt x 
+304.13625pt>
+File: figs/matlab/LQG/LQG_USB/Pitch_Pos_Rad_LQG_USB_SIN.pdf Graphic file (type 
+pdf)
+<use figs/matlab/LQG/LQG_USB/Pitch_Pos_Rad_LQG_USB_SIN.pdf>
+Package pdftex.def Info: figs/matlab/LQG/LQG_USB/Pitch_Pos_Rad_LQG_USB_SIN.pdf 
+ used on input line 507.
+(pdftex.def)             Requested size: 258.00539pt x 211.85902pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<figs/matlab/LQG/LQG_USB/Pitch_Volt_LQG_USB_SIN.pdf, id=1190, 364.36125pt x 304
+.13625pt>
+File: figs/matlab/LQG/LQG_USB/Pitch_Volt_LQG_USB_SIN.pdf Graphic file (type pdf
+)
+<use figs/matlab/LQG/LQG_USB/Pitch_Volt_LQG_USB_SIN.pdf>
+Package pdftex.def Info: figs/matlab/LQG/LQG_USB/Pitch_Volt_LQG_USB_SIN.pdf  us
+ed on input line 514.
+(pdftex.def)             Requested size: 258.00539pt x 215.36743pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<figs/matlab/LQG/LQG_USB/Pitch_Speed_LQG_USB_SIN.pdf, id=1191, 367.3725pt x 305
+.14pt>
+File: figs/matlab/LQG/LQG_USB/Pitch_Speed_LQG_USB_SIN.pdf Graphic file (type pd
+f)
+<use figs/matlab/LQG/LQG_USB/Pitch_Speed_LQG_USB_SIN.pdf>
+Package pdftex.def Info: figs/matlab/LQG/LQG_USB/Pitch_Speed_LQG_USB_SIN.pdf  u
+sed on input line 521.
+(pdftex.def)             Requested size: 258.00539pt x 214.31355pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<figs/matlab/LQG/LQG_USB/Pitch_Pos_deg_LQG_USB_CON.pdf, id=1192, 361.35pt x 304
+.13625pt>
+File: figs/matlab/LQG/LQG_USB/Pitch_Pos_deg_LQG_USB_CON.pdf Graphic file (type 
+pdf)
+<use figs/matlab/LQG/LQG_USB/Pitch_Pos_deg_LQG_USB_CON.pdf>
+Package pdftex.def Info: figs/matlab/LQG/LQG_USB/Pitch_Pos_deg_LQG_USB_CON.pdf 
+ used on input line 529.
+(pdftex.def)             Requested size: 258.00539pt x 217.15411pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<figs/matlab/LQG/LQG_USB/Pitch_Pos_Rad_LQG_USB_CON.pdf, id=1193, 370.38374pt x 
+304.13625pt>
+File: figs/matlab/LQG/LQG_USB/Pitch_Pos_Rad_LQG_USB_CON.pdf Graphic file (type 
+pdf)
+<use figs/matlab/LQG/LQG_USB/Pitch_Pos_Rad_LQG_USB_CON.pdf>
+Package pdftex.def Info: figs/matlab/LQG/LQG_USB/Pitch_Pos_Rad_LQG_USB_CON.pdf 
+ used on input line 536.
+(pdftex.def)             Requested size: 258.00539pt x 211.85902pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<figs/matlab/LQG/LQG_USB/Pitch_Volt_LQG_USB_CON.pdf, id=1194, 364.36125pt x 304
+.13625pt>
+File: figs/matlab/LQG/LQG_USB/Pitch_Volt_LQG_USB_CON.pdf Graphic file (type pdf
+)
+<use figs/matlab/LQG/LQG_USB/Pitch_Volt_LQG_USB_CON.pdf>
+Package pdftex.def Info: figs/matlab/LQG/LQG_USB/Pitch_Volt_LQG_USB_CON.pdf  us
+ed on input line 543.
+(pdftex.def)             Requested size: 258.00539pt x 215.36743pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<figs/matlab/LQG/LQG_USB/Pitch_Speed_LQG_USB_CON.pdf, id=1195, 367.3725pt x 305
+.14pt>
+File: figs/matlab/LQG/LQG_USB/Pitch_Speed_LQG_USB_CON.pdf Graphic file (type pd
+f)
+<use figs/matlab/LQG/LQG_USB/Pitch_Speed_LQG_USB_CON.pdf>
+Package pdftex.def Info: figs/matlab/LQG/LQG_USB/Pitch_Speed_LQG_USB_CON.pdf  u
+sed on input line 550.
+(pdftex.def)             Requested size: 258.00539pt x 214.31355pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[25 <./figs/matlab/LQR/P_USB/Yaw_Volt_LQR_USB_CON.pdf>] [26 <./figs/img/LQG_USB
+_Quanser.pdf>] [27 <./figs/matlab/LQG/LQG_USB/Pitch_Pos_deg_LQG_USB_SQU.pdf> <.
+/figs/matlab/LQG/LQG_USB/Pitch_Pos_Rad_LQG_USB_SQU.pdf>] [28 <./figs/matlab/LQG
+/LQG_USB/Pitch_Volt_LQG_USB_SQU.pdf> <./figs/matlab/LQG/LQG_USB/Pitch_Speed_LQG
+_USB_SQU.pdf>] [29 <./figs/matlab/LQG/LQG_USB/Pitch_Pos_deg_LQG_USB_SIN.pdf> <.
+/figs/matlab/LQG/LQG_USB/Pitch_Pos_Rad_LQG_USB_SIN.pdf>] [30 <./figs/matlab/LQG
+/LQG_USB/Pitch_Volt_LQG_USB_SIN.pdf> <./figs/matlab/LQG/LQG_USB/Pitch_Speed_LQG
+_USB_SIN.pdf>] [31 <./figs/matlab/LQG/LQG_USB/Pitch_Pos_deg_LQG_USB_CON.pdf> <.
+/figs/matlab/LQG/LQG_USB/Pitch_Pos_Rad_LQG_USB_CON.pdf>] [32 <./figs/matlab/LQG
+/LQG_USB/Pitch_Volt_LQG_USB_CON.pdf> <./figs/matlab/LQG/LQG_USB/Pitch_Speed_LQG
+_USB_CON.pdf>]
+chapter without number
+[33
+
+]
+chapter without number
+[34
+
+]
+chapter without number
+[35
+
+]
+chapter without number
+[36
+
+]
+chapter without number
+[37
+
+]
+chapter without number
+[38
+
+]
+chapter without number
+[39
+
+]
+chapter without number
+[40
+
+]
+chapter without number
+
+Underfull \vbox (badness 7722) has occurred while \output is active []
+
+ [41
+
+]
+<figs/img/Raspi3_pinmap.pdf, id=1418, 461.725pt x 481.8pt>
+File: figs/img/Raspi3_pinmap.pdf Graphic file (type pdf)
+<use figs/img/Raspi3_pinmap.pdf>
+Package pdftex.def Info: figs/img/Raspi3_pinmap.pdf  used on input line 664.
+(pdftex.def)             Requested size: 258.00539pt x 269.22537pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[42] [43 <./figs/img/Raspi3_pinmap.pdf>]
+chapter without number
+[44
+
+]
+chapter without number
+<figs/img/PC1_IP.png, id=1446, 737.75626pt x 384.6872pt>
+File: figs/img/PC1_IP.png Graphic file (type png)
+<use figs/img/PC1_IP.png>
+Package pdftex.def Info: figs/img/PC1_IP.png  used on input line 694.
+(pdftex.def)             Requested size: 430.00462pt x 224.21638pt.
+<figs/img/PC2_IP.png, id=1447, 737.75626pt x 386.19281pt>
+File: figs/img/PC2_IP.png Graphic file (type png)
+<use figs/img/PC2_IP.png>
+Package pdftex.def Info: figs/img/PC2_IP.png  used on input line 701.
+(pdftex.def)             Requested size: 430.00462pt x 225.09393pt.
+[45
+
+ <./figs/img/PC1_IP.png>]
+<figs/img/RaspPI_IP.png, id=1456, 515.67656pt x 496.10344pt>
+File: figs/img/RaspPI_IP.png Graphic file (type png)
+<use figs/img/RaspPI_IP.png>
+Package pdftex.def Info: figs/img/RaspPI_IP.png  used on input line 708.
+(pdftex.def)             Requested size: 430.00462pt x 413.69608pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [46 <./figs/img/PC2_IP.png>]
+Package microtype Info: Loading generic protrusion settings for font family
+(microtype)             `pcr' (encoding: T1).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
+ [47 <./figs/img/RaspPI_IP.png>]
+LaTeX Font Info:    Try loading font information for TS1+pcr on input line 721.
+
+
+(c:/texlive/2018/texmf-dist/tex/latex/psnfss/ts1pcr.fd
+File: ts1pcr.fd 2001/06/04 font definitions for TS1/pcr.
+)
+Package microtype Info: Loading generic protrusion settings for font family
+(microtype)             `pcr' (encoding: TS1).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
+ [48]
+chapter without number
+[49
+
+]
+chapter without number
+
+
+pdfTeX warning: pdflatex.exe (file ./figs/img/Basic_SPI_Communication.pdf): PDF
+ inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<figs/img/Basic_SPI_Communication.pdf, id=1508, 794.97pt x 614.295pt>
+File: figs/img/Basic_SPI_Communication.pdf Graphic file (type pdf)
+<use figs/img/Basic_SPI_Communication.pdf>
+Package pdftex.def Info: figs/img/Basic_SPI_Communication.pdf  used on input li
+ne 759.
+(pdftex.def)             Requested size: 430.00462pt x 332.28613pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [50
+
+]
+
+pdfTeX warning: pdflatex.exe (file ./figs/img/SPI_COM.pdf): PDF inclusion: foun
+d PDF version <1.7>, but at most version <1.5> allowed
+<figs/img/SPI_COM.pdf, id=1516, 794.97pt x 614.295pt>
+File: figs/img/SPI_COM.pdf Graphic file (type pdf)
+<use figs/img/SPI_COM.pdf>
+Package pdftex.def Info: figs/img/SPI_COM.pdf  used on input line 766.
+(pdftex.def)             Requested size: 430.00462pt x 332.28613pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [51 <./figs/img/Basic_SPI_Communication.pdf>] [52 <./figs/img/SPI_COM.pdf>] [5
+3]
+chapter without number
+[54
+
+]
+chapter without number
+[55
+
+]
+chapter without number
+<figs/img/Pi1_ifconfig.png, id=1554, 499.11469pt x 411.03563pt>
+File: figs/img/Pi1_ifconfig.png Graphic file (type png)
+<use figs/img/Pi1_ifconfig.png>
+Package pdftex.def Info: figs/img/Pi1_ifconfig.png  used on input line 808.
+(pdftex.def)             Requested size: 344.005pt x 283.30756pt.
+<figs/img/PC1_IP_withWireless.png, id=1555, 737.75626pt x 438.13687pt>
+File: figs/img/PC1_IP_withWireless.png Graphic file (type png)
+<use figs/img/PC1_IP_withWireless.png>
+Package pdftex.def Info: figs/img/PC1_IP_withWireless.png  used on input line 8
+15.
+(pdftex.def)             Requested size: 344.005pt x 204.2931pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[56
+
+ <./figs/img/Pi1_ifconfig.png>] [57 <./figs/img/PC1_IP_withWireless.png>]
+chapter without number
+
+
+pdfTeX warning: pdflatex.exe (file ./figs/img/Android_LQR.pdf): PDF inclusion: 
+found PDF version <1.7>, but at most version <1.5> allowed
+<figs/img/Android_LQR.pdf, id=1572, 794.97pt x 614.295pt>
+File: figs/img/Android_LQR.pdf Graphic file (type pdf)
+<use figs/img/Android_LQR.pdf>
+Package pdftex.def Info: figs/img/Android_LQR.pdf  used on input line 832.
+(pdftex.def)             Requested size: 430.00462pt x 332.28613pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+
+pdfTeX warning: pdflatex.exe (file ./figs/img/Android_Interface.pdf): PDF inclu
+sion: found PDF version <1.7>, but at most version <1.5> allowed
+<figs/img/Android_Interface.pdf, id=1573, 794.97pt x 614.295pt>
+File: figs/img/Android_Interface.pdf Graphic file (type pdf)
+<use figs/img/Android_Interface.pdf>
+Package pdftex.def Info: figs/img/Android_Interface.pdf  used on input line 839
+.
+(pdftex.def)             Requested size: 344.005pt x 265.8289pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[58
+
+] [59 <./figs/img/Android_LQR.pdf>] [60 <./figs/img/Android_Interface.pdf>]
+chapter without number
+[61
+
+]
+chapter without number
+[62
+
+]
+chapter without number
+[63
+
+]
+chapter without number
+[64
+
+]
+chapter without number
+<figs/img/Screenshot_TestApp.jpg, id=1629, 1084.05pt x 2228.325pt>
+File: figs/img/Screenshot_TestApp.jpg Graphic file (type jpg)
+<use figs/img/Screenshot_TestApp.jpg>
+Package pdftex.def Info: figs/img/Screenshot_TestApp.jpg  used on input line 87
+9.
+(pdftex.def)             Requested size: 129.00269pt x 265.14337pt.
+<figs/img/Screenshot_Android_interface.jpg, id=1631, 1084.05pt x 2228.325pt>
+File: figs/img/Screenshot_Android_interface.jpg Graphic file (type jpg)
+<use figs/img/Screenshot_Android_interface.jpg>
+Package pdftex.def Info: figs/img/Screenshot_Android_interface.jpg  used on inp
+ut line 886.
+(pdftex.def)             Requested size: 129.00269pt x 265.14337pt.
+[65
+
+] [66 <./figs/img/Screenshot_TestApp.jpg> <./figs/img/Screenshot_Android_interf
+ace.jpg>]
+chapter without number
+<figs/img/Screenshot_Android_interface_2Aero.jpg, id=1646, 1084.05pt x 2228.325
+pt>
+File: figs/img/Screenshot_Android_interface_2Aero.jpg Graphic file (type jpg)
+<use figs/img/Screenshot_Android_interface_2Aero.jpg>
+Package pdftex.def Info: figs/img/Screenshot_Android_interface_2Aero.jpg  used 
+on input line 903.
+(pdftex.def)             Requested size: 129.00269pt x 265.14337pt.
+[67
+
+] [68 <./figs/img/Screenshot_Android_interface_2Aero.jpg>]
+chapter without number
+[69
+
+]
+chapter without number
+LaTeX Font Info:    Try loading font information for T1+fvm on input line 951.
+(c:/texlive/2018/texmf-dist/tex/latex/bera/t1fvm.fd
+File: t1fvm.fd 2004/09/07 scalable font definitions for T1/fvm.
+)
+LaTeX Font Info:    Font shape `T1/fvm/m/n' will be
+(Font)              scaled to size 9.63605pt on input line 951.
+Package microtype Info: Loading generic protrusion settings for font family
+(microtype)             `fvm' (encoding: T1).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
+ [70
+
+]
+chapter without number
+[71
+
+]
+chapter without number
+[72
+
+]
+chapter without number
+[73
+
+]
+chapter without number
+[74
+
+]
+chapter without number
+[75
+
+]
+chapter without number
+[76
+
+]
+chapter without number
+[77
+
+]
+chapter without number
+[78
+
+]
+chapter without number
+[79
+
+]
+chapter without number
+[80
+
+]
+chapter without number
+LaTeX Font Info:    Try loading font information for TS1+pplj on input line 104
+6.
+(c:/texlive/2018/texmf-dist/tex/latex/psnfss/ts1pplj.fd
+File: ts1pplj.fd 2004/09/06 font definitions for TS1/pplj.
+) [81
+
+] [82]
+chapter without number
+[83
+
+]
+chapter without number
+[84
+
+]
+chapter without number
+[85
+
+]
+chapter without number
+[86
+
+]
+chapter without number
+[87
+
+]
+chapter without number
+[88
+
+]
+chapter without number
+<figs/img/02152019/LQR_Pitch.png, id=1797, 243.91125pt x 161.85469pt>
+File: figs/img/02152019/LQR_Pitch.png Graphic file (type png)
+<use figs/img/02152019/LQR_Pitch.png>
+Package pdftex.def Info: figs/img/02152019/LQR_Pitch.png  used on input line 11
+21.
+(pdftex.def)             Requested size: 344.005pt x 228.27686pt.
+<figs/img/02152019/LQR_PitchVolt.png, id=1798, 243.91125pt x 161.85469pt>
+File: figs/img/02152019/LQR_PitchVolt.png Graphic file (type png)
+<use figs/img/02152019/LQR_PitchVolt.png>
+Package pdftex.def Info: figs/img/02152019/LQR_PitchVolt.png  used on input lin
+e 1128.
+(pdftex.def)             Requested size: 344.005pt x 228.27686pt.
+<figs/img/02152019/LQR_Yaw.png, id=1799, 243.91125pt x 161.85469pt>
+File: figs/img/02152019/LQR_Yaw.png Graphic file (type png)
+<use figs/img/02152019/LQR_Yaw.png>
+Package pdftex.def Info: figs/img/02152019/LQR_Yaw.png  used on input line 1135
+.
+(pdftex.def)             Requested size: 344.005pt x 228.27686pt.
+<figs/img/02152019/LQR_YawVolt.png, id=1800, 243.91125pt x 161.85469pt>
+File: figs/img/02152019/LQR_YawVolt.png Graphic file (type png)
+<use figs/img/02152019/LQR_YawVolt.png>
+Package pdftex.def Info: figs/img/02152019/LQR_YawVolt.png  used on input line 
+1142.
+(pdftex.def)             Requested size: 344.005pt x 228.27686pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 1147--1154
+
+ []
+
+<figs/img/02152019/LQG_Pitch02152019.png, id=1801, 243.91125pt x 161.85469pt>
+File: figs/img/02152019/LQG_Pitch02152019.png Graphic file (type png)
+<use figs/img/02152019/LQG_Pitch02152019.png>
+Package pdftex.def Info: figs/img/02152019/LQG_Pitch02152019.png  used on input
+ line 1157.
+(pdftex.def)             Requested size: 344.005pt x 228.27686pt.
+<figs/img/02152019/LQG_PitchVolt02152019.png, id=1802, 243.91125pt x 161.85469p
+t>
+File: figs/img/02152019/LQG_PitchVolt02152019.png Graphic file (type png)
+<use figs/img/02152019/LQG_PitchVolt02152019.png>
+Package pdftex.def Info: figs/img/02152019/LQG_PitchVolt02152019.png  used on i
+nput line 1164.
+(pdftex.def)             Requested size: 344.005pt x 228.27686pt.
+<figs/img/02152019/LQG_Yaw02152019.png, id=1803, 243.91125pt x 161.85469pt>
+File: figs/img/02152019/LQG_Yaw02152019.png Graphic file (type png)
+<use figs/img/02152019/LQG_Yaw02152019.png>
+Package pdftex.def Info: figs/img/02152019/LQG_Yaw02152019.png  used on input l
+ine 1171.
+(pdftex.def)             Requested size: 344.005pt x 228.27686pt.
+<figs/img/02152019/LQG_YawVolt02152019.png, id=1804, 243.91125pt x 161.85469pt>
+
+File: figs/img/02152019/LQG_YawVolt02152019.png Graphic file (type png)
+<use figs/img/02152019/LQG_YawVolt02152019.png>
+Package pdftex.def Info: figs/img/02152019/LQG_YawVolt02152019.png  used on inp
+ut line 1178.
+(pdftex.def)             Requested size: 344.005pt x 228.27686pt.
+[89
+
+] [90 <./figs/img/02152019/LQR_Pitch.png (PNG copy)> <./figs/img/02152019/LQR_P
+itchVolt.png (PNG copy)>] [91 <./figs/img/02152019/LQR_Yaw.png (PNG copy)> <./f
+igs/img/02152019/LQR_YawVolt.png (PNG copy)>] [92 <./figs/img/02152019/LQG_Pitc
+h02152019.png (PNG copy)> <./figs/img/02152019/LQG_PitchVolt02152019.png (PNG c
+opy)>] [93 <./figs/img/02152019/LQG_Yaw02152019.png (PNG copy)> <./figs/img/021
+52019/LQG_YawVolt02152019.png (PNG copy)>]
+chapter without number
+[94
+
+]
+chapter without number
+
+Underfull \hbox (badness 10000) in paragraph at lines 1202--1204
+
+ []
+
+Package hyperref Info: bookmark level for unknown todo defaults to 0 on input l
+ine 1212.
+
+Underfull \hbox (badness 10000) in paragraph at lines 1216--1221
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1216--1221
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1222--1228
+
+ []
+
+[95
+
+]
+<figs/img/02192019/LQRPitchmk2.png, id=1852, 243.91125pt x 161.85469pt>
+File: figs/img/02192019/LQRPitchmk2.png Graphic file (type png)
+<use figs/img/02192019/LQRPitchmk2.png>
+Package pdftex.def Info: figs/img/02192019/LQRPitchmk2.png  used on input line 
+1232.
+(pdftex.def)             Requested size: 344.005pt x 228.27686pt.
+<figs/img/02192019/LQRPitchVoltmk2.png, id=1853, 243.91125pt x 161.85469pt>
+File: figs/img/02192019/LQRPitchVoltmk2.png Graphic file (type png)
+<use figs/img/02192019/LQRPitchVoltmk2.png>
+Package pdftex.def Info: figs/img/02192019/LQRPitchVoltmk2.png  used on input l
+ine 1239.
+(pdftex.def)             Requested size: 344.005pt x 228.27686pt.
+<figs/img/02192019/LQRYawmk2.png, id=1854, 243.91125pt x 161.85469pt>
+File: figs/img/02192019/LQRYawmk2.png Graphic file (type png)
+<use figs/img/02192019/LQRYawmk2.png>
+Package pdftex.def Info: figs/img/02192019/LQRYawmk2.png  used on input line 12
+46.
+(pdftex.def)             Requested size: 344.005pt x 228.27686pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [96 <./figs/img/02192019/LQRPitchmk2.png (PNG copy)> <./figs/img/02192019/LQRP
+itchVoltmk2.png (PNG copy)>]
+<figs/img/02192019/LQRYawVoltmk2.png, id=1862, 243.91125pt x 161.85469pt>
+File: figs/img/02192019/LQRYawVoltmk2.png Graphic file (type png)
+<use figs/img/02192019/LQRYawVoltmk2.png>
+Package pdftex.def Info: figs/img/02192019/LQRYawVoltmk2.png  used on input lin
+e 1253.
+(pdftex.def)             Requested size: 344.005pt x 228.27686pt.
+<figs/img/02192019/LQGPitchmk2.png, id=1863, 243.91125pt x 161.85469pt>
+File: figs/img/02192019/LQGPitchmk2.png Graphic file (type png)
+<use figs/img/02192019/LQGPitchmk2.png>
+Package pdftex.def Info: figs/img/02192019/LQGPitchmk2.png  used on input line 
+1260.
+(pdftex.def)             Requested size: 344.005pt x 228.27686pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [97 <./figs/img/02192019/LQRYawmk2.png (PNG copy)> <./figs/img/02192019/LQRYaw
+Voltmk2.png (PNG copy)>]
+<figs/img/02192019/LQGPitchVoltmk2.png, id=1872, 243.91125pt x 161.85469pt>
+File: figs/img/02192019/LQGPitchVoltmk2.png Graphic file (type png)
+<use figs/img/02192019/LQGPitchVoltmk2.png>
+Package pdftex.def Info: figs/img/02192019/LQGPitchVoltmk2.png  used on input l
+ine 1267.
+(pdftex.def)             Requested size: 344.005pt x 228.27686pt.
+<figs/img/02192019/LQGYawmk2.png, id=1873, 243.91125pt x 161.85469pt>
+File: figs/img/02192019/LQGYawmk2.png Graphic file (type png)
+<use figs/img/02192019/LQGYawmk2.png>
+Package pdftex.def Info: figs/img/02192019/LQGYawmk2.png  used on input line 12
+74.
+(pdftex.def)             Requested size: 344.005pt x 228.27686pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [98 <./figs/img/02192019/LQGPitchmk2.png (PNG copy)> <./figs/img/02192019/LQGP
+itchVoltmk2.png (PNG copy)>]
+<figs/img/02192019/LQGYawVoltmk2.png, id=1881, 243.91125pt x 161.85469pt>
+File: figs/img/02192019/LQGYawVoltmk2.png Graphic file (type png)
+<use figs/img/02192019/LQGYawVoltmk2.png>
+Package pdftex.def Info: figs/img/02192019/LQGYawVoltmk2.png  used on input lin
+e 1281.
+(pdftex.def)             Requested size: 344.005pt x 228.27686pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [99 <./figs/img/02192019/LQGYawmk2.png (PNG copy)> <./figs/img/02192019/LQGYaw
+Voltmk2.png (PNG copy)>]pdfTeX warning (ext4): destination with the same identi
+fier (name{equation.0.0.1}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.1288 ...nt.  Originally it was: \begin{equation}
+                                                  pdfTeX warning (ext4): destin
+ation with the same identifier (name{equation.0.0.1}) has been already used, du
+plicate ignored
+<to be read again> 
+                   \relax 
+l.1288 ...nt.  Originally it was: \begin{equation}
+                                                  pdfTeX warning (ext4): destin
+ation with the same identifier (name{equation.0.0.1}) has been already used, du
+plicate ignored
+<to be read again> 
+                   \relax 
+l.1288 ...nt.  Originally it was: \begin{equation}
+                                                  pdfTeX warning (ext4): destin
+ation with the same identifier (name{equation.0.0.1}) has been already used, du
+plicate ignored
+<to be read again> 
+                   \relax 
+l.1288 ...nt.  Originally it was: \begin{equation}
+                                                   [100]
+chapter without number
+<figs/img/02212019/LQRV2.jpg, id=1898, 3553.275pt x 1616.0375pt>
+File: figs/img/02212019/LQRV2.jpg Graphic file (type jpg)
+<use figs/img/02212019/LQRV2.jpg>
+Package pdftex.def Info: figs/img/02212019/LQRV2.jpg  used on input line 1307.
+(pdftex.def)             Requested size: 344.005pt x 156.43488pt.
+<figs/img/02212019/LQR_PitchV2.png, id=1899, 243.91125pt x 161.85469pt>
+File: figs/img/02212019/LQR_PitchV2.png Graphic file (type png)
+<use figs/img/02212019/LQR_PitchV2.png>
+Package pdftex.def Info: figs/img/02212019/LQR_PitchV2.png  used on input line 
+1314.
+(pdftex.def)             Requested size: 344.005pt x 228.27686pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [101
+
+ <./figs/img/02212019/LQRV2.jpg>]
+<figs/img/02212019/LQR_PitchVoltV2.png, id=1906, 243.91125pt x 161.85469pt>
+File: figs/img/02212019/LQR_PitchVoltV2.png Graphic file (type png)
+<use figs/img/02212019/LQR_PitchVoltV2.png>
+Package pdftex.def Info: figs/img/02212019/LQR_PitchVoltV2.png  used on input l
+ine 1321.
+(pdftex.def)             Requested size: 344.005pt x 228.27686pt.
+<figs/img/02212019/LQR_YawV2.png, id=1907, 243.91125pt x 161.85469pt>
+File: figs/img/02212019/LQR_YawV2.png Graphic file (type png)
+<use figs/img/02212019/LQR_YawV2.png>
+Package pdftex.def Info: figs/img/02212019/LQR_YawV2.png  used on input line 13
+28.
+(pdftex.def)             Requested size: 344.005pt x 228.27686pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [102 <./figs/img/02212019/LQR_PitchV2.png (PNG copy)> <./figs/img/02212019/LQR
+_PitchVoltV2.png (PNG copy)>]
+<figs/img/02212019/LQR_YawVoltV2.png, id=1915, 243.91125pt x 161.85469pt>
+File: figs/img/02212019/LQR_YawVoltV2.png Graphic file (type png)
+<use figs/img/02212019/LQR_YawVoltV2.png>
+Package pdftex.def Info: figs/img/02212019/LQR_YawVoltV2.png  used on input lin
+e 1335.
+(pdftex.def)             Requested size: 344.005pt x 228.27686pt.
+ [103 <./figs/img/02212019/LQR_YawV2.png (PNG copy)> <./figs/img/02212019/LQR_Y
+awVoltV2.png (PNG copy)>]
+<figs/img/02212019/LQRV3.jpg, id=1925, 3918.64pt x 1703.36375pt>
+File: figs/img/02212019/LQRV3.jpg Graphic file (type jpg)
+<use figs/img/02212019/LQRV3.jpg>
+Package pdftex.def Info: figs/img/02212019/LQRV3.jpg  used on input line 1347.
+(pdftex.def)             Requested size: 344.005pt x 149.52739pt.
+ [104 <./figs/img/02212019/LQRV3.jpg>]
+<figs/img/02212019/LQR_PitchV3.png, id=1932, 243.91125pt x 161.85469pt>
+File: figs/img/02212019/LQR_PitchV3.png Graphic file (type png)
+<use figs/img/02212019/LQR_PitchV3.png>
+Package pdftex.def Info: figs/img/02212019/LQR_PitchV3.png  used on input line 
+1355.
+(pdftex.def)             Requested size: 344.005pt x 228.27686pt.
+<figs/img/02212019/LQR_PitchVoltV3.png, id=1933, 243.91125pt x 161.85469pt>
+File: figs/img/02212019/LQR_PitchVoltV3.png Graphic file (type png)
+<use figs/img/02212019/LQR_PitchVoltV3.png>
+Package pdftex.def Info: figs/img/02212019/LQR_PitchVoltV3.png  used on input l
+ine 1362.
+(pdftex.def)             Requested size: 344.005pt x 228.27686pt.
+<figs/img/02212019/LQR_YawV3.png, id=1934, 243.91125pt x 161.85469pt>
+File: figs/img/02212019/LQR_YawV3.png Graphic file (type png)
+<use figs/img/02212019/LQR_YawV3.png>
+Package pdftex.def Info: figs/img/02212019/LQR_YawV3.png  used on input line 13
+69.
+(pdftex.def)             Requested size: 344.005pt x 228.27686pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [105 <./figs/img/02212019/LQR_PitchV3.png (PNG copy)> <./figs/img/02212019/LQR
+_PitchVoltV3.png (PNG copy)>]
+<figs/img/02212019/LQR_YawVoltV3.png, id=1942, 243.91125pt x 161.85469pt>
+File: figs/img/02212019/LQR_YawVoltV3.png Graphic file (type png)
+<use figs/img/02212019/LQR_YawVoltV3.png>
+Package pdftex.def Info: figs/img/02212019/LQR_YawVoltV3.png  used on input lin
+e 1376.
+(pdftex.def)             Requested size: 344.005pt x 228.27686pt.
+ [106 <./figs/img/02212019/LQR_YawV3.png (PNG copy)> <./figs/img/02212019/LQR_Y
+awVoltV3.png (PNG copy)>]
+chapter without number
+pdfTeX warning (ext4): destination with the same identifier (name{equation.0.0.
+1}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.1386 \begin{equation}
+                       pdfTeX warning (ext4): destination with the same identif
+ier (name{equation.0.0.1}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.1386 \begin{equation}
+                       pdfTeX warning (ext4): destination with the same identif
+ier (name{equation.0.0.1}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.1386 \begin{equation}
+                       pdfTeX warning (ext4): destination with the same identif
+ier (name{equation.0.0.1}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.1386 \begin{equation}
+                       
+Underfull \hbox (badness 10000) in paragraph at lines 1389--1392
+
+ []
+
+[107
+
+]
+chapter without number
+Package epstopdf Info: Source file: <figs/img/02262019/Pitch_LQR_RMSE.eps>
+(epstopdf)                    date: 2019-04-23 10:47:13
+(epstopdf)                    size: 907233 bytes
+(epstopdf)             Output file: <figs/img/02262019/Pitch_LQR_RMSE.pdf>
+(epstopdf)                    date: 2019-04-23 10:47:13
+(epstopdf)                    size: 132799 bytes
+(epstopdf)             Command: <repstopdf figs/img/02262019/Pitch_LQR_RMSE.eps
+>
+(epstopdf)             \includegraphics on input line 1401.
+Package epstopdf Info: Output file is already uptodate.
+<figs/img/02262019/Pitch_LQR_RMSE.pdf, id=1960, 364.36125pt x 305.14pt>
+File: figs/img/02262019/Pitch_LQR_RMSE.pdf Graphic file (type pdf)
+<use figs/img/02262019/Pitch_LQR_RMSE.pdf>
+Package pdftex.def Info: figs/img/02262019/Pitch_LQR_RMSE.pdf  used on input li
+ne 1401.
+(pdftex.def)             Requested size: 344.005pt x 288.10272pt.
+Package epstopdf Info: Source file: <figs/img/02262019/Yaw_LQR_RMSE.eps>
+(epstopdf)                    date: 2019-04-23 10:47:13
+(epstopdf)                    size: 901470 bytes
+(epstopdf)             Output file: <figs/img/02262019/Yaw_LQR_RMSE.pdf>
+(epstopdf)                    date: 2019-04-23 10:47:13
+(epstopdf)                    size: 173863 bytes
+(epstopdf)             Command: <repstopdf figs/img/02262019/Yaw_LQR_RMSE.eps>
+(epstopdf)             \includegraphics on input line 1408.
+Package epstopdf Info: Output file is already uptodate.
+<figs/img/02262019/Yaw_LQR_RMSE.pdf, id=1961, 364.36125pt x 305.14pt>
+File: figs/img/02262019/Yaw_LQR_RMSE.pdf Graphic file (type pdf)
+<use figs/img/02262019/Yaw_LQR_RMSE.pdf>
+Package pdftex.def Info: figs/img/02262019/Yaw_LQR_RMSE.pdf  used on input line
+ 1408.
+(pdftex.def)             Requested size: 344.005pt x 288.10272pt.
+Package epstopdf Info: Source file: <figs/img/02262019/PitchVoltage_LQR_RMSE.ep
+s>
+(epstopdf)                    date: 2019-04-23 10:47:13
+(epstopdf)                    size: 603672 bytes
+(epstopdf)             Output file: <figs/img/02262019/PitchVoltage_LQR_RMSE.pd
+f>
+(epstopdf)                    date: 2019-04-23 10:47:13
+(epstopdf)                    size: 206226 bytes
+(epstopdf)             Command: <repstopdf figs/img/02262019/PitchVoltage_LQR_R
+MSE.eps>
+(epstopdf)             \includegraphics on input line 1415.
+Package epstopdf Info: Output file is already uptodate.
+<figs/img/02262019/PitchVoltage_LQR_RMSE.pdf, id=1962, 364.36125pt x 304.13625p
+t>
+File: figs/img/02262019/PitchVoltage_LQR_RMSE.pdf Graphic file (type pdf)
+<use figs/img/02262019/PitchVoltage_LQR_RMSE.pdf>
+Package pdftex.def Info: figs/img/02262019/PitchVoltage_LQR_RMSE.pdf  used on i
+nput line 1415.
+(pdftex.def)             Requested size: 344.005pt x 287.15503pt.
+Package epstopdf Info: Source file: <figs/img/02262019/YawVoltage_LQR_RMSE.eps>
+
+(epstopdf)                    date: 2019-04-23 10:47:13
+(epstopdf)                    size: 604188 bytes
+(epstopdf)             Output file: <figs/img/02262019/YawVoltage_LQR_RMSE.pdf>
+
+(epstopdf)                    date: 2019-04-23 10:47:13
+(epstopdf)                    size: 202976 bytes
+(epstopdf)             Command: <repstopdf figs/img/02262019/YawVoltage_LQR_RMS
+E.eps>
+(epstopdf)             \includegraphics on input line 1422.
+Package epstopdf Info: Output file is already uptodate.
+<figs/img/02262019/YawVoltage_LQR_RMSE.pdf, id=1963, 364.36125pt x 304.13625pt>
+
+File: figs/img/02262019/YawVoltage_LQR_RMSE.pdf Graphic file (type pdf)
+<use figs/img/02262019/YawVoltage_LQR_RMSE.pdf>
+Package pdftex.def Info: figs/img/02262019/YawVoltage_LQR_RMSE.pdf  used on inp
+ut line 1422.
+(pdftex.def)             Requested size: 344.005pt x 287.15503pt.
+Package epstopdf Info: Source file: <figs/img/02262019/PitchSpeed_LQR_RMSE.eps>
+
+(epstopdf)                    date: 2019-04-23 10:47:13
+(epstopdf)                    size: 621367 bytes
+(epstopdf)             Output file: <figs/img/02262019/PitchSpeed_LQR_RMSE.pdf>
+
+(epstopdf)                    date: 2019-04-23 10:47:13
+(epstopdf)                    size: 200687 bytes
+(epstopdf)             Command: <repstopdf figs/img/02262019/PitchSpeed_LQR_RMS
+E.eps>
+(epstopdf)             \includegraphics on input line 1429.
+Package epstopdf Info: Output file is already uptodate.
+<figs/img/02262019/PitchSpeed_LQR_RMSE.pdf, id=1964, 364.36125pt x 305.14pt>
+File: figs/img/02262019/PitchSpeed_LQR_RMSE.pdf Graphic file (type pdf)
+<use figs/img/02262019/PitchSpeed_LQR_RMSE.pdf>
+Package pdftex.def Info: figs/img/02262019/PitchSpeed_LQR_RMSE.pdf  used on inp
+ut line 1429.
+(pdftex.def)             Requested size: 344.005pt x 288.10272pt.
+Package epstopdf Info: Source file: <figs/img/02262019/YawSpeed_LQR_RMSE.eps>
+(epstopdf)                    date: 2019-04-23 10:47:13
+(epstopdf)                    size: 622282 bytes
+(epstopdf)             Output file: <figs/img/02262019/YawSpeed_LQR_RMSE.pdf>
+(epstopdf)                    date: 2019-04-23 10:47:13
+(epstopdf)                    size: 199530 bytes
+(epstopdf)             Command: <repstopdf figs/img/02262019/YawSpeed_LQR_RMSE.
+eps>
+(epstopdf)             \includegraphics on input line 1436.
+Package epstopdf Info: Output file is already uptodate.
+<figs/img/02262019/YawSpeed_LQR_RMSE.pdf, id=1965, 364.36125pt x 305.14pt>
+File: figs/img/02262019/YawSpeed_LQR_RMSE.pdf Graphic file (type pdf)
+<use figs/img/02262019/YawSpeed_LQR_RMSE.pdf>
+Package pdftex.def Info: figs/img/02262019/YawSpeed_LQR_RMSE.pdf  used on input
+ line 1436.
+(pdftex.def)             Requested size: 344.005pt x 288.10272pt.
+[108
+
+] [109 <./figs/img/02262019/Pitch_LQR_RMSE.pdf>] [110 <./figs/img/02262019/Yaw_
+LQR_RMSE.pdf>] [111 <./figs/img/02262019/PitchVoltage_LQR_RMSE.pdf>]
+[112 <./figs/img/02262019/YawVoltage_LQR_RMSE.pdf>] [113 <./figs/img/02262019/P
+itchSpeed_LQR_RMSE.pdf>] [114 <./figs/img/02262019/YawSpeed_LQR_RMSE.pdf>]
+chapter without number
+
+Underfull \hbox (badness 10000) in paragraph at lines 1444--1455
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1444--1455
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1444--1455
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1444--1455
+
+ []
+
+[115
+
+]
+chapter without number
+<figs/ipe/smartAlg.pdf, id=2065, 564.1075pt x 450.68375pt>
+File: figs/ipe/smartAlg.pdf Graphic file (type pdf)
+<use figs/ipe/smartAlg.pdf>
+Package pdftex.def Info: figs/ipe/smartAlg.pdf  used on input line 1469.
+(pdftex.def)             Requested size: 344.005pt x 274.84103pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 1457--1473
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1457--1473
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1457--1473
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1457--1473
+
+ []
+
+[116
+
+] [117 <./figs/ipe/smartAlg.pdf>]
+chapter without number
+[118
+
+]
+chapter without number
+
+Underfull \hbox (badness 10000) in paragraph at lines 1494--1500
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1494--1500
+
+ []
+
+[119
+
+]
+chapter without number
+[120
+
+]
+chapter without number
+
+Underfull \hbox (badness 10000) in paragraph at lines 1534--1539
+
+ []
+
+[121
+
+]
+chapter without number
+
+Underfull \hbox (badness 10000) in paragraph at lines 1541--1542
+
+ []
+
+[122
+
+]
+chapter without number
+
+Underfull \hbox (badness 10000) in paragraph at lines 1558--1559
+
+ []
+
+[123
+
+]
+chapter without number
+
+Underfull \hbox (badness 10000) in paragraph at lines 1564--1568
+
+ []
+
+[124
+
+]
+chapter without number
+
+Underfull \hbox (badness 10000) in paragraph at lines 1584--1586
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1584--1586
+
+ []
+
+[125
+
+] [126]
+chapter without number
+[127
+
+]
+chapter without number
+[128
+
+]
+chapter without number
+
+Underfull \hbox (badness 10000) in paragraph at lines 1642--1643
+
+ []
+
+[129
+
+]
+chapter without number
+(./labNotebook.bbl) (./labNotebook.brf)
+\tf@brf=\write7
+\openout7 = `labNotebook.brf'.
+
+ [130
+
+] 
+AED: lastpage setting LastPage
+[131
+
+]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1714.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 1714.
+ (./labNotebook.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1714.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1714.
+
+
+
+Package rerunfilecheck Warning: File `labNotebook.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `labNotebook.out':
+(rerunfilecheck)             Before: A4B36A02F94A86D2389128BC57105D35;11339
+(rerunfilecheck)             After:  E4FC03A4BAB12EA2AFDCB9D25DBA6D41;11464.
+Package rerunfilecheck Info: File `labNotebook.brf' has not changed.
+(rerunfilecheck)             Checksum: 0ECA58CD630E3A96EF9969A5FF144C91;695.
+
+LaTeX Warning: There were multiply-defined labels.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 26396 strings out of 492641
+ 478769 string characters out of 6133131
+ 793418 words of memory out of 5000000
+ 28975 multiletter control sequences out of 15000+600000
+ 91132 words of font info for 253 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 73i,11n,80p,9126b,2088s stack positions out of 5000i,500n,10000p,200000b,80000s
+{c:/texlive/2018/texmf-dist/fonts/enc/dvips/base/8r.enc}<c:/texlive/2018/texm
+f-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/texlive/2018/texmf-dist/fo
+nts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2018/texmf-dist/fonts/type1/
+public/amsfonts/cm/cmsy10.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/fp
+l/fplbj8a.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/mathpazo/fplmr.pfb
+><c:/texlive/2018/texmf-dist/fonts/type1/public/mathpazo/fplmri.pfb><c:/texlive
+/2018/texmf-dist/fonts/type1/public/fpl/fplrc8a.pfb><c:/texlive/2018/texmf-dist
+/fonts/type1/public/fpl/fplrij8a.pfb><c:/texlive/2018/texmf-dist/fonts/type1/pu
+blic/bera/fvmr8a.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/bera/fvsb8a
+.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/bera/fvsr8a.pfb><c:/texlive
+/2018/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb><c:/texlive/2018/texmf-dist
+/fonts/type1/urw/palatino/uplb8a.pfb><c:/texlive/2018/texmf-dist/fonts/type1/ur
+w/palatino/uplr8a.pfb><c:/texlive/2018/texmf-dist/fonts/type1/urw/palatino/uplr
+i8a.pfb>
+Output written on labNotebook.pdf (131 pages, 7208694 bytes).
+PDF statistics:
+ 2358 PDF objects out of 2487 (max. 8388607)
+ 2029 compressed objects within 21 object streams
+ 506 named destinations out of 1000 (max. 500000)
+ 49863 words of extra memory for PDF output out of 51595 (max. 10000000)
+
