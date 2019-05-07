@@ -151,8 +151,75 @@ The communication protocol utilized by the Q-Flex2 embedded panel is SPI.
 %----------------------------------------------------------------------
 \subsection{ADP}
 %----------------------------------------------------------------------
-\todo[inline]{Insert ADP P Block Diagram}
-\todo[inline]{Insert ADP P Results}
+\begin{figure}[!htbp]
+    \centering
+    \includegraphics[width=.8\textwidth,keepaspectratio=true]{figs/img/ADP_USB}
+    \label{fig:ADP_P_USB_Block_Diagram}
+    \caption{Block Diagram for ADP P type controller with a USB connection.}
+\end{figure}
+
+\begin{figure}[!htbp]
+    \centering
+    \subfigure[][]{
+    \includegraphics[width=.46\textwidth,keepaspectratio=true]{figs/matlab/ADP/USB/Pitch_ADP_Constant.eps}
+    \label{fig:Pitch_ADP_Step}
+    }
+    \subfigure[][]{
+    \includegraphics[width=.46\textwidth,keepaspectratio=true]{figs/matlab/ADP/USB/Yaw_ADP_Constant.eps}
+    \label{fig:Yaw_ADP_Step}
+    }    
+    \subfigure[][]{
+    \includegraphics[width=.46\textwidth,keepaspectratio=true]{figs/matlab/ADP/USB/PitchVoltage_ADP_Constant.eps}
+    \label{fig:PitchVoltage_ADP_Step}
+    }    
+    \subfigure[][]{
+    \includegraphics[width=.46\textwidth,keepaspectratio=true]{figs/matlab/ADP/USB/YawVoltage_ADP_Constant.eps}
+    \label{fig:YawVoltage_ADP_Step}
+    }
+    \caption{USB implementation for proportional controller and proportional-integral controller calculated by ADP with a step input.}
+\end{figure}
+
+\begin{figure}[!htbp]
+    \centering
+    \subfigure[][]{
+    \includegraphics[width=.46\textwidth,keepaspectratio=true]{figs/matlab/ADP/USB/Pitch_ADP_Square.eps}
+    \label{fig:Pitch_ADP_Square}
+    }
+    \subfigure[][]{
+    \includegraphics[width=.46\textwidth,keepaspectratio=true]{figs/matlab/ADP/USB/Yaw_ADP_Square.eps}
+    \label{fig:Yaw_ADP_Square}
+    }    
+    \subfigure[][]{
+    \includegraphics[width=.46\textwidth,keepaspectratio=true]{figs/matlab/ADP/USB/PitchVoltage_ADP_Square.eps}
+    \label{fig:PitchVoltage_ADP_Square}
+    }    
+    \subfigure[][]{
+    \includegraphics[width=.46\textwidth,keepaspectratio=true]{figs/matlab/ADP/USB/YawVoltage_ADP_Square.eps}
+    \label{fig:YawVoltage_ADP_Square}
+    }
+    \caption{USB implementation for proportional controller and proportional-integral controller calculated by ADP with a square wave input.}
+\end{figure}
+
+\begin{figure}[!htbp]
+    \centering
+    \subfigure[][]{
+    \includegraphics[width=.46\textwidth,keepaspectratio=true]{figs/matlab/ADP/USB/Pitch_ADP_Sine.eps}
+    \label{fig:Pitch_LQR_RMSE_Sine}
+    }
+    \subfigure[][]{
+    \includegraphics[width=.46\textwidth,keepaspectratio=true]{figs/matlab/ADP/USB/Yaw_ADP_Sine.eps}
+    \label{fig:Yaw_LQR_RMSE_Sine}
+    }    
+    \subfigure[][]{
+    \includegraphics[width=.46\textwidth,keepaspectratio=true]{figs/matlab/ADP/USB/PitchVoltage_ADP_Sine.eps}
+    \label{fig:PitchVoltage_LQR_RMSE_Sine}
+    }    
+    \subfigure[][]{
+    \includegraphics[width=.46\textwidth,keepaspectratio=true]{figs/matlab/ADP/USB/YawVoltage_ADP_Sine.eps}
+    \label{fig:YawVoltage_LQR_RMSE_Sine}
+    }
+    \caption{USB implementation for proportional controller and proportional-integral controller calculated by ADP with a sinusoidal input.}
+\end{figure}
 
 %----------------------------------------------------------------------
 \subsection{Conclusions}
