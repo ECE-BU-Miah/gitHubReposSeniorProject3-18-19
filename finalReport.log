@@ -1,0 +1,2777 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/W32TeX) (preloaded format=pdflatex 2018.9.26)  7 MAY 2019 12:53
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**finalReport.tex
+(./finalReport.tex
+LaTeX2e <2018-04-01> patch level 5
+(c:/texlive/2018/texmf-dist/tex/latex/base/book.cls
+Document Class: book 2014/09/29 v1.4h Standard LaTeX document class
+(c:/texlive/2018/texmf-dist/tex/latex/base/bk12.clo
+File: bk12.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count80
+\c@chapter=\count81
+\c@section=\count82
+\c@subsection=\count83
+\c@subsubsection=\count84
+\c@paragraph=\count85
+\c@subparagraph=\count86
+\c@figure=\count87
+\c@table=\count88
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+(c:/texlive/2018/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+) (./mcode.sty
+-- Package: `mcode' 2.5 <2014/03/06> --
+Package: mcode 2014/03/06 2.5
+ - settings optimized for display (colour formating)
+ - line numbering enabled
+ - literate programming (character replacements) enabled
+ - automatic line breaking enabled (careful, buggy!)
+ - framed listings
+(c:/texlive/2018/texmf-dist/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
+
+(c:/texlive/2018/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: pdftex.def on input line 225.
+
+(c:/texlive/2018/texmf-dist/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
+)
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1352.
+Package xcolor Info: Model `RGB' extended on input line 1364.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1366.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1367.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1368.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
+)
+(c:/texlive/2018/texmf-dist/tex/latex/listings/listings.sty
+(c:/texlive/2018/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks14
+)
+\lst@mode=\count89
+\lst@gtempboxa=\box26
+\lst@token=\toks15
+\lst@length=\count90
+\lst@currlwidth=\dimen103
+\lst@column=\count91
+\lst@pos=\count92
+\lst@lostspace=\dimen104
+\lst@width=\dimen105
+\lst@newlines=\count93
+\lst@lineno=\count94
+\lst@maxwidth=\dimen106
+
+(c:/texlive/2018/texmf-dist/tex/latex/listings/lstmisc.sty
+File: lstmisc.sty 2018/09/02 1.7 (Carsten Heinz)
+\c@lstnumber=\count95
+\lst@skipnumbers=\count96
+\lst@framebox=\box27
+)
+(c:/texlive/2018/texmf-dist/tex/latex/listings/listings.cfg
+File: listings.cfg 2018/09/02 1.7 listings configuration
+))
+Package: listings 2018/09/02 1.7 (Carsten Heinz)
+
+(c:/texlive/2018/texmf-dist/tex/latex/base/textcomp.sty
+Package: textcomp 2017/04/05 v2.0i Standard LaTeX package
+Package textcomp Info: Sub-encoding information:
+(textcomp)               5 = only ISO-Adobe without \textcurrency
+(textcomp)               4 = 5 + \texteuro
+(textcomp)               3 = 4 + \textohm
+(textcomp)               2 = 3 + \textestimated + \textcurrency
+(textcomp)               1 = TS1 - \textcircled - \t
+(textcomp)               0 = TS1 (full)
+(textcomp)             Font families with sub-encoding setting implement
+(textcomp)             only a restricted character set as indicated.
+(textcomp)             Family '?' is the default used for unknown fonts.
+(textcomp)             See the documentation for details.
+Package textcomp Info: Setting ? sub-encoding to TS1/1 on input line 79.
+
+(c:/texlive/2018/texmf-dist/tex/latex/base/ts1enc.def
+File: ts1enc.def 2001/06/05 v3.0e (jk/car/fm) Standard LaTeX file
+)
+LaTeX Info: Redefining \oldstylenums on input line 334.
+Package textcomp Info: Setting cmr sub-encoding to TS1/0 on input line 349.
+Package textcomp Info: Setting cmss sub-encoding to TS1/0 on input line 350.
+Package textcomp Info: Setting cmtt sub-encoding to TS1/0 on input line 351.
+Package textcomp Info: Setting cmvtt sub-encoding to TS1/0 on input line 352.
+Package textcomp Info: Setting cmbr sub-encoding to TS1/0 on input line 353.
+Package textcomp Info: Setting cmtl sub-encoding to TS1/0 on input line 354.
+Package textcomp Info: Setting ccr sub-encoding to TS1/0 on input line 355.
+Package textcomp Info: Setting ptm sub-encoding to TS1/4 on input line 356.
+Package textcomp Info: Setting pcr sub-encoding to TS1/4 on input line 357.
+Package textcomp Info: Setting phv sub-encoding to TS1/4 on input line 358.
+Package textcomp Info: Setting ppl sub-encoding to TS1/3 on input line 359.
+Package textcomp Info: Setting pag sub-encoding to TS1/4 on input line 360.
+Package textcomp Info: Setting pbk sub-encoding to TS1/4 on input line 361.
+Package textcomp Info: Setting pnc sub-encoding to TS1/4 on input line 362.
+Package textcomp Info: Setting pzc sub-encoding to TS1/4 on input line 363.
+Package textcomp Info: Setting bch sub-encoding to TS1/4 on input line 364.
+Package textcomp Info: Setting put sub-encoding to TS1/5 on input line 365.
+Package textcomp Info: Setting uag sub-encoding to TS1/5 on input line 366.
+Package textcomp Info: Setting ugq sub-encoding to TS1/5 on input line 367.
+Package textcomp Info: Setting ul8 sub-encoding to TS1/4 on input line 368.
+Package textcomp Info: Setting ul9 sub-encoding to TS1/4 on input line 369.
+Package textcomp Info: Setting augie sub-encoding to TS1/5 on input line 370.
+Package textcomp Info: Setting dayrom sub-encoding to TS1/3 on input line 371.
+Package textcomp Info: Setting dayroms sub-encoding to TS1/3 on input line 372.
+
+Package textcomp Info: Setting pxr sub-encoding to TS1/0 on input line 373.
+Package textcomp Info: Setting pxss sub-encoding to TS1/0 on input line 374.
+Package textcomp Info: Setting pxtt sub-encoding to TS1/0 on input line 375.
+Package textcomp Info: Setting txr sub-encoding to TS1/0 on input line 376.
+Package textcomp Info: Setting txss sub-encoding to TS1/0 on input line 377.
+Package textcomp Info: Setting txtt sub-encoding to TS1/0 on input line 378.
+Package textcomp Info: Setting lmr sub-encoding to TS1/0 on input line 379.
+Package textcomp Info: Setting lmdh sub-encoding to TS1/0 on input line 380.
+Package textcomp Info: Setting lmss sub-encoding to TS1/0 on input line 381.
+Package textcomp Info: Setting lmssq sub-encoding to TS1/0 on input line 382.
+Package textcomp Info: Setting lmvtt sub-encoding to TS1/0 on input line 383.
+Package textcomp Info: Setting lmtt sub-encoding to TS1/0 on input line 384.
+Package textcomp Info: Setting qhv sub-encoding to TS1/0 on input line 385.
+Package textcomp Info: Setting qag sub-encoding to TS1/0 on input line 386.
+Package textcomp Info: Setting qbk sub-encoding to TS1/0 on input line 387.
+Package textcomp Info: Setting qcr sub-encoding to TS1/0 on input line 388.
+Package textcomp Info: Setting qcs sub-encoding to TS1/0 on input line 389.
+Package textcomp Info: Setting qpl sub-encoding to TS1/0 on input line 390.
+Package textcomp Info: Setting qtm sub-encoding to TS1/0 on input line 391.
+Package textcomp Info: Setting qzc sub-encoding to TS1/0 on input line 392.
+Package textcomp Info: Setting qhvc sub-encoding to TS1/0 on input line 393.
+Package textcomp Info: Setting futs sub-encoding to TS1/4 on input line 394.
+Package textcomp Info: Setting futx sub-encoding to TS1/4 on input line 395.
+Package textcomp Info: Setting futj sub-encoding to TS1/4 on input line 396.
+Package textcomp Info: Setting hlh sub-encoding to TS1/3 on input line 397.
+Package textcomp Info: Setting hls sub-encoding to TS1/3 on input line 398.
+Package textcomp Info: Setting hlst sub-encoding to TS1/3 on input line 399.
+Package textcomp Info: Setting hlct sub-encoding to TS1/5 on input line 400.
+Package textcomp Info: Setting hlx sub-encoding to TS1/5 on input line 401.
+Package textcomp Info: Setting hlce sub-encoding to TS1/5 on input line 402.
+Package textcomp Info: Setting hlcn sub-encoding to TS1/5 on input line 403.
+Package textcomp Info: Setting hlcw sub-encoding to TS1/5 on input line 404.
+Package textcomp Info: Setting hlcf sub-encoding to TS1/5 on input line 405.
+Package textcomp Info: Setting pplx sub-encoding to TS1/3 on input line 406.
+Package textcomp Info: Setting pplj sub-encoding to TS1/3 on input line 407.
+Package textcomp Info: Setting ptmx sub-encoding to TS1/4 on input line 408.
+Package textcomp Info: Setting ptmj sub-encoding to TS1/4 on input line 409.
+)
+\lbreakdots=\box28
+LaTeX Font Info:    Try loading font information for OT1+pcr on input line 228.
+
+
+(c:/texlive/2018/texmf-dist/tex/latex/psnfss/ot1pcr.fd
+File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
+))
+(c:/texlive/2018/texmf-dist/tex/latex/algorithm2e/algorithm2e.sty
+Package: algorithm2e 2017/07/18 v5.2 algorithms environments
+\c@AlgoLine=\count97
+\algocf@hangindent=\skip43
+
+(c:/texlive/2018/texmf-dist/tex/latex/ifoddpage/ifoddpage.sty
+Package: ifoddpage 2016/04/23 v1.1 Conditionals for odd/even page detection
+\c@checkoddpage=\count98
+)
+(c:/texlive/2018/texmf-dist/tex/latex/tools/xspace.sty
+Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
+)
+(c:/texlive/2018/texmf-dist/tex/latex/relsize/relsize.sty
+Package: relsize 2013/03/29 ver 4.1
+)
+\skiptotal=\skip44
+\skiplinenumber=\skip45
+\skiprule=\skip46
+\skiphlne=\skip47
+\skiptext=\skip48
+\skiplength=\skip49
+\algomargin=\skip50
+\skipalgocfslide=\skip51
+\algowidth=\dimen107
+\inoutsize=\dimen108
+\inoutindent=\dimen109
+\interspacetitleruled=\dimen110
+\interspacealgoruled=\dimen111
+\interspacetitleboxruled=\dimen112
+\algocf@ruledwidth=\skip52
+\algocf@inoutbox=\box29
+\algocf@inputbox=\box30
+\AlCapSkip=\skip53
+\AlCapHSkip=\skip54
+\algoskipindent=\skip55
+\algocf@nlbox=\box31
+\algocf@hangingbox=\box32
+\algocf@untilbox=\box33
+\algocf@skipuntil=\skip56
+\algocf@capbox=\box34
+\algocf@lcaptionbox=\skip57
+\algoheightruledefault=\skip58
+\algoheightrule=\skip59
+\algotitleheightruledefault=\skip60
+\algotitleheightrule=\skip61
+\c@algocfline=\count99
+\c@algocfproc=\count100
+\c@algocf=\count101
+\algocf@algoframe=\box35
+\algocf@algobox=\box36
+)
+(c:/texlive/2018/texmf-dist/tex/latex/booktabs/booktabs.sty
+Package: booktabs 2016/04/27 v1.618033 publication quality tables
+\heavyrulewidth=\dimen113
+\lightrulewidth=\dimen114
+\cmidrulewidth=\dimen115
+\belowrulesep=\dimen116
+\belowbottomsep=\dimen117
+\aboverulesep=\dimen118
+\abovetopsep=\dimen119
+\cmidrulesep=\dimen120
+\cmidrulekern=\dimen121
+\defaultaddspace=\dimen122
+\@cmidla=\count102
+\@cmidlb=\count103
+\@aboverulesep=\dimen123
+\@belowrulesep=\dimen124
+\@thisruleclass=\count104
+\@lastruleclass=\count105
+\@thisrulewidth=\dimen125
+)
+(c:/texlive/2018/texmf-dist/tex/latex/subfigure/subfigure.sty
+Package: subfigure 2002/03/15 v2.1.5 subfigure package
+\subfigtopskip=\skip62
+\subfigcapskip=\skip63
+\subfigcaptopadj=\dimen126
+\subfigbottomskip=\skip64
+\subfigcapmargin=\dimen127
+\subfiglabelskip=\skip65
+\c@subfigure=\count106
+\c@lofdepth=\count107
+\c@subtable=\count108
+\c@lotdepth=\count109
+
+****************************************
+* Local config file subfigure.cfg used *
+****************************************
+(c:/texlive/2018/texmf-dist/tex/latex/subfigure/subfigure.cfg)
+\subfig@top=\skip66
+\subfig@bottom=\skip67
+)
+(c:/texlive/2018/texmf-dist/tex/latex/todonotes/todonotes.sty
+Package: todonotes 2015/07/09 .dtx Todonotes source and documentation.
+Package: todonotes 2012/07/25
+
+(c:/texlive/2018/texmf-dist/tex/latex/xkeyval/xkeyval.sty
+Package: xkeyval 2014/12/03 v2.7a package option processing (HA)
+
+(c:/texlive/2018/texmf-dist/tex/generic/xkeyval/xkeyval.tex
+(c:/texlive/2018/texmf-dist/tex/generic/xkeyval/xkvutils.tex
+\XKV@toks=\toks16
+\XKV@tempa@toks=\toks17
+)
+\XKV@depth=\count110
+File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
+))
+(c:/texlive/2018/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty
+(c:/texlive/2018/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty
+(c:/texlive/2018/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty
+(c:/texlive/2018/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.tex
+\pgfutil@everybye=\toks18
+\pgfutil@tempdima=\dimen128
+\pgfutil@tempdimb=\dimen129
+
+(c:/texlive/2018/texmf-dist/tex/generic/pgf/utilities/pgfutil-common-lists.tex)
+) (c:/texlive/2018/texmf-dist/tex/generic/pgf/utilities/pgfutil-latex.def
+\pgfutil@abb=\box37
+
+(c:/texlive/2018/texmf-dist/tex/latex/ms/everyshi.sty
+Package: everyshi 2001/05/15 v3.00 EveryShipout Package (MS)
+))
+(c:/texlive/2018/texmf-dist/tex/generic/pgf/utilities/pgfrcs.code.tex
+Package: pgfrcs 2015/08/07 v3.0.1a (rcs-revision 1.31)
+))
+Package: pgf 2015/08/07 v3.0.1a (rcs-revision 1.15)
+
+(c:/texlive/2018/texmf-dist/tex/latex/pgf/basiclayer/pgfcore.sty
+(c:/texlive/2018/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
+
+(c:/texlive/2018/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2017/06/25 v1.2c Standard LaTeX Graphics (DPC,SPQR)
+
+(c:/texlive/2018/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+(c:/texlive/2018/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 99.
+)
+\Gin@req@height=\dimen130
+\Gin@req@width=\dimen131
+)
+(c:/texlive/2018/texmf-dist/tex/latex/pgf/systemlayer/pgfsys.sty
+(c:/texlive/2018/texmf-dist/tex/generic/pgf/systemlayer/pgfsys.code.tex
+Package: pgfsys 2014/07/09 v3.0.1a (rcs-revision 1.48)
+
+(c:/texlive/2018/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
+\pgfkeys@pathtoks=\toks19
+\pgfkeys@temptoks=\toks20
+
+(c:/texlive/2018/texmf-dist/tex/generic/pgf/utilities/pgfkeysfiltered.code.tex
+\pgfkeys@tmptoks=\toks21
+))
+\pgf@x=\dimen132
+\pgf@y=\dimen133
+\pgf@xa=\dimen134
+\pgf@ya=\dimen135
+\pgf@xb=\dimen136
+\pgf@yb=\dimen137
+\pgf@xc=\dimen138
+\pgf@yc=\dimen139
+\w@pgf@writea=\write3
+\r@pgf@reada=\read1
+\c@pgf@counta=\count111
+\c@pgf@countb=\count112
+\c@pgf@countc=\count113
+\c@pgf@countd=\count114
+\t@pgf@toka=\toks22
+\t@pgf@tokb=\toks23
+\t@pgf@tokc=\toks24
+ (c:/texlive/2018/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg
+File: pgf.cfg 2008/05/14  (rcs-revision 1.7)
+)
+Driver file for pgf: pgfsys-pdftex.def
+
+(c:/texlive/2018/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-pdftex.def
+File: pgfsys-pdftex.def 2014/10/11  (rcs-revision 1.35)
+
+(c:/texlive/2018/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-common-pdf.def
+File: pgfsys-common-pdf.def 2013/10/10  (rcs-revision 1.13)
+)))
+(c:/texlive/2018/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.code.tex
+File: pgfsyssoftpath.code.tex 2013/09/09  (rcs-revision 1.9)
+\pgfsyssoftpath@smallbuffer@items=\count115
+\pgfsyssoftpath@bigbuffer@items=\count116
+)
+(c:/texlive/2018/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.code.tex
+File: pgfsysprotocol.code.tex 2006/10/16  (rcs-revision 1.4)
+)) (c:/texlive/2018/texmf-dist/tex/generic/pgf/basiclayer/pgfcore.code.tex
+Package: pgfcore 2010/04/11 v3.0.1a (rcs-revision 1.7)
+
+(c:/texlive/2018/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex
+(c:/texlive/2018/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.tex
+(c:/texlive/2018/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex)
+(c:/texlive/2018/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
+\pgfmath@dimen=\dimen140
+\pgfmath@count=\count117
+\pgfmath@box=\box38
+\pgfmath@toks=\toks25
+\pgfmath@stack@operand=\toks26
+\pgfmath@stack@operation=\toks27
+)
+(c:/texlive/2018/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.code.tex
+(c:/texlive/2018/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.basic.code.te
+x)
+(c:/texlive/2018/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.trigonometric
+.code.tex)
+(c:/texlive/2018/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.random.code.t
+ex)
+(c:/texlive/2018/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.comparison.co
+de.tex)
+(c:/texlive/2018/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.base.code.tex
+)
+(c:/texlive/2018/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.round.code.te
+x)
+(c:/texlive/2018/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.misc.code.tex
+)
+(c:/texlive/2018/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.integerarithm
+etics.code.tex)))
+(c:/texlive/2018/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex
+\c@pgfmathroundto@lastzeros=\count118
+))
+(c:/texlive/2018/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.code.tex
+File: pgfcorepoints.code.tex 2013/10/07  (rcs-revision 1.27)
+\pgf@picminx=\dimen141
+\pgf@picmaxx=\dimen142
+\pgf@picminy=\dimen143
+\pgf@picmaxy=\dimen144
+\pgf@pathminx=\dimen145
+\pgf@pathmaxx=\dimen146
+\pgf@pathminy=\dimen147
+\pgf@pathmaxy=\dimen148
+\pgf@xx=\dimen149
+\pgf@xy=\dimen150
+\pgf@yx=\dimen151
+\pgf@yy=\dimen152
+\pgf@zx=\dimen153
+\pgf@zy=\dimen154
+)
+(c:/texlive/2018/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathconstruct.cod
+e.tex
+File: pgfcorepathconstruct.code.tex 2013/10/07  (rcs-revision 1.29)
+\pgf@path@lastx=\dimen155
+\pgf@path@lasty=\dimen156
+)
+(c:/texlive/2018/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathusage.code.te
+x
+File: pgfcorepathusage.code.tex 2014/11/02  (rcs-revision 1.24)
+\pgf@shorten@end@additional=\dimen157
+\pgf@shorten@start@additional=\dimen158
+)
+(c:/texlive/2018/texmf-dist/tex/generic/pgf/basiclayer/pgfcorescopes.code.tex
+File: pgfcorescopes.code.tex 2015/05/08  (rcs-revision 1.46)
+\pgfpic=\box39
+\pgf@hbox=\box40
+\pgf@layerbox@main=\box41
+\pgf@picture@serial@count=\count119
+)
+(c:/texlive/2018/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicstate.code
+.tex
+File: pgfcoregraphicstate.code.tex 2014/11/02  (rcs-revision 1.12)
+\pgflinewidth=\dimen159
+)
+(c:/texlive/2018/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransformations.c
+ode.tex
+File: pgfcoretransformations.code.tex 2015/08/07  (rcs-revision 1.20)
+\pgf@pt@x=\dimen160
+\pgf@pt@y=\dimen161
+\pgf@pt@temp=\dimen162
+)
+(c:/texlive/2018/texmf-dist/tex/generic/pgf/basiclayer/pgfcorequick.code.tex
+File: pgfcorequick.code.tex 2008/10/09  (rcs-revision 1.3)
+)
+(c:/texlive/2018/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreobjects.code.tex
+File: pgfcoreobjects.code.tex 2006/10/11  (rcs-revision 1.2)
+)
+(c:/texlive/2018/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathprocessing.co
+de.tex
+File: pgfcorepathprocessing.code.tex 2013/09/09  (rcs-revision 1.9)
+)
+(c:/texlive/2018/texmf-dist/tex/generic/pgf/basiclayer/pgfcorearrows.code.tex
+File: pgfcorearrows.code.tex 2015/05/14  (rcs-revision 1.43)
+\pgfarrowsep=\dimen163
+)
+(c:/texlive/2018/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.code.tex
+File: pgfcoreshade.code.tex 2013/07/15  (rcs-revision 1.15)
+\pgf@max=\dimen164
+\pgf@sys@shading@range@num=\count120
+)
+(c:/texlive/2018/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.code.tex
+File: pgfcoreimage.code.tex 2013/07/15  (rcs-revision 1.18)
+
+(c:/texlive/2018/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreexternal.code.tex
+File: pgfcoreexternal.code.tex 2014/07/09  (rcs-revision 1.21)
+\pgfexternal@startupbox=\box42
+))
+(c:/texlive/2018/texmf-dist/tex/generic/pgf/basiclayer/pgfcorelayers.code.tex
+File: pgfcorelayers.code.tex 2013/07/18  (rcs-revision 1.7)
+)
+(c:/texlive/2018/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransparency.code
+.tex
+File: pgfcoretransparency.code.tex 2013/09/30  (rcs-revision 1.5)
+)
+(c:/texlive/2018/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepatterns.code.tex
+File: pgfcorepatterns.code.tex 2013/11/07  (rcs-revision 1.5)
+)))
+(c:/texlive/2018/texmf-dist/tex/generic/pgf/modules/pgfmoduleshapes.code.tex
+File: pgfmoduleshapes.code.tex 2014/03/21  (rcs-revision 1.35)
+\pgfnodeparttextbox=\box43
+)
+(c:/texlive/2018/texmf-dist/tex/generic/pgf/modules/pgfmoduleplot.code.tex
+File: pgfmoduleplot.code.tex 2015/08/03  (rcs-revision 1.13)
+)
+(c:/texlive/2018/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-0-65.st
+y
+Package: pgfcomp-version-0-65 2007/07/03 v3.0.1a (rcs-revision 1.7)
+\pgf@nodesepstart=\dimen165
+\pgf@nodesepend=\dimen166
+)
+(c:/texlive/2018/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-1-18.st
+y
+Package: pgfcomp-version-1-18 2007/07/23 v3.0.1a (rcs-revision 1.1)
+)) (c:/texlive/2018/texmf-dist/tex/latex/pgf/utilities/pgffor.sty
+(c:/texlive/2018/texmf-dist/tex/latex/pgf/utilities/pgfkeys.sty
+(c:/texlive/2018/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex))
+(c:/texlive/2018/texmf-dist/tex/latex/pgf/math/pgfmath.sty
+(c:/texlive/2018/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex))
+(c:/texlive/2018/texmf-dist/tex/generic/pgf/utilities/pgffor.code.tex
+Package: pgffor 2013/12/13 v3.0.1a (rcs-revision 1.25)
+
+(c:/texlive/2018/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex)
+\pgffor@iter=\dimen167
+\pgffor@skip=\dimen168
+\pgffor@stack=\toks28
+\pgffor@toks=\toks29
+))
+(c:/texlive/2018/texmf-dist/tex/generic/pgf/frontendlayer/tikz/tikz.code.tex
+Package: tikz 2015/08/07 v3.0.1a (rcs-revision 1.151)
+
+(c:/texlive/2018/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothandlers.co
+de.tex
+File: pgflibraryplothandlers.code.tex 2013/08/31 v3.0.1a (rcs-revision 1.20)
+\pgf@plot@mark@count=\count121
+\pgfplotmarksize=\dimen169
+)
+\tikz@lastx=\dimen170
+\tikz@lasty=\dimen171
+\tikz@lastxsaved=\dimen172
+\tikz@lastysaved=\dimen173
+\tikzleveldistance=\dimen174
+\tikzsiblingdistance=\dimen175
+\tikz@figbox=\box44
+\tikz@figbox@bg=\box45
+\tikz@tempbox=\box46
+\tikz@tempbox@bg=\box47
+\tikztreelevel=\count122
+\tikznumberofchildren=\count123
+\tikznumberofcurrentchild=\count124
+\tikz@fig@count=\count125
+
+(c:/texlive/2018/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.code.tex
+File: pgfmodulematrix.code.tex 2013/09/17  (rcs-revision 1.8)
+\pgfmatrixcurrentrow=\count126
+\pgfmatrixcurrentcolumn=\count127
+\pgf@matrix@numberofcolumns=\count128
+)
+\tikz@expandcount=\count129
+
+(c:/texlive/2018/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzli
+brarytopaths.code.tex
+File: tikzlibrarytopaths.code.tex 2008/06/17 v3.0.1a (rcs-revision 1.2)
+)))
+(c:/texlive/2018/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzli
+brarypositioning.code.tex
+File: tikzlibrarypositioning.code.tex 2008/10/06 v3.0.1a (rcs-revision 1.7)
+) (c:/texlive/2018/texmf-dist/tex/latex/tools/calc.sty
+Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count130
+\calc@Bcount=\count131
+\calc@Adimen=\dimen176
+\calc@Bdimen=\dimen177
+\calc@Askip=\skip68
+\calc@Bskip=\skip69
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
+\calc@Ccount=\count132
+\calc@Cskip=\skip70
+)
+\c@@todonotes@numberoftodonotes=\count133
+) (./preamble.tex (c:/texlive/2018/texmf-dist/tex/latex/geometry/geometry.sty
+Package: geometry 2018/04/16 v5.8 Page Geometry
+
+(c:/texlive/2018/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+Package: ifpdf 2018/09/07 v3.3 Provides the ifpdf switch
+)
+(c:/texlive/2018/texmf-dist/tex/generic/oberdiek/ifvtex.sty
+Package: ifvtex 2016/05/16 v1.6 Detect VTeX and its facilities (HO)
+Package ifvtex Info: VTeX not detected.
+)
+(c:/texlive/2018/texmf-dist/tex/generic/ifxetex/ifxetex.sty
+Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
+)
+\Gm@cnth=\count134
+\Gm@cntv=\count135
+\c@Gm@tempcnt=\count136
+\Gm@bindingoffset=\dimen178
+\Gm@wd@mp=\dimen179
+\Gm@odd@mp=\dimen180
+\Gm@even@mp=\dimen181
+\Gm@layoutwidth=\dimen182
+\Gm@layoutheight=\dimen183
+\Gm@layouthoffset=\dimen184
+\Gm@layoutvoffset=\dimen185
+\Gm@dimlist=\toks30
+)
+(c:/texlive/2018/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2017/09/02 v2.17a AMS math features
+\@mathmargin=\skip71
+
+For additional information on amsmath, use the `?' option.
+(c:/texlive/2018/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2000/06/29 v2.01 AMS text
+
+(c:/texlive/2018/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks31
+\ex@=\dimen186
+))
+(c:/texlive/2018/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen187
+)
+(c:/texlive/2018/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 2016/03/08 v2.02 operator names
+)
+\inf@bad=\count137
+LaTeX Info: Redefining \frac on input line 213.
+\uproot@=\count138
+\leftroot@=\count139
+LaTeX Info: Redefining \overline on input line 375.
+\classnum@=\count140
+\DOTSCASE@=\count141
+LaTeX Info: Redefining \ldots on input line 472.
+LaTeX Info: Redefining \dots on input line 475.
+LaTeX Info: Redefining \cdots on input line 596.
+\Mathstrutbox@=\box48
+\strutbox@=\box49
+\big@size=\dimen188
+LaTeX Font Info:    Redeclaring font encoding OML on input line 712.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 713.
+\macc@depth=\count142
+\c@MaxMatrixCols=\count143
+\dotsspace@=\muskip10
+\c@parentequation=\count144
+\dspbrk@lvl=\count145
+\tag@help=\toks32
+\row@=\count146
+\column@=\count147
+\maxfields@=\count148
+\andhelp@=\toks33
+\eqnshift@=\dimen189
+\alignsep@=\dimen190
+\tagshift@=\dimen191
+\tagwidth@=\dimen192
+\totwidth@=\dimen193
+\lineht@=\dimen194
+\@envbody=\toks34
+\multlinegap=\skip72
+\multlinetaggap=\skip73
+\mathdisplay@stack=\toks35
+LaTeX Info: Redefining \[ on input line 2817.
+LaTeX Info: Redefining \] on input line 2818.
+)
+(c:/texlive/2018/texmf-dist/tex/latex/amsfonts/amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+
+(c:/texlive/2018/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+))
+(c:/texlive/2018/texmf-dist/tex/latex/nomentbl/nomentbl.sty
+Package: nomentbl 2006/04/14 v0.4 Nomenclature in a longtable environment
+
+(c:/texlive/2018/texmf-dist/tex/latex/tools/longtable.sty
+Package: longtable 2014/10/28 v4.11 Multi-page Table package (DPC)
+\LTleft=\skip74
+\LTright=\skip75
+\LTpre=\skip76
+\LTpost=\skip77
+\LTchunksize=\count149
+\LTcapwidth=\dimen195
+\LT@head=\box50
+\LT@firsthead=\box51
+\LT@foot=\box52
+\LT@lastfoot=\box53
+\LT@cols=\count150
+\LT@rows=\count151
+\c@LT@tables=\count152
+\c@LT@chunks=\count153
+\LT@p@ftn=\toks36
+)
+(c:/texlive/2018/texmf-dist/tex/latex/nomencl/nomencl.sty
+Package: nomencl 2005/09/22 v4.2 Nomenclature package (LN)
+\nomlabelwidth=\dimen196
+\nom@tempdim=\dimen197
+\nomitemsep=\skip78
+)
+(c:/texlive/2018/texmf-dist/tex/latex/tools/array.sty
+Package: array 2018/04/30 v2.4h Tabular extension package (FMi)
+\col@sep=\dimen198
+\ar@mcellbox=\box54
+\extrarowheight=\dimen199
+\NC@list=\toks37
+\extratabsurround=\skip79
+\backup@length=\skip80
+\ar@cellbox=\box55
+))
+\@nomenclaturefile=\write4
+\openout4 = `finalReport.nlo'.
+
+
+Writing nomenclature file finalReport.nlo
+(c:/texlive/2018/texmf-dist/tex/latex/hyperref/hyperref.sty
+Package: hyperref 2018/02/06 v6.86b Hypertext links for LaTeX
+
+(c:/texlive/2018/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
+Package: hobsub-hyperref 2016/05/16 v1.14 Bundle oberdiek, subset hyperref (HO)
+
+
+(c:/texlive/2018/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty
+Package: hobsub-generic 2016/05/16 v1.14 Bundle oberdiek, subset generic (HO)
+Package: hobsub 2016/05/16 v1.14 Construct package bundles (HO)
+Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
+Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
+Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+Package hobsub Info: Skipping package `ifvtex' (already loaded).
+Package: intcalc 2016/05/16 v1.2 Expandable calculations with integers (HO)
+Package hobsub Info: Skipping package `ifpdf' (already loaded).
+Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
+Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
+Package: pdftexcmds 2018/09/10 v0.29 Utility functions of pdfTeX for LuaTeX (HO
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+Package: pdfescape 2016/05/16 v1.14 Implements pdfTeX's escape features (HO)
+Package: bigintcalc 2016/05/16 v1.4 Expandable calculations on big integers (HO
+)
+Package: bitset 2016/05/16 v1.2 Handle bit-vector datatype (HO)
+Package: uniquecounter 2016/05/16 v1.3 Provide unlimited unique counter (HO)
+)
+Package hobsub Info: Skipping package `hobsub' (already loaded).
+Package: letltxmacro 2016/05/16 v1.5 Let assignment for LaTeX macros (HO)
+Package: hopatch 2016/05/16 v1.3 Wrapper for package hooks (HO)
+Package: xcolor-patch 2016/05/16 xcolor patch
+Package: atveryend 2016/05/16 v1.9 Hooks at the very end of document (HO)
+Package atveryend Info: \enddocument detected (standard20110627).
+Package: atbegshi 2016/06/09 v1.18 At begin shipout hook (HO)
+Package: refcount 2016/05/16 v3.5 Data extraction from label references (HO)
+Package: hycolor 2016/05/16 v1.8 Color options for hyperref/bookmark (HO)
+)
+(c:/texlive/2018/texmf-dist/tex/latex/oberdiek/auxhook.sty
+Package: auxhook 2016/05/16 v1.4 Hooks for auxiliary files (HO)
+)
+(c:/texlive/2018/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
+)
+\@linkdim=\dimen256
+\Hy@linkcounter=\count154
+\Hy@pagecounter=\count155
+
+(c:/texlive/2018/texmf-dist/tex/latex/hyperref/pd1enc.def
+File: pd1enc.def 2018/02/06 v6.86b Hyperref: PDFDocEncoding definition (HO)
+)
+\Hy@SavedSpaceFactor=\count156
+
+(c:/texlive/2018/texmf-dist/tex/latex/latexconfig/hyperref.cfg
+File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
+)
+Package hyperref Info: Option `final' set `true' on input line 4383.
+
+
+Package hyperref Warning: Option `letterpaper' is no longer used.
+
+Package hyperref Info: Hyper figures OFF on input line 4509.
+Package hyperref Info: Link nesting OFF on input line 4514.
+Package hyperref Info: Hyper index ON on input line 4517.
+Package hyperref Info: Plain pages OFF on input line 4524.
+Package hyperref Info: Backreferencing OFF on input line 4529.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4762.
+LaTeX Info: Redefining \href on input line 5026.
+\c@Hy@tempcnt=\count157
+(c:/texlive/2018/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip11
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 5115.
+\XeTeXLinkMargin=\dimen257
+\Fld@menulength=\count158
+\Field@Width=\dimen258
+\Fld@charsize=\dimen259
+Package hyperref Info: Hyper figures OFF on input line 6369.
+Package hyperref Info: Link nesting OFF on input line 6374.
+Package hyperref Info: Hyper index ON on input line 6377.
+Package hyperref Info: backreferencing OFF on input line 6384.
+Package hyperref Info: Link coloring OFF on input line 6389.
+Package hyperref Info: Link coloring with OCG OFF on input line 6394.
+Package hyperref Info: PDF/A mode OFF on input line 6399.
+LaTeX Info: Redefining \ref on input line 6439.
+LaTeX Info: Redefining \pageref on input line 6443.
+\Hy@abspage=\count159
+\c@Item=\count160
+\c@Hfootnote=\count161
+)
+Package hyperref Info: Driver: hpdftex.
+
+(c:/texlive/2018/texmf-dist/tex/latex/hyperref/hpdftex.def
+File: hpdftex.def 2018/02/06 v6.86b Hyperref driver for pdfTeX
+\Fld@listcount=\count162
+\c@bookmark@seq@number=\count163
+
+(c:/texlive/2018/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
+Package: rerunfilecheck 2016/05/16 v1.8 Rerun checks for auxiliary files (HO)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
+82.
+)
+\Hy@SectionHShift=\skip81
+)
+Package hyperref Info: Option `plainpages' set `false' on input line 70.
+
+
+Package hyperref Warning: Option `pdfpagelabels' has already been used,
+(hyperref)                setting the option has no effect on input line 70.
+
+
+Package hyperref Warning: Option `bookmarks' has already been used,
+(hyperref)                setting the option has no effect on input line 70.
+
+Package hyperref Info: Option `unicode' set `false' on input line 70.
+Package hyperref Info: Option `pdftoolbar' set `true' on input line 70.
+Package hyperref Info: Option `pdfmenubar' set `true' on input line 70.
+Package hyperref Info: Option `pdffitwindow' set `false' on input line 70.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 70.
+Package hyperref Info: Option `colorlinks' set `true' on input line 70.
+) (c:/texlive/2018/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
+Package: fancyhdr 2017/06/30 v3.9a Extensive control of page headers and footer
+s
+\f@nch@headwidth=\skip82
+\f@nch@O@elh=\skip83
+\f@nch@O@erh=\skip84
+\f@nch@O@olh=\skip85
+\f@nch@O@orh=\skip86
+\f@nch@O@elf=\skip87
+\f@nch@O@erf=\skip88
+\f@nch@O@olf=\skip89
+\f@nch@O@orf=\skip90
+)
+(c:/texlive/2018/texmf-dist/tex/latex/lastpage/lastpage.sty
+Package: lastpage 2015/03/29 v1.2m Refers to last page's name (HMM; JPG)
+)
+(c:/texlive/2018/texmf-dist/tex/latex/oberdiek/epstopdf.sty
+Package: epstopdf 2016/05/15 v2.6 Conversion with epstopdf on the fly (HO)
+
+(c:/texlive/2018/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
+
+(c:/texlive/2018/texmf-dist/tex/latex/oberdiek/grfext.sty
+Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
+)
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+38.
+Package grfext Info: Graphics extension search list:
+(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 456.
+
+(c:/texlive/2018/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+)))
+(./private/thesis-margins-and-spaces.tex) (./finalReport.aux
+
+LaTeX Warning: Label `fig:PitchSpeed_LQR_RMSE_Step' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:PitchSpeed_LQR_RMSE_Step' multiply defined.
+
+
+LaTeX Warning: Label `fig:PitchSpeed_LQR_RMSE_Square' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:PitchSpeed_LQR_RMSE_Square' multiply defined.
+
+
+LaTeX Warning: Label `fig:PitchSpeed_LQR_RMSE_Sine' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:PitchSpeed_LQR_RMSE_Sine' multiply defined.
+
+
+LaTeX Warning: Label `ch:RPI3_SPI_Int' multiply defined.
+
+
+LaTeX Warning: Label `ch:RPI3_SPI_Int' multiply defined.
+
+
+LaTeX Warning: Label `ch:RPI3_SPI_Int' multiply defined.
+
+)
+\openout1 = `finalReport.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 131.
+LaTeX Font Info:    ... okay on input line 131.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 131.
+LaTeX Font Info:    ... okay on input line 131.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 131.
+LaTeX Font Info:    ... okay on input line 131.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 131.
+LaTeX Font Info:    ... okay on input line 131.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 131.
+LaTeX Font Info:    ... okay on input line 131.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 131.
+LaTeX Font Info:    ... okay on input line 131.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 131.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 131.
+
+ (c:/texlive/2018/texmf-dist/tex/latex/base/ts1cmr.fd
+File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    ... okay on input line 131.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 131.
+LaTeX Font Info:    ... okay on input line 131.
+
+(c:/texlive/2018/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count164
+\scratchdimen=\dimen260
+\scratchbox=\box56
+\nofMPsegments=\count165
+\nofMParguments=\count166
+\everyMPshowfont=\toks38
+\MPscratchCnt=\count167
+\MPscratchDim=\dimen261
+\MPnumerator=\count168
+\makeMPintoPDFobject=\count169
+\everyMPtoPDFconversion=\toks39
+)
+\c@lstlisting=\count170
+ ABD: EveryShipout initializing macros
+
+Package todonotes Warning: The length marginparwidth is less than 2cm and will 
+most likely cause issues with the appearance of inserted todonotes. The issue c
+an be solved by adding a line like \setlength {\marginparwidth }{2cm} prior to 
+loading the todonotes package. on input line 131.
+
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: letterpaper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(54.2025pt, 469.755pt, 90.3375pt)
+* v-part:(T,H,B)=(72.26999pt, 650.43001pt, 72.26999pt)
+* \paperwidth=614.295pt
+* \paperheight=794.96999pt
+* \textwidth=460.72124pt
+* \textheight=650.43001pt
+* \oddsidemargin=9.03374pt
+* \evensidemargin=9.03374pt
+* \topmargin=-31.8738pt
+* \headheight=12.0pt
+* \headsep=19.8738pt
+* \topskip=12.0pt
+* \footskip=30.0pt
+* \marginparwidth=0.0pt
+* \marginparsep=0.0pt
+* \columnsep=10.0pt
+* \skip\footins=10.8pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+\AtBeginShipoutBox=\box57
+Package hyperref Info: Link coloring ON on input line 131.
+(c:/texlive/2018/texmf-dist/tex/latex/hyperref/nameref.sty
+Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
+
+(c:/texlive/2018/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
+Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
+)
+\c@section@level=\count171
+)
+LaTeX Info: Redefining \ref on input line 131.
+LaTeX Info: Redefining \pageref on input line 131.
+LaTeX Info: Redefining \nameref on input line 131.
+
+(./finalReport.out) (./finalReport.out)
+\@outlinefile=\write5
+\openout5 = `finalReport.out'.
+
+Package lastpage Info: Please have a look at the pageslts package at
+(lastpage)             https://www.ctan.org/pkg/pageslts
+(lastpage)             ! on input line 131.
+ (./private/00-frontpage.tex [1
+
+
+
+{c:/texlive/2018/texmf-var/fonts/map/pdftex/updmap/pdftex.map}])
+(./parts/02-abstract.tex
+Missing character: There is no Â in font cmr12!
+Missing character: There is no   in font cmr12!
+ [2
+
+
+]) (./parts/03-acknowledgements.tex [3
+
+
+])
+(./parts/04-dedication.tex [4
+
+
+]) (./private/toc-lot-lof.tex (./finalReport.toc
+LaTeX Font Info:    Try loading font information for U+msa on input line 5.
+
+(c:/texlive/2018/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 5.
+
+(c:/texlive/2018/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+) [5
+
+
+
+
+] [6])
+\tf@toc=\write6
+\openout6 = `finalReport.toc'.
+
+ [7]
+(./finalReport.lot)
+\tf@lot=\write7
+\openout7 = `finalReport.lot'.
+
+ [8
+
+
+
+
+] (./finalReport.lof [9
+
+
+
+
+])
+\tf@lof=\write8
+\openout8 = `finalReport.lof'.
+
+ [10])
+(./private/list-of-symbolds.tex
+No file finalReport.nls.
+)
+
+Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
+less on input line 198.
+
+
+Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
+less on input line 198.
+
+(./parts/10-introduction.tex
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[1
+
+
+
+
+]
+Chapter 1.
+
+Underfull \hbox (badness 10000) in paragraph at lines 9--13
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 18--25
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 18--25
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 18--25
+
+ []
+
+[2
+
+
+]) (./parts/20-modeling2-DOF.tex
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[3]
+Chapter 2.
+<figs/img/quanserAero.png, id=466, 349.5459pt x 179.2296pt>
+File: figs/img/quanserAero.png Graphic file (type png)
+<use figs/img/quanserAero.png>
+Package pdftex.def Info: figs/img/quanserAero.png  used on input line 8.
+(pdftex.def)             Requested size: 345.54092pt x 177.18076pt.
+
+Overfull \hbox (44.92316pt too wide) in paragraph at lines 5--13
+\OT1/cmr/m/n/12 The 2-DOF he-li-copter, Quanser Aero [man-u-fac-tured by Quanse
+r Inc. ([][]https://www.quanser.com/[][])],
+ []
+
+<figs/img/helicopterModel.png, id=471, 404.26031pt x 292.84406pt>
+File: figs/img/helicopterModel.png Graphic file (type png)
+<use figs/img/helicopterModel.png>
+Package pdftex.def Info: figs/img/helicopterModel.png  used on input line 16.
+(pdftex.def)             Requested size: 303.19449pt x 219.63249pt.
+[4
+
+
+ <./figs/img/quanserAero.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 45--50
+
+ []
+
+) (./parts/30-controlAlgorithms.tex
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[5 <./figs/img/helicopterModel.png>]
+Chapter 3.
+Package epstopdf Info: Source file: <figs/ipe/ADP_Neural_Network.eps>
+(epstopdf)                    date: 2019-05-07 11:53:36
+(epstopdf)                    size: 150374 bytes
+(epstopdf)             Output file: <figs/ipe/ADP_Neural_Network.pdf>
+(epstopdf)                    date: 2019-05-07 11:53:36
+(epstopdf)                    size: 17528 bytes
+(epstopdf)             Command: <repstopdf figs/ipe/ADP_Neural_Network.eps>
+(epstopdf)             \includegraphics on input line 45.
+Package epstopdf Info: Output file is already uptodate.
+<figs/ipe/ADP_Neural_Network.pdf, id=494, 579.16376pt x 627.34375pt>
+File: figs/ipe/ADP_Neural_Network.pdf Graphic file (type pdf)
+<use figs/ipe/ADP_Neural_Network.pdf>
+Package pdftex.def Info: figs/ipe/ADP_Neural_Network.pdf  used on input line 45
+.
+(pdftex.def)             Requested size: 211.93486pt x 229.56726pt.
+Package epstopdf Info: Source file: <figs/ipe/ADP_Samples.eps>
+(epstopdf)                    date: 2019-05-07 11:53:36
+(epstopdf)                    size: 58684 bytes
+(epstopdf)             Output file: <figs/ipe/ADP_Samples.pdf>
+(epstopdf)                    date: 2019-05-07 11:53:36
+(epstopdf)                    size: 8893 bytes
+(epstopdf)             Command: <repstopdf figs/ipe/ADP_Samples.eps>
+(epstopdf)             \includegraphics on input line 51.
+Package epstopdf Info: Output file is already uptodate.
+<figs/ipe/ADP_Samples.pdf, id=495, 235.88126pt x 128.48pt>
+File: figs/ipe/ADP_Samples.pdf Graphic file (type pdf)
+<use figs/ipe/ADP_Samples.pdf>
+Package pdftex.def Info: figs/ipe/ADP_Samples.pdf  used on input line 51.
+(pdftex.def)             Requested size: 211.93486pt x 115.4388pt.
+[6
+
+
+]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[7 <./figs/ipe/ADP_Neural_Network.pdf> <./figs/ipe/ADP_Samples.pdf>])
+(./parts/40-simulations.tex
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[8]
+Chapter 4.
+Package epstopdf Info: Source file: <figs/matlab/LQR/P_Simulation/LQR_Pos_Con.e
+ps>
+(epstopdf)                    date: 2019-05-07 11:53:37
+(epstopdf)                    size: 112850 bytes
+(epstopdf)             Output file: <figs/matlab/LQR/P_Simulation/LQR_Pos_Con.p
+df>
+(epstopdf)                    date: 2019-05-07 11:53:37
+(epstopdf)                    size: 11212 bytes
+(epstopdf)             Command: <repstopdf figs/matlab/LQR/P_Simulation/LQR_Pos
+_Con.eps>
+(epstopdf)             \includegraphics on input line 18.
+Package epstopdf Info: Output file is already uptodate.
+<figs/matlab/LQR/P_Simulation/LQR_Pos_Con.pdf, id=556, 421.575pt x 316.18124pt>
+
+File: figs/matlab/LQR/P_Simulation/LQR_Pos_Con.pdf Graphic file (type pdf)
+<use figs/matlab/LQR/P_Simulation/LQR_Pos_Con.pdf>
+Package pdftex.def Info: figs/matlab/LQR/P_Simulation/LQR_Pos_Con.pdf  used on 
+input line 18.
+(pdftex.def)             Requested size: 211.93486pt x 158.95381pt.
+Package epstopdf Info: Source file: <figs/matlab/LQR/P_Simulation/LQR_Error_Con
+.eps>
+(epstopdf)                    date: 2019-05-07 11:53:37
+(epstopdf)                    size: 194065 bytes
+(epstopdf)             Output file: <figs/matlab/LQR/P_Simulation/LQR_Error_Con
+.pdf>
+(epstopdf)                    date: 2019-05-07 11:53:37
+(epstopdf)                    size: 13678 bytes
+(epstopdf)             Command: <repstopdf figs/matlab/LQR/P_Simulation/LQR_Err
+or_Con.eps>
+(epstopdf)             \includegraphics on input line 23.
+Package epstopdf Info: Output file is already uptodate.
+<figs/matlab/LQR/P_Simulation/LQR_Error_Con.pdf, id=557, 421.575pt x 316.18124p
+t>
+File: figs/matlab/LQR/P_Simulation/LQR_Error_Con.pdf Graphic file (type pdf)
+<use figs/matlab/LQR/P_Simulation/LQR_Error_Con.pdf>
+Package pdftex.def Info: figs/matlab/LQR/P_Simulation/LQR_Error_Con.pdf  used o
+n input line 23.
+(pdftex.def)             Requested size: 211.93486pt x 158.95381pt.
+Package epstopdf Info: Source file: <figs/matlab/LQR/P_Simulation/LQR_Volt_Con.
+eps>
+(epstopdf)                    date: 2019-05-07 11:53:37
+(epstopdf)                    size: 25240 bytes
+(epstopdf)             Output file: <figs/matlab/LQR/P_Simulation/LQR_Volt_Con.
+pdf>
+(epstopdf)                    date: 2019-05-07 11:53:37
+(epstopdf)                    size: 9558 bytes
+(epstopdf)             Command: <repstopdf figs/matlab/LQR/P_Simulation/LQR_Vol
+t_Con.eps>
+(epstopdf)             \includegraphics on input line 28.
+Package epstopdf Info: Output file is already uptodate.
+<figs/matlab/LQR/P_Simulation/LQR_Volt_Con.pdf, id=558, 421.575pt x 316.18124pt
+>
+File: figs/matlab/LQR/P_Simulation/LQR_Volt_Con.pdf Graphic file (type pdf)
+<use figs/matlab/LQR/P_Simulation/LQR_Volt_Con.pdf>
+Package pdftex.def Info: figs/matlab/LQR/P_Simulation/LQR_Volt_Con.pdf  used on
+ input line 28.
+(pdftex.def)             Requested size: 211.93486pt x 158.95381pt.
+<figs/img/LQR_Simulink_Sim.pdf, id=559, 794.97pt x 614.295pt>
+File: figs/img/LQR_Simulink_Sim.pdf Graphic file (type pdf)
+<use figs/img/LQR_Simulink_Sim.pdf>
+Package pdftex.def Info: figs/img/LQR_Simulink_Sim.pdf  used on input line 38.
+(pdftex.def)             Requested size: 368.57838pt x 284.81935pt.
+Package epstopdf Info: Source file: <figs/matlab/LQR/PI_Sim/Pitch_LQR_Sim.eps>
+(epstopdf)                    date: 2019-05-07 11:53:37
+(epstopdf)                    size: 55940 bytes
+(epstopdf)             Output file: <figs/matlab/LQR/PI_Sim/Pitch_LQR_Sim.pdf>
+(epstopdf)                    date: 2019-05-07 11:53:37
+(epstopdf)                    size: 15477 bytes
+(epstopdf)             Command: <repstopdf figs/matlab/LQR/PI_Sim/Pitch_LQR_Sim
+.eps>
+(epstopdf)             \includegraphics on input line 48.
+Package epstopdf Info: Output file is already uptodate.
+<figs/matlab/LQR/PI_Sim/Pitch_LQR_Sim.pdf, id=560, 361.35pt x 293.095pt>
+File: figs/matlab/LQR/PI_Sim/Pitch_LQR_Sim.pdf Graphic file (type pdf)
+<use figs/matlab/LQR/PI_Sim/Pitch_LQR_Sim.pdf>
+Package pdftex.def Info: figs/matlab/LQR/PI_Sim/Pitch_LQR_Sim.pdf  used on inpu
+t line 48.
+(pdftex.def)             Requested size: 211.93486pt x 171.90486pt.
+Package epstopdf Info: Source file: <figs/matlab/LQR/PI_Sim/Yaw_LQR_Sim.eps>
+(epstopdf)                    date: 2019-05-07 11:53:37
+(epstopdf)                    size: 58903 bytes
+(epstopdf)             Output file: <figs/matlab/LQR/PI_Sim/Yaw_LQR_Sim.pdf>
+(epstopdf)                    date: 2019-05-07 11:53:37
+(epstopdf)                    size: 15219 bytes
+(epstopdf)             Command: <repstopdf figs/matlab/LQR/PI_Sim/Yaw_LQR_Sim.e
+ps>
+(epstopdf)             \includegraphics on input line 52.
+Package epstopdf Info: Output file is already uptodate.
+<figs/matlab/LQR/PI_Sim/Yaw_LQR_Sim.pdf, id=561, 367.3725pt x 293.095pt>
+File: figs/matlab/LQR/PI_Sim/Yaw_LQR_Sim.pdf Graphic file (type pdf)
+<use figs/matlab/LQR/PI_Sim/Yaw_LQR_Sim.pdf>
+Package pdftex.def Info: figs/matlab/LQR/PI_Sim/Yaw_LQR_Sim.pdf  used on input 
+line 52.
+(pdftex.def)             Requested size: 211.93486pt x 169.08734pt.
+Package epstopdf Info: Source file: <figs/matlab/LQR/PI_Sim/Pitch_Volt_LQR_Sim.
+eps>
+(epstopdf)                    date: 2019-05-07 11:53:37
+(epstopdf)                    size: 38084 bytes
+(epstopdf)             Output file: <figs/matlab/LQR/PI_Sim/Pitch_Volt_LQR_Sim.
+pdf>
+(epstopdf)                    date: 2019-05-07 11:53:37
+(epstopdf)                    size: 12175 bytes
+(epstopdf)             Command: <repstopdf figs/matlab/LQR/PI_Sim/Pitch_Volt_LQ
+R_Sim.eps>
+(epstopdf)             \includegraphics on input line 56.
+Package epstopdf Info: Output file is already uptodate.
+<figs/matlab/LQR/PI_Sim/Pitch_Volt_LQR_Sim.pdf, id=562, 365.365pt x 293.095pt>
+File: figs/matlab/LQR/PI_Sim/Pitch_Volt_LQR_Sim.pdf Graphic file (type pdf)
+<use figs/matlab/LQR/PI_Sim/Pitch_Volt_LQR_Sim.pdf>
+Package pdftex.def Info: figs/matlab/LQR/PI_Sim/Pitch_Volt_LQR_Sim.pdf  used on
+ input line 56.
+(pdftex.def)             Requested size: 211.93486pt x 170.01309pt.
+Package epstopdf Info: Source file: <figs/matlab/LQR/PI_Sim/Yaw_Volt_LQR_Sim.ep
+s>
+(epstopdf)                    date: 2019-05-07 11:53:37
+(epstopdf)                    size: 38205 bytes
+(epstopdf)             Output file: <figs/matlab/LQR/PI_Sim/Yaw_Volt_LQR_Sim.pd
+f>
+(epstopdf)                    date: 2019-05-07 11:53:37
+(epstopdf)                    size: 12581 bytes
+(epstopdf)             Command: <repstopdf figs/matlab/LQR/PI_Sim/Yaw_Volt_LQR_
+Sim.eps>
+(epstopdf)             \includegraphics on input line 60.
+Package epstopdf Info: Output file is already uptodate.
+<figs/matlab/LQR/PI_Sim/Yaw_Volt_LQR_Sim.pdf, id=563, 365.365pt x 293.095pt>
+File: figs/matlab/LQR/PI_Sim/Yaw_Volt_LQR_Sim.pdf Graphic file (type pdf)
+<use figs/matlab/LQR/PI_Sim/Yaw_Volt_LQR_Sim.pdf>
+Package pdftex.def Info: figs/matlab/LQR/PI_Sim/Yaw_Volt_LQR_Sim.pdf  used on i
+nput line 60.
+(pdftex.def)             Requested size: 211.93486pt x 170.01309pt.
+
+
+pdfTeX warning: pdflatex.exe (file ./figs/img/LQG_Simulink.pdf): PDF inclusion:
+ found PDF version <1.7>, but at most version <1.5> allowed
+<figs/img/LQG_Simulink.pdf, id=567, 794.97pt x 614.295pt>
+File: figs/img/LQG_Simulink.pdf Graphic file (type pdf)
+<use figs/img/LQG_Simulink.pdf>
+Package pdftex.def Info: figs/img/LQG_Simulink.pdf  used on input line 70.
+(pdftex.def)             Requested size: 368.57838pt x 284.81935pt.
+Package epstopdf Info: Source file: <figs/matlab/LQG/LQG_Sim/Pitch_LQG_Sim.eps>
+
+(epstopdf)                    date: 2019-05-07 11:53:37
+(epstopdf)                    size: 58222 bytes
+(epstopdf)             Output file: <figs/matlab/LQG/LQG_Sim/Pitch_LQG_Sim.pdf>
+
+(epstopdf)                    date: 2019-05-07 11:53:37
+(epstopdf)                    size: 15280 bytes
+(epstopdf)             Command: <repstopdf figs/matlab/LQG/LQG_Sim/Pitch_LQG_Si
+m.eps>
+(epstopdf)             \includegraphics on input line 80.
+Package epstopdf Info: Output file is already uptodate.
+<figs/matlab/LQG/LQG_Sim/Pitch_LQG_Sim.pdf, id=568, 361.35pt x 293.095pt>
+File: figs/matlab/LQG/LQG_Sim/Pitch_LQG_Sim.pdf Graphic file (type pdf)
+<use figs/matlab/LQG/LQG_Sim/Pitch_LQG_Sim.pdf>
+Package pdftex.def Info: figs/matlab/LQG/LQG_Sim/Pitch_LQG_Sim.pdf  used on inp
+ut line 80.
+(pdftex.def)             Requested size: 211.93486pt x 171.90486pt.
+Package epstopdf Info: Source file: <figs/matlab/LQG/LQG_Sim/Yaw_LQG_Sim.eps>
+(epstopdf)                    date: 2019-05-07 11:53:37
+(epstopdf)                    size: 59135 bytes
+(epstopdf)             Output file: <figs/matlab/LQG/LQG_Sim/Yaw_LQG_Sim.pdf>
+(epstopdf)                    date: 2019-05-07 11:53:37
+(epstopdf)                    size: 15855 bytes
+(epstopdf)             Command: <repstopdf figs/matlab/LQG/LQG_Sim/Yaw_LQG_Sim.
+eps>
+(epstopdf)             \includegraphics on input line 84.
+Package epstopdf Info: Output file is already uptodate.
+<figs/matlab/LQG/LQG_Sim/Yaw_LQG_Sim.pdf, id=569, 367.3725pt x 293.095pt>
+File: figs/matlab/LQG/LQG_Sim/Yaw_LQG_Sim.pdf Graphic file (type pdf)
+<use figs/matlab/LQG/LQG_Sim/Yaw_LQG_Sim.pdf>
+Package pdftex.def Info: figs/matlab/LQG/LQG_Sim/Yaw_LQG_Sim.pdf  used on input
+ line 84.
+(pdftex.def)             Requested size: 211.93486pt x 169.08734pt.
+Package epstopdf Info: Source file: <figs/matlab/LQG/LQG_Sim/Pitch_Volt_LQG_Sim
+.eps>
+(epstopdf)                    date: 2019-05-07 11:53:37
+(epstopdf)                    size: 35537 bytes
+(epstopdf)             Output file: <figs/matlab/LQG/LQG_Sim/Pitch_Volt_LQG_Sim
+.pdf>
+(epstopdf)                    date: 2019-05-07 11:53:37
+(epstopdf)                    size: 13088 bytes
+(epstopdf)             Command: <repstopdf figs/matlab/LQG/LQG_Sim/Pitch_Volt_L
+QG_Sim.eps>
+(epstopdf)             \includegraphics on input line 88.
+Package epstopdf Info: Output file is already uptodate.
+<figs/matlab/LQG/LQG_Sim/Pitch_Volt_LQG_Sim.pdf, id=570, 361.35pt x 293.095pt>
+File: figs/matlab/LQG/LQG_Sim/Pitch_Volt_LQG_Sim.pdf Graphic file (type pdf)
+<use figs/matlab/LQG/LQG_Sim/Pitch_Volt_LQG_Sim.pdf>
+Package pdftex.def Info: figs/matlab/LQG/LQG_Sim/Pitch_Volt_LQG_Sim.pdf  used o
+n input line 88.
+(pdftex.def)             Requested size: 211.93486pt x 171.90486pt.
+Package epstopdf Info: Source file: <figs/matlab/LQG/LQG_Sim/Yaw_Volt_LQG_Sim.e
+ps>
+(epstopdf)                    date: 2019-05-07 11:53:37
+(epstopdf)                    size: 36757 bytes
+(epstopdf)             Output file: <figs/matlab/LQG/LQG_Sim/Yaw_Volt_LQG_Sim.p
+df>
+(epstopdf)                    date: 2019-05-07 11:53:37
+(epstopdf)                    size: 12841 bytes
+(epstopdf)             Command: <repstopdf figs/matlab/LQG/LQG_Sim/Yaw_Volt_LQG
+_Sim.eps>
+(epstopdf)             \includegraphics on input line 92.
+Package epstopdf Info: Output file is already uptodate.
+<figs/matlab/LQG/LQG_Sim/Yaw_Volt_LQG_Sim.pdf, id=571, 361.35pt x 293.095pt>
+File: figs/matlab/LQG/LQG_Sim/Yaw_Volt_LQG_Sim.pdf Graphic file (type pdf)
+<use figs/matlab/LQG/LQG_Sim/Yaw_Volt_LQG_Sim.pdf>
+Package pdftex.def Info: figs/matlab/LQG/LQG_Sim/Yaw_Volt_LQG_Sim.pdf  used on 
+input line 92.
+(pdftex.def)             Requested size: 211.93486pt x 171.90486pt.
+) (./parts/50-implementation.tex [9
+
+
+]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[10 <./figs/matlab/LQR/P_Simulation/LQR_Pos_Con.pdf> <./figs/matlab/LQR/P_Simul
+ation/LQR_Error_Con.pdf> <./figs/matlab/LQR/P_Simulation/LQR_Volt_Con.pdf>]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[11 <./figs/img/LQR_Simulink_Sim.pdf>]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[12 <./figs/matlab/LQR/PI_Sim/Pitch_LQR_Sim.pdf> <./figs/matlab/LQR/PI_Sim/Yaw_
+LQR_Sim.pdf> <./figs/matlab/LQR/PI_Sim/Pitch_Volt_LQR_Sim.pdf> <./figs/matlab/L
+QR/PI_Sim/Yaw_Volt_LQR_Sim.pdf>]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[13 <./figs/img/LQG_Simulink.pdf>]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[14 <./figs/matlab/LQG/LQG_Sim/Pitch_LQG_Sim.pdf> <./figs/matlab/LQG/LQG_Sim/Ya
+w_LQG_Sim.pdf> <./figs/matlab/LQG/LQG_Sim/Pitch_Volt_LQG_Sim.pdf> <./figs/matla
+b/LQG/LQG_Sim/Yaw_Volt_LQG_Sim.pdf>]
+Chapter 5.
+
+
+pdfTeX warning: pdflatex.exe (file ./figs/img/SPI_COM.pdf): PDF inclusion: foun
+d PDF version <1.7>, but at most version <1.5> allowed
+<figs/img/SPI_COM.pdf, id=714, 794.97pt x 614.295pt>
+File: figs/img/SPI_COM.pdf Graphic file (type pdf)
+<use figs/img/SPI_COM.pdf>
+Package pdftex.def Info: figs/img/SPI_COM.pdf  used on input line 19.
+(pdftex.def)             Requested size: 211.93486pt x 163.76222pt.
+Package epstopdf Info: Source file: <figs/ipe/TCPModel.eps>
+(epstopdf)                    date: 2019-05-07 11:53:36
+(epstopdf)                    size: 344826 bytes
+(epstopdf)             Output file: <figs/ipe/TCPModel.pdf>
+(epstopdf)                    date: 2019-05-07 11:53:36
+(epstopdf)                    size: 35996 bytes
+(epstopdf)             Command: <repstopdf figs/ipe/TCPModel.eps>
+(epstopdf)             \includegraphics on input line 30.
+Package epstopdf Info: Output file is already uptodate.
+<figs/ipe/TCPModel.pdf, id=715, 484.81125pt x 429.605pt>
+File: figs/ipe/TCPModel.pdf Graphic file (type pdf)
+<use figs/ipe/TCPModel.pdf>
+Package pdftex.def Info: figs/ipe/TCPModel.pdf  used on input line 30.
+(pdftex.def)             Requested size: 211.93486pt x 187.80095pt.
+Package epstopdf Info: Source file: <figs/ipe/Setup.eps>
+(epstopdf)                    date: 2019-05-07 11:53:36
+(epstopdf)                    size: 2994978 bytes
+(epstopdf)             Output file: <figs/ipe/Setup.pdf>
+(epstopdf)                    date: 2019-05-07 11:53:36
+(epstopdf)                    size: 294108 bytes
+(epstopdf)             Command: <repstopdf figs/ipe/Setup.eps>
+(epstopdf)             \includegraphics on input line 37.
+Package epstopdf Info: Output file is already uptodate.
+<figs/ipe/Setup.pdf, id=716, 597.23125pt x 405.515pt>
+File: figs/ipe/Setup.pdf Graphic file (type pdf)
+<use figs/ipe/Setup.pdf>
+Package pdftex.def Info: figs/ipe/Setup.pdf  used on input line 37.
+(pdftex.def)             Requested size: 230.36061pt x 156.41147pt.
+
+
+pdfTeX warning: pdflatex.exe (file ./figs/img/LQR_USB.pdf): PDF inclusion: foun
+d PDF version <1.7>, but at most version <1.5> allowed
+<figs/img/LQR_USB.pdf, id=717, 794.97pt x 614.295pt>
+File: figs/img/LQR_USB.pdf Graphic file (type pdf)
+<use figs/img/LQR_USB.pdf>
+Package pdftex.def Info: figs/img/LQR_USB.pdf  used on input line 49.
+(pdftex.def)             Requested size: 368.57838pt x 284.81935pt.
+<figs/img/LQR_PI_USB.pdf, id=718, 794.97pt x 614.295pt>
+File: figs/img/LQR_PI_USB.pdf Graphic file (type pdf)
+<use figs/img/LQR_PI_USB.pdf>
+Package pdftex.def Info: figs/img/LQR_PI_USB.pdf  used on input line 56.
+(pdftex.def)             Requested size: 368.57838pt x 284.81935pt.
+Package epstopdf Info: Source file: <figs/matlab/LQR_PIvLQR_P_USB/step/Pitch_LQ
+R_RMSE.eps>
+(epstopdf)                    date: 2019-05-07 11:53:38
+(epstopdf)                    size: 908130 bytes
+(epstopdf)             Output file: <figs/matlab/LQR_PIvLQR_P_USB/step/Pitch_LQ
+R_RMSE.pdf>
+(epstopdf)                    date: 2019-05-07 11:53:38
+(epstopdf)                    size: 30392 bytes
+(epstopdf)             Command: <repstopdf figs/matlab/LQR_PIvLQR_P_USB/step/Pi
+tch_LQR_RMSE.eps>
+(epstopdf)             \includegraphics on input line 65.
+Package epstopdf Info: Output file is already uptodate.
+<figs/matlab/LQR_PIvLQR_P_USB/step/Pitch_LQR_RMSE.pdf, id=719, 421.575pt x 316.
+18124pt>
+File: figs/matlab/LQR_PIvLQR_P_USB/step/Pitch_LQR_RMSE.pdf Graphic file (type p
+df)
+<use figs/matlab/LQR_PIvLQR_P_USB/step/Pitch_LQR_RMSE.pdf>
+Package pdftex.def Info: figs/matlab/LQR_PIvLQR_P_USB/step/Pitch_LQR_RMSE.pdf  
+used on input line 65.
+(pdftex.def)             Requested size: 211.93486pt x 158.95381pt.
+Package epstopdf Info: Source file: <figs/matlab/LQR_PIvLQR_P_USB/step/Yaw_LQR_
+RMSE.eps>
+(epstopdf)                    date: 2019-05-07 11:53:38
+(epstopdf)                    size: 686631 bytes
+(epstopdf)             Output file: <figs/matlab/LQR_PIvLQR_P_USB/step/Yaw_LQR_
+RMSE.pdf>
+(epstopdf)                    date: 2019-05-07 11:53:38
+(epstopdf)                    size: 91554 bytes
+(epstopdf)             Command: <repstopdf figs/matlab/LQR_PIvLQR_P_USB/step/Ya
+w_LQR_RMSE.eps>
+(epstopdf)             \includegraphics on input line 69.
+Package epstopdf Info: Output file is already uptodate.
+<figs/matlab/LQR_PIvLQR_P_USB/step/Yaw_LQR_RMSE.pdf, id=720, 421.575pt x 316.18
+124pt>
+File: figs/matlab/LQR_PIvLQR_P_USB/step/Yaw_LQR_RMSE.pdf Graphic file (type pdf
+)
+<use figs/matlab/LQR_PIvLQR_P_USB/step/Yaw_LQR_RMSE.pdf>
+Package pdftex.def Info: figs/matlab/LQR_PIvLQR_P_USB/step/Yaw_LQR_RMSE.pdf  us
+ed on input line 69.
+(pdftex.def)             Requested size: 211.93486pt x 158.95381pt.
+Package epstopdf Info: Source file: <figs/matlab/LQR_PIvLQR_P_USB/step/PitchVol
+tage_LQR_RMSE.eps>
+(epstopdf)                    date: 2019-05-07 11:53:38
+(epstopdf)                    size: 605813 bytes
+(epstopdf)             Output file: <figs/matlab/LQR_PIvLQR_P_USB/step/PitchVol
+tage_LQR_RMSE.pdf>
+(epstopdf)                    date: 2019-05-07 11:53:38
+(epstopdf)                    size: 172543 bytes
+(epstopdf)             Command: <repstopdf figs/matlab/LQR_PIvLQR_P_USB/step/Pi
+tchVoltage_LQR_RMSE.eps>
+(epstopdf)             \includegraphics on input line 73.
+Package epstopdf Info: Output file is already uptodate.
+<figs/matlab/LQR_PIvLQR_P_USB/step/PitchVoltage_LQR_RMSE.pdf, id=721, 364.36125
+pt x 304.13625pt>
+File: figs/matlab/LQR_PIvLQR_P_USB/step/PitchVoltage_LQR_RMSE.pdf Graphic file 
+(type pdf)
+<use figs/matlab/LQR_PIvLQR_P_USB/step/PitchVoltage_LQR_RMSE.pdf>
+Package pdftex.def Info: figs/matlab/LQR_PIvLQR_P_USB/step/PitchVoltage_LQR_RMS
+E.pdf  used on input line 73.
+(pdftex.def)             Requested size: 211.93486pt x 176.90034pt.
+Package epstopdf Info: Source file: <figs/matlab/LQR_PIvLQR_P_USB/step/YawVolta
+ge_LQR_RMSE.eps>
+(epstopdf)                    date: 2019-05-07 11:53:38
+(epstopdf)                    size: 607435 bytes
+(epstopdf)             Output file: <figs/matlab/LQR_PIvLQR_P_USB/step/YawVolta
+ge_LQR_RMSE.pdf>
+(epstopdf)                    date: 2019-05-07 11:53:38
+(epstopdf)                    size: 170455 bytes
+(epstopdf)             Command: <repstopdf figs/matlab/LQR_PIvLQR_P_USB/step/Ya
+wVoltage_LQR_RMSE.eps>
+(epstopdf)             \includegraphics on input line 77.
+Package epstopdf Info: Output file is already uptodate.
+<figs/matlab/LQR_PIvLQR_P_USB/step/YawVoltage_LQR_RMSE.pdf, id=722, 364.36125pt
+ x 304.13625pt>
+File: figs/matlab/LQR_PIvLQR_P_USB/step/YawVoltage_LQR_RMSE.pdf Graphic file (t
+ype pdf)
+<use figs/matlab/LQR_PIvLQR_P_USB/step/YawVoltage_LQR_RMSE.pdf>
+Package pdftex.def Info: figs/matlab/LQR_PIvLQR_P_USB/step/YawVoltage_LQR_RMSE.
+pdf  used on input line 77.
+(pdftex.def)             Requested size: 211.93486pt x 176.90034pt.
+Package epstopdf Info: Source file: <figs/matlab/LQR_PIvLQR_P_USB/step/PitchSpe
+ed_LQR_RMSE.eps>
+(epstopdf)                    date: 2019-05-07 11:53:38
+(epstopdf)                    size: 621604 bytes
+(epstopdf)             Output file: <figs/matlab/LQR_PIvLQR_P_USB/step/PitchSpe
+ed_LQR_RMSE.pdf>
+(epstopdf)                    date: 2019-05-07 11:53:38
+(epstopdf)                    size: 185125 bytes
+(epstopdf)             Command: <repstopdf figs/matlab/LQR_PIvLQR_P_USB/step/Pi
+tchSpeed_LQR_RMSE.eps>
+(epstopdf)             \includegraphics on input line 81.
+Package epstopdf Info: Output file is already uptodate.
+<figs/matlab/LQR_PIvLQR_P_USB/step/PitchSpeed_LQR_RMSE.pdf, id=723, 364.36125pt
+ x 305.14pt>
+File: figs/matlab/LQR_PIvLQR_P_USB/step/PitchSpeed_LQR_RMSE.pdf Graphic file (t
+ype pdf)
+<use figs/matlab/LQR_PIvLQR_P_USB/step/PitchSpeed_LQR_RMSE.pdf>
+Package pdftex.def Info: figs/matlab/LQR_PIvLQR_P_USB/step/PitchSpeed_LQR_RMSE.
+pdf  used on input line 81.
+(pdftex.def)             Requested size: 211.93486pt x 177.48416pt.
+Package epstopdf Info: Source file: <figs/matlab/LQR_PIvLQR_P_USB/step/YawSpeed
+_LQR_RMSE.eps>
+(epstopdf)                    date: 2019-05-07 11:53:38
+(epstopdf)                    size: 595141 bytes
+(epstopdf)             Output file: <figs/matlab/LQR_PIvLQR_P_USB/step/YawSpeed
+_LQR_RMSE.pdf>
+(epstopdf)                    date: 2019-05-07 11:53:38
+(epstopdf)                    size: 170244 bytes
+(epstopdf)             Command: <repstopdf figs/matlab/LQR_PIvLQR_P_USB/step/Ya
+wSpeed_LQR_RMSE.eps>
+(epstopdf)             \includegraphics on input line 85.
+Package epstopdf Info: Output file is already uptodate.
+<figs/matlab/LQR_PIvLQR_P_USB/step/YawSpeed_LQR_RMSE.pdf, id=724, 364.36125pt x
+ 305.14pt>
+File: figs/matlab/LQR_PIvLQR_P_USB/step/YawSpeed_LQR_RMSE.pdf Graphic file (typ
+e pdf)
+<use figs/matlab/LQR_PIvLQR_P_USB/step/YawSpeed_LQR_RMSE.pdf>
+Package pdftex.def Info: figs/matlab/LQR_PIvLQR_P_USB/step/YawSpeed_LQR_RMSE.pd
+f  used on input line 85.
+(pdftex.def)             Requested size: 211.93486pt x 177.48416pt.
+Package epstopdf Info: Source file: <figs/matlab/LQR_PIvLQR_P_USB/square/Pitch_
+LQR_RMSE.eps>
+(epstopdf)                    date: 2019-05-07 11:53:38
+(epstopdf)                    size: 823467 bytes
+(epstopdf)             Output file: <figs/matlab/LQR_PIvLQR_P_USB/square/Pitch_
+LQR_RMSE.pdf>
+(epstopdf)                    date: 2019-05-07 11:53:38
+(epstopdf)                    size: 138198 bytes
+(epstopdf)             Command: <repstopdf figs/matlab/LQR_PIvLQR_P_USB/square/
+Pitch_LQR_RMSE.eps>
+(epstopdf)             \includegraphics on input line 94.
+Package epstopdf Info: Output file is already uptodate.
+<figs/matlab/LQR_PIvLQR_P_USB/square/Pitch_LQR_RMSE.pdf, id=725, 364.36125pt x 
+305.14pt>
+File: figs/matlab/LQR_PIvLQR_P_USB/square/Pitch_LQR_RMSE.pdf Graphic file (type
+ pdf)
+<use figs/matlab/LQR_PIvLQR_P_USB/square/Pitch_LQR_RMSE.pdf>
+Package pdftex.def Info: figs/matlab/LQR_PIvLQR_P_USB/square/Pitch_LQR_RMSE.pdf
+  used on input line 94.
+(pdftex.def)             Requested size: 211.93486pt x 177.48416pt.
+Package epstopdf Info: Source file: <figs/matlab/LQR_PIvLQR_P_USB/square/Yaw_LQ
+R_RMSE.eps>
+(epstopdf)                    date: 2019-05-07 11:53:38
+(epstopdf)                    size: 816995 bytes
+(epstopdf)             Output file: <figs/matlab/LQR_PIvLQR_P_USB/square/Yaw_LQ
+R_RMSE.pdf>
+(epstopdf)                    date: 2019-05-07 11:53:38
+(epstopdf)                    size: 140943 bytes
+(epstopdf)             Command: <repstopdf figs/matlab/LQR_PIvLQR_P_USB/square/
+Yaw_LQR_RMSE.eps>
+(epstopdf)             \includegraphics on input line 98.
+Package epstopdf Info: Output file is already uptodate.
+<figs/matlab/LQR_PIvLQR_P_USB/square/Yaw_LQR_RMSE.pdf, id=726, 364.36125pt x 30
+5.14pt>
+File: figs/matlab/LQR_PIvLQR_P_USB/square/Yaw_LQR_RMSE.pdf Graphic file (type p
+df)
+<use figs/matlab/LQR_PIvLQR_P_USB/square/Yaw_LQR_RMSE.pdf>
+Package pdftex.def Info: figs/matlab/LQR_PIvLQR_P_USB/square/Yaw_LQR_RMSE.pdf  
+used on input line 98.
+(pdftex.def)             Requested size: 211.93486pt x 177.48416pt.
+Package epstopdf Info: Source file: <figs/matlab/LQR_PIvLQR_P_USB/square/PitchV
+oltage_LQR_RMSE.eps>
+(epstopdf)                    date: 2019-05-07 11:53:38
+(epstopdf)                    size: 595319 bytes
+(epstopdf)             Output file: <figs/matlab/LQR_PIvLQR_P_USB/square/PitchV
+oltage_LQR_RMSE.pdf>
+(epstopdf)                    date: 2019-05-07 11:53:38
+(epstopdf)                    size: 175025 bytes
+(epstopdf)             Command: <repstopdf figs/matlab/LQR_PIvLQR_P_USB/square/
+PitchVoltage_LQR_RMSE.eps>
+(epstopdf)             \includegraphics on input line 102.
+Package epstopdf Info: Output file is already uptodate.
+<figs/matlab/LQR_PIvLQR_P_USB/square/PitchVoltage_LQR_RMSE.pdf, id=727, 364.361
+25pt x 304.13625pt>
+File: figs/matlab/LQR_PIvLQR_P_USB/square/PitchVoltage_LQR_RMSE.pdf Graphic fil
+e (type pdf)
+<use figs/matlab/LQR_PIvLQR_P_USB/square/PitchVoltage_LQR_RMSE.pdf>
+Package pdftex.def Info: figs/matlab/LQR_PIvLQR_P_USB/square/PitchVoltage_LQR_R
+MSE.pdf  used on input line 102.
+(pdftex.def)             Requested size: 211.93486pt x 176.90034pt.
+Package epstopdf Info: Source file: <figs/matlab/LQR_PIvLQR_P_USB/square/YawVol
+tage_LQR_RMSE.eps>
+(epstopdf)                    date: 2019-05-07 11:53:38
+(epstopdf)                    size: 599567 bytes
+(epstopdf)             Output file: <figs/matlab/LQR_PIvLQR_P_USB/square/YawVol
+tage_LQR_RMSE.pdf>
+(epstopdf)                    date: 2019-05-07 11:53:38
+(epstopdf)                    size: 180852 bytes
+(epstopdf)             Command: <repstopdf figs/matlab/LQR_PIvLQR_P_USB/square/
+YawVoltage_LQR_RMSE.eps>
+(epstopdf)             \includegraphics on input line 106.
+Package epstopdf Info: Output file is already uptodate.
+<figs/matlab/LQR_PIvLQR_P_USB/square/YawVoltage_LQR_RMSE.pdf, id=728, 364.36125
+pt x 304.13625pt>
+File: figs/matlab/LQR_PIvLQR_P_USB/square/YawVoltage_LQR_RMSE.pdf Graphic file 
+(type pdf)
+<use figs/matlab/LQR_PIvLQR_P_USB/square/YawVoltage_LQR_RMSE.pdf>
+Package pdftex.def Info: figs/matlab/LQR_PIvLQR_P_USB/square/YawVoltage_LQR_RMS
+E.pdf  used on input line 106.
+(pdftex.def)             Requested size: 211.93486pt x 176.90034pt.
+Package epstopdf Info: Source file: <figs/matlab/LQR_PIvLQR_P_USB/square/PitchS
+peed_LQR_RMSE.eps>
+(epstopdf)                    date: 2019-05-07 11:53:38
+(epstopdf)                    size: 575654 bytes
+(epstopdf)             Output file: <figs/matlab/LQR_PIvLQR_P_USB/square/PitchS
+peed_LQR_RMSE.pdf>
+(epstopdf)                    date: 2019-05-07 11:53:38
+(epstopdf)                    size: 188930 bytes
+(epstopdf)             Command: <repstopdf figs/matlab/LQR_PIvLQR_P_USB/square/
+PitchSpeed_LQR_RMSE.eps>
+(epstopdf)             \includegraphics on input line 110.
+Package epstopdf Info: Output file is already uptodate.
+<figs/matlab/LQR_PIvLQR_P_USB/square/PitchSpeed_LQR_RMSE.pdf, id=729, 364.36125
+pt x 305.14pt>
+File: figs/matlab/LQR_PIvLQR_P_USB/square/PitchSpeed_LQR_RMSE.pdf Graphic file 
+(type pdf)
+<use figs/matlab/LQR_PIvLQR_P_USB/square/PitchSpeed_LQR_RMSE.pdf>
+Package pdftex.def Info: figs/matlab/LQR_PIvLQR_P_USB/square/PitchSpeed_LQR_RMS
+E.pdf  used on input line 110.
+(pdftex.def)             Requested size: 211.93486pt x 177.48416pt.
+Package epstopdf Info: Source file: <figs/matlab/LQR_PIvLQR_P_USB/square/YawSpe
+ed_LQR_RMSE.eps>
+(epstopdf)                    date: 2019-05-07 11:53:38
+(epstopdf)                    size: 484562 bytes
+(epstopdf)             Output file: <figs/matlab/LQR_PIvLQR_P_USB/square/YawSpe
+ed_LQR_RMSE.pdf>
+(epstopdf)                    date: 2019-05-07 11:53:38
+(epstopdf)                    size: 158266 bytes
+(epstopdf)             Command: <repstopdf figs/matlab/LQR_PIvLQR_P_USB/square/
+YawSpeed_LQR_RMSE.eps>
+(epstopdf)             \includegraphics on input line 114.
+Package epstopdf Info: Output file is already uptodate.
+<figs/matlab/LQR_PIvLQR_P_USB/square/YawSpeed_LQR_RMSE.pdf, id=730, 364.36125pt
+ x 305.14pt>
+File: figs/matlab/LQR_PIvLQR_P_USB/square/YawSpeed_LQR_RMSE.pdf Graphic file (t
+ype pdf)
+<use figs/matlab/LQR_PIvLQR_P_USB/square/YawSpeed_LQR_RMSE.pdf>
+Package pdftex.def Info: figs/matlab/LQR_PIvLQR_P_USB/square/YawSpeed_LQR_RMSE.
+pdf  used on input line 114.
+(pdftex.def)             Requested size: 211.93486pt x 177.48416pt.
+
+LaTeX Warning: Float too large for page by 0.60529pt on input line 116.
+
+Package epstopdf Info: Source file: <figs/matlab/LQR_PIvLQR_P_USB/sine/Pitch_LQ
+R_RMSE.eps>
+(epstopdf)                    date: 2019-05-07 11:53:38
+(epstopdf)                    size: 904286 bytes
+(epstopdf)             Output file: <figs/matlab/LQR_PIvLQR_P_USB/sine/Pitch_LQ
+R_RMSE.pdf>
+(epstopdf)                    date: 2019-05-07 11:53:38
+(epstopdf)                    size: 210212 bytes
+(epstopdf)             Command: <repstopdf figs/matlab/LQR_PIvLQR_P_USB/sine/Pi
+tch_LQR_RMSE.eps>
+(epstopdf)             \includegraphics on input line 123.
+Package epstopdf Info: Output file is already uptodate.
+<figs/matlab/LQR_PIvLQR_P_USB/sine/Pitch_LQR_RMSE.pdf, id=731, 421.575pt x 316.
+18124pt>
+File: figs/matlab/LQR_PIvLQR_P_USB/sine/Pitch_LQR_RMSE.pdf Graphic file (type p
+df)
+<use figs/matlab/LQR_PIvLQR_P_USB/sine/Pitch_LQR_RMSE.pdf>
+Package pdftex.def Info: figs/matlab/LQR_PIvLQR_P_USB/sine/Pitch_LQR_RMSE.pdf  
+used on input line 123.
+(pdftex.def)             Requested size: 211.93486pt x 158.95381pt.
+Package epstopdf Info: Source file: <figs/matlab/LQR_PIvLQR_P_USB/sine/Yaw_LQR_
+RMSE.eps>
+(epstopdf)                    date: 2019-05-07 11:53:38
+(epstopdf)                    size: 901539 bytes
+(epstopdf)             Output file: <figs/matlab/LQR_PIvLQR_P_USB/sine/Yaw_LQR_
+RMSE.pdf>
+(epstopdf)                    date: 2019-05-07 11:53:38
+(epstopdf)                    size: 227905 bytes
+(epstopdf)             Command: <repstopdf figs/matlab/LQR_PIvLQR_P_USB/sine/Ya
+w_LQR_RMSE.eps>
+(epstopdf)             \includegraphics on input line 127.
+Package epstopdf Info: Output file is already uptodate.
+<figs/matlab/LQR_PIvLQR_P_USB/sine/Yaw_LQR_RMSE.pdf, id=732, 421.575pt x 316.18
+124pt>
+File: figs/matlab/LQR_PIvLQR_P_USB/sine/Yaw_LQR_RMSE.pdf Graphic file (type pdf
+)
+<use figs/matlab/LQR_PIvLQR_P_USB/sine/Yaw_LQR_RMSE.pdf>
+Package pdftex.def Info: figs/matlab/LQR_PIvLQR_P_USB/sine/Yaw_LQR_RMSE.pdf  us
+ed on input line 127.
+(pdftex.def)             Requested size: 211.93486pt x 158.95381pt.
+Package epstopdf Info: Source file: <figs/matlab/LQR_PIvLQR_P_USB/sine/PitchVol
+tage_LQR_RMSE.eps>
+(epstopdf)                    date: 2019-05-07 11:53:38
+(epstopdf)                    size: 603672 bytes
+(epstopdf)             Output file: <figs/matlab/LQR_PIvLQR_P_USB/sine/PitchVol
+tage_LQR_RMSE.pdf>
+(epstopdf)                    date: 2019-05-07 11:53:38
+(epstopdf)                    size: 210042 bytes
+(epstopdf)             Command: <repstopdf figs/matlab/LQR_PIvLQR_P_USB/sine/Pi
+tchVoltage_LQR_RMSE.eps>
+(epstopdf)             \includegraphics on input line 131.
+Package epstopdf Info: Output file is already uptodate.
+<figs/matlab/LQR_PIvLQR_P_USB/sine/PitchVoltage_LQR_RMSE.pdf, id=733, 364.36125
+pt x 304.13625pt>
+File: figs/matlab/LQR_PIvLQR_P_USB/sine/PitchVoltage_LQR_RMSE.pdf Graphic file 
+(type pdf)
+<use figs/matlab/LQR_PIvLQR_P_USB/sine/PitchVoltage_LQR_RMSE.pdf>
+Package pdftex.def Info: figs/matlab/LQR_PIvLQR_P_USB/sine/PitchVoltage_LQR_RMS
+E.pdf  used on input line 131.
+(pdftex.def)             Requested size: 211.93486pt x 176.90034pt.
+Package epstopdf Info: Source file: <figs/matlab/LQR_PIvLQR_P_USB/sine/YawVolta
+ge_LQR_RMSE.eps>
+(epstopdf)                    date: 2019-05-07 11:53:38
+(epstopdf)                    size: 604188 bytes
+(epstopdf)             Output file: <figs/matlab/LQR_PIvLQR_P_USB/sine/YawVolta
+ge_LQR_RMSE.pdf>
+(epstopdf)                    date: 2019-05-07 11:53:38
+(epstopdf)                    size: 207487 bytes
+(epstopdf)             Command: <repstopdf figs/matlab/LQR_PIvLQR_P_USB/sine/Ya
+wVoltage_LQR_RMSE.eps>
+(epstopdf)             \includegraphics on input line 135.
+Package epstopdf Info: Output file is already uptodate.
+<figs/matlab/LQR_PIvLQR_P_USB/sine/YawVoltage_LQR_RMSE.pdf, id=734, 364.36125pt
+ x 304.13625pt>
+File: figs/matlab/LQR_PIvLQR_P_USB/sine/YawVoltage_LQR_RMSE.pdf Graphic file (t
+ype pdf)
+<use figs/matlab/LQR_PIvLQR_P_USB/sine/YawVoltage_LQR_RMSE.pdf>
+Package pdftex.def Info: figs/matlab/LQR_PIvLQR_P_USB/sine/YawVoltage_LQR_RMSE.
+pdf  used on input line 135.
+(pdftex.def)             Requested size: 211.93486pt x 176.90034pt.
+Package epstopdf Info: Source file: <figs/matlab/LQR_PIvLQR_P_USB/sine/PitchSpe
+ed_LQR_RMSE.eps>
+(epstopdf)                    date: 2019-05-07 11:53:38
+(epstopdf)                    size: 621367 bytes
+(epstopdf)             Output file: <figs/matlab/LQR_PIvLQR_P_USB/sine/PitchSpe
+ed_LQR_RMSE.pdf>
+(epstopdf)                    date: 2019-05-07 11:53:38
+(epstopdf)                    size: 200479 bytes
+(epstopdf)             Command: <repstopdf figs/matlab/LQR_PIvLQR_P_USB/sine/Pi
+tchSpeed_LQR_RMSE.eps>
+(epstopdf)             \includegraphics on input line 139.
+Package epstopdf Info: Output file is already uptodate.
+<figs/matlab/LQR_PIvLQR_P_USB/sine/PitchSpeed_LQR_RMSE.pdf, id=735, 364.36125pt
+ x 305.14pt>
+File: figs/matlab/LQR_PIvLQR_P_USB/sine/PitchSpeed_LQR_RMSE.pdf Graphic file (t
+ype pdf)
+<use figs/matlab/LQR_PIvLQR_P_USB/sine/PitchSpeed_LQR_RMSE.pdf>
+Package pdftex.def Info: figs/matlab/LQR_PIvLQR_P_USB/sine/PitchSpeed_LQR_RMSE.
+pdf  used on input line 139.
+(pdftex.def)             Requested size: 211.93486pt x 177.48416pt.
+Package epstopdf Info: Source file: <figs/matlab/LQR_PIvLQR_P_USB/sine/YawSpeed
+_LQR_RMSE.eps>
+(epstopdf)                    date: 2019-05-07 11:53:38
+(epstopdf)                    size: 622282 bytes
+(epstopdf)             Output file: <figs/matlab/LQR_PIvLQR_P_USB/sine/YawSpeed
+_LQR_RMSE.pdf>
+(epstopdf)                    date: 2019-05-07 11:53:38
+(epstopdf)                    size: 199342 bytes
+(epstopdf)             Command: <repstopdf figs/matlab/LQR_PIvLQR_P_USB/sine/Ya
+wSpeed_LQR_RMSE.eps>
+(epstopdf)             \includegraphics on input line 143.
+Package epstopdf Info: Output file is already uptodate.
+<figs/matlab/LQR_PIvLQR_P_USB/sine/YawSpeed_LQR_RMSE.pdf, id=736, 364.36125pt x
+ 305.14pt>
+File: figs/matlab/LQR_PIvLQR_P_USB/sine/YawSpeed_LQR_RMSE.pdf Graphic file (typ
+e pdf)
+<use figs/matlab/LQR_PIvLQR_P_USB/sine/YawSpeed_LQR_RMSE.pdf>
+Package pdftex.def Info: figs/matlab/LQR_PIvLQR_P_USB/sine/YawSpeed_LQR_RMSE.pd
+f  used on input line 143.
+(pdftex.def)             Requested size: 211.93486pt x 177.48416pt.
+<figs/img/ADP_USB.pdf, id=737, 794.97pt x 614.295pt>
+File: figs/img/ADP_USB.pdf Graphic file (type pdf)
+<use figs/img/ADP_USB.pdf>
+Package pdftex.def Info: figs/img/ADP_USB.pdf  used on input line 157.
+(pdftex.def)             Requested size: 368.57838pt x 284.81935pt.
+[15
+
+
+ <./figs/img/SPI_COM.pdf>]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[16 <./figs/ipe/TCPModel.pdf> <./figs/ipe/setup.pdf>]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[17 <./figs/img/LQR_USB.pdf> <./figs/img/LQR_PI_USB.pdf>]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[18 <./figs/matlab/LQR_PIvLQR_P_USB/step/Pitch_LQR_RMSE.pdf> <./figs/matlab/LQR
+_PIvLQR_P_USB/step/Yaw_LQR_RMSE.pdf> <./figs/matlab/LQR_PIvLQR_P_USB/step/Pitch
+Voltage_LQR_RMSE.pdf> <./figs/matlab/LQR_PIvLQR_P_USB/step/YawVoltage_LQR_RMSE.
+pdf> <./figs/matlab/LQR_PIvLQR_P_USB/step/PitchSpeed_LQR_RMSE.pdf> <./figs/matl
+ab/LQR_PIvLQR_P_USB/step/YawSpeed_LQR_RMSE.pdf>]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[19 <./figs/matlab/LQR_PIvLQR_P_USB/square/Pitch_LQR_RMSE.pdf> <./figs/matlab/L
+QR_PIvLQR_P_USB/square/Yaw_LQR_RMSE.pdf> <./figs/matlab/LQR_PIvLQR_P_USB/square
+/PitchVoltage_LQR_RMSE.pdf> <./figs/matlab/LQR_PIvLQR_P_USB/square/YawVoltage_L
+QR_RMSE.pdf> <./figs/matlab/LQR_PIvLQR_P_USB/square/PitchSpeed_LQR_RMSE.pdf> <.
+/figs/matlab/LQR_PIvLQR_P_USB/square/YawSpeed_LQR_RMSE.pdf>]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[20 <./figs/matlab/LQR_PIvLQR_P_USB/sine/Pitch_LQR_RMSE.pdf> <./figs/matlab/LQR
+_PIvLQR_P_USB/sine/Yaw_LQR_RMSE.pdf> <./figs/matlab/LQR_PIvLQR_P_USB/sine/Pitch
+Voltage_LQR_RMSE.pdf> <./figs/matlab/LQR_PIvLQR_P_USB/sine/YawVoltage_LQR_RMSE.
+pdf> <./figs/matlab/LQR_PIvLQR_P_USB/sine/PitchSpeed_LQR_RMSE.pdf> <./figs/matl
+ab/LQR_PIvLQR_P_USB/sine/YawSpeed_LQR_RMSE.pdf>]
+Package epstopdf Info: Source file: <figs/matlab/ADP/USB/Pitch_ADP_Constant.eps
+>
+(epstopdf)                    date: 2019-05-07 11:53:36
+(epstopdf)                    size: 52476 bytes
+(epstopdf)             Output file: <figs/matlab/ADP/USB/Pitch_ADP_Constant.pdf
+>
+(epstopdf)                    date: 2019-05-07 12:32:49
+(epstopdf)                    size: 14721 bytes
+(epstopdf)             Command: <repstopdf figs/matlab/ADP/USB/Pitch_ADP_Consta
+nt.eps>
+(epstopdf)             \includegraphics on input line 167.
+Package epstopdf Info: Output file is already uptodate.
+<figs/matlab/ADP/USB/Pitch_ADP_Constant.pdf, id=962, 421.575pt x 316.18124pt>
+File: figs/matlab/ADP/USB/Pitch_ADP_Constant.pdf Graphic file (type pdf)
+<use figs/matlab/ADP/USB/Pitch_ADP_Constant.pdf>
+Package pdftex.def Info: figs/matlab/ADP/USB/Pitch_ADP_Constant.pdf  used on in
+put line 167.
+(pdftex.def)             Requested size: 211.93486pt x 158.95381pt.
+Package epstopdf Info: Source file: <figs/matlab/ADP/USB/Yaw_ADP_Constant.eps>
+(epstopdf)                    date: 2019-05-07 11:53:36
+(epstopdf)                    size: 51604 bytes
+(epstopdf)             Output file: <figs/matlab/ADP/USB/Yaw_ADP_Constant.pdf>
+(epstopdf)                    date: 2019-05-07 12:32:51
+(epstopdf)                    size: 15782 bytes
+(epstopdf)             Command: <repstopdf figs/matlab/ADP/USB/Yaw_ADP_Constant
+.eps>
+(epstopdf)             \includegraphics on input line 171.
+Package epstopdf Info: Output file is already uptodate.
+<figs/matlab/ADP/USB/Yaw_ADP_Constant.pdf, id=963, 421.575pt x 316.18124pt>
+File: figs/matlab/ADP/USB/Yaw_ADP_Constant.pdf Graphic file (type pdf)
+<use figs/matlab/ADP/USB/Yaw_ADP_Constant.pdf>
+Package pdftex.def Info: figs/matlab/ADP/USB/Yaw_ADP_Constant.pdf  used on inpu
+t line 171.
+(pdftex.def)             Requested size: 211.93486pt x 158.95381pt.
+Package epstopdf Info: Source file: <figs/matlab/ADP/USB/PitchVoltage_ADP_Const
+ant.eps>
+(epstopdf)                    date: 2019-05-07 11:53:36
+(epstopdf)                    size: 27419 bytes
+(epstopdf)             Output file: <figs/matlab/ADP/USB/PitchVoltage_ADP_Const
+ant.pdf>
+(epstopdf)                    date: 2019-05-07 12:32:53
+(epstopdf)                    size: 7730 bytes
+(epstopdf)             Command: <repstopdf figs/matlab/ADP/USB/PitchVoltage_ADP
+_Constant.eps>
+(epstopdf)             \includegraphics on input line 175.
+Package epstopdf Info: Output file is already uptodate.
+<figs/matlab/ADP/USB/PitchVoltage_ADP_Constant.pdf, id=964, 421.575pt x 316.181
+24pt>
+File: figs/matlab/ADP/USB/PitchVoltage_ADP_Constant.pdf Graphic file (type pdf)
+
+<use figs/matlab/ADP/USB/PitchVoltage_ADP_Constant.pdf>
+Package pdftex.def Info: figs/matlab/ADP/USB/PitchVoltage_ADP_Constant.pdf  use
+d on input line 175.
+(pdftex.def)             Requested size: 211.93486pt x 158.95381pt.
+Package epstopdf Info: Source file: <figs/matlab/ADP/USB/YawVoltage_ADP_Constan
+t.eps>
+(epstopdf)                    date: 2019-05-07 11:53:36
+(epstopdf)                    size: 29376 bytes
+(epstopdf)             Output file: <figs/matlab/ADP/USB/YawVoltage_ADP_Constan
+t.pdf>
+(epstopdf)                    date: 2019-05-07 12:32:54
+(epstopdf)                    size: 9826 bytes
+(epstopdf)             Command: <repstopdf figs/matlab/ADP/USB/YawVoltage_ADP_C
+onstant.eps>
+(epstopdf)             \includegraphics on input line 179.
+Package epstopdf Info: Output file is already uptodate.
+<figs/matlab/ADP/USB/YawVoltage_ADP_Constant.pdf, id=965, 364.36125pt x 304.136
+25pt>
+File: figs/matlab/ADP/USB/YawVoltage_ADP_Constant.pdf Graphic file (type pdf)
+<use figs/matlab/ADP/USB/YawVoltage_ADP_Constant.pdf>
+Package pdftex.def Info: figs/matlab/ADP/USB/YawVoltage_ADP_Constant.pdf  used 
+on input line 179.
+(pdftex.def)             Requested size: 211.93486pt x 176.90034pt.
+Package epstopdf Info: Source file: <figs/matlab/ADP/USB/Pitch_ADP_Square.eps>
+(epstopdf)                    date: 2019-05-07 11:53:36
+(epstopdf)                    size: 52584 bytes
+(epstopdf)             Output file: <figs/matlab/ADP/USB/Pitch_ADP_Square.pdf>
+(epstopdf)                    date: 2019-05-07 12:32:56
+(epstopdf)                    size: 18618 bytes
+(epstopdf)             Command: <repstopdf figs/matlab/ADP/USB/Pitch_ADP_Square
+.eps>
+(epstopdf)             \includegraphics on input line 188.
+Package epstopdf Info: Output file is already uptodate.
+<figs/matlab/ADP/USB/Pitch_ADP_Square.pdf, id=966, 364.36125pt x 305.14pt>
+File: figs/matlab/ADP/USB/Pitch_ADP_Square.pdf Graphic file (type pdf)
+<use figs/matlab/ADP/USB/Pitch_ADP_Square.pdf>
+Package pdftex.def Info: figs/matlab/ADP/USB/Pitch_ADP_Square.pdf  used on inpu
+t line 188.
+(pdftex.def)             Requested size: 211.93486pt x 177.48416pt.
+Package epstopdf Info: Source file: <figs/matlab/ADP/USB/Yaw_ADP_Square.eps>
+(epstopdf)                    date: 2019-05-07 11:53:36
+(epstopdf)                    size: 52539 bytes
+(epstopdf)             Output file: <figs/matlab/ADP/USB/Yaw_ADP_Square.pdf>
+(epstopdf)                    date: 2019-05-07 12:32:57
+(epstopdf)                    size: 18274 bytes
+(epstopdf)             Command: <repstopdf figs/matlab/ADP/USB/Yaw_ADP_Square.e
+ps>
+(epstopdf)             \includegraphics on input line 192.
+Package epstopdf Info: Output file is already uptodate.
+<figs/matlab/ADP/USB/Yaw_ADP_Square.pdf, id=967, 364.36125pt x 305.14pt>
+File: figs/matlab/ADP/USB/Yaw_ADP_Square.pdf Graphic file (type pdf)
+<use figs/matlab/ADP/USB/Yaw_ADP_Square.pdf>
+Package pdftex.def Info: figs/matlab/ADP/USB/Yaw_ADP_Square.pdf  used on input 
+line 192.
+(pdftex.def)             Requested size: 211.93486pt x 177.48416pt.
+Package epstopdf Info: Source file: <figs/matlab/ADP/USB/PitchVoltage_ADP_Squar
+e.eps>
+(epstopdf)                    date: 2019-05-07 11:53:36
+(epstopdf)                    size: 29145 bytes
+(epstopdf)             Output file: <figs/matlab/ADP/USB/PitchVoltage_ADP_Squar
+e.pdf>
+(epstopdf)                    date: 2019-05-07 12:32:59
+(epstopdf)                    size: 10690 bytes
+(epstopdf)             Command: <repstopdf figs/matlab/ADP/USB/PitchVoltage_ADP
+_Square.eps>
+(epstopdf)             \includegraphics on input line 196.
+Package epstopdf Info: Output file is already uptodate.
+<figs/matlab/ADP/USB/PitchVoltage_ADP_Square.pdf, id=968, 364.36125pt x 304.136
+25pt>
+File: figs/matlab/ADP/USB/PitchVoltage_ADP_Square.pdf Graphic file (type pdf)
+<use figs/matlab/ADP/USB/PitchVoltage_ADP_Square.pdf>
+Package pdftex.def Info: figs/matlab/ADP/USB/PitchVoltage_ADP_Square.pdf  used 
+on input line 196.
+(pdftex.def)             Requested size: 211.93486pt x 176.90034pt.
+Package epstopdf Info: Source file: <figs/matlab/ADP/USB/YawVoltage_ADP_Square.
+eps>
+(epstopdf)                    date: 2019-05-07 11:53:36
+(epstopdf)                    size: 29220 bytes
+(epstopdf)             Output file: <figs/matlab/ADP/USB/YawVoltage_ADP_Square.
+pdf>
+(epstopdf)                    date: 2019-05-07 12:33:01
+(epstopdf)                    size: 10802 bytes
+(epstopdf)             Command: <repstopdf figs/matlab/ADP/USB/YawVoltage_ADP_S
+quare.eps>
+(epstopdf)             \includegraphics on input line 200.
+Package epstopdf Info: Output file is already uptodate.
+<figs/matlab/ADP/USB/YawVoltage_ADP_Square.pdf, id=969, 364.36125pt x 304.13625
+pt>
+File: figs/matlab/ADP/USB/YawVoltage_ADP_Square.pdf Graphic file (type pdf)
+<use figs/matlab/ADP/USB/YawVoltage_ADP_Square.pdf>
+Package pdftex.def Info: figs/matlab/ADP/USB/YawVoltage_ADP_Square.pdf  used on
+ input line 200.
+(pdftex.def)             Requested size: 211.93486pt x 176.90034pt.
+Package epstopdf Info: Source file: <figs/matlab/ADP/USB/Pitch_ADP_Sine.eps>
+(epstopdf)                    date: 2019-05-07 11:53:36
+(epstopdf)                    size: 52350 bytes
+(epstopdf)             Output file: <figs/matlab/ADP/USB/Pitch_ADP_Sine.pdf>
+(epstopdf)                    date: 2019-05-07 12:33:02
+(epstopdf)                    size: 18430 bytes
+(epstopdf)             Command: <repstopdf figs/matlab/ADP/USB/Pitch_ADP_Sine.e
+ps>
+(epstopdf)             \includegraphics on input line 209.
+Package epstopdf Info: Output file is already uptodate.
+<figs/matlab/ADP/USB/Pitch_ADP_Sine.pdf, id=970, 421.575pt x 316.18124pt>
+File: figs/matlab/ADP/USB/Pitch_ADP_Sine.pdf Graphic file (type pdf)
+<use figs/matlab/ADP/USB/Pitch_ADP_Sine.pdf>
+Package pdftex.def Info: figs/matlab/ADP/USB/Pitch_ADP_Sine.pdf  used on input 
+line 209.
+(pdftex.def)             Requested size: 211.93486pt x 158.95381pt.
+Package epstopdf Info: Source file: <figs/matlab/ADP/USB/Yaw_ADP_Sine.eps>
+(epstopdf)                    date: 2019-05-07 11:53:36
+(epstopdf)                    size: 52666 bytes
+(epstopdf)             Output file: <figs/matlab/ADP/USB/Yaw_ADP_Sine.pdf>
+(epstopdf)                    date: 2019-05-07 12:33:04
+(epstopdf)                    size: 22449 bytes
+(epstopdf)             Command: <repstopdf figs/matlab/ADP/USB/Yaw_ADP_Sine.eps
+>
+(epstopdf)             \includegraphics on input line 213.
+Package epstopdf Info: Output file is already uptodate.
+<figs/matlab/ADP/USB/Yaw_ADP_Sine.pdf, id=971, 364.36125pt x 305.14pt>
+File: figs/matlab/ADP/USB/Yaw_ADP_Sine.pdf Graphic file (type pdf)
+<use figs/matlab/ADP/USB/Yaw_ADP_Sine.pdf>
+Package pdftex.def Info: figs/matlab/ADP/USB/Yaw_ADP_Sine.pdf  used on input li
+ne 213.
+(pdftex.def)             Requested size: 211.93486pt x 177.48416pt.
+Package epstopdf Info: Source file: <figs/matlab/ADP/USB/PitchVoltage_ADP_Sine.
+eps>
+(epstopdf)                    date: 2019-05-07 11:53:36
+(epstopdf)                    size: 27400 bytes
+(epstopdf)             Output file: <figs/matlab/ADP/USB/PitchVoltage_ADP_Sine.
+pdf>
+(epstopdf)                    date: 2019-05-07 12:33:29
+(epstopdf)                    size: 9809 bytes
+(epstopdf)             Command: <repstopdf figs/matlab/ADP/USB/PitchVoltage_ADP
+_Sine.eps>
+(epstopdf)             \includegraphics on input line 217.
+Package epstopdf Info: Output file is already uptodate.
+<figs/matlab/ADP/USB/PitchVoltage_ADP_Sine.pdf, id=972, 421.575pt x 316.18124pt
+>
+File: figs/matlab/ADP/USB/PitchVoltage_ADP_Sine.pdf Graphic file (type pdf)
+<use figs/matlab/ADP/USB/PitchVoltage_ADP_Sine.pdf>
+Package pdftex.def Info: figs/matlab/ADP/USB/PitchVoltage_ADP_Sine.pdf  used on
+ input line 217.
+(pdftex.def)             Requested size: 211.93486pt x 158.95381pt.
+Package epstopdf Info: Source file: <figs/matlab/ADP/USB/YawVoltage_ADP_Sine.ep
+s>
+(epstopdf)                    date: 2019-05-07 11:53:36
+(epstopdf)                    size: 29319 bytes
+(epstopdf)             Output file: <figs/matlab/ADP/USB/YawVoltage_ADP_Sine.pd
+f>
+(epstopdf)                    date: 2019-05-07 12:33:31
+(epstopdf)                    size: 11862 bytes
+(epstopdf)             Command: <repstopdf figs/matlab/ADP/USB/YawVoltage_ADP_S
+ine.eps>
+(epstopdf)             \includegraphics on input line 221.
+Package epstopdf Info: Output file is already uptodate.
+<figs/matlab/ADP/USB/YawVoltage_ADP_Sine.pdf, id=973, 364.36125pt x 304.13625pt
+>
+File: figs/matlab/ADP/USB/YawVoltage_ADP_Sine.pdf Graphic file (type pdf)
+<use figs/matlab/ADP/USB/YawVoltage_ADP_Sine.pdf>
+Package pdftex.def Info: figs/matlab/ADP/USB/YawVoltage_ADP_Sine.pdf  used on i
+nput line 221.
+(pdftex.def)             Requested size: 211.93486pt x 176.90034pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 227--249
+
+ []
+
+
+Overfull \hbox (72.66006pt too wide) in paragraph at lines 252--260
+ [][] 
+ []
+
+
+Overfull \hbox (72.66006pt too wide) in paragraph at lines 266--274
+ [][] 
+ []
+
+Package hyperref Info: bookmark level for unknown todo defaults to 0 on input l
+ine 285.
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[21 <./figs/img/ADP_USB.pdf>]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[22 <./figs/matlab/ADP/USB/Pitch_ADP_Constant.pdf> <./figs/matlab/ADP/USB/Yaw_A
+DP_Constant.pdf> <./figs/matlab/ADP/USB/PitchVoltage_ADP_Constant.pdf> <./figs/
+matlab/ADP/USB/YawVoltage_ADP_Constant.pdf>]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[23 <./figs/matlab/ADP/USB/Pitch_ADP_Square.pdf> <./figs/matlab/ADP/USB/Yaw_ADP
+_Square.pdf> <./figs/matlab/ADP/USB/PitchVoltage_ADP_Square.pdf> <./figs/matlab
+/ADP/USB/YawVoltage_ADP_Square.pdf>]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[24 <./figs/matlab/ADP/USB/Pitch_ADP_Sine.pdf> <./figs/matlab/ADP/USB/Yaw_ADP_S
+ine.pdf> <./figs/matlab/ADP/USB/PitchVoltage_ADP_Sine.pdf> <./figs/matlab/ADP/U
+SB/YawVoltage_ADP_Sine.pdf>]
+Package epstopdf Info: Source file: <figs/matlab/LQR/P_Android/LQR_Pitchpos.eps
+>
+(epstopdf)                    date: 2019-05-07 11:53:37
+(epstopdf)                    size: 131659 bytes
+(epstopdf)             Output file: <figs/matlab/LQR/P_Android/LQR_Pitchpos.pdf
+>
+(epstopdf)                    date: 2019-05-07 11:53:37
+(epstopdf)                    size: 26632 bytes
+(epstopdf)             Command: <repstopdf figs/matlab/LQR/P_Android/LQR_Pitchp
+os.eps>
+(epstopdf)             \includegraphics on input line 332.
+Package epstopdf Info: Output file is already uptodate.
+
+
+pdfTeX warning: pdflatex.exe (file ./figs/matlab/LQR/P_Android/LQR_Pitchpos.pdf
+): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<figs/matlab/LQR/P_Android/LQR_Pitchpos.pdf, id=1101, 421.575pt x 316.18124pt>
+File: figs/matlab/LQR/P_Android/LQR_Pitchpos.pdf Graphic file (type pdf)
+<use figs/matlab/LQR/P_Android/LQR_Pitchpos.pdf>
+Package pdftex.def Info: figs/matlab/LQR/P_Android/LQR_Pitchpos.pdf  used on in
+put line 332.
+(pdftex.def)             Requested size: 211.93486pt x 158.95381pt.
+Package epstopdf Info: Source file: <figs/matlab/LQR/P_Android/LQR_Yawpos.eps>
+(epstopdf)                    date: 2019-05-07 11:53:37
+(epstopdf)                    size: 127362 bytes
+(epstopdf)             Output file: <figs/matlab/LQR/P_Android/LQR_Yawpos.pdf>
+(epstopdf)                    date: 2019-05-07 11:53:37
+(epstopdf)                    size: 26727 bytes
+(epstopdf)             Command: <repstopdf figs/matlab/LQR/P_Android/LQR_Yawpos
+.eps>
+(epstopdf)             \includegraphics on input line 336.
+Package epstopdf Info: Output file is already uptodate.
+
+
+pdfTeX warning: pdflatex.exe (file ./figs/matlab/LQR/P_Android/LQR_Yawpos.pdf):
+ PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<figs/matlab/LQR/P_Android/LQR_Yawpos.pdf, id=1102, 421.575pt x 316.18124pt>
+File: figs/matlab/LQR/P_Android/LQR_Yawpos.pdf Graphic file (type pdf)
+<use figs/matlab/LQR/P_Android/LQR_Yawpos.pdf>
+Package pdftex.def Info: figs/matlab/LQR/P_Android/LQR_Yawpos.pdf  used on inpu
+t line 336.
+(pdftex.def)             Requested size: 211.93486pt x 158.95381pt.
+Package epstopdf Info: Source file: <figs/matlab/LQR/P_Android/LQR_PitchVolt.ep
+s>
+(epstopdf)                    date: 2019-05-07 11:53:37
+(epstopdf)                    size: 72989 bytes
+(epstopdf)             Output file: <figs/matlab/LQR/P_Android/LQR_PitchVolt.pd
+f>
+(epstopdf)                    date: 2019-05-07 11:53:37
+(epstopdf)                    size: 22888 bytes
+(epstopdf)             Command: <repstopdf figs/matlab/LQR/P_Android/LQR_PitchV
+olt.eps>
+(epstopdf)             \includegraphics on input line 340.
+Package epstopdf Info: Output file is already uptodate.
+
+
+pdfTeX warning: pdflatex.exe (file ./figs/matlab/LQR/P_Android/LQR_PitchVolt.pd
+f): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<figs/matlab/LQR/P_Android/LQR_PitchVolt.pdf, id=1103, 421.575pt x 316.18124pt>
+
+File: figs/matlab/LQR/P_Android/LQR_PitchVolt.pdf Graphic file (type pdf)
+<use figs/matlab/LQR/P_Android/LQR_PitchVolt.pdf>
+Package pdftex.def Info: figs/matlab/LQR/P_Android/LQR_PitchVolt.pdf  used on i
+nput line 340.
+(pdftex.def)             Requested size: 211.93486pt x 158.95381pt.
+Package epstopdf Info: Source file: <figs/matlab/LQR/P_Android/LQR_YawVolt.eps>
+
+(epstopdf)                    date: 2019-05-07 11:53:37
+(epstopdf)                    size: 72793 bytes
+(epstopdf)             Output file: <figs/matlab/LQR/P_Android/LQR_YawVolt.pdf>
+
+(epstopdf)                    date: 2019-05-07 11:53:37
+(epstopdf)                    size: 21821 bytes
+(epstopdf)             Command: <repstopdf figs/matlab/LQR/P_Android/LQR_YawVol
+t.eps>
+(epstopdf)             \includegraphics on input line 344.
+Package epstopdf Info: Output file is already uptodate.
+
+
+pdfTeX warning: pdflatex.exe (file ./figs/matlab/LQR/P_Android/LQR_YawVolt.pdf)
+: PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<figs/matlab/LQR/P_Android/LQR_YawVolt.pdf, id=1104, 421.575pt x 316.18124pt>
+File: figs/matlab/LQR/P_Android/LQR_YawVolt.pdf Graphic file (type pdf)
+<use figs/matlab/LQR/P_Android/LQR_YawVolt.pdf>
+Package pdftex.def Info: figs/matlab/LQR/P_Android/LQR_YawVolt.pdf  used on inp
+ut line 344.
+(pdftex.def)             Requested size: 211.93486pt x 158.95381pt.
+Package epstopdf Info: Source file: <figs/matlab/ADP/Android/ADP_Pitch_Wireless
+.eps>
+(epstopdf)                    date: 2019-05-07 11:53:36
+(epstopdf)                    size: 131905 bytes
+(epstopdf)             Output file: <figs/matlab/ADP/Android/ADP_Pitch_Wireless
+.pdf>
+(epstopdf)                    date: 2019-05-07 11:53:36
+(epstopdf)                    size: 12302 bytes
+(epstopdf)             Command: <repstopdf figs/matlab/ADP/Android/ADP_Pitch_Wi
+reless.eps>
+(epstopdf)             \includegraphics on input line 359.
+Package epstopdf Info: Output file is already uptodate.
+<figs/matlab/ADP/Android/ADP_Pitch_Wireless.pdf, id=1105, 421.575pt x 316.18124
+pt>
+File: figs/matlab/ADP/Android/ADP_Pitch_Wireless.pdf Graphic file (type pdf)
+<use figs/matlab/ADP/Android/ADP_Pitch_Wireless.pdf>
+Package pdftex.def Info: figs/matlab/ADP/Android/ADP_Pitch_Wireless.pdf  used o
+n input line 359.
+(pdftex.def)             Requested size: 211.93486pt x 158.95381pt.
+Package epstopdf Info: Source file: <figs/matlab/ADP/Android/ADP_Yaw_Wireless.e
+ps>
+(epstopdf)                    date: 2019-05-07 11:53:36
+(epstopdf)                    size: 133399 bytes
+(epstopdf)             Output file: <figs/matlab/ADP/Android/ADP_Yaw_Wireless.p
+df>
+(epstopdf)                    date: 2019-05-07 11:53:36
+(epstopdf)                    size: 14637 bytes
+(epstopdf)             Command: <repstopdf figs/matlab/ADP/Android/ADP_Yaw_Wire
+less.eps>
+(epstopdf)             \includegraphics on input line 363.
+Package epstopdf Info: Output file is already uptodate.
+<figs/matlab/ADP/Android/ADP_Yaw_Wireless.pdf, id=1106, 421.575pt x 316.18124pt
+>
+File: figs/matlab/ADP/Android/ADP_Yaw_Wireless.pdf Graphic file (type pdf)
+<use figs/matlab/ADP/Android/ADP_Yaw_Wireless.pdf>
+Package pdftex.def Info: figs/matlab/ADP/Android/ADP_Yaw_Wireless.pdf  used on 
+input line 363.
+(pdftex.def)             Requested size: 211.93486pt x 158.95381pt.
+Package epstopdf Info: Source file: <figs/matlab/ADP/Android/ADP_Pitch_Volt_Wir
+eless.eps>
+(epstopdf)                    date: 2019-05-07 11:53:36
+(epstopdf)                    size: 72488 bytes
+(epstopdf)             Output file: <figs/matlab/ADP/Android/ADP_Pitch_Volt_Wir
+eless.pdf>
+(epstopdf)                    date: 2019-05-07 11:53:36
+(epstopdf)                    size: 8896 bytes
+(epstopdf)             Command: <repstopdf figs/matlab/ADP/Android/ADP_Pitch_Vo
+lt_Wireless.eps>
+(epstopdf)             \includegraphics on input line 367.
+Package epstopdf Info: Output file is already uptodate.
+<figs/matlab/ADP/Android/ADP_Pitch_Volt_Wireless.pdf, id=1107, 421.575pt x 316.
+18124pt>
+File: figs/matlab/ADP/Android/ADP_Pitch_Volt_Wireless.pdf Graphic file (type pd
+f)
+<use figs/matlab/ADP/Android/ADP_Pitch_Volt_Wireless.pdf>
+Package pdftex.def Info: figs/matlab/ADP/Android/ADP_Pitch_Volt_Wireless.pdf  u
+sed on input line 367.
+(pdftex.def)             Requested size: 211.93486pt x 158.95381pt.
+Package epstopdf Info: Source file: <figs/matlab/ADP/Android/ADP_Yaw_Volt_Wirel
+ess.eps>
+(epstopdf)                    date: 2019-05-07 11:53:36
+(epstopdf)                    size: 72968 bytes
+(epstopdf)             Output file: <figs/matlab/ADP/Android/ADP_Yaw_Volt_Wirel
+ess.pdf>
+(epstopdf)                    date: 2019-05-07 11:53:36
+(epstopdf)                    size: 9873 bytes
+(epstopdf)             Command: <repstopdf figs/matlab/ADP/Android/ADP_Yaw_Volt
+_Wireless.eps>
+(epstopdf)             \includegraphics on input line 371.
+Package epstopdf Info: Output file is already uptodate.
+<figs/matlab/ADP/Android/ADP_Yaw_Volt_Wireless.pdf, id=1108, 421.575pt x 316.18
+124pt>
+File: figs/matlab/ADP/Android/ADP_Yaw_Volt_Wireless.pdf Graphic file (type pdf)
+
+<use figs/matlab/ADP/Android/ADP_Yaw_Volt_Wireless.pdf>
+Package pdftex.def Info: figs/matlab/ADP/Android/ADP_Yaw_Volt_Wireless.pdf  use
+d on input line 371.
+(pdftex.def)             Requested size: 211.93486pt x 158.95381pt.
+) (./parts/60-conclusion.tex
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[25]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[26 <./figs/matlab/LQR/P_Android/LQR_Pitchpos.pdf> <./figs/matlab/LQR/P_Android
+/LQR_Yawpos.pdf> <./figs/matlab/LQR/P_Android/LQR_PitchVolt.pdf> <./figs/matlab
+/LQR/P_Android/LQR_YawVolt.pdf>]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[27 <./figs/matlab/ADP/Android/ADP_Pitch_Wireless.pdf> <./figs/matlab/ADP/Andro
+id/ADP_Yaw_Wireless.pdf> <./figs/matlab/ADP/Android/ADP_Pitch_Volt_Wireless.pdf
+> <./figs/matlab/ADP/Android/ADP_Yaw_Volt_Wireless.pdf>]
+Chapter 6.
+Package epstopdf Info: Source file: <figs/ipe/smartAlg.eps>
+(epstopdf)                    date: 2019-05-07 11:53:36
+(epstopdf)                    size: 923021 bytes
+(epstopdf)             Output file: <figs/ipe/smartAlg.pdf>
+(epstopdf)                    date: 2019-05-07 11:53:36
+(epstopdf)                    size: 86061 bytes
+(epstopdf)             Command: <repstopdf figs/ipe/smartAlg.eps>
+(epstopdf)             \includegraphics on input line 20.
+Package epstopdf Info: Output file is already uptodate.
+<figs/ipe/smartAlg.pdf, id=1180, 564.1075pt x 450.68375pt>
+File: figs/ipe/smartAlg.pdf Graphic file (type pdf)
+<use figs/ipe/smartAlg.pdf>
+Package pdftex.def Info: figs/ipe/smartAlg.pdf  used on input line 20.
+(pdftex.def)             Requested size: 211.93486pt x 169.32231pt.
+[28
+
+
+ <./figs/ipe/smartAlg.pdf>]) (./parts/A-quanserParam.tex
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[29]
+Appendix A.
+<figs/img/quanserAeroSystemParameters.png, id=1205, 394.47375pt x 472.01344pt>
+File: figs/img/quanserAeroSystemParameters.png Graphic file (type png)
+<use figs/img/quanserAeroSystemParameters.png>
+Package pdftex.def Info: figs/img/quanserAeroSystemParameters.png  used on inpu
+t line 11.
+(pdftex.def)             Requested size: 295.85458pt x 354.0092pt.
+[30
+
+
+ <./figs/img/quanserAeroSystemParameters.png>]
+(./code/simulation/quanser_aero_parameters.m
+LaTeX Font Info:    Try loading font information for TS1+pcr on input line 4.
+
+(c:/texlive/2018/texmf-dist/tex/latex/psnfss/ts1pcr.fd
+File: ts1pcr.fd 2001/06/04 font definitions for TS1/pcr.
+))
+(./code/simulation/quanser_aero_state_space.m
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[31])) (./parts/B-simulation.tex
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[32]
+Appendix B.
+(./code/simulation/LQR_P_Sim.m [33
+
+
+]
+LaTeX Font Info:    Try loading font information for OMS+pcr on input line 43.
+
+(c:/texlive/2018/texmf-dist/tex/latex/psnfss/omspcr.fd
+File: omspcr.fd 
+)
+LaTeX Font Info:    Font shape `OMS/pcr/m/n' in size <10> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 43.
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[34])) (./parts/C-USB.tex
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[35]
+Appendix C.
+) (./parts/D-RP.tex [36
+
+
+]
+Appendix D.
+(./code/implementation/LQR_P/raspberry/RPI3_SPI_Init.m)
+(./code/implementation/SPI/SPICommunication.m
+Overfull \hbox (428.35889pt too wide) in paragraph at lines 4--5
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (494.35974pt too wide) in paragraph at lines 4--5
+[][][][][][][][][][][][][][][][][][][][][][][][][][][]  
+ []
+
+[37
+
+
+]
+LaTeX Font Info:    Try loading font information for OML+pcr on input line 26.
+ (c:/texlive/2018/texmf-dist/tex/latex/psnfss/omlpcr.fd
+File: omlpcr.fd 
+)
+LaTeX Font Info:    Font shape `OML/pcr/m/n' in size <10> not available
+(Font)              Font shape `OML/cmm/m/it' tried instead on input line 26.
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[38]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[39]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[40]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[41]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[42]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[43]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[44]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[45]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[46]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[47]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[48]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[49]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[50]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[51]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[52]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[53]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[54]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[55])) (./parts/E-ADP.tex
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[56]
+Appendix E.
+(./code/implementation/ADP/raspberry/ADP_Init.m [57
+
+
+]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[58]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[59]) (./code/implementation/ADP/quanserAEROCriticTuning.m
+Overfull \hbox (32.35504pt too wide) in paragraph at lines 6--7
+[][][][][][][][][][][][][][][]  
+ []
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[60]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[61]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[62]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[63])) (./parts/tutorial.tex
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[64]
+Appendix F.
+<figs/img/USB_Panel.jpg, id=2914, 4047.12pt x 3035.34pt>
+File: figs/img/USB_Panel.jpg Graphic file (type jpg)
+<use figs/img/USB_Panel.jpg>
+Package pdftex.def Info: figs/img/USB_Panel.jpg  used on input line 22.
+(pdftex.def)             Requested size: 4047.11017pt x 3035.33263pt.
+[65
+
+
+ <./figs/img/USB_Panel.jpg>]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[66]
+<figs/img/Embedded_Panel.jpg, id=2958, 4047.12pt x 3035.34pt>
+File: figs/img/Embedded_Panel.jpg Graphic file (type jpg)
+<use figs/img/Embedded_Panel.jpg>
+Package pdftex.def Info: figs/img/Embedded_Panel.jpg  used on input line 70.
+(pdftex.def)             Requested size: 4047.11017pt x 3035.33263pt.
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[67 <./figs/img/Embedded_Panel.jpg>]) (./finalReport.bbl
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[68]
+Missing character: There is no Ã in font cmr12!
+Missing character: There is no © in font cmr12!
+Missing character: There is no Ã in font cmr12!
+Missing character: There is no © in font cmr12!
+Missing character: There is no Ã in font cmr12!
+Missing character: There is no ­ in font cmr12!
+Missing character: There is no Ã in font cmr12!
+Missing character: There is no ³ in font cmr12!
+Missing character: There is no Ã in font cmr12!
+Missing character: There is no ¡ in font cmr12!
+Missing character: There is no Ã in font cmr12!
+Missing character: There is no ³ in font cmr12!
+) 
+AED: lastpage setting LastPage
+[69
+
+
+]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 265.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 265.
+ (./finalReport.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 265.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 265.
+Package rerunfilecheck Info: File `finalReport.out' has not changed.
+(rerunfilecheck)             Checksum: 79E897DAAF0E0D15EF03E9B4CB07EADF;3480.
+
+
+LaTeX Warning: There were multiply-defined labels.
+
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 265.
+ ) 
+Here is how much of TeX's memory you used:
+ 22749 strings out of 492641
+ 412706 string characters out of 6133131
+ 588587 words of memory out of 5000000
+ 24280 multiletter control sequences out of 15000+600000
+ 15704 words of font info for 59 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 62i,18n,80p,1108b,1858s stack positions out of 5000i,500n,10000p,200000b,80000s
+{c:/texlive/2018/texmf-dist/fonts/enc/dvips/base/8r.enc}{c:/texlive/2018/texm
+f-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}<c:/texlive/2018/texmf-dist/fo
+nts/type1/public/amsfonts/cm/cmbx12.pfb><c:/texlive/2018/texmf-dist/fonts/type1
+/public/amsfonts/cm/cmex10.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/a
+msfonts/cm/cmmi10.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/c
+m/cmmi12.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.p
+fb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb><c:/tex
+live/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2018/
+texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><c:/texlive/2018/texmf-dist
+/fonts/type1/public/amsfonts/cm/cmr17.pfb><c:/texlive/2018/texmf-dist/fonts/typ
+e1/public/amsfonts/cm/cmr6.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/a
+msfonts/cm/cmr7.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/
+cmr8.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
+<c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb><c:/texliv
+e/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb><c:/texlive/2018/te
+xmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb><c:/texlive/2018/texmf-dist/f
+onts/type1/public/cm-super/sfrm1728.pfb><c:/texlive/2018/texmf-dist/fonts/type1
+/urw/courier/ucrr8a.pfb>
+Output written on finalReport.pdf (79 pages, 13048894 bytes).
+PDF statistics:
+ 3441 PDF objects out of 3580 (max. 8388607)
+ 3123 compressed objects within 32 object streams
+ 1806 named destinations out of 2073 (max. 500000)
+ 802 words of extra memory for PDF output out of 10000 (max. 10000000)
+

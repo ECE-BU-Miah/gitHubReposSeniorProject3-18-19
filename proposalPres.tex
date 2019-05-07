@@ -9,7 +9,7 @@
 % package/program, I grant the extra permission to freely copy and
 % modify this file as you see fit and even to delete this copyright
 % notice. 
-
+\UseRawInputEncoding
 \documentclass{beamer}
 
 % There are many different themes available for Beamer. A comprehensive
@@ -46,7 +46,7 @@
 %\usetheme{Warsaw}
 
 \usepackage{pgfgantt}
-\usepackage{todonotes}
+%\usepackage{todonotes}
 \usepackage{media9}
 \usepackage{subfigure}
 
@@ -94,7 +94,6 @@ Advisor: Dr. Suruz Miah}
 %   yourself) who are reading the slides online
 
 \logo{\hfill\href{http://www.bradley.edu}{\includegraphics[width=0.75cm]{figs/logoBU1-Print}}}  % place logo in every page 
-
 
 \subject{Mobile Robot Localization}
 % This is only inserted into the PDF information catalog. Can be left
@@ -159,9 +158,9 @@ Advisor: Dr. Suruz Miah}
 \begin{frame}{Introduction}{} %Glenn
 \begin{figure}
   \centering
-  \includegraphics[scale=0.31]{figs/ipe/ProblemStatementImageWhite}
+  \includegraphics[scale=0.31]{figs/ipe/highLevel_wht_grn}
   \caption{General High-Level System Architecture}
-  \label{fig:ProblemStatementImage}
+  \label{fig:highLevel}
 \end{figure}
 \end{frame}
 
@@ -181,9 +180,7 @@ Advisor: Dr. Suruz Miah}
 %----------------------------------
 
 \section{Background Study}
-
 \subsection{Control Techniques}
-
 \begin{frame}{Background Study}{Control Techniques} %Ken
     Various control techniques have been proposed for 2-DOF helicopters such as:
     \begin{itemize}
@@ -215,12 +212,11 @@ Advisor: Dr. Suruz Miah}
     \column{0.5\textwidth}
     \begin{figure}
       \centering 
-      \includegraphics[width=\textwidth]{figs/img/QuanserAero}
+      \includegraphics[width=\textwidth]{figs/img/quanserAero}
       \caption{Quanser Aero}
       \label{fig:QuanserAero}
     \end{figure}    
     \end{columns}
-
 
 \end{frame}
 
@@ -347,9 +343,9 @@ Advisor: Dr. Suruz Miah}
 
 \begin{figure}
   \centering 
-  \includegraphics[scale=0.31]{figs/ipe/ProposalImage}
+  \includegraphics[scale=0.31]{figs/ipe/lowLevel}
   \caption{Low Level Smart Control Diagram}
-  \label{fig:ProposalImage}
+  \label{fig:lowLevel}
 \end{figure}
 
 \end{frame}
@@ -379,11 +375,11 @@ Advisor: Dr. Suruz Miah}
       \centering
       \subfigure[][]{
         \label{fig:LQR_Pos_Con}    
-        \includegraphics[scale=0.38]{figs/MATLAB/LQR/simulation/LQR_Pos_Con}
+        \includegraphics[scale=0.38]{figs/matlab/LQR/P_Simulation/LQR_Pos_Con}
       }
       \subfigure[][]{
         \label{fig:LQR_Volt_Con}
-        \includegraphics[scale=0.38]{figs/MATLAB/LQR/simulation/LQR_Volt_Con}    
+        \includegraphics[scale=0.38]{figs/matlab/LQR/P_Simulation/LQR_Volt_Con}    
       }  
       \caption{LQR Simulation \subref{fig:LQR_Pos_Con}~Position and~\subref{fig:LQR_Volt_Con}~Voltage w/ Constant Signal}
       \label{fig:LQR_Sim_Con}
@@ -393,7 +389,7 @@ Advisor: Dr. Suruz Miah}
 \begin{frame}{Preliminary Work}{LQR Simulation}
     \begin{figure}
       \centering 
-      \includegraphics[scale=0.5]{figs/MATLAB/LQR/simulation/LQR_Error_Con}
+      \includegraphics[scale=0.5]{figs/matlab/LQR/P_Simulation/LQR_Error_Con}
       \caption{LQR Simulation Error w/ Constant Signal}
       \label{fig:LQR_Error_Con}
     \end{figure}
@@ -427,11 +423,11 @@ Advisor: Dr. Suruz Miah}
       \centering
       \subfigure[][]{
         \label{fig:Pitch_Pos_LQR_USB_SQU}    
-        \includegraphics[scale=0.38]{figs/MATLAB/LQR/USB_results/Pitch_Pos_LQR_USB_SQU}
+        \includegraphics[scale=0.38]{figs/matlab/LQR/P_USB/Pitch_Pos_LQR_USB_SQU}
       }
       \subfigure[][]{
         \label{fig:Pitch_Volt_LQR_USB_SQU}
-        \includegraphics[scale=0.38]{figs/MATLAB/LQR/USB_results/Pitch_Volt_LQR_USB_SQU}    
+        \includegraphics[scale=0.38]{figs/matlab/LQR/P_USB/Pitch_Volt_LQR_USB_SQU}    
       }  
       \caption{LQR Pitch Position~\subref{fig:Pitch_Pos_LQR_USB_SQU}~and~Voltage~\subref{fig:Pitch_Volt_LQR_USB_SQU} on PC with Square Wave Input}
       \label{fig:Pitch_LQR_USB_SQU}
@@ -460,11 +456,11 @@ Advisor: Dr. Suruz Miah}
       \centering
       \subfigure[][]{
         \label{fig:Yaw_Pos_LQR_USB_SQU}    
-        \includegraphics[scale=0.38]{figs/MATLAB/LQR/USB_results/Yaw_Pos_LQR_USB_SQU}
+        \includegraphics[scale=0.38]{figs/matlab/LQR/P_USB/Yaw_Pos_LQR_USB_SQU}
       }
       \subfigure[][]{
         \label{fig:Yaw_Volt_LQR_USB_SQU}
-        \includegraphics[scale=0.38]{figs/MATLAB/LQR/USB_results/Yaw_Volt_LQR_USB_SQU}    
+        \includegraphics[scale=0.38]{figs/matlab/LQR/P_USB/Yaw_Volt_LQR_USB_SQU}    
       }  
       \caption{LQR Yaw Position~\subref{fig:Yaw_Pos_LQR_USB_SQU}~and~Voltage~\subref{fig:Yaw_Volt_LQR_USB_SQU} on PC with Square Wave Input}
       \label{fig:Yaw_LQR_USB_SQU}
@@ -482,11 +478,11 @@ Advisor: Dr. Suruz Miah}
       \centering
       \subfigure[][]{
         \label{fig:LQR_Pitchpos}    
-        \includegraphics[scale=0.38]{figs/MATLAB/LQR/mobileResults/LQR_Pitchpos}
+        \includegraphics[scale=0.38]{figs/matlab/LQR/P_Android/LQR_Pitchpos}
       }
       \subfigure[][]{
         \label{fig:LQR_PitchVolt}
-        \includegraphics[scale=0.38]{figs/MATLAB/LQR/mobileResults/LQR_PitchVolt}    
+        \includegraphics[scale=0.38]{figs/matlab/LQR/P_Android/LQR_PitchVolt}    
       }  
       \caption{Performance in following user's command~\subref{fig:LQR_Pitchpos} tracking pitch angle,~and~\subref{fig:LQR_PitchVolt} pitch motor input voltage}
       \label{fig:performancePitchConst}
@@ -498,11 +494,11 @@ Advisor: Dr. Suruz Miah}
       \centering
       \subfigure[][]{
         \label{fig:LQR_Yawpos}    
-        \includegraphics[scale=0.38]{figs/MATLAB/LQR/mobileResults/LQR_Yawpos}
+        \includegraphics[scale=0.38]{figs/matlab/LQR/P_Android/LQR_Yawpos}
       }
       \subfigure[][]{
         \label{fig:LQR_YawVolt}
-        \includegraphics[scale=0.38]{figs/MATLAB/LQR/mobileResults/LQR_YawVolt}    
+        \includegraphics[scale=0.38]{figs/matlab/LQR/P_Android/LQR_YawVolt}    
       }  
       \caption{Performance in following user's command~\subref{fig:LQR_Yawpos} tracking yaw angle,~and~\subref{fig:LQR_YawVolt} yaw motor input voltage.}
       \label{fig:performanceYawConst}
@@ -757,7 +753,7 @@ Advisor: Dr. Suruz Miah}
 \begin{frame}[allowframebreaks]
   \frametitle<presentation>{For Further Reading}
   \bibliographystyle{IEEEtran}
-  \bibliography{bib/references.bib}
+  \bibliography{bib/references.bib,bib/refsHelicopter.bib,bib/refsSuruzWeb.bib}
   
 %   \begin{thebibliography}{10}
     

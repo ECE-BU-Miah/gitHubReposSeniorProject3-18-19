@@ -10,6 +10,7 @@
 % modify this file as you see fit and even to delete this copyright
 % notice. 
 
+\UseRawInputEncoding
 \documentclass{beamer}
 
 % There are many different themes available for Beamer. A comprehensive
@@ -49,6 +50,7 @@
 \usepackage{todonotes}
 \usepackage{media9}
 \usepackage{subfigure}
+\usepackage{booktabs,array}
 
 
 % Customize Warsaw color 
@@ -85,9 +87,7 @@ Advisor: Dr. Suruz Miah}
 % - Use the \inst command only if there are several affiliations.
 % - Keep it simple, no one is interested in your street address.
 
-%\date[November~27,~2018]{Tuesday, November~27,~2018}
-\date[November~29,~2018]{Thursday, November~29,~2018}
-%\date[December~4,~2018]{Tuesday, December~4,~2016}
+\date[May~4,~2019]{Saturday, May~4,~2019}
 
 % - Either use conference name or its abbreviation.
 % - Not really informative to the audience, more for people (including
@@ -123,7 +123,7 @@ Advisor: Dr. Suruz Miah}
   \titlepage
 \end{frame}
 
-\begin{frame}{Outline} %Glenn
+\begin{frame}{Outline} 
   \tableofcontents%[pausesections]
   % You might wish to add the option [pausesections]
 \end{frame}
@@ -132,7 +132,7 @@ Advisor: Dr. Suruz Miah}
 % and table of contents.
 \section{Introduction}
 
-\begin{frame}{Introduction}{} %Ken
+\begin{frame}{Introduction}{}
   % applications of mobile robot navigation and problem description
     \begin{itemize}
         \item Helicopter are important for short-distance travel
@@ -149,27 +149,47 @@ Advisor: Dr. Suruz Miah}
             \end{itemize}
         \item Which is better?
             \begin{itemize}
-                \item Fundamental (LQR)
-                \item Noise Filtering (LQG) 
-                \item Machine Learning (ADP)
+                \item Optimal Control (Linear Quadratic Regulator)
+                \item Optimal Noise Resistant Control (Linear Quadratic Gaussian) 
+                \item Machine Learning (Approximate Dynamic Programming)
             \end{itemize}
     \end{itemize}
 \end{frame}
 
-\begin{frame}{Introduction}{} %Glenn
+%----------------------------------
+
+\subsection*{Demonstration}
+
+\begin{frame}{Demonstration}
+    \centering
+    \includemedia[
+     width=0.8\linewidth,
+     height=0.6\linewidth,
+     activate=pageopen,  
+     addresource=videos/Demonstration_Trim.mp4,
+     flashvars={
+      source=videos/Demonstration_Trim.mp4
+      &loop=true  % loop the video
+     }
+    ]{}{VPlayer.swf}
+\end{frame}
+
+%----------------------------------
+
+\begin{frame}{Introduction}{}
 \begin{figure}
   \centering
-  \includegraphics[scale=0.31]{figs/ipe/ProblemStatementImageWhite}
-  \caption{General High-Level System Architecture}
+  \includegraphics[scale=0.31]{figs/ipe/highLevel_wht_grn}
+  \caption{General high-level system architecture}
   \label{fig:ProblemStatementImage}
 \end{figure}
 \end{frame}
 
-\begin{frame}{Introduction}{} %Glenn
+\begin{frame}{Introduction}{}
         \begin{itemize}
         \item This project will:
             \begin{itemize}
-                \item use a pair of 2-DOF (2-degrees-of-freedom) testing platforms
+                \item use a pair of 2-DOF (2-degrees-of-freedom) mechatronics platforms
                 \item implement control algorithms on embedded system
                 \item use mobile device for user control
                 \item encourage research
@@ -184,7 +204,7 @@ Advisor: Dr. Suruz Miah}
 
 \subsection{Control Techniques}
 
-\begin{frame}{Background Study}{Control Techniques} %Ken
+\begin{frame}{Background Study}{Control Techniques}
     Various control techniques have been proposed for 2-DOF helicopters such as:
     \begin{itemize}
         \item Sliding mode control \cite{Ahmed2010-Sliding} %cite 2-Sliding Mode Based Robust Control for 2-DOF Helicopter here
@@ -209,7 +229,7 @@ Advisor: Dr. Suruz Miah}
     \begin{figure}
         \centering
         \includegraphics[width=\textwidth]{figs/img/helicopterModel}
-        \caption{Model of a 2-DOF Helicopter}
+        \caption{Model of a 2-DOF helicopter}
         \label{fig:helicopterModel}
     \end{figure}
     \column{0.5\textwidth}
@@ -220,11 +240,9 @@ Advisor: Dr. Suruz Miah}
       \label{fig:QuanserAero}
     \end{figure}    
     \end{columns}
-
-
 \end{frame}
 
-\begin{frame}{Background Study}{Modeling a 2-DOF Helicopter} %Ken
+\begin{frame}{Background Study}{Modeling a 2-DOF Helicopter}
     \begin{itemize}
         \item Characterized by fixed base
         \begin{itemize}
@@ -244,7 +262,7 @@ Advisor: Dr. Suruz Miah}
     \end{itemize}
 \end{frame}
 
-% \begin{frame}{Background Study}{Quanser Aero} %Glenn
+% \begin{frame}{Background Study}{Quanser Aero} 
 
 % \end{frame}
 
@@ -260,27 +278,62 @@ Advisor: Dr. Suruz Miah}
 \end{frame}
 
 \begin{frame}{Background Study}{Modeling a 2-DOF Helicopter}
+Due to the efficiency of the Quanser Aero, we can create a linearized system model:
 \begin{align}
-  \dot{\bf x}(t) = {\bf A}{\bf x}(t) +{\bf B}{\bf u}(t),~\mathrm{where}
+  %\dot{\bf x}(t) = {\bf A}{\bf x}(t) +{\bf B}{\bf u}(t),~\mathrm{where}
+    \dot{\bf x}(t) = {\bf A}{\bf x}(t) +{\bf B}{\bf u}(t),~\mathrm{such}~\mathrm{that}
 \label{eq:stateModel}
 \end{align}  
 %
 \begin{align*}
-{\bf A} =  
 \begin{bmatrix}
-0 & 0 & 1 & 0\\
-0 & 0 & 0 & 1\\
--\frac{K_{\text{sp}}}{J_p} & 0 & -\frac{D_p}{J_p} &  0\\
-0 & 0 & 0 & -\frac{D_y}{J_y}    
+    \dot\theta\\
+    \dot\psi\\
+    \ddot{\theta}\\
+    \ddot{\psi}
+\end{bmatrix}&=
+%\label{eq:matrixA}
+\begin{bmatrix}
+    0 & 0 & 1 & 0 \\
+    0 & 0 & 0 & 1 \\
+    0 & -K_{sp}/J_p & -D_p/J_p & 0 \\
+    0 & 0 & 1 & -D_y/J_y 
+\end{bmatrix} 
+%\label{eq:stateMatrix} 
+\begin{bmatrix}
+    \theta\\
+    \psi\\
+    \dot{\theta}\\
+    \dot{\psi}
 \end{bmatrix}
-~\text{and}~
-  {\bf B} =
+\\&+
+%\label{eq:matrixB}
 \begin{bmatrix}
-0 & 0\\
-0 & 0\\
-\frac{K_{\text{pp}}}{J_p} & \frac{K_{\text{py}}}{J_p}\\
-\frac{K_{\text{yp}}}{J_y} & \frac{K_{\text{yy}}}{J_y}                           
-\end{bmatrix},
+    0 & 0 \\
+    0 & 0 \\
+    K_{pp}/J_p & K_{py}/J_p \\
+    K_{yp}/J_y & K_{yy}/J_y 
+\end{bmatrix}
+%\label{eq:inputMatrix}
+\begin{bmatrix}
+    V_p \\
+    V_y 
+\end{bmatrix}
+%{\bf A} =  
+%\begin{bmatrix}
+%0 & 0 & 1 & 0\\
+%0 & 0 & 0 & 1\\
+%-\frac{K_{\text{sp}}}{J_p} & 0 & -\frac{D_p}{J_p} &  0\\
+%0 & 0 & 0 & -\frac{D_y}{J_y}    
+%\end{bmatrix}
+%~\text{and}~
+%  {\bf B} =
+%\begin{bmatrix}
+%0 & 0\\
+%0 & 0\\
+%\frac{K_{\text{pp}}}{J_p} & \frac{K_{\text{py}}}{J_p}\\
+%\frac{K_{\text{yp}}}{J_y} & \frac{K_{\text{yy}}}{J_y}                           
+%\end{bmatrix}
 \end{align*}
 \end{frame}
 
@@ -299,12 +352,86 @@ Advisor: Dr. Suruz Miah}
 \end{frame}
 
 %----------------------------------
-
+\subsection{Control Algorithm and Architecture}
+\begin{frame}{Background Study}{Control Algorithm Overview - Optimal Control}
+\begin{enumerate}
+    \item Employ state-space representation of 2-DOF helicopter:
+    \begin{align*}
+        \dot{\mathbf{x}} = \mathbf{A}\mathbf{x} + \mathbf{B}\mathbf{u}
+    \end{align*}
+    \item Use state feedback law
+    \begin{center}
+        $\mathbf{u} = -\mathbf{K}\mathbf{x}$
+    \end{center}
+    to minimize the quadratic cost function:
+    \begin{align*}
+        J(\mathbf{u}) = \int_0^\infty (\mathbf{x}^T\mathbf{Q}\mathbf{x} + \mathbf{u}^T\mathbf{R}\mathbf{u} + 2\mathbf{x}^T\mathbf{N}\mathbf{u})\mathrm{dt}
+    \end{align*}
+    \item Find the solution $\mathbf{S}$ to the Riccati equation
+    \begin{align*}
+        \mathbf{A}^T\mathbf{S}+\mathbf{SA}-(\mathbf{SB}+\mathbf{N})\mathbf{R}^{-1}(\mathbf{B}^T\mathbf{S}+\mathbf{N}^T)+\mathbf{Q}=0
+    \end{align*}    
+    \item Calculate gain, $\mathbf{K}$
+    \begin{center}
+        $\mathbf{K}=\mathbf{R}^{-1}(\mathbf{B}^T\mathbf{S}+\mathbf{N}^T)$
+    \end{center}
+\end{enumerate}
+\end{frame}
+%----------------------------------
+\begin{frame}{Background Study}{Control Algorithm Overview - Optimal Noise Resistant Control}
+\begin{itemize}
+    \item Utilizes gain calculated in LQR
+    \item Added Kalman filter to reduce external disturbances to the system
+\end{itemize} 
+\begin{figure}
+    \centering
+    \includegraphics[width=.8\textwidth,keepaspectratio=true]{figs/img/LQG_SimulinkResize.png}
+    \caption{Noise resistant 2-DOF helicopter model}
+    \label{fig:LQGModel}
+\end{figure}
+\end{frame}
+%----------------------------------
+\begin{frame}{Background Study}{Control Algorithm Overview - Machine Learning}
+    \begin{columns}
+    \column{0.5\textwidth}
+    \begin{figure}
+        \centering
+        \includegraphics[width=\textwidth]{figs/ipe/ADP_Neural_Network}
+        \caption{Neural network}
+        \label{fig:ADP_Neural_Networkl}
+    \end{figure}
+    \column{0.5\textwidth}
+    \begin{figure}
+      \centering 
+      \includegraphics[width=\textwidth]{figs/ipe/ADP_Samples}
+      \caption{Neural network sampling}
+      \label{fig:ADP_Samples}
+    \end{figure}    
+    \end{columns}
+\end{frame}
+%----------------------------------
+\begin{frame}{Background Study}{Control Architecture Overview -  P Type Controller}
+\begin{figure}
+    \centering
+    \includegraphics[width=.8\textwidth,keepaspectratio=true]{figs/ipe/P_Control}
+    \caption{Optimal P type controller [servo]}
+    \label{fig:P_Control}
+\end{figure}
+\end{frame}
+%----------------------------------
+\begin{frame}{Background Study}{Control Architecture Overview - PI Type Controller}
+\begin{figure}
+    \centering
+    \includegraphics[width=.8\textwidth,keepaspectratio=true]{figs/ipe/PI_Control}
+    \caption{Optimal PI type controller [servo]}
+    \label{fig:PI_Control}
+\end{figure}
+\end{frame}
 %----------------------------------
 
 \subsection{Prior Work}
 
-\begin{frame}{Background Study}{Prior Work} %Glenn
+\begin{frame}{Background Study}{Prior Work}
   \begin{itemize}
       \item extensive modeling \& simulations
       \item implementation of two motion control algorithms (LQR \& ADP)
@@ -332,23 +459,23 @@ Advisor: Dr. Suruz Miah}
 
 \subsection{Block Diagram}
 
-\begin{frame}{Subsystem Level Functional Requirements}{Block Diagram} %Ken
+\begin{frame}{Subsystem Level Functional Requirements}{Block Diagram}
 
 \begin{figure}
   \centering
   \includegraphics[scale=0.31]{figs/ipe/TCPModel}
-  \caption{Communication Model}
+  \caption{Communication model}
   \label{fig:TCPModel}
 \end{figure}
 
 \end{frame}
 
-\begin{frame}{Subsystem Level Functional Requirements}{Block Diagram} %Glenn
+\begin{frame}{Subsystem Level Functional Requirements}{Block Diagram} 
 
 \begin{figure}
   \centering 
-  \includegraphics[scale=0.31]{figs/ipe/ProposalImage}
-  \caption{Low Level Smart Control Diagram}
+  \includegraphics[scale=0.31]{figs/ipe/lowLevel}
+  \caption{Low level smart control diagram}
   \label{fig:ProposalImage}
 \end{figure}
 
@@ -356,311 +483,375 @@ Advisor: Dr. Suruz Miah}
 
 %----------------------------------
 
-% \subsection{Specifications}
+\section{Simulation}
 
-% \begin{frame}{Subsystem Level Functional Requirements}{Specifications} %Ken
-%   The single board computer that will be used is the Raspberry~Pi~3 Model~B:
-%     \begin{figure}
-%       \centering 
-%       \includegraphics[scale=0.35]{figs/raspberry-pi-3-model-b}
-%       \caption{Raspberry Pi 3 Model B}
-%       \label{fig:raspberry-pi-3-model-b}
-%     \end{figure}
-% \end{frame}
+\subsection{Optimal Control Simulation}
 
-%----------------------------------
-
-\section{Preliminary Work}
-
-\subsection{LQR Simulation} %Ken
-
-\begin{frame}{Preliminary Work}{LQR Simulation}
+% P Controller
+\begin{frame}{Simulation}{Optimal Control Simulation (P Type Controller)}
     \begin{figure}
       \centering
       \subfigure[][]{
-        \label{fig:LQR_Pos_Con}    
-        \includegraphics[scale=0.38]{figs/MATLAB/LQR/simulation/LQR_Pos_Con}
+        \label{fig:LQR_Pos_Con}
+        \includegraphics[scale=0.38]{figs/MATLAB/LQR/P_Simulation/LQR_Pos_Con}
       }
       \subfigure[][]{
         \label{fig:LQR_Volt_Con}
-        \includegraphics[scale=0.38]{figs/MATLAB/LQR/simulation/LQR_Volt_Con}    
+        \includegraphics[scale=0.38]{figs/MATLAB/LQR/P_Simulation/LQR_Volt_Con}    
       }  
-      \caption{LQR Simulation \subref{fig:LQR_Pos_Con}~Position and~\subref{fig:LQR_Volt_Con}~Voltage w/ Constant Signal}
+      \caption{Optimal control (P type controller) simulation \subref{fig:LQR_Pos_Con}~position and~\subref{fig:LQR_Volt_Con}~voltage w/ step input}
       \label{fig:LQR_Sim_Con}
     \end{figure}
 \end{frame}
 
-\begin{frame}{Preliminary Work}{LQR Simulation}
+\begin{frame}{Simulation}{Optimal Control Simulation (P Type Controller)}
     \begin{figure}
       \centering 
-      \includegraphics[scale=0.5]{figs/MATLAB/LQR/simulation/LQR_Error_Con}
-      \caption{LQR Simulation Error w/ Constant Signal}
+      \includegraphics[scale=0.5]{figs/MATLAB/LQR/P_Simulation/LQR_Error_Con}
+      \caption{Optimal control (P type controller) simulation w/ constant signal}
       \label{fig:LQR_Error_Con}
     \end{figure}
 \end{frame}
 
-
-%----------------------------------
-
-\subsection{LQR via USB} %Glenn
-
-% \begin{frame}{Preliminary Work}{LQR via USB}
-% \begin{figure}
-%       \centering 
-%       \includegraphics[scale=0.5]{figs/MATLAB/LQR/USB_results/Pitch_Pos_LQR_USB_SQU}
-%       \caption{LQR Pitch Position on PC with Square Wave Input}
-%       \label{fig:Pitch_Pos_LQR_USB_SQU}
-%     \end{figure}
-% \end{frame}
-
-% \begin{frame}{Preliminary Work}{LQR via USB}
-% \begin{figure}
-%       \centering 
-%       \includegraphics[scale=0.5]{figs/MATLAB/LQR/USB_results/Pitch_Volt_LQR_USB_SQU}
-%       \caption{LQR Pitch Voltage on PC with Square Wave Input}
-%       \label{fig:Pitch_Volt_LQR_USB_SQU}
-%     \end{figure}
-% \end{frame}
-
-\begin{frame}{Preliminary Work}{LQR via USB}
+% PI LQR vs LQG
+\subsection{Noise Resistant and Optimal Control Simulation}
+\begin{frame}{Simulation}{Noise Resistant and Optimal Control (PI type Controller) Simulation}
     \begin{figure}
       \centering
       \subfigure[][]{
-        \label{fig:Pitch_Pos_LQR_USB_SQU}    
-        \includegraphics[scale=0.38]{figs/MATLAB/LQR/USB_results/Pitch_Pos_LQR_USB_SQU}
+        \label{fig:Pitch}
+        \includegraphics[scale=0.38]{figs/matlab/LQG_PIvLQR_PI_Sim/Pitch}
       }
       \subfigure[][]{
-        \label{fig:Pitch_Volt_LQR_USB_SQU}
-        \includegraphics[scale=0.38]{figs/MATLAB/LQR/USB_results/Pitch_Volt_LQR_USB_SQU}    
+        \label{fig:Yaw}
+        \includegraphics[scale=0.38]{figs/matlab/LQG_PIvLQR_PI_Sim/Yaw}    
       }  
-      \caption{LQR Pitch Position~\subref{fig:Pitch_Pos_LQR_USB_SQU}~and~Voltage~\subref{fig:Pitch_Volt_LQR_USB_SQU} on PC with Square Wave Input}
-      \label{fig:Pitch_LQR_USB_SQU}
+      \caption{Noise resistant control vs optimal control (PI type controller) simulation \subref{fig:Pitch}~pitch~position and~\subref{fig:Yaw}~yaw~position w/ step input}
+      \label{fig:LQR_LQG_Sim_pos}
     \end{figure}
 \end{frame}
 
-% \begin{frame}{Preliminary Work}{LQR via USB}
-% \begin{figure}
-%       \centering 
-%       \includegraphics[scale=0.5]{figs/MATLAB/LQR/USB_results/Yaw_Pos_LQR_USB_SQU}
-%       \caption{LQR Yaw Position on PC with Square Wave Input}
-%       \label{fig:Yaw_Pos_LQR_USB_SQU}
-%     \end{figure}
-% \end{frame}
-
-% \begin{frame}{Preliminary Work}{LQR via USB}
-% \begin{figure}
-%       \centering 
-%       \includegraphics[scale=0.5]{figs/MATLAB/LQR/USB_results/Yaw_Volt_LQR_USB_SQU}
-%       \caption{LQR Yaw Voltage on PC with Square Wave Input}
-%       \label{fig:Yaw_Volt_LQR_USB_SQU}
-%     \end{figure}
-% \end{frame}
-\begin{frame}{Preliminary Work}{LQR via USB}
+\begin{frame}{Simulation}{Noise Resistant and Optimal Control (PI Type Controller) Simulation}
     \begin{figure}
       \centering
       \subfigure[][]{
-        \label{fig:Yaw_Pos_LQR_USB_SQU}    
-        \includegraphics[scale=0.38]{figs/MATLAB/LQR/USB_results/Yaw_Pos_LQR_USB_SQU}
+        \label{fig:Pitch_Volt}
+        \includegraphics[scale=0.38]{figs/matlab/LQG_PIvLQR_PI_Sim/Pitch_Volt}
       }
       \subfigure[][]{
-        \label{fig:Yaw_Volt_LQR_USB_SQU}
-        \includegraphics[scale=0.38]{figs/MATLAB/LQR/USB_results/Yaw_Volt_LQR_USB_SQU}    
+        \label{fig:Yaw_Volt}
+        \includegraphics[scale=0.38]{figs/matlab/LQG_PIvLQR_PI_Sim/Yaw_Volt}    
       }  
-      \caption{LQR Yaw Position~\subref{fig:Yaw_Pos_LQR_USB_SQU}~and~Voltage~\subref{fig:Yaw_Volt_LQR_USB_SQU} on PC with Square Wave Input}
-      \label{fig:Yaw_LQR_USB_SQU}
+      \caption{Noise resistant control vs optimal control (PI type controller) simulation \subref{fig:Pitch_Volt}~pitch~voltage and~\subref{fig:Yaw_Volt}~yaw~voltage w/ step input}
+      \label{fig:LQR_PI_Sim_volt}
     \end{figure}
 \end{frame}
 
+%% PI Controller
+%\begin{frame}{Simulation}{Optimal Control Simulation (PI Controller)}
+%    \begin{figure}
+%      \centering
+%      \subfigure[][]{
+%        \label{fig:Pitch_LQR_Sim}
+%        \includegraphics[scale=0.38]{figs/MATLAB/LQR/PI_Sim/Pitch_LQR_Sim}
+%      }
+%      \subfigure[][]{
+%        \label{fig:Yaw_LQR_Sim}
+%        \includegraphics[scale=0.38]{figs/MATLAB/LQR/PI_Sim/Yaw_LQR_Sim}    
+%      }  
+%      \caption{Optimal Control (PI Controller) Simulation \subref{fig:Pitch_LQR_Sim}~Pitch~Position and~\subref{fig:Yaw_LQR_Sim}~Yaw~Position w/ Step Input}
+%      \label{fig:LQR_PI_Sim_pos}
+%    \end{figure}
+%\end{frame}
+%
+%\begin{frame}{Simulation}{Optimal Control (PI Controller) Simulation}
+%    \begin{figure}
+%      \centering
+%      \subfigure[][]{
+%        \label{fig:Pitch_Volt_LQR_Sim}
+%        \includegraphics[scale=0.38]{figs/MATLAB/LQR/PI_Sim/Pitch_Volt_LQR_Sim}
+%      }
+%      \subfigure[][]{
+%        \label{fig:Yaw_Volt_LQR_Sim}
+%        \includegraphics[scale=0.38]{figs/MATLAB/LQR/PI_Sim/Yaw_Volt_LQR_Sim}    
+%      }  
+%      \caption{Optimal Control (PI Controller) Simulation \subref{fig:Pitch_Volt_LQR_Sim}~Pitch~Voltage and~\subref{fig:Yaw_Volt_LQR_Sim}~Yaw~Voltage w/ Step Input}
+%      \label{fig:LQR_PI_Sim_volt}
+%    \end{figure}
+%\end{frame}
+%
+%% LQG
+%\subsection{Optimal Noise Resistant Control Simulation}
+%\begin{frame}{Simulation}{Optimal Noise Resistant Control (PI Controller) Simulation}
+%    \begin{figure}
+%      \centering
+%      \subfigure[][]{
+%        \label{fig:Pitch_LQG_Sim}
+%        \includegraphics[scale=0.38]{figs/MATLAB/LQG/LQG_Sim/Pitch_LQG_Sim}
+%      }
+%      \subfigure[][]{
+%        \label{fig:Yaw_LQG_Sim}
+%        \includegraphics[scale=0.38]{figs/MATLAB/LQG/LQG_Sim/Yaw_LQG_Sim}    
+%      }  
+%      \caption{Optimal Noise Resistant Control (PI Controller) \subref{fig:Pitch_LQG_Sim}~Pitch~Position and~\subref{fig:Yaw_LQG_Sim}~Yaw~Position w/ Step Input}
+%      \label{fig:LQG_PI_Sim_pos}
+%    \end{figure}
+%\end{frame}
+%
+%\begin{frame}{Simulation}{Optimal Noise Resistant Control (PI Controller) Simulation}
+%    \begin{figure}
+%      \centering
+%      \subfigure[][]{
+%        \label{fig:Pitch_Volt_LQG_Sim}
+%        \includegraphics[scale=0.38]{figs/MATLAB/LQG/LQG_Sim/Pitch_Volt_LQG_Sim}
+%      }
+%      \subfigure[][]{
+%        \label{fig:Yaw_Volt_LQG_Sim}
+%        \includegraphics[scale=0.38]{figs/MATLAB/LQG/LQG_Sim/Yaw_Volt_LQG_Sim}    
+%      }  
+%      \caption{Optimal Noise Resistant Control Simulation (PI Controller) \subref{fig:Pitch_Volt_LQG_Sim}~Pitch~Voltage and~\subref{fig:Yaw_Volt_LQG_Sim}~Yaw~Voltage w/ Step Input}
+%      \label{fig:LQG_PI_Sim_volt}
+%    \end{figure}
+%\end{frame}
 
 %----------------------------------
 
-\subsection{LQR via Wireless}
+\section{Implementation}
 
-\begin{frame}{Preliminary Work}{LQR via Wireless} %Glenn
-  %\todo[inline]{Image of the pitch and yaw positions \& voltage will be included in this section for the final presentation}
+\subsection{USB}
+%LQR
+\begin{frame}{Implementation}{Optimal Control P and PI Type Controller USB}
     \begin{figure}
       \centering
       \subfigure[][]{
-        \label{fig:LQR_Pitchpos}    
-        \includegraphics[scale=0.38]{figs/MATLAB/LQR/mobileResults/LQR_Pitchpos}
+        \label{fig:Pitch_LQR_RMSE}
+        \includegraphics[scale=0.38]{figs/matlab/LQR_PIvLQR_P_USB/step/Pitch_LQR_RMSE}
       }
+      \subfigure[][]{
+        \label{fig:Yaw_LQR_RMSE}
+        \includegraphics[scale=0.38]{figs/matlab/LQR_PIvLQR_P_USB/step/Yaw_LQR_RMSE}    
+      }  
+      \caption{USB implementation comparison between optimal control (P~type~controller) and optimal control (PI~type~controller) for \subref{fig:Pitch_LQR_RMSE}~pitch and \subref{fig:Yaw_LQR_RMSE}~yaw configurations w/ step input}
+      \label{fig:PvPI_USB}
+    \end{figure}
+\end{frame}
+%
+\begin{frame}{Implementation}{Optimal Control P and PI Type Controller USB}
+    \begin{figure}
+      \centering
+      \subfigure[][]{
+        \label{fig:PitchVoltage_LQR_RMSE}
+        \includegraphics[scale=0.38]{figs/matlab/LQR_PIvLQR_P_USB/step/PitchVoltage_LQR_RMSE}
+      }
+      \subfigure[][]{
+        \label{fig:YawVoltage_LQR_RMSE}
+        \includegraphics[scale=0.38]{figs/matlab/LQR_PIvLQR_P_USB/step/YawVoltage_LQR_RMSE}    
+      }  
+      \caption{USB implementation comparison between optimal control (P~type~controller) and optimal control (PI~type~controller) for \subref{fig:PitchVoltage_LQR_RMSE}~pitch and \subref{fig:YawVoltage_LQR_RMSE}~yaw voltages w/ step input}
+      \label{fig:PvPIVoltage_USB}
+    \end{figure}
+\end{frame}
+%
+\begin{frame}{Implementation}{Optimal Control P and PI Type Controller USB}
+\begin{table}
+    \centering
+    \begin{tabular}{l|l|l}
+        \toprule
+        \textbf{} & \textbf{Pitch Step} & \textbf{Yaw Step}\\
+        \toprule
+        LQR P & 3.5025 & 5.8502\\
+        LQR PI & 1.2349 & 5.5058\\
+        Improvement & 64.7437\% & 0.5408\% \\
+        \toprule
+        \textbf{} & \textbf{Pitch Square} & \textbf{Yaw Square}\\
+        \toprule
+        LQR P & 6.2819 & 20.4623\\
+        LQR PI & 6.9206 & 21.0709\\
+        Improvement & -10.1675\% & -2.9740\% \\
+        \toprule
+        \textbf{} & \textbf{Pitch Sine} & \textbf{Yaw Sine}\\
+        \toprule
+        LQR P & 4.2469 & 2.8644\\
+        LQR PI & 1.3383 & 1.7852\\
+        Improvement & 68.4872\% & 63.2998\% \\
+    \end{tabular}
+    \caption{Root mean squared error}
+    \label{tab:RMSE}
+\end{table}
+\end{frame}
+%\begin{frame}{Implementation}{Optimal Control P and PI Controller USB}
+%\begin{table}
+%    \centering
+%    \begin{tabular}{l|l|l|l|l|l|l}
+%        \toprule
+%        \textbf{0} & \textbf{Pitch Step} & \textbf{Yaw Step} & \textbf{Pitch Square} & \textbf{Yaw Square} & \textbf{Pitch Sine} & \textbf{Yaw Sine}\\
+%        \toprule
+%        LQR P & 3.5025 & 5.8502 & 6.2819 & 20.4623 & 4.2469 & 2.8644\\
+%        LQR PI & 1.2349 & 5.5058 & 6.9206 & 21.0709 & 1.3383 & 1.7852
+%        \bottomrule
+%    \end{tabular}
+%    \caption{Root Mean Squared Error}
+%    \label{tab:RMSE}
+%\end{table}
+%\end{frame}
+%Machine vs LQR
+\begin{frame}{Implementation}{Machine Learning and Optimal Control (P Type Controller) USB}
+    \begin{figure}
+      \centering
+      \subfigure[][]{
+        \label{fig:Pitch_LQRvADP_USB}
+        \includegraphics[scale=0.38]{figs/matlab/ADPvLQR_P_USB/Pitch_ADP_LQR}
+      }
+      \subfigure[][]{
+        \label{fig:Yaw_LQRvADP_USB}
+        \includegraphics[scale=0.38]{figs/matlab/ADPvLQR_P_USB/Yaw_ADP_LQR}    
+      }  
+      \caption{USB implementation comparison between machine learning and optimal control (P type controller) for \subref{fig:Pitch_LQRvADP_USB}~pitch and \subref{fig:Yaw_LQRvADP_USB}~yaw orientations w/ step input}
+      \label{fig:LQRvADP_USB}
+    \end{figure}
+\end{frame}
+\begin{frame}{Implementation}{Machine Learning and Optimal Control (P Type Controller) USB}
+\begin{table}
+    \centering
+    \begin{tabular}{l|l|l}
+        \toprule
+        \textbf{} & \textbf{Pitch Step} & \textbf{Yaw Step}\\
+        \toprule
+        ADP P & 1.3067 & 6.1991\\
+        LQR P & 3.5025 & 5.8502\\
+        Improvement & 62.6923\% & -5.9638\% \\
+        \toprule
+        \textbf{} & \textbf{Pitch Square} & \textbf{Yaw Square}\\
+        \toprule
+        ADP P & 6.5790 & 21.1923\\
+        LQR P & 6.2819 & 20.4623\\
+        Improvement & -4.7294\% & -0.3567\% \\
+        \toprule
+        \textbf{} & \textbf{Pitch Sine} & \textbf{Yaw Sine}\\
+        \toprule
+        ADP P & 2.1877 & 3.6307\\
+        LQR P & 4.2469 & 2.8644\\
+        Improvement & 48.4871\% & -26.7525\% \\
+    \end{tabular}
+    \caption{Root mean squared error}
+    \label{tab:RMSE2}
+\end{table}
+\end{frame}
+\subsection{Android}
+%LQR
+\begin{frame}{Implementation}{Optimal Control (P Type Controller) via Android}
+    \begin{figure}
+      \centering
+      \subfigure[][]{
+        \label{fig:LQR_Pitchpos}
+        \includegraphics[scale=0.38]{figs/matlab/LQR/P_Android/LQR_Pitchpos}
+      }
+      \subfigure[][]{
+        \label{fig:LQR_Yawpos}
+        \includegraphics[scale=0.38]{figs/matlab/LQR/P_Android/LQR_Yawpos}    
+      }  
+      \caption{Optimal control (P type controller) \subref{fig:LQR_Pitchpos}~pitch~position and~\subref{fig:LQR_Yawpos}~yaw~position w/ input from mobile phone}
+      \label{fig:LQR_pos}
+    \end{figure}
+\end{frame}
+%
+\begin{frame}{Implementation}{Optimal Control (P Type Controller) via Android}
+    \begin{figure}
+      \centering
       \subfigure[][]{
         \label{fig:LQR_PitchVolt}
-        \includegraphics[scale=0.38]{figs/MATLAB/LQR/mobileResults/LQR_PitchVolt}    
-      }  
-      \caption{Performance in following user's command~\subref{fig:LQR_Pitchpos} tracking pitch angle,~and~\subref{fig:LQR_PitchVolt} pitch motor input voltage}
-      \label{fig:performancePitchConst}
-    \end{figure}
-\end{frame}
-
-\begin{frame}{Preliminary Work}{LQR via Wireless}
-    \begin{figure}
-      \centering
-      \subfigure[][]{
-        \label{fig:LQR_Yawpos}    
-        \includegraphics[scale=0.38]{figs/MATLAB/LQR/mobileResults/LQR_Yawpos}
+        \includegraphics[scale=0.38]{figs/matlab/LQR/P_Android/LQR_PitchVolt}
       }
       \subfigure[][]{
         \label{fig:LQR_YawVolt}
-        \includegraphics[scale=0.38]{figs/MATLAB/LQR/mobileResults/LQR_YawVolt}    
+        \includegraphics[scale=0.38]{figs/matlab/LQR/P_Android/LQR_YawVolt}    
       }  
-      \caption{Performance in following user's command~\subref{fig:LQR_Yawpos} tracking yaw angle,~and~\subref{fig:LQR_YawVolt} yaw motor input voltage.}
-      \label{fig:performanceYawConst}
+      \caption{Optimal control (P type controller) \subref{fig:LQR_PitchVolt}~pitch~voltage and~\subref{fig:LQR_YawVolt}~yaw~voltage w/ input from mobile phone}
+      \label{fig:LQR_Volt}
+    \end{figure}
+\end{frame}
+%ADP
+\begin{frame}{Implementation}{Machine Learning via Android}
+    \begin{figure}
+      \centering
+      \subfigure[][]{
+        \label{fig:ADP_Pitch_Wireless}
+        \includegraphics[scale=0.38]{figs/matlab/ADP/Android/ADP_Pitch_Wireless}
+      }
+      \subfigure[][]{
+        \label{fig:ADP_Yaw_Wireless}
+        \includegraphics[scale=0.38]{figs/matlab/ADP/Android/ADP_Yaw_Wireless}    
+      }  
+      \caption{Machine learning \subref{fig:ADP_Pitch_Wireless}~pitch~position and~\subref{fig:ADP_Yaw_Wireless}~yaw~position w/ input from mobile phone}
+      \label{fig:ADP_Wireless}
+    \end{figure}
+\end{frame}
+%
+\begin{frame}{Implementation}{Machine Learning via Android}
+    \begin{figure}
+      \centering
+      \subfigure[][]{
+        \label{fig:ADP_Pitch_Volt_Wireless}
+        \includegraphics[scale=0.38]{figs/matlab/ADP/Android/ADP_Pitch_Volt_Wireless}
+      }
+      \subfigure[][]{
+        \label{fig:ADP_Yaw_Volt_Wireless}
+        \includegraphics[scale=0.38]{figs/matlab/ADP/Android/ADP_Yaw_Volt_Wireless}    
+      }  
+      \caption{Machine learning \subref{fig:ADP_Pitch_Volt_Wireless}~pitch~voltage and~\subref{fig:ADP_Yaw_Volt_Wireless}~yaw~voltage w/ input from mobile phone}
+      \label{fig:ADP_Volt_Wireless}
     \end{figure}
 \end{frame}
 
 %----------------------------------
-
-\subsection{Demonstration}
-
-\begin{frame}{Demonstration} %Glenn
-    %\todo[inline]{A video demonstration the mobile app will be place in this slide}
-    \centering
-    \includemedia[
-     width=0.8\linewidth,
-     height=0.6\linewidth,
-     activate=pageopen,  
-     addresource=videos/Demonstration_Trim.mp4,
-     flashvars={
-      source=videos/Demonstration_Trim.mp4
-      &loop=true  % loop the video
-     }
-    ]{}{VPlayer.swf}
-\end{frame}
-
-%----------------------------------
-
-\section{Parts List}
-
-\begin{frame}{Parts List}{} %Glenn
-
-  \begin{itemize}
-      \item Hardware
-      \begin{itemize}
-        \item Two Quanser Aeros
-            \begin{itemize}
-                \item Q-flex2 Embedded Panel
-            \end{itemize}
-        \item Two Single Board Computers (Raspberry Pi 3 Model B)
-        \item Android Smart-phone or Tablet\\
-        (Note that Apple devices could also be used, however modifications are needed)
-      \end{itemize}
-      \item Software
-      \begin{itemize}
-          \item MATLAB \& Simulink
-          \begin{itemize}
-            \item Raspberry Pi Support Package
-            \item Android Support Package
-          \end{itemize}
-          \item Quanser Real-Time Control (QUARC)
-          % "Quanser’s QUARC™ software adds powerful tools and capabilities to Simulink® that make the development and deployment of sophisticated real-time mechatronics and control applications easier. QUARC™ generates real-time code directly from Simulink-designed controllers and runs it in real-time on the Windows target – all without digital signal processing or without writing a single line of code."
-      \end{itemize}
-  \end{itemize}
-\end{frame}
+%
+%\section{Parts List}
+%
+%\begin{frame}{Parts List}{}
+%
+%  \begin{itemize}
+%      \item Hardware
+%      \begin{itemize}
+%        \item Two Quanser Aeros
+%            \begin{itemize}
+%                \item Q-flex2 Embedded Panel
+%            \end{itemize}
+%        \item Two Single Board Computers (Raspberry Pi 3 Model B)
+%        \item Android Smart-phone or Tablet\\
+%        (Note that Apple devices could also be used, however modifications are needed)
+%      \end{itemize}
+%      \item Software
+%      \begin{itemize}
+%          \item MATLAB \& Simulink
+%          \begin{itemize}
+%            \item Raspberry Pi Support Package
+%            \item Android Support Package
+%          \end{itemize}
+%          \item Quanser Real-Time Control (QUARC)
+%          % "Quanser’s QUARC™ software adds powerful tools and capabilities to Simulink® that make the development and deployment of sophisticated real-time mechatronics and control applications easier. QUARC™ generates real-time code directly from Simulink-designed controllers and runs it in real-time on the Windows target – all without digital signal processing or without writing a single line of code."
+%      \end{itemize}
+%  \end{itemize}
+%\end{frame}
 
 %----------------------------------
 
-%\section{ECE 499 Deliverables}
-%\section{Deliverables}
 
-% \subsection{Division of Labor}
-
-% \begin{frame}{Deliverables}{Division of Labor}
-%     \begin{columns}
-%     \begin{column}{0.5\textwidth}
-%         \begin{center}
-%             \textbf{Glenn}
-%         \end{center}
-%         \begin{itemize}
-%             \item one
-%             \item two
-%             \item three
-%         \end{itemize}
-%     \end{column}
-%     \begin{column}{0.5\textwidth}
-%         \begin{center}
-%             \textbf{Ken}
-%         \end{center}
-%         \begin{itemize}
-%             \item one
-%             \item two
-%             \item three
-%         \end{itemize}
-%     \end{column}
-%     \end{columns}
-% \end{frame}
-
-%----------------------------------
-
-% %\subsection{Schedule for Completion}
-% \section{Schedule for Completion}
-% \begin{frame}{Deliverables}{Schedule for Completion} %Glenn
-%    \begin{figure}
-%     \centering
-%     \begin{ganttchart}[hgrid,vgrid,x unit=.45cm, y unit title=.5cm,y unit chart=.3cm,milestone label font=\tiny,bar label font=\tiny, group label font=\small,bar/.append style={fill=green},bar incomplete/.append style={fill=red}]{1}{16}
-%     \gantttitle{2018}{16}\\
-%     \gantttitle{Sep}{4}
-%     \gantttitle{Oct}{4}
-%     \gantttitle{Nov}{4}
-%     \gantttitle{Dec}{4}\\
-%     \ganttgroup[progress = 66,group progress label font = \tiny,progress label text={$\displaystyle#1\%$},group progress label anchor = east]{Research}{1}{14} \\
-%     \ganttbar[progress = 100,progress label text={$\displaystyle#1\%$},bar progress label font = \tiny,bar progress label anchor = east]{Last Years Work}{1}{2}\\
-%     \ganttbar[progress = 100,bar progress label font = \tiny,progress label text={$\displaystyle#1\%$},bar progress label anchor = east]{LQG}{3}{8}\\
-%     \ganttbar[progress = 0,bar progress label font = \tiny,progress label text={$\displaystyle#1\%$},bar progress label anchor = east]{ADP}{9}{14}\\
-%     \ganttgroup[progress = 66,group progress label font = \tiny,progress label text={$\displaystyle#1\%$},group progress label anchor = east]{Simulation}{1}{14}\\
-%     \ganttbar[progress = 100,bar progress label font = \tiny,progress label text={$\displaystyle#1\%$},bar progress label anchor = east]{LQR}{1}{2}\\
-%     \ganttbar[progress = 100,bar progress label font = \tiny,progress label text={$\displaystyle#1\%$},bar progress label anchor = east]{LQG}{3}{8}\\
-%     \ganttbar[progress = 0,bar progress label font = \tiny,progress label text={$\displaystyle#1\%$},bar progress label anchor = east]{ADP}{9}{14}\\
-%     \ganttgroup[progress = 50,group progress label font = \tiny,progress label text={$\displaystyle#1\%$},group progress label anchor = east]{Implementation}{3}{14}\\
-%     \ganttbar[progress = 100,bar progress label font = \tiny,progress label text={$\displaystyle#1\%$},bar progress label anchor = east]{LQR USB}{3}{4}\\
-%     \ganttbar[progress = 100,bar progress label font = \tiny,progress label text={$\displaystyle#1\%$},bar progress label anchor = east]{LQR Raspberry Pi}{5}{6}\\
-%     \ganttbar[progress = 100,bar progress label font = \tiny,progress label text={$\displaystyle#1\%$},bar progress label anchor = east]{LQR Android}{7}{8}\\
-%     \ganttbar[progress = 0,bar progress label font = \tiny,progress label text={$\displaystyle#1\%$},bar progress label anchor = east]{LQG USB}{9}{10}\\
-%     \ganttbar[progress = 0,bar progress label font = \tiny,progress label text={$\displaystyle#1\%$},bar progress label anchor = east]{LQG Raspberry Pi}{11}{12}\\
-%     \ganttbar[progress = 0,bar progress label font = \tiny,progress label text={$\displaystyle#1\%$},bar progress label anchor = east]{LQG Android}{13}{14}
-%     \end{ganttchart}
-%     \caption{Gantt chart for Fall 2018}
-%     \label{fig:gantt1}
-%     \end{figure}
-% \end{frame}
-
-% \begin{frame}{Deliverables}{Schedule for Completion}
-%  \begin{figure}
-% \centering
-% \begin{ganttchart}[hgrid,vgrid,x unit=.4cm, y unit title=.5cm,y unit chart=.4cm,milestone label font=\tiny,bar label font=\tiny, group label font=\small,bar/.append style={fill=green},bar incomplete/.append style={fill=red}]{1}{18}
-% \gantttitle{2019}{18}\\
-% \gantttitle{Jan}{4}
-% \gantttitle{Feb}{4}
-% \gantttitle{Mar}{4}
-% \gantttitle{Apr}{4}
-% \gantttitle{May}{2}\\
-% \ganttgroup[progress = 0,group progress label font = \tiny,progress label text={$\displaystyle#1\%$}, group progress label anchor = east]{Implementation}{3}{8}\\
-% \ganttbar[progress = 0,bar progress label font = \tiny,progress label text={$\displaystyle#1\%$},bar progress label anchor = east]{ADP USB}{3}{4}\\
-% \ganttbar[progress = 0,bar progress label font = \tiny,progress label text={$\displaystyle#1\%$},bar progress label anchor = east]{ADP Raspberry Pi}{5}{6}\\
-% \ganttbar[progress = 0,bar progress label font = \tiny,progress label text={$\displaystyle#1\%$},bar progress label anchor = east]{ADP Android}{7}{8}\\
-% \ganttgroup[progress = 0,group progress label font = \tiny,progress label text={$\displaystyle#1\%$}, group progress label anchor = east]{Testing}{9}{16}
-% \end{ganttchart}
-% \caption{Gantt Chart for Spring 2019}
-% \label{fig:gantt2}
-% \end{figure}
-% \end{frame}
-
-%----------------------------------
-
-% \section{Discussion}
-
-% \begin{frame}{Discussion}{}
-  
-% \end{frame}
-
-%----------------------------------
 
 \section{Future Directions}
 
-\begin{frame}{Future Directions}{} %Glenn
+\begin{frame}{Future Directions}{} 
   \begin{itemize}
-    \item Two more motion control algorithms (LQG \& ADP)
-    \item Test plan
+    \item Discretization of System   
+    \item Digital Compass
+    \item Enhanced Smart Control
+	\vskip .2cm
+	\begin{figure}
+	  \centering
+	  \includegraphics[scale=0.28]{figs/ipe/smartAlg}
+	  \caption{Enhanced smart control}
+	  \label{fig:smartAlg}
+	\end{figure}
+	%\vskip -.4cm
     \item Implmentation on 6-DOF Helicopter
   \end{itemize}
 \end{frame}
@@ -715,6 +906,9 @@ Advisor: Dr. Suruz Miah}
   \begin{itemize}
     \item Embedded implementation of control algorithms
     \item Mobile interface
+    \item PI type control improves steady-state error
+    \item Machine Learning is best when system parameters are unknown or time-varient
+    %\item\todo[inline]{Add table for RMSE?}
   \end{itemize}
   
 %   \begin{itemize}
@@ -747,7 +941,11 @@ Advisor: Dr. Suruz Miah}
 %   \end{itemize}
 % \end{frame}
 
-
+\section*{Acknowledgement}
+  \begin{frame}{Acknowledgement} 
+    \centering
+    Special Thanks to Andrew Fandel, Anthony Birge, and Dr. Suruz Miah for their work with Machine Learning on a 2-DOF Helicopter
+  \end{frame}
 
 % All of the following is optional and typically not needed. 
 \appendix
