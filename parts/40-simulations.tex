@@ -32,7 +32,13 @@ Using MATLAB, we created a program, as seen in \ref{ch:codeLQRsim}, that calcula
 %----------------------------------------------------------------------
 \section{LQR (PI controller)}
 %----------------------------------------------------------------------
-\todo[inline]{Insert Block diagram for LQR PI simulation}
+%\todo[inline]{Insert Block diagram for LQR PI simulation}
+\begin{figure}[!htbp]
+    \centering
+    \includegraphics[width=.8\textwidth,keepaspectratio=true]{figs/img/LQR_Simulink_Sim}
+    \label{fig:LQR_Sim_Block_Diagram}
+    \caption{Block Diagram for LQR Simulation.}
+\end{figure}
 %\todo[inline]{Insert results for LQR PI simulation}
 \begin{figure}[!htbp]
     \centering
@@ -54,11 +60,17 @@ Using MATLAB, we created a program, as seen in \ref{ch:codeLQRsim}, that calcula
     }
     \caption{Simulations for proportional and integral gain calculated by LQR.}
 \end{figure}
-
+A dip in Figure~\ref{fig:Pitch_LQG_Sim} can be seen as a result of the voltage decreasing in Figure~\ref{fig:Yaw_Volt_LQG_Sim} so that the yaw configuration in Figure~\ref{fig:Yaw_LQG_Sim} can converge on the desired orientation.
 %----------------------------------------------------------------------
 \section{LQG (PI Controller)}
 %----------------------------------------------------------------------
-\todo[inline]{Insert Block diagram for LQG PI simulation}
+%\todo[inline]{Insert Block diagram for LQG PI simulation}
+\begin{figure}[!htbp]
+    \centering
+    \includegraphics[width=.8\textwidth,keepaspectratio=true]{figs/img/LQG_Simulink}
+    \label{fig:LQG_Sim_Block_Diagram}
+    \caption{Block Diagram for LQG Simulation.}
+\end{figure}
 %\todo[inline]{Insert results for LQG PI simulation}
 \begin{figure}[!htbp]
     \centering
@@ -84,27 +96,28 @@ Using MATLAB, we created a program, as seen in \ref{ch:codeLQRsim}, that calcula
 %----------------------------------------------------------------------
 \section{Conclusions}
 %----------------------------------------------------------------------
-Note: constant used pitch XXXX degrees, yaw XXXX degrees\\
-Note: square used pitch XXXX degrees with period of XXXX, yaw XXXX degrees with period of XXXX\\
-Note: sine used pitch XXXX degrees with period of XXXX, yaw XXXX degrees with period of XXXX\\
-\begin{table}[!htbp]
-    \centering
-    \begin{tabular}{l|l|l|l|l|l|l}
-        \toprule
-        \textbf{} & \textbf{LQR(P)} & \textbf{LQR(PI)} & \textbf{LQG(PI)} \\
-        \toprule
-        RMSE Pitch Step & ? & ? & ?  \\
-        RMSE Yaw Step & ? & ? & ? \\
-        RMSE Pitch Square & ? & ? & ? \\
-        RMSE Yaw Square & ? & ? & ? \\
-        RMSE Pitch Sine & ? & ? & ? \\
-        RMSE Yaw Sine & ? & ? & ? \\
-        \bottomrule
-    \end{tabular}
-    \caption{Error Comparison for Simulated Algorithms}
-    \label{tab:Simulate_RMSE}
-\end{table}
-Based on the results XXXX preformed better in the simulations.
+
+%Note: constant used pitch XXXX degrees, yaw XXXX degrees\\
+%Note: square used pitch XXXX degrees with period of XXXX, yaw XXXX degrees with period of XXXX\\
+%Note: sine used pitch XXXX degrees with period of XXXX, yaw XXXX degrees with period of XXXX\\
+%\begin{table}[!htbp]
+%    \centering
+%    \begin{tabular}{l|l|l|l|l|l|l}
+%        \toprule
+%        \textbf{} & \textbf{LQR(P)} & \textbf{LQR(PI)} & \textbf{LQG(PI)} \\
+%        \toprule
+%        RMSE Pitch Step & ? & ? & ?  \\
+%        RMSE Yaw Step & ? & ? & ? \\
+%        RMSE Pitch Square & ? & ? & ? \\
+%        RMSE Yaw Square & ? & ? & ? \\
+%        RMSE Pitch Sine & ? & ? & ? \\
+%        RMSE Yaw Sine & ? & ? & ? \\
+%        \bottomrule
+%    \end{tabular}
+%    \caption{Error Comparison for Simulated Algorithms}
+%    \label{tab:Simulate_RMSE}
+%\end{table}
+%Based on the results XXXX preformed better in the simulations.
 %----------------------------------------------------------------------
 
 
