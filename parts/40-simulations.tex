@@ -3,9 +3,9 @@
 %\chapter{MATLAB Simulations}
 \label{ch: Chapter4}
 %======================================================================
-
+This chapter discusses the simulation results for the three control algorithms.  These simulations are for the LQR P type LQR PI type, and LQG PI type controllers.
 %----------------------------------------------------------------------
-\section{LQR (P controller)}
+\section{LQR (P Type Controller)}
 %----------------------------------------------------------------------
 Using MATLAB, we created a program, as seen in \ref{ch:codeLQRsim}, that calculates LQR for our helicopter and then uses differential equations to simulate the trajectory. \ref{fig:LQR_Pos_Con} \ref{fig:LQR_Error_Con}  \ref{fig:LQR_Volt_Con}  
 
@@ -30,7 +30,7 @@ Using MATLAB, we created a program, as seen in \ref{ch:codeLQRsim}, that calcula
 \end{figure}
 
 %----------------------------------------------------------------------
-\section{LQR (PI controller)}
+\section{LQR (PI Type Controller)}
 %----------------------------------------------------------------------
 %\todo[inline]{Insert Block diagram for LQR PI simulation}
 \begin{figure}[!htbp]
@@ -62,7 +62,7 @@ Using MATLAB, we created a program, as seen in \ref{ch:codeLQRsim}, that calcula
 \end{figure}
 A dip in Figure~\ref{fig:Pitch_LQG_Sim} can be seen as a result of the voltage decreasing in Figure~\ref{fig:Yaw_Volt_LQG_Sim} so that the yaw configuration in Figure~\ref{fig:Yaw_LQG_Sim} can converge on the desired orientation.
 %----------------------------------------------------------------------
-\section{LQG (PI Controller)}
+\section{LQG (PI Type Controller)}
 %----------------------------------------------------------------------
 %\todo[inline]{Insert Block diagram for LQG PI simulation}
 \begin{figure}[!htbp]
