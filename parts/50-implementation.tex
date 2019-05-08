@@ -56,8 +56,11 @@ The communication protocol utilized by the Q-Flex2 embedded panel is SPI.
 %======================================================================
 \section{USB}
 %----------------------------------------------------------------------
+Before we tested using wireless communication the algorithms had to be tested using a wired connection to make sure they worked properly.  This connection was done using a USB cable and the QFLEX 2 USB panel.  Over the next couple of sections the experiment on the Quanser Aero using the USB connection is discussed.
+%----------------------------------------------------------------------
 \subsection{LQR}
 %----------------------------------------------------------------------
+For the LQR motion control algoritm, two types of controllers were implemented.  These are P type and PI type controllers.  Figure~\ref{fig:LQR_P_USB_Block_Diagram} is the simulink model for the LQR P type controller using the USB connection to the PC.  In the model the desired input configurations are taken in and applied to the LQR P type controller, which calculates the voltages to be applied to the motors of the helicopter.  These voltages are applied directly to the helicopter using the USB connection.
 \begin{figure}[!htbp]
     \centering
     \includegraphics[width=.8\textwidth,keepaspectratio=true]{figs/img/LQR_USB}
@@ -65,12 +68,16 @@ The communication protocol utilized by the Q-Flex2 embedded panel is SPI.
     \label{fig:LQR_P_USB_Block_Diagram}
 \end{figure}
 %\todo[inline]{Insert LQR PI Block Diagram}
+
+Figure~\ref{fig:LQR_PI_USB_Block_Diagram} is the simulink model for the LQR PI type controller using the USB connection.  In the model the desired input configurations are taken in and applied to the LQR PI type controller, which calculates the voltages to be applied to the motors of the helicopter.  These voltages are applied directly to the helicopter using the USB connection.
 \begin{figure}[!htbp]
     \centering
     \includegraphics[width=.8\textwidth,keepaspectratio=true]{figs/img/LQR_PI_USB}
     \caption{Block Diagram for LQR PI type controller with a USB connection.}
     \label{fig:LQR_PI_USB_Block_Diagram}
 \end{figure}
+
+Figure~\ref{fig:PvsPI_Step} shows the wave forms for a step input while comparing LQR P type to LQR PI type controllers.  Figure~\ref{fig:Pitch_LQR_RMSE_Step} shows the pitch values of the controllers and the desired.  Figure~\ref{fig:Yaw_LQR_RMSE_Step} shows the yaw values of the controllers and the desired.  Figure~\ref{fig:PitchVoltage_LQR_RMSE_Step} shows the voltages being applied to the main motor for both controllers.  Figure~\ref{fig:YawVoltage_LQR_RMSE_Step} shows the voltages being applied to the tail motor for both controllers.  Figure~\ref{fig:PitchSpeed_LQR_RMSE_Step} displays the speeds of the motion in the pitch direction for both controllers.  Figure~\ref{fig:YawSpeed_LQR_RMSE_Step} displays the speeds of the motion in the yaw direction for both controllers.
 \begin{figure}[!htbp]
     \centering
     \subfigure[][]{
@@ -95,11 +102,12 @@ The communication protocol utilized by the Q-Flex2 embedded panel is SPI.
     }
     \subfigure[][]{
     \includegraphics[width=.46\textwidth,keepaspectratio=true]{figs/matlab/LQR_PIvLQR_P_USB/step/YawSpeed_LQR_RMSE.eps}
-    \label{fig:PitchSpeed_LQR_RMSE_Step}
+    \label{fig:YawSpeed_LQR_RMSE_Step}
     }
     \caption{USB implementation for proportional controller and proportional-integral controller calculated by LQR with a step input.}
+    \label{fig:PvsPI_Step}
 \end{figure}
-
+Figure~\ref{fig:PvsPI_Square} and Figure~\ref{fig:PvsPI_Sine} have similar figures to Figure~\ref{fig:PvsPI_Step}, except Figure~\ref{fig:PvsPI_Square} has a square wave input and Figure~\ref{fig:PvsPI_Sine} has a sine wave input.
 \begin{figure}[!htbp]
     \centering
     \subfigure[][]{
@@ -127,6 +135,7 @@ The communication protocol utilized by the Q-Flex2 embedded panel is SPI.
     \label{fig:PitchSpeed_LQR_RMSE_Square}
     }
     \caption{USB implementation for proportional controller and proportional-integral controller calculated by LQR with a square wave input.}
+    \label{fig:PvsPI_Square}
 \end{figure}
 
 \begin{figure}[!htbp]
@@ -156,6 +165,7 @@ The communication protocol utilized by the Q-Flex2 embedded panel is SPI.
     \label{fig:PitchSpeed_LQR_RMSE_Sine}
     }
     \caption{USB implementation for proportional controller and proportional-integral controller calculated by LQR with a sinusoidal input.}
+    \label{fig:PvsPI_Sine}
 \end{figure}
 %%----------------------------------------------------------------------
 %\subsection{LQG (PI Controller)}
@@ -165,21 +175,22 @@ The communication protocol utilized by the Q-Flex2 embedded panel is SPI.
 %%----------------------------------------------------------------------
 \subsection{ADP}
 %----------------------------------------------------------------------
-%\todo[inline]{Insert ADP P Block Diagram}
+Figure~\ref{fig:ADP_P_USB_Block_Diagram} is the simulink model for the ADP motion control algorithm using the USB connection between the Quanser Aero and the PC.  It takes the desired configurations as the inputs and applies them and the actual states to the ADP block to calculate the voltages for the main and tail motors.  These are then applied directly to the helicopter trough the USB connection.
 \begin{figure}[!htbp]
     \centering
     \includegraphics[width=.8\textwidth,keepaspectratio=true]{figs/img/ADP_USB}
     \caption{Block Diagram for ADP P type controller with a USB connection.}
     \label{fig:ADP_P_USB_Block_Diagram}
 \end{figure}
+Figure~\ref{fig:ADP_P_BlackBox} is what is inside the ADP block in Figure~\ref{fig:ADP_P_USB_Block_Diagram}.
 \begin{figure}[!htbp]
     \centering
     \includegraphics[width=.8\textwidth,keepaspectratio=true]{figs/img/ADP_Black_Box}
     \caption{Block Diagram for ADP P type controller algorithm.}
     \label{fig:ADP_P_BlackBox}
 \end{figure}
-Figure~\ref{fig:ADP_P_BlackBox} is the same for USB, raspberry pi, and the mobile device.
-%\todo[inline]{Insert ADP P Results}
+
+For the results of this experiment Figure~\ref{fig:ADP_USB_Step} shows the results for ADP using a step input and USB connection.  Figure~\ref{fig:Pitch_ADP_RMSE_Step} shows the pitch configurations of both the actual and desired angles verses time.  Figure~\ref{fig:Yaw_ADP_RMSE_Step} shows the yaw configurations of both the actual and desired angles verses time.  Figure~\ref{fig:PitchVoltage_ADP_RMSE_Step} displays the voltage that is applied to the main motor verses time.  Figure~\ref{fig:YawVoltage_ADP_RMSE_Step} displays the voltage that is applied to the tail motor verses time.  Figure~\ref{fig:ADP_USB_Square} and Figure~\ref{fig:ADP_USB_Sine} have similar figures to Figure~\ref{fig:ADP_USB_Step}, except Figure~\ref{fig:ADP_USB_Square} has a square wave input and Figure~\ref{fig:ADP_USB_Sine} has a sine wave input.
 \begin{figure}[!htbp]
     \centering
     \subfigure[][]{
@@ -199,6 +210,7 @@ Figure~\ref{fig:ADP_P_BlackBox} is the same for USB, raspberry pi, and the mobil
     \label{fig:YawVoltage_ADP_RMSE_Step}
     }
     \caption{USB implementation for ADP proportional controller with a step input.}
+    \label{fig:ADP_USB_Step}
 \end{figure}
 
 \begin{figure}[!htbp]
@@ -220,6 +232,7 @@ Figure~\ref{fig:ADP_P_BlackBox} is the same for USB, raspberry pi, and the mobil
     \label{fig:YawVoltage_ADP_RMSE_Square}
     }
     \caption{USB implementation for ADP proportional controller with a square wave input.}
+    \label{fig:ADP_USB_Square}
 \end{figure}
 
 \begin{figure}[!htbp]
@@ -241,13 +254,15 @@ Figure~\ref{fig:ADP_P_BlackBox} is the same for USB, raspberry pi, and the mobil
     \label{fig:YawVoltage_ADP_RMSE_Sine}
     }
     \caption{USB implementation for ADP proportional controller with a sinusoidal input.}
+    \label{fig:ADP_USB_Sine}
 \end{figure}
 %----------------------------------------------------------------------
-\subsection{Conclusions}
+\subsection{Root Mean Square Error}
 %----------------------------------------------------------------------
-Note: constant used pitch 10 degrees, yaw 45 degrees\\
-Note: square used pitch XXXX degrees with period of XXXX, yaw XXXX degrees with period of XXXX\\
-Note: sine used pitch XXXX degrees with period of XXXX, yaw XXXX degrees with period of XXXX\\
+Table~\ref{tab:RMSE_P_PI} give the root mean square error (RMSE) values for LQR P type verses LQR PI type controllers.  What the RMSE values show are the error distances to the desired configurations.  This table displays these values to show the improvement in the PI type controller compared to the P type controller.  Table~\ref{tab:RMSE_LQR_ADP} give the RMSE values for LQR P type verses ADP motion controllers.  This table displays these values to show the improvement in the ADP algorithm compared to the LQR P type controller algorithm.
+%Note: constant used pitch 10 degrees, yaw 45 degrees\\
+%Note: square used pitch XXXX degrees with period of XXXX, yaw XXXX degrees with period of XXXX\\
+%Note: sine used pitch XXXX degrees with period of XXXX, yaw XXXX degrees with period of XXXX\\
 %\begin{table}[h!]
 %    \centering
 %    \begin{tabular}{l|l|l|l|l|l|l}
@@ -272,7 +287,7 @@ Note: sine used pitch XXXX degrees with period of XXXX, yaw XXXX degrees with pe
     \centering
     \begin{tabular}{l|l|l|l|l|l|l}
         \toprule
-        \textbf{} & \textbf{Pitch Step} & \textbf{Yaw Step} & \textbf{Pitch Square} & \textbf{Yaw Square} & \textbf{Pitch Sine} & \textbf{Yaw Sine}\\
+        \textbf{} & \textbf{Pitch Step} & \textbf{Yaw Step} & \textbf{Pitch Squ.} & \textbf{Yaw Squ.} & \textbf{Pitch Sine} & \textbf{Yaw Sine}\\
         \toprule
         LQR P & 3.5025 & 5.8502 & 6.2819 & 20.4623 & 4.2469 & 2.8644\\
         LQR PI & 1.2349 & 5.5058 & 6.9206 & 21.0709 & 1.3383 & 1.7852\\
@@ -286,7 +301,7 @@ Note: sine used pitch XXXX degrees with period of XXXX, yaw XXXX degrees with pe
     \centering
     \begin{tabular}{l|l|l|l|l|l|l}
         \toprule
-        \textbf{} & \textbf{Pitch Step} & \textbf{Yaw Step} & \textbf{Pitch Square} & \textbf{Yaw Square} & \textbf{Pitch Sine} & \textbf{Yaw Sine}\\
+        \textbf{} & \textbf{Pitch Step} & \textbf{Yaw Step} & \textbf{Pitch Squ.} & \textbf{Yaw Squ.} & \textbf{Pitch Sine} & \textbf{Yaw Sine}\\
         \toprule
         LQR P & 3.5025 & 5.8502 & 6.2819 & 20.4623 & 4.2469 & 2.8644\\
         ADP P & 1.3067 & 6.1991 & 6.5790 & 21.1923 & 2.1877 & 3.6307\\
