@@ -20,39 +20,39 @@
 \contentsline {section}{\numberline {5.1}Experimental Setup}{14}{section.5.1}
 \contentsline {subsection}{\numberline {5.1.1}USB}{14}{subsection.5.1.1}
 \contentsline {subsection}{\numberline {5.1.2}Raspberry Pi}{14}{subsection.5.1.2}
-\contentsline {subsection}{\numberline {5.1.3}Android}{15}{subsection.5.1.3}
-\contentsline {section}{\numberline {5.2}USB}{15}{section.5.2}
-\contentsline {subsection}{\numberline {5.2.1}LQR}{15}{subsection.5.2.1}
-\contentsline {subsection}{\numberline {5.2.2}ADP}{15}{subsection.5.2.2}
-\contentsline {subsection}{\numberline {5.2.3}Conclusions}{24}{subsection.5.2.3}
-\contentsline {section}{\numberline {5.3}Raspberry Pi}{24}{section.5.3}
-\contentsline {subsection}{\numberline {5.3.1}LQR (P Controller)}{24}{subsection.5.3.1}
-\contentsline {subsection}{\numberline {5.3.2}ADP}{24}{subsection.5.3.2}
-\contentsline {section}{\numberline {5.4}Mobile Device}{25}{section.5.4}
-\contentsline {subsection}{\numberline {5.4.1}LQR (P Controller)}{25}{subsection.5.4.1}
-\contentsline {subsection}{\numberline {5.4.2}ADP}{25}{subsection.5.4.2}
-\contentsline {chapter}{\numberline {6}Conclusion and Future Work}{27}{chapter.6}
-\contentsline {section}{\numberline {6.1}Algorithm Comparison}{27}{section.6.1}
-\contentsline {section}{\numberline {6.2}Conclusion}{27}{section.6.2}
-\contentsline {section}{\numberline {6.3}Future Work}{27}{section.6.3}
-\contentsline {subsection}{\numberline {6.3.1}Enhanced Smart Framework}{27}{subsection.6.3.1}
-\contentsline {subsection}{\numberline {6.3.2}Digital Compass}{28}{subsection.6.3.2}
-\contentsline {subsection}{\numberline {6.3.3}Expanded PI Control}{28}{subsection.6.3.3}
-\contentsline {chapter}{APPENDICES}{28}{equation.6.3.2}
-\contentsline {chapter}{\numberline {A}Parameters and State-Space}{29}{appendix.A}
-\contentsline {section}{\numberline {A.1}Parameters}{29}{section.A.1}
-\contentsline {section}{\numberline {A.2}State-Space Model}{30}{section.A.2}
-\contentsline {chapter}{\numberline {B}MATLAB Simulation Code}{32}{appendix.B}
-\contentsline {section}{\numberline {B.1}LQR (P controller)}{32}{section.B.1}
-\contentsline {chapter}{\numberline {C}USB MATLAB Code}{35}{appendix.C}
-\contentsline {chapter}{\numberline {D}Raspberry Pi MATLAB Code}{36}{appendix.D}
-\contentsline {section}{\numberline {D.1}Initialization Code}{36}{section.D.1}
-\contentsline {section}{\numberline {D.2}SPI Protocol}{36}{section.D.2}
-\contentsline {chapter}{\numberline {E}ADP MATLAB Code}{56}{appendix.E}
-\contentsline {section}{\numberline {E.1}Initialization Code}{56}{section.E.1}
-\contentsline {section}{\numberline {E.2}Update Weights}{59}{section.E.2}
-\contentsline {chapter}{\numberline {F}Tutorials}{64}{appendix.F}
-\contentsline {section}{\numberline {F.1}USB Connection}{64}{section.F.1}
-\contentsline {section}{\numberline {F.2}Raspberry Pi Implementation}{65}{section.F.2}
-\contentsline {section}{\numberline {F.3}Android Application}{66}{section.F.3}
-\contentsline {chapter}{\textbf {References}}{67}{Item.62}
+\contentsline {subsection}{\numberline {5.1.3}Android}{17}{subsection.5.1.3}
+\contentsline {section}{\numberline {5.2}USB}{17}{section.5.2}
+\contentsline {subsection}{\numberline {5.2.1}LQR}{17}{subsection.5.2.1}
+\contentsline {subsection}{\numberline {5.2.2}ADP}{18}{subsection.5.2.2}
+\contentsline {subsection}{\numberline {5.2.3}Conclusions}{18}{subsection.5.2.3}
+\contentsline {section}{\numberline {5.3}Raspberry Pi}{26}{section.5.3}
+\contentsline {subsection}{\numberline {5.3.1}LQR (P Type Controller)}{26}{subsection.5.3.1}
+\contentsline {subsection}{\numberline {5.3.2}ADP}{26}{subsection.5.3.2}
+\contentsline {section}{\numberline {5.4}Mobile Device}{26}{section.5.4}
+\contentsline {subsection}{\numberline {5.4.1}LQR (P Controller)}{26}{subsection.5.4.1}
+\contentsline {subsection}{\numberline {5.4.2}ADP}{26}{subsection.5.4.2}
+\contentsline {chapter}{\numberline {6}Conclusion and Future Work}{30}{chapter.6}
+\contentsline {section}{\numberline {6.1}Algorithm Comparison}{30}{section.6.1}
+\contentsline {section}{\numberline {6.2}Conclusion}{30}{section.6.2}
+\contentsline {section}{\numberline {6.3}Future Work}{30}{section.6.3}
+\contentsline {subsection}{\numberline {6.3.1}Enhanced Smart Framework}{30}{subsection.6.3.1}
+\contentsline {subsection}{\numberline {6.3.2}Digital Compass}{31}{subsection.6.3.2}
+\contentsline {subsection}{\numberline {6.3.3}Expanded PI Control}{31}{subsection.6.3.3}
+\contentsline {chapter}{APPENDICES}{31}{equation.6.3.2}
+\contentsline {chapter}{\numberline {A}Parameters and State-Space}{32}{appendix.A}
+\contentsline {section}{\numberline {A.1}Parameters}{32}{section.A.1}
+\contentsline {section}{\numberline {A.2}State-Space Model}{33}{section.A.2}
+\contentsline {chapter}{\numberline {B}MATLAB Simulation Code}{35}{appendix.B}
+\contentsline {section}{\numberline {B.1}LQR (P controller)}{35}{section.B.1}
+\contentsline {chapter}{\numberline {C}USB MATLAB Code}{38}{appendix.C}
+\contentsline {chapter}{\numberline {D}Raspberry Pi MATLAB Code}{39}{appendix.D}
+\contentsline {section}{\numberline {D.1}Initialization Code}{39}{section.D.1}
+\contentsline {section}{\numberline {D.2}SPI Protocol}{39}{section.D.2}
+\contentsline {chapter}{\numberline {E}ADP MATLAB Code}{59}{appendix.E}
+\contentsline {section}{\numberline {E.1}Initialization Code}{59}{section.E.1}
+\contentsline {section}{\numberline {E.2}Update Weights}{62}{section.E.2}
+\contentsline {chapter}{\numberline {F}Tutorials}{67}{appendix.F}
+\contentsline {section}{\numberline {F.1}USB Connection}{67}{section.F.1}
+\contentsline {section}{\numberline {F.2}Raspberry Pi Implementation}{68}{section.F.2}
+\contentsline {section}{\numberline {F.3}Android Application}{69}{section.F.3}
+\contentsline {chapter}{\textbf {References}}{70}{Item.62}
