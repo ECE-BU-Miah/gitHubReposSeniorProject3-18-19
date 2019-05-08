@@ -6,7 +6,7 @@ This chapter discusses the three control algorithms used in the experiment.  The
 %----------------------------------------------------------------------
 \section{LQR}
 %----------------------------------------------------------------------
-
+LQR is a optimal control algorithm that is used to calculate the control gain.\\
     After creating the system model
     \begin{align*}
         \dot{\mathbf{x}} = \mathbf{A}\mathbf{x} + \mathbf{B}\mathbf{u}
@@ -37,13 +37,14 @@ LQG utilizes gain calculated in LQR but it adds a Kalman filter to reduce extern
 %----------------------------------------------------------------------
 \section{ADP}
 %----------------------------------------------------------------------
-
+ADP is a reienforcement learning approach.  It utilizes the error of the state variables and feeds them into a hidden layer of neurons as shown in Figrure~\ref{fig:ADP_Neural_Network}.  Each of these neuron uses a quadratic activation function which is a function of error.  The result of these nodes are mutiplied by a weight which is then sent to an output node where they are summed.  This value is then used to calculate the control gain. 
 \begin{figure}[!htbp]
     \centering
     \includegraphics[width=.46\textwidth,keepaspectratio=true]{figs/ipe/ADP_Neural_Network.eps}
     \caption{Input nodes are connected to the hidden layer and then to the output layer.}
     \label{fig:ADP_Neural_Network}
 \end{figure}
+While the system is running, the controller is collects data every $\tau$ seconds as shown in Figure~\ref{fig:ADP_Samples}.  After $T$ seconds, the data is then fed back into the neural network where the weights are updated.
 \begin{figure}[!htbp]
     \centering
     \includegraphics[width=.46\textwidth,keepaspectratio=true]{figs/ipe/ADP_Samples.eps}
@@ -54,7 +55,7 @@ LQG utilizes gain calculated in LQR but it adds a Kalman filter to reduce extern
 %----------------------------------------------------------------------
 \section{Improvements}
 Most of these algorithms are typically implemented only using proportional gain which causes steady-state error to certain input signals in some systems.  In our case, we experience steady-state error for a step input.  To reduce this, the type of the controller needs to be increased by adding an integrator.  We solve this problem by implementing a PI controller where LQR and ADP are used to find the optimal proportional and integral gain.\\
-This is done by creating an augmented matrix with A and B with different dimensions
+This is done by creating a new state varible to the system which will represent the integrated state.   As a result, the A and B will need to be augmented matrix with different dimensions.  This will also result in a different dimension of the K matrix.  The K matrix will nedd to be seperated into proportional and integral gain.
 
 %----------------------------------------------------------------------
 
