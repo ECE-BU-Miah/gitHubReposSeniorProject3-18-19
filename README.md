@@ -7,8 +7,7 @@
 
 
 ## 01. Labnotebook
-Need to check sources<br />
-Need to check images<br />
+DONE
 ## 02. System level functional requirements
 DONE
 ## 03. Proposal
