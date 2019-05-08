@@ -17,8 +17,8 @@ The communication protocol utilized by the Q-Flex2 embedded panel is SPI.
 \begin{figure}[!htbp]
     \centering
     \includegraphics[width=.46\textwidth,keepaspectratio=true]{figs/img/SPI_COM.pdf}
-    \label{fig:SPI_COM}
     \caption{Block diagram of SPI communication protocol used for communication between the Raspberry Pi and Quanser Aero.}
+    \label{fig:SPI_COM}
 \end{figure}
 
 
@@ -28,29 +28,29 @@ The communication protocol utilized by the Q-Flex2 embedded panel is SPI.
 \begin{figure}[!htbp]
     \centering
     \includegraphics[width=.46\textwidth,keepaspectratio=true]{figs/ipe/TCPModel.eps}
-    \label{fig:TCPModel}
     \caption{Illustration of the TCP model which describes how packets are sent and recieved from mobile devices to the Quanser Aero.}
+    \label{fig:TCPModel}
 \end{figure}
 
 \begin{figure}[!htbp]
     \centering
     \includegraphics[width=.46\textwidth,keepaspectratio=true]{figs/img/Android_Interface_2Aero}
-    \label{fig:Android_Interface}
     \caption{Simulink model of the android interface using two Quanser Aeros.}
+    \label{fig:Android_Interface}
 \end{figure}
 
 \begin{figure}[!htbp]
     \centering
     \includegraphics[width=.46\textwidth,keepaspectratio=true]{figs/img/Screenshot_Android_Interface_2Aero}
-    \label{fig:Screenshot_Android_Interface}
     \caption{Screenshot of the mobile user interface.}
+    \label{fig:Screenshot_Android_Interface}
 \end{figure}
 
 \begin{figure}[!htbp]
     \centering
     \includegraphics[width=.5\textwidth,keepaspectratio=true]{figs/ipe/Setup.eps}
-    \label{fig:Setup}
     \caption{Experiment setup for controlling the Quanser Aeros via a mobile device.}
+    \label{fig:Setup}
 \end{figure}
 
 %======================================================================
@@ -61,15 +61,15 @@ The communication protocol utilized by the Q-Flex2 embedded panel is SPI.
 \begin{figure}[!htbp]
     \centering
     \includegraphics[width=.8\textwidth,keepaspectratio=true]{figs/img/LQR_USB}
-    \label{fig:LQR_P_USB_Block_Diagram}
     \caption{Block Diagram for LQR P type controller with a USB connection.}
+    \label{fig:LQR_P_USB_Block_Diagram}
 \end{figure}
 %\todo[inline]{Insert LQR PI Block Diagram}
 \begin{figure}[!htbp]
     \centering
     \includegraphics[width=.8\textwidth,keepaspectratio=true]{figs/img/LQR_PI_USB}
-    \label{fig:LQR_PI_USB_Block_Diagram}
     \caption{Block Diagram for LQR PI type controller with a USB connection.}
+    \label{fig:LQR_PI_USB_Block_Diagram}
 \end{figure}
 \begin{figure}[!htbp]
     \centering
@@ -169,14 +169,14 @@ The communication protocol utilized by the Q-Flex2 embedded panel is SPI.
 \begin{figure}[!htbp]
     \centering
     \includegraphics[width=.8\textwidth,keepaspectratio=true]{figs/img/ADP_USB}
-    \label{fig:ADP_P_USB_Block_Diagram}
     \caption{Block Diagram for ADP P type controller with a USB connection.}
+    \label{fig:ADP_P_USB_Block_Diagram}
 \end{figure}
 \begin{figure}[!htbp]
     \centering
     \includegraphics[width=.8\textwidth,keepaspectratio=true]{figs/img/ADP_Black_Box}
-    \label{fig:ADP_P_BlackBox}
     \caption{Block Diagram for ADP P type controller algorithm.}
+    \label{fig:ADP_P_BlackBox}
 \end{figure}
 Figure~\ref{fig:ADP_P_BlackBox} is the same for USB, raspberry pi, and the mobile device.
 %\todo[inline]{Insert ADP P Results}
@@ -299,28 +299,30 @@ Note: sine used pitch XXXX degrees with period of XXXX, yaw XXXX degrees with pe
 
 %======================================================================
 \section{Raspberry Pi}
-
+Before the algorithms were implemented using the mobile device they were tested using only the raspberry pi to make sure that the wireless communication worked.
 %----------------------------------------------------------------------
 \subsection{LQR (P Type Controller)}
 %----------------------------------------------------------------------
+Figure~\ref{fig:LQR_RaspPi} shows the simulink model that was built to the raspberry pi to test the LQR P type algorithm.  It can be seen that it takes predetermined constant inputs to set the desired configuration.  Those desired values are subtracted by the actual state which is then multiplied by the control gain and sent to the Quanser Aero via the SPI connection with the raspberry pi.
 \begin{figure}[!htbp]
     \centering
     \includegraphics[width=.62\textwidth,keepaspectratio=true]{figs/img/LQR_RaspPi}
-    \label{fig:LQR_RaspPi}
     \caption{Simulink model of LQR P type using raspberry pi communication.}
+    \label{fig:LQR_RaspPi}
 \end{figure}
-\todo[inline]{Insert ADP P Results}
+
 
 %----------------------------------------------------------------------
 \subsection{ADP}
 %----------------------------------------------------------------------
+Figure~\ref{fig:ADP_RaspPi} shows the simulink model that was built to the raspberry pi to test the ADP algorithm.  It can be seen that it takes predetermined constant inputs to set the desired configuration.  Those desired values as well as the actual configuration values are sent into the ADP block which calculates the voltages to be applied to the system.  These voltages are then sent to the Quanser Aero via the SPI connection with the raspberry pi.
 \begin{figure}[!htbp]
     \centering
     \includegraphics[width=.62\textwidth,keepaspectratio=true]{figs/img/ADP_RaspPi}
-    \label{fig:ADP_RaspPi}
     \caption{Simulink model of ADP using raspberry pi communication.}
+    \label{fig:ADP_RaspPi}
 \end{figure}
-\todo[inline]{Insert ADP P Results}
+%\todo[inline]{Insert ADP P Results}
 
 %%----------------------------------------------------------------------
 %\subsection{Conclusions}
@@ -350,11 +352,19 @@ Note: sine used pitch XXXX degrees with period of XXXX, yaw XXXX degrees with pe
 
 %======================================================================
 \section{Mobile Device}
+Testing and implementation using the mobile device user interface was then done for the LQR p type and ADP motion control algorithms.
+%----------------------------------------------------------------------
+\subsection{LQR (P Type Controller)}
+%----------------------------------------------------------------------
+Figure~\ref{fig:LQR_Android} is the simulink model for mobile device communication using LQR p type motion control algoritm.  As it can be seen the desired configurations are taken in from the mobile device using UDP receive blocks.  These values are then sent into the LQR block with the actual configurations to calculate the voltages for the two motors.  These voltage values are then sent to the Quanser Aero from the raspberry pi using the SPI communication.  The actual configuration values are then read from the Quanser Aero using the SPI communication, then the raspberry pi sends those actual configuration values to the mobile device using UDP send blocks.
+\begin{figure}[!htbp]
+    \centering
+    \includegraphics[width=.72\textwidth,keepaspectratio=true]{figs/img/LQR_Android}
+    \caption{Simulink model of LQR using mobile device communication.}
+    \label{fig:LQR_Android}
+\end{figure}
 
-%----------------------------------------------------------------------
-\subsection{LQR (P Controller)}
-%----------------------------------------------------------------------
-\todo[inline]{Insert LQR P Block Diagram}
+The Figure~\ref{fig:AndroidLQR} shows the results of the implementation using LQR p type for the mobile device user interface.  Figure~\ref{fig:AndroidLQRPitchpos} shows the actual pitch configuration and the desired that was set using the mobile device verses time.  Figure~\ref{fig:AndroidLQRYawpos} shows the actual yaw configuration and the desired that was set using the mobile device verses time.  As can be seen, the actual configuration tries to follow the wave form that is being set by the user.  Figure~\ref{fig:AndroidLQRPitchVolt} and Figure~\ref{fig:AndroidLQRPitchVolt} show the voltages that are applied to the main and tail motors to get these motions in the pitch and yaw directions.
 \begin{figure}
     \centering
     \subfigure[][]{
@@ -373,7 +383,7 @@ Note: sine used pitch XXXX degrees with period of XXXX, yaw XXXX degrees with pe
     \includegraphics[width=.46\textwidth,keepaspectratio=true]{figs/matlab/LQR/P_Android/LQR_YawVolt.eps}
     \label{fig:AndroidLQRYawVolt}
     }
-    \caption{LQR Android Results}
+    \caption{Implementation results for LQR p type controller using mobile device as user input.}
     \label{fig:AndroidLQR}
 \end{figure}
 
@@ -381,7 +391,15 @@ Note: sine used pitch XXXX degrees with period of XXXX, yaw XXXX degrees with pe
 %----------------------------------------------------------------------
 \subsection{ADP}
 %----------------------------------------------------------------------
-\todo[inline]{Insert ADP P Block Diagram}
+Figure~\ref{fig:ADP_Android} is the simulink model for mobile device communication using the ADP motion control algoritm.  As it can be seen the desired configurations are taken in from the mobile device using UDP receive blocks.  These values are then sent into the ADP block with the actual configurations to calculate the voltages for the two motors.  These voltage values are then sent to the Quanser Aero from the raspberry pi using the SPI communication.  The actual configuration values are then read from the Quanser Aero using the SPI communication, then the raspberry pi sends those actual configuration values to the mobile device using UDP send blocks.
+\begin{figure}[!htbp]
+    \centering
+    \includegraphics[width=.72\textwidth,keepaspectratio=true]{figs/img/ADP_Android}
+    \caption{Simulink model of ADP using mobile device communication.}
+    \label{fig:ADP_Android}
+\end{figure}
+
+The Figure~\ref{fig:AndroidADP} shows the results of the implementation using ADP for the mobile device user interface.  Figure~\ref{fig:AndroidADPPitchpos} shows the actual pitch configuration and the desired that was set using the mobile device verses time.  Figure~\ref{fig:AndroidADPYawpos} shows the actual yaw configuration and the desired that was set using the mobile device verses time.  As can be seen, the actual configuration tries to follow the wave form that is being set by the user.  Figure~\ref{fig:AndroidADPPitchVolt} and Figure~\ref{fig:AndroidADPPitchVolt} show the voltages that are applied to the main and tail motors to get these motions in the pitch and yaw directions.
 \begin{figure}
     \centering
     \subfigure[][]{
@@ -400,7 +418,7 @@ Note: sine used pitch XXXX degrees with period of XXXX, yaw XXXX degrees with pe
     \includegraphics[width=.46\textwidth,keepaspectratio=true]{figs/matlab/ADP/Android/ADP_Yaw_Volt_Wireless.eps}
     \label{fig:AndroidADPYawVolt}
     }
-    \caption{ADP Android Results}
+    \caption{Implementation results for ADP controller using mobile device as user input.}
     \label{fig:AndroidADP}
 \end{figure}
 
