@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/W32TeX) (preloaded format=pdflatex 2018.9.26)  7 MAY 2019 11:08
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/W32TeX) (preloaded format=pdflatex 2018.9.26)  8 MAY 2019 11:22
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1506,7 +1506,7 @@ LaTeX Font Info:    Font shape `T1/fvs/bx/n' in size <20.74> not available
 (Font)              Font shape `T1/fvs/b/n' tried instead on input line 200.
 LaTeX Font Info:    Font shape `T1/fvs/b/n' will be
 (Font)              scaled to size 17.83641pt on input line 200.
-<figs/logoBU1-Print.pdf, id=687, 481.8pt x 160.6pt>
+<figs/logoBU1-Print.pdf, id=695, 481.8pt x 160.6pt>
 File: figs/logoBU1-Print.pdf Graphic file (type pdf)
 <use figs/logoBU1-Print.pdf>
 Package pdftex.def Info: figs/logoBU1-Print.pdf  used on input line 200.
@@ -1567,48 +1567,43 @@ LaTeX Font Info:    Font shape `T1/pplj/m/sl' in size <10.95> not available
 
 ]
 [3] [4] [5]
-Overfull \hbox (2.69012pt too wide) detected at line 134
- [][][]\T1/fvs/b/n/10.95 101[][]
- []
-
-
 Overfull \hbox (2.69012pt too wide) detected at line 136
- [][][]\T1/fvs/b/n/10.95 107[][]
+ [][][]\T1/fvs/b/n/10.95 102[][]
  []
 
 
 Overfull \hbox (2.69012pt too wide) detected at line 138
- [][][]\T1/fvs/b/n/10.95 108[][]
+ [][][]\T1/fvs/b/n/10.95 103[][]
  []
 
 
 Overfull \hbox (2.69012pt too wide) detected at line 140
- [][][]\T1/fvs/b/n/10.95 115[][]
+ [][][]\T1/fvs/b/n/10.95 110[][]
  []
 
 
 Overfull \hbox (2.69012pt too wide) detected at line 142
- [][][]\T1/fvs/b/n/10.95 116[][]
+ [][][]\T1/fvs/b/n/10.95 111[][]
  []
 
 
 Overfull \hbox (2.69012pt too wide) detected at line 144
- [][][]\T1/fvs/b/n/10.95 118[][]
+ [][][]\T1/fvs/b/n/10.95 113[][]
  []
 
 
 Overfull \hbox (2.69012pt too wide) detected at line 146
- [][][]\T1/fvs/b/n/10.95 119[][]
+ [][][]\T1/fvs/b/n/10.95 114[][]
  []
 
 
 Overfull \hbox (2.69012pt too wide) detected at line 148
- [][][]\T1/fvs/b/n/10.95 120[][]
+ [][][]\T1/fvs/b/n/10.95 115[][]
  []
 
 
 Overfull \hbox (2.69012pt too wide) detected at line 150
- [][][]\T1/fvs/b/n/10.95 121[][]
+ [][][]\T1/fvs/b/n/10.95 116[][]
  []
 
 
@@ -1616,37 +1611,42 @@ Underfull \vbox (badness 1221) has occurred while \output is active []
 
  [6]
 Overfull \hbox (2.69012pt too wide) detected at line 152
- [][][]\T1/fvs/b/n/10.95 122[][]
+ [][][]\T1/fvs/b/n/10.95 117[][]
  []
 
 
 Overfull \hbox (2.69012pt too wide) detected at line 154
- [][][]\T1/fvs/b/n/10.95 123[][]
+ [][][]\T1/fvs/b/n/10.95 118[][]
  []
 
 
 Overfull \hbox (2.69012pt too wide) detected at line 157
- [][][]\T1/fvs/b/n/10.95 124[][]
+ [][][]\T1/fvs/b/n/10.95 119[][]
  []
 
 
 Overfull \hbox (2.69012pt too wide) detected at line 159
- [][][]\T1/fvs/b/n/10.95 125[][]
+ [][][]\T1/fvs/b/n/10.95 120[][]
  []
 
 
 Overfull \hbox (2.69012pt too wide) detected at line 164
- [][][]\T1/fvs/b/n/10.95 127[][]
+ [][][]\T1/fvs/b/n/10.95 122[][]
  []
 
 
 Overfull \hbox (2.69012pt too wide) detected at line 167
- [][][]\T1/fvs/b/n/10.95 128[][]
+ [][][]\T1/fvs/b/n/10.95 123[][]
  []
 
 
 Overfull \hbox (2.69012pt too wide) detected at line 169
- [][][]\T1/fvs/b/n/10.95 129[][]
+ [][][]\T1/fvs/b/n/10.95 124[][]
+ []
+
+
+Overfull \hbox (2.69012pt too wide) detected at line 171
+ [][][]\T1/fvs/b/n/10.95 125[][]
  []
 
 )
@@ -1681,7 +1681,7 @@ chapter without number
 [11
 
 ]
-<figs/img/quanserAeroSystemParameters.png, id=935, 394.47375pt x 472.01344pt>
+<figs/img/quanserAeroSystemParameters.png, id=945, 394.47375pt x 472.01344pt>
 File: figs/img/quanserAeroSystemParameters.png Graphic file (type png)
 <use figs/img/quanserAeroSystemParameters.png>
 Package pdftex.def Info: figs/img/quanserAeroSystemParameters.png  used on inpu
@@ -1705,7 +1705,7 @@ chapter without number
 
 pdfTeX warning: pdflatex.exe (file ./figs/img/LQR_USB.pdf): PDF inclusion: foun
 d PDF version <1.7>, but at most version <1.5> allowed
-<figs/img/LQR_USB.pdf, id=997, 794.97pt x 614.295pt>
+<figs/img/LQR_USB.pdf, id=1007, 794.97pt x 614.295pt>
 File: figs/img/LQR_USB.pdf Graphic file (type pdf)
 <use figs/img/LQR_USB.pdf>
 Package pdftex.def Info: figs/img/LQR_USB.pdf  used on input line 333.
@@ -1713,8 +1713,8 @@ Package pdftex.def Info: figs/img/LQR_USB.pdf  used on input line 333.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<figs/matlab/LQR/P_USB/Pitch_Pos_LQR_USB_SQU.pdf, id=998, 364.36125pt x 304.136
-25pt>
+<figs/matlab/LQR/P_USB/Pitch_Pos_LQR_USB_SQU.pdf, id=1008, 364.36125pt x 304.13
+625pt>
 File: figs/matlab/LQR/P_USB/Pitch_Pos_LQR_USB_SQU.pdf Graphic file (type pdf)
 <use figs/matlab/LQR/P_USB/Pitch_Pos_LQR_USB_SQU.pdf>
 Package pdftex.def Info: figs/matlab/LQR/P_USB/Pitch_Pos_LQR_USB_SQU.pdf  used 
@@ -1723,8 +1723,8 @@ on input line 341.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<figs/matlab/LQR/P_USB/Pitch_Volt_LQR_USB_SQU.pdf, id=999, 364.36125pt x 304.13
-625pt>
+<figs/matlab/LQR/P_USB/Pitch_Volt_LQR_USB_SQU.pdf, id=1009, 364.36125pt x 304.1
+3625pt>
 File: figs/matlab/LQR/P_USB/Pitch_Volt_LQR_USB_SQU.pdf Graphic file (type pdf)
 <use figs/matlab/LQR/P_USB/Pitch_Volt_LQR_USB_SQU.pdf>
 Package pdftex.def Info: figs/matlab/LQR/P_USB/Pitch_Volt_LQR_USB_SQU.pdf  used
@@ -1733,7 +1733,7 @@ Package pdftex.def Info: figs/matlab/LQR/P_USB/Pitch_Volt_LQR_USB_SQU.pdf  used
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<figs/matlab/LQR/P_USB/Yaw_Pos_LQR_USB_SQU.pdf, id=1000, 364.36125pt x 304.1362
+<figs/matlab/LQR/P_USB/Yaw_Pos_LQR_USB_SQU.pdf, id=1010, 364.36125pt x 304.1362
 5pt>
 File: figs/matlab/LQR/P_USB/Yaw_Pos_LQR_USB_SQU.pdf Graphic file (type pdf)
 <use figs/matlab/LQR/P_USB/Yaw_Pos_LQR_USB_SQU.pdf>
@@ -1743,7 +1743,7 @@ Package pdftex.def Info: figs/matlab/LQR/P_USB/Yaw_Pos_LQR_USB_SQU.pdf  used on
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<figs/matlab/LQR/P_USB/Yaw_Volt_LQR_USB_SQU.pdf, id=1001, 364.36125pt x 304.136
+<figs/matlab/LQR/P_USB/Yaw_Volt_LQR_USB_SQU.pdf, id=1011, 364.36125pt x 304.136
 25pt>
 File: figs/matlab/LQR/P_USB/Yaw_Volt_LQR_USB_SQU.pdf Graphic file (type pdf)
 <use figs/matlab/LQR/P_USB/Yaw_Volt_LQR_USB_SQU.pdf>
@@ -1760,14 +1760,14 @@ SQU.pdf> <./figs/matlab/LQR/P_USB/Pitch_Volt_LQR_USB_SQU.pdf>] [20 <./figs/matl
 ab/LQR/P_USB/Yaw_Pos_LQR_USB_SQU.pdf> <./figs/matlab/LQR/P_USB/Yaw_Volt_LQR_USB
 _SQU.pdf>]
 chapter without number
-<figs/matlab/LQR/P_USB/Pitch_Pos_LQR_USB_SIN.pdf, id=1076, 364.36125pt x 304.13
+<figs/matlab/LQR/P_USB/Pitch_Pos_LQR_USB_SIN.pdf, id=1086, 364.36125pt x 304.13
 625pt>
 File: figs/matlab/LQR/P_USB/Pitch_Pos_LQR_USB_SIN.pdf Graphic file (type pdf)
 <use figs/matlab/LQR/P_USB/Pitch_Pos_LQR_USB_SIN.pdf>
 Package pdftex.def Info: figs/matlab/LQR/P_USB/Pitch_Pos_LQR_USB_SIN.pdf  used 
 on input line 381.
 (pdftex.def)             Requested size: 258.00539pt x 215.36743pt.
-<figs/matlab/LQR/P_USB/Pitch_Volt_LQR_USB_SIN.pdf, id=1077, 364.36125pt x 304.1
+<figs/matlab/LQR/P_USB/Pitch_Volt_LQR_USB_SIN.pdf, id=1087, 364.36125pt x 304.1
 3625pt>
 File: figs/matlab/LQR/P_USB/Pitch_Volt_LQR_USB_SIN.pdf Graphic file (type pdf)
 <use figs/matlab/LQR/P_USB/Pitch_Volt_LQR_USB_SIN.pdf>
@@ -1777,14 +1777,14 @@ Package pdftex.def Info: figs/matlab/LQR/P_USB/Pitch_Volt_LQR_USB_SIN.pdf  used
 [21
 
  <./figs/matlab/LQR/P_USB/Pitch_Pos_LQR_USB_SIN.pdf>]
-<figs/matlab/LQR/P_USB/Yaw_Pos_LQR_USB_SIN.pdf, id=1099, 364.36125pt x 304.1362
+<figs/matlab/LQR/P_USB/Yaw_Pos_LQR_USB_SIN.pdf, id=1110, 364.36125pt x 304.1362
 5pt>
 File: figs/matlab/LQR/P_USB/Yaw_Pos_LQR_USB_SIN.pdf Graphic file (type pdf)
 <use figs/matlab/LQR/P_USB/Yaw_Pos_LQR_USB_SIN.pdf>
 Package pdftex.def Info: figs/matlab/LQR/P_USB/Yaw_Pos_LQR_USB_SIN.pdf  used on
  input line 395.
 (pdftex.def)             Requested size: 258.00539pt x 215.36743pt.
-<figs/matlab/LQR/P_USB/Yaw_Volt_LQR_USB_SIN.pdf, id=1100, 364.36125pt x 304.136
+<figs/matlab/LQR/P_USB/Yaw_Volt_LQR_USB_SIN.pdf, id=1111, 364.36125pt x 304.136
 25pt>
 File: figs/matlab/LQR/P_USB/Yaw_Volt_LQR_USB_SIN.pdf Graphic file (type pdf)
 <use figs/matlab/LQR/P_USB/Yaw_Volt_LQR_USB_SIN.pdf>
@@ -1796,14 +1796,14 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [22 <./figs/matlab/LQR/P_USB/Pitch_Volt_LQR_USB_SIN.pdf> <./figs/matlab/LQR/P_
 USB/Yaw_Pos_LQR_USB_SIN.pdf>]
-<figs/matlab/LQR/P_USB/Pitch_Pos_LQR_USB_CON.pdf, id=1123, 361.35pt x 304.13625
+<figs/matlab/LQR/P_USB/Pitch_Pos_LQR_USB_CON.pdf, id=1133, 361.35pt x 304.13625
 pt>
 File: figs/matlab/LQR/P_USB/Pitch_Pos_LQR_USB_CON.pdf Graphic file (type pdf)
 <use figs/matlab/LQR/P_USB/Pitch_Pos_LQR_USB_CON.pdf>
 Package pdftex.def Info: figs/matlab/LQR/P_USB/Pitch_Pos_LQR_USB_CON.pdf  used 
 on input line 410.
 (pdftex.def)             Requested size: 258.00539pt x 217.15411pt.
-<figs/matlab/LQR/P_USB/Pitch_Volt_LQR_USB_CON.pdf, id=1124, 364.36125pt x 304.1
+<figs/matlab/LQR/P_USB/Pitch_Volt_LQR_USB_CON.pdf, id=1134, 364.36125pt x 304.1
 3625pt>
 File: figs/matlab/LQR/P_USB/Pitch_Volt_LQR_USB_CON.pdf Graphic file (type pdf)
 <use figs/matlab/LQR/P_USB/Pitch_Volt_LQR_USB_CON.pdf>
@@ -1815,14 +1815,14 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [23 <./figs/matlab/LQR/P_USB/Yaw_Volt_LQR_USB_SIN.pdf> <./figs/matlab/LQR/P_US
 B/Pitch_Pos_LQR_USB_CON.pdf>]
-<figs/matlab/LQR/P_USB/Yaw_Pos_LQR_USB_CON.pdf, id=1146, 361.35pt x 304.13625pt
+<figs/matlab/LQR/P_USB/Yaw_Pos_LQR_USB_CON.pdf, id=1156, 361.35pt x 304.13625pt
 >
 File: figs/matlab/LQR/P_USB/Yaw_Pos_LQR_USB_CON.pdf Graphic file (type pdf)
 <use figs/matlab/LQR/P_USB/Yaw_Pos_LQR_USB_CON.pdf>
 Package pdftex.def Info: figs/matlab/LQR/P_USB/Yaw_Pos_LQR_USB_CON.pdf  used on
  input line 424.
 (pdftex.def)             Requested size: 258.00539pt x 217.15411pt.
-<figs/matlab/LQR/P_USB/Yaw_Volt_LQR_USB_CON.pdf, id=1147, 361.35pt x 304.13625p
+<figs/matlab/LQR/P_USB/Yaw_Volt_LQR_USB_CON.pdf, id=1157, 361.35pt x 304.13625p
 t>
 File: figs/matlab/LQR/P_USB/Yaw_Volt_LQR_USB_CON.pdf Graphic file (type pdf)
 <use figs/matlab/LQR/P_USB/Yaw_Volt_LQR_USB_CON.pdf>
@@ -1837,7 +1837,7 @@ USB/Yaw_Pos_LQR_USB_CON.pdf>]
 
 pdfTeX warning: pdflatex.exe (file ./figs/img/LQG_USB_Quanser.pdf): PDF inclusi
 on: found PDF version <1.7>, but at most version <1.5> allowed
-<figs/img/LQG_USB_Quanser.pdf, id=1183, 794.97pt x 614.295pt>
+<figs/img/LQG_USB_Quanser.pdf, id=1193, 794.97pt x 614.295pt>
 File: figs/img/LQG_USB_Quanser.pdf Graphic file (type pdf)
 <use figs/img/LQG_USB_Quanser.pdf>
 Package pdftex.def Info: figs/img/LQG_USB_Quanser.pdf  used on input line 463.
@@ -1845,7 +1845,7 @@ Package pdftex.def Info: figs/img/LQG_USB_Quanser.pdf  used on input line 463.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<figs/matlab/LQG/LQG_USB/Pitch_Pos_deg_LQG_USB_SQU.pdf, id=1184, 364.36125pt x 
+<figs/matlab/LQG/LQG_USB/Pitch_Pos_deg_LQG_USB_SQU.pdf, id=1194, 364.36125pt x 
 304.13625pt>
 File: figs/matlab/LQG/LQG_USB/Pitch_Pos_deg_LQG_USB_SQU.pdf Graphic file (type 
 pdf)
@@ -1856,7 +1856,7 @@ Package pdftex.def Info: figs/matlab/LQG/LQG_USB/Pitch_Pos_deg_LQG_USB_SQU.pdf
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<figs/matlab/LQG/LQG_USB/Pitch_Pos_Rad_LQG_USB_SQU.pdf, id=1185, 366.36874pt x 
+<figs/matlab/LQG/LQG_USB/Pitch_Pos_Rad_LQG_USB_SQU.pdf, id=1195, 366.36874pt x 
 304.13625pt>
 File: figs/matlab/LQG/LQG_USB/Pitch_Pos_Rad_LQG_USB_SQU.pdf Graphic file (type 
 pdf)
@@ -1867,7 +1867,7 @@ Package pdftex.def Info: figs/matlab/LQG/LQG_USB/Pitch_Pos_Rad_LQG_USB_SQU.pdf
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<figs/matlab/LQG/LQG_USB/Pitch_Volt_LQG_USB_SQU.pdf, id=1186, 364.36125pt x 304
+<figs/matlab/LQG/LQG_USB/Pitch_Volt_LQG_USB_SQU.pdf, id=1196, 364.36125pt x 304
 .13625pt>
 File: figs/matlab/LQG/LQG_USB/Pitch_Volt_LQG_USB_SQU.pdf Graphic file (type pdf
 )
@@ -1878,7 +1878,7 @@ ed on input line 485.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<figs/matlab/LQG/LQG_USB/Pitch_Speed_LQG_USB_SQU.pdf, id=1187, 367.3725pt x 305
+<figs/matlab/LQG/LQG_USB/Pitch_Speed_LQG_USB_SQU.pdf, id=1197, 367.3725pt x 305
 .14pt>
 File: figs/matlab/LQG/LQG_USB/Pitch_Speed_LQG_USB_SQU.pdf Graphic file (type pd
 f)
@@ -1889,7 +1889,7 @@ sed on input line 492.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<figs/matlab/LQG/LQG_USB/Pitch_Pos_deg_LQG_USB_SIN.pdf, id=1188, 364.36125pt x 
+<figs/matlab/LQG/LQG_USB/Pitch_Pos_deg_LQG_USB_SIN.pdf, id=1198, 364.36125pt x 
 304.13625pt>
 File: figs/matlab/LQG/LQG_USB/Pitch_Pos_deg_LQG_USB_SIN.pdf Graphic file (type 
 pdf)
@@ -1900,7 +1900,7 @@ Package pdftex.def Info: figs/matlab/LQG/LQG_USB/Pitch_Pos_deg_LQG_USB_SIN.pdf
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<figs/matlab/LQG/LQG_USB/Pitch_Pos_Rad_LQG_USB_SIN.pdf, id=1189, 370.38374pt x 
+<figs/matlab/LQG/LQG_USB/Pitch_Pos_Rad_LQG_USB_SIN.pdf, id=1199, 370.38374pt x 
 304.13625pt>
 File: figs/matlab/LQG/LQG_USB/Pitch_Pos_Rad_LQG_USB_SIN.pdf Graphic file (type 
 pdf)
@@ -1911,7 +1911,7 @@ Package pdftex.def Info: figs/matlab/LQG/LQG_USB/Pitch_Pos_Rad_LQG_USB_SIN.pdf
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<figs/matlab/LQG/LQG_USB/Pitch_Volt_LQG_USB_SIN.pdf, id=1190, 364.36125pt x 304
+<figs/matlab/LQG/LQG_USB/Pitch_Volt_LQG_USB_SIN.pdf, id=1200, 364.36125pt x 304
 .13625pt>
 File: figs/matlab/LQG/LQG_USB/Pitch_Volt_LQG_USB_SIN.pdf Graphic file (type pdf
 )
@@ -1922,7 +1922,7 @@ ed on input line 514.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<figs/matlab/LQG/LQG_USB/Pitch_Speed_LQG_USB_SIN.pdf, id=1191, 367.3725pt x 305
+<figs/matlab/LQG/LQG_USB/Pitch_Speed_LQG_USB_SIN.pdf, id=1201, 367.3725pt x 305
 .14pt>
 File: figs/matlab/LQG/LQG_USB/Pitch_Speed_LQG_USB_SIN.pdf Graphic file (type pd
 f)
@@ -1933,7 +1933,7 @@ sed on input line 521.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<figs/matlab/LQG/LQG_USB/Pitch_Pos_deg_LQG_USB_CON.pdf, id=1192, 361.35pt x 304
+<figs/matlab/LQG/LQG_USB/Pitch_Pos_deg_LQG_USB_CON.pdf, id=1202, 361.35pt x 304
 .13625pt>
 File: figs/matlab/LQG/LQG_USB/Pitch_Pos_deg_LQG_USB_CON.pdf Graphic file (type 
 pdf)
@@ -1944,7 +1944,7 @@ Package pdftex.def Info: figs/matlab/LQG/LQG_USB/Pitch_Pos_deg_LQG_USB_CON.pdf
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<figs/matlab/LQG/LQG_USB/Pitch_Pos_Rad_LQG_USB_CON.pdf, id=1193, 370.38374pt x 
+<figs/matlab/LQG/LQG_USB/Pitch_Pos_Rad_LQG_USB_CON.pdf, id=1203, 370.38374pt x 
 304.13625pt>
 File: figs/matlab/LQG/LQG_USB/Pitch_Pos_Rad_LQG_USB_CON.pdf Graphic file (type 
 pdf)
@@ -1955,7 +1955,7 @@ Package pdftex.def Info: figs/matlab/LQG/LQG_USB/Pitch_Pos_Rad_LQG_USB_CON.pdf
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<figs/matlab/LQG/LQG_USB/Pitch_Volt_LQG_USB_CON.pdf, id=1194, 364.36125pt x 304
+<figs/matlab/LQG/LQG_USB/Pitch_Volt_LQG_USB_CON.pdf, id=1204, 364.36125pt x 304
 .13625pt>
 File: figs/matlab/LQG/LQG_USB/Pitch_Volt_LQG_USB_CON.pdf Graphic file (type pdf
 )
@@ -1966,7 +1966,7 @@ ed on input line 543.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<figs/matlab/LQG/LQG_USB/Pitch_Speed_LQG_USB_CON.pdf, id=1195, 367.3725pt x 305
+<figs/matlab/LQG/LQG_USB/Pitch_Speed_LQG_USB_CON.pdf, id=1205, 367.3725pt x 305
 .14pt>
 File: figs/matlab/LQG/LQG_USB/Pitch_Speed_LQG_USB_CON.pdf Graphic file (type pd
 f)
@@ -2027,7 +2027,7 @@ Underfull \vbox (badness 7722) has occurred while \output is active []
  [41
 
 ]
-<figs/img/Raspi3_pinmap.pdf, id=1418, 461.725pt x 481.8pt>
+<figs/img/Raspi3_pinmap.pdf, id=1428, 461.725pt x 481.8pt>
 File: figs/img/Raspi3_pinmap.pdf Graphic file (type pdf)
 <use figs/img/Raspi3_pinmap.pdf>
 Package pdftex.def Info: figs/img/Raspi3_pinmap.pdf  used on input line 664.
@@ -2042,12 +2042,12 @@ chapter without number
 
 ]
 chapter without number
-<figs/img/PC1_IP.png, id=1446, 737.75626pt x 384.6872pt>
+<figs/img/PC1_IP.png, id=1456, 737.75626pt x 384.6872pt>
 File: figs/img/PC1_IP.png Graphic file (type png)
 <use figs/img/PC1_IP.png>
 Package pdftex.def Info: figs/img/PC1_IP.png  used on input line 694.
 (pdftex.def)             Requested size: 430.00462pt x 224.21638pt.
-<figs/img/PC2_IP.png, id=1447, 737.75626pt x 386.19281pt>
+<figs/img/PC2_IP.png, id=1457, 737.75626pt x 386.19281pt>
 File: figs/img/PC2_IP.png Graphic file (type png)
 <use figs/img/PC2_IP.png>
 Package pdftex.def Info: figs/img/PC2_IP.png  used on input line 701.
@@ -2055,7 +2055,7 @@ Package pdftex.def Info: figs/img/PC2_IP.png  used on input line 701.
 [45
 
  <./figs/img/PC1_IP.png>]
-<figs/img/RaspPI_IP.png, id=1456, 515.67656pt x 496.10344pt>
+<figs/img/RaspPI_IP.png, id=1466, 515.67656pt x 496.10344pt>
 File: figs/img/RaspPI_IP.png Graphic file (type png)
 <use figs/img/RaspPI_IP.png>
 Package pdftex.def Info: figs/img/RaspPI_IP.png  used on input line 708.
@@ -2089,7 +2089,7 @@ chapter without number
 
 pdfTeX warning: pdflatex.exe (file ./figs/img/Basic_SPI_Communication.pdf): PDF
  inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<figs/img/Basic_SPI_Communication.pdf, id=1508, 794.97pt x 614.295pt>
+<figs/img/Basic_SPI_Communication.pdf, id=1518, 794.97pt x 614.295pt>
 File: figs/img/Basic_SPI_Communication.pdf Graphic file (type pdf)
 <use figs/img/Basic_SPI_Communication.pdf>
 Package pdftex.def Info: figs/img/Basic_SPI_Communication.pdf  used on input li
@@ -2104,7 +2104,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 pdfTeX warning: pdflatex.exe (file ./figs/img/SPI_COM.pdf): PDF inclusion: foun
 d PDF version <1.7>, but at most version <1.5> allowed
-<figs/img/SPI_COM.pdf, id=1516, 794.97pt x 614.295pt>
+<figs/img/SPI_COM.pdf, id=1526, 794.97pt x 614.295pt>
 File: figs/img/SPI_COM.pdf Graphic file (type pdf)
 <use figs/img/SPI_COM.pdf>
 Package pdftex.def Info: figs/img/SPI_COM.pdf  used on input line 766.
@@ -2123,12 +2123,12 @@ chapter without number
 
 ]
 chapter without number
-<figs/img/Pi1_ifconfig.png, id=1554, 499.11469pt x 411.03563pt>
+<figs/img/Pi1_ifconfig.png, id=1564, 499.11469pt x 411.03563pt>
 File: figs/img/Pi1_ifconfig.png Graphic file (type png)
 <use figs/img/Pi1_ifconfig.png>
 Package pdftex.def Info: figs/img/Pi1_ifconfig.png  used on input line 808.
 (pdftex.def)             Requested size: 344.005pt x 283.30756pt.
-<figs/img/PC1_IP_withWireless.png, id=1555, 737.75626pt x 438.13687pt>
+<figs/img/PC1_IP_withWireless.png, id=1565, 737.75626pt x 438.13687pt>
 File: figs/img/PC1_IP_withWireless.png Graphic file (type png)
 <use figs/img/PC1_IP_withWireless.png>
 Package pdftex.def Info: figs/img/PC1_IP_withWireless.png  used on input line 8
@@ -2145,7 +2145,7 @@ chapter without number
 
 pdfTeX warning: pdflatex.exe (file ./figs/img/Android_LQR.pdf): PDF inclusion: 
 found PDF version <1.7>, but at most version <1.5> allowed
-<figs/img/Android_LQR.pdf, id=1572, 794.97pt x 614.295pt>
+<figs/img/Android_LQR.pdf, id=1583, 794.97pt x 614.295pt>
 File: figs/img/Android_LQR.pdf Graphic file (type pdf)
 <use figs/img/Android_LQR.pdf>
 Package pdftex.def Info: figs/img/Android_LQR.pdf  used on input line 832.
@@ -2157,7 +2157,7 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 pdfTeX warning: pdflatex.exe (file ./figs/img/Android_Interface.pdf): PDF inclu
 sion: found PDF version <1.7>, but at most version <1.5> allowed
-<figs/img/Android_Interface.pdf, id=1573, 794.97pt x 614.295pt>
+<figs/img/Android_Interface.pdf, id=1584, 794.97pt x 614.295pt>
 File: figs/img/Android_Interface.pdf Graphic file (type pdf)
 <use figs/img/Android_Interface.pdf>
 Package pdftex.def Info: figs/img/Android_Interface.pdf  used on input line 839
@@ -2186,13 +2186,13 @@ chapter without number
 
 ]
 chapter without number
-<figs/img/Screenshot_TestApp.jpg, id=1629, 1084.05pt x 2228.325pt>
+<figs/img/Screenshot_TestApp.jpg, id=1639, 1084.05pt x 2228.325pt>
 File: figs/img/Screenshot_TestApp.jpg Graphic file (type jpg)
 <use figs/img/Screenshot_TestApp.jpg>
 Package pdftex.def Info: figs/img/Screenshot_TestApp.jpg  used on input line 87
 9.
 (pdftex.def)             Requested size: 129.00269pt x 265.14337pt.
-<figs/img/Screenshot_Android_interface.jpg, id=1631, 1084.05pt x 2228.325pt>
+<figs/img/Screenshot_Android_interface.jpg, id=1641, 1084.05pt x 2228.325pt>
 File: figs/img/Screenshot_Android_interface.jpg Graphic file (type jpg)
 <use figs/img/Screenshot_Android_interface.jpg>
 Package pdftex.def Info: figs/img/Screenshot_Android_interface.jpg  used on inp
@@ -2203,7 +2203,7 @@ ut line 886.
 ] [66 <./figs/img/Screenshot_TestApp.jpg> <./figs/img/Screenshot_Android_interf
 ace.jpg>]
 chapter without number
-<figs/img/Screenshot_Android_interface_2Aero.jpg, id=1646, 1084.05pt x 2228.325
+<figs/img/Screenshot_Android_interface_2Aero.jpg, id=1656, 1084.05pt x 2228.325
 pt>
 File: figs/img/Screenshot_Android_interface_2Aero.jpg Graphic file (type jpg)
 <use figs/img/Screenshot_Android_interface_2Aero.jpg>
@@ -2304,25 +2304,25 @@ chapter without number
 
 ]
 chapter without number
-<figs/img/02152019/LQR_Pitch.png, id=1797, 243.91125pt x 161.85469pt>
+<figs/img/02152019/LQR_Pitch.png, id=1807, 243.91125pt x 161.85469pt>
 File: figs/img/02152019/LQR_Pitch.png Graphic file (type png)
 <use figs/img/02152019/LQR_Pitch.png>
 Package pdftex.def Info: figs/img/02152019/LQR_Pitch.png  used on input line 11
 21.
 (pdftex.def)             Requested size: 344.005pt x 228.27686pt.
-<figs/img/02152019/LQR_PitchVolt.png, id=1798, 243.91125pt x 161.85469pt>
+<figs/img/02152019/LQR_PitchVolt.png, id=1808, 243.91125pt x 161.85469pt>
 File: figs/img/02152019/LQR_PitchVolt.png Graphic file (type png)
 <use figs/img/02152019/LQR_PitchVolt.png>
 Package pdftex.def Info: figs/img/02152019/LQR_PitchVolt.png  used on input lin
 e 1128.
 (pdftex.def)             Requested size: 344.005pt x 228.27686pt.
-<figs/img/02152019/LQR_Yaw.png, id=1799, 243.91125pt x 161.85469pt>
+<figs/img/02152019/LQR_Yaw.png, id=1809, 243.91125pt x 161.85469pt>
 File: figs/img/02152019/LQR_Yaw.png Graphic file (type png)
 <use figs/img/02152019/LQR_Yaw.png>
 Package pdftex.def Info: figs/img/02152019/LQR_Yaw.png  used on input line 1135
 .
 (pdftex.def)             Requested size: 344.005pt x 228.27686pt.
-<figs/img/02152019/LQR_YawVolt.png, id=1800, 243.91125pt x 161.85469pt>
+<figs/img/02152019/LQR_YawVolt.png, id=1810, 243.91125pt x 161.85469pt>
 File: figs/img/02152019/LQR_YawVolt.png Graphic file (type png)
 <use figs/img/02152019/LQR_YawVolt.png>
 Package pdftex.def Info: figs/img/02152019/LQR_YawVolt.png  used on input line 
@@ -2333,26 +2333,26 @@ Underfull \hbox (badness 10000) in paragraph at lines 1147--1154
 
  []
 
-<figs/img/02152019/LQG_Pitch02152019.png, id=1801, 243.91125pt x 161.85469pt>
+<figs/img/02152019/LQG_Pitch02152019.png, id=1811, 243.91125pt x 161.85469pt>
 File: figs/img/02152019/LQG_Pitch02152019.png Graphic file (type png)
 <use figs/img/02152019/LQG_Pitch02152019.png>
 Package pdftex.def Info: figs/img/02152019/LQG_Pitch02152019.png  used on input
  line 1157.
 (pdftex.def)             Requested size: 344.005pt x 228.27686pt.
-<figs/img/02152019/LQG_PitchVolt02152019.png, id=1802, 243.91125pt x 161.85469p
+<figs/img/02152019/LQG_PitchVolt02152019.png, id=1812, 243.91125pt x 161.85469p
 t>
 File: figs/img/02152019/LQG_PitchVolt02152019.png Graphic file (type png)
 <use figs/img/02152019/LQG_PitchVolt02152019.png>
 Package pdftex.def Info: figs/img/02152019/LQG_PitchVolt02152019.png  used on i
 nput line 1164.
 (pdftex.def)             Requested size: 344.005pt x 228.27686pt.
-<figs/img/02152019/LQG_Yaw02152019.png, id=1803, 243.91125pt x 161.85469pt>
+<figs/img/02152019/LQG_Yaw02152019.png, id=1813, 243.91125pt x 161.85469pt>
 File: figs/img/02152019/LQG_Yaw02152019.png Graphic file (type png)
 <use figs/img/02152019/LQG_Yaw02152019.png>
 Package pdftex.def Info: figs/img/02152019/LQG_Yaw02152019.png  used on input l
 ine 1171.
 (pdftex.def)             Requested size: 344.005pt x 228.27686pt.
-<figs/img/02152019/LQG_YawVolt02152019.png, id=1804, 243.91125pt x 161.85469pt>
+<figs/img/02152019/LQG_YawVolt02152019.png, id=1814, 243.91125pt x 161.85469pt>
 
 File: figs/img/02152019/LQG_YawVolt02152019.png Graphic file (type png)
 <use figs/img/02152019/LQG_YawVolt02152019.png>
@@ -2397,19 +2397,19 @@ Underfull \hbox (badness 10000) in paragraph at lines 1222--1228
 [95
 
 ]
-<figs/img/02192019/LQRPitchmk2.png, id=1852, 243.91125pt x 161.85469pt>
+<figs/img/02192019/LQRPitchmk2.png, id=1862, 243.91125pt x 161.85469pt>
 File: figs/img/02192019/LQRPitchmk2.png Graphic file (type png)
 <use figs/img/02192019/LQRPitchmk2.png>
 Package pdftex.def Info: figs/img/02192019/LQRPitchmk2.png  used on input line 
 1232.
 (pdftex.def)             Requested size: 344.005pt x 228.27686pt.
-<figs/img/02192019/LQRPitchVoltmk2.png, id=1853, 243.91125pt x 161.85469pt>
+<figs/img/02192019/LQRPitchVoltmk2.png, id=1863, 243.91125pt x 161.85469pt>
 File: figs/img/02192019/LQRPitchVoltmk2.png Graphic file (type png)
 <use figs/img/02192019/LQRPitchVoltmk2.png>
 Package pdftex.def Info: figs/img/02192019/LQRPitchVoltmk2.png  used on input l
 ine 1239.
 (pdftex.def)             Requested size: 344.005pt x 228.27686pt.
-<figs/img/02192019/LQRYawmk2.png, id=1854, 243.91125pt x 161.85469pt>
+<figs/img/02192019/LQRYawmk2.png, id=1864, 243.91125pt x 161.85469pt>
 File: figs/img/02192019/LQRYawmk2.png Graphic file (type png)
 <use figs/img/02192019/LQRYawmk2.png>
 Package pdftex.def Info: figs/img/02192019/LQRYawmk2.png  used on input line 12
@@ -2420,13 +2420,13 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [96 <./figs/img/02192019/LQRPitchmk2.png (PNG copy)> <./figs/img/02192019/LQRP
 itchVoltmk2.png (PNG copy)>]
-<figs/img/02192019/LQRYawVoltmk2.png, id=1862, 243.91125pt x 161.85469pt>
+<figs/img/02192019/LQRYawVoltmk2.png, id=1872, 243.91125pt x 161.85469pt>
 File: figs/img/02192019/LQRYawVoltmk2.png Graphic file (type png)
 <use figs/img/02192019/LQRYawVoltmk2.png>
 Package pdftex.def Info: figs/img/02192019/LQRYawVoltmk2.png  used on input lin
 e 1253.
 (pdftex.def)             Requested size: 344.005pt x 228.27686pt.
-<figs/img/02192019/LQGPitchmk2.png, id=1863, 243.91125pt x 161.85469pt>
+<figs/img/02192019/LQGPitchmk2.png, id=1873, 243.91125pt x 161.85469pt>
 File: figs/img/02192019/LQGPitchmk2.png Graphic file (type png)
 <use figs/img/02192019/LQGPitchmk2.png>
 Package pdftex.def Info: figs/img/02192019/LQGPitchmk2.png  used on input line 
@@ -2437,13 +2437,13 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [97 <./figs/img/02192019/LQRYawmk2.png (PNG copy)> <./figs/img/02192019/LQRYaw
 Voltmk2.png (PNG copy)>]
-<figs/img/02192019/LQGPitchVoltmk2.png, id=1872, 243.91125pt x 161.85469pt>
+<figs/img/02192019/LQGPitchVoltmk2.png, id=1882, 243.91125pt x 161.85469pt>
 File: figs/img/02192019/LQGPitchVoltmk2.png Graphic file (type png)
 <use figs/img/02192019/LQGPitchVoltmk2.png>
 Package pdftex.def Info: figs/img/02192019/LQGPitchVoltmk2.png  used on input l
 ine 1267.
 (pdftex.def)             Requested size: 344.005pt x 228.27686pt.
-<figs/img/02192019/LQGYawmk2.png, id=1873, 243.91125pt x 161.85469pt>
+<figs/img/02192019/LQGYawmk2.png, id=1883, 243.91125pt x 161.85469pt>
 File: figs/img/02192019/LQGYawmk2.png Graphic file (type png)
 <use figs/img/02192019/LQGYawmk2.png>
 Package pdftex.def Info: figs/img/02192019/LQGYawmk2.png  used on input line 12
@@ -2454,7 +2454,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [98 <./figs/img/02192019/LQGPitchmk2.png (PNG copy)> <./figs/img/02192019/LQGP
 itchVoltmk2.png (PNG copy)>]
-<figs/img/02192019/LQGYawVoltmk2.png, id=1881, 243.91125pt x 161.85469pt>
+<figs/img/02192019/LQGYawVoltmk2.png, id=1891, 243.91125pt x 161.85469pt>
 File: figs/img/02192019/LQGYawVoltmk2.png Graphic file (type png)
 <use figs/img/02192019/LQGYawVoltmk2.png>
 Package pdftex.def Info: figs/img/02192019/LQGYawVoltmk2.png  used on input lin
@@ -2489,12 +2489,12 @@ plicate ignored
 l.1288 ...nt.  Originally it was: \begin{equation}
                                                    [100]
 chapter without number
-<figs/img/02212019/LQRV2.jpg, id=1898, 3553.275pt x 1616.0375pt>
+<figs/img/02212019/LQRV2.jpg, id=1908, 3553.275pt x 1616.0375pt>
 File: figs/img/02212019/LQRV2.jpg Graphic file (type jpg)
 <use figs/img/02212019/LQRV2.jpg>
 Package pdftex.def Info: figs/img/02212019/LQRV2.jpg  used on input line 1307.
 (pdftex.def)             Requested size: 344.005pt x 156.43488pt.
-<figs/img/02212019/LQR_PitchV2.png, id=1899, 243.91125pt x 161.85469pt>
+<figs/img/02212019/LQR_PitchV2.png, id=1909, 243.91125pt x 161.85469pt>
 File: figs/img/02212019/LQR_PitchV2.png Graphic file (type png)
 <use figs/img/02212019/LQR_PitchV2.png>
 Package pdftex.def Info: figs/img/02212019/LQR_PitchV2.png  used on input line 
@@ -2506,13 +2506,13 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
  [101
 
  <./figs/img/02212019/LQRV2.jpg>]
-<figs/img/02212019/LQR_PitchVoltV2.png, id=1906, 243.91125pt x 161.85469pt>
+<figs/img/02212019/LQR_PitchVoltV2.png, id=1916, 243.91125pt x 161.85469pt>
 File: figs/img/02212019/LQR_PitchVoltV2.png Graphic file (type png)
 <use figs/img/02212019/LQR_PitchVoltV2.png>
 Package pdftex.def Info: figs/img/02212019/LQR_PitchVoltV2.png  used on input l
 ine 1321.
 (pdftex.def)             Requested size: 344.005pt x 228.27686pt.
-<figs/img/02212019/LQR_YawV2.png, id=1907, 243.91125pt x 161.85469pt>
+<figs/img/02212019/LQR_YawV2.png, id=1917, 243.91125pt x 161.85469pt>
 File: figs/img/02212019/LQR_YawV2.png Graphic file (type png)
 <use figs/img/02212019/LQR_YawV2.png>
 Package pdftex.def Info: figs/img/02212019/LQR_YawV2.png  used on input line 13
@@ -2523,7 +2523,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [102 <./figs/img/02212019/LQR_PitchV2.png (PNG copy)> <./figs/img/02212019/LQR
 _PitchVoltV2.png (PNG copy)>]
-<figs/img/02212019/LQR_YawVoltV2.png, id=1915, 243.91125pt x 161.85469pt>
+<figs/img/02212019/LQR_YawVoltV2.png, id=1925, 243.91125pt x 161.85469pt>
 File: figs/img/02212019/LQR_YawVoltV2.png Graphic file (type png)
 <use figs/img/02212019/LQR_YawVoltV2.png>
 Package pdftex.def Info: figs/img/02212019/LQR_YawVoltV2.png  used on input lin
@@ -2531,25 +2531,25 @@ e 1335.
 (pdftex.def)             Requested size: 344.005pt x 228.27686pt.
  [103 <./figs/img/02212019/LQR_YawV2.png (PNG copy)> <./figs/img/02212019/LQR_Y
 awVoltV2.png (PNG copy)>]
-<figs/img/02212019/LQRV3.jpg, id=1925, 3918.64pt x 1703.36375pt>
+<figs/img/02212019/LQRV3.jpg, id=1935, 3918.64pt x 1703.36375pt>
 File: figs/img/02212019/LQRV3.jpg Graphic file (type jpg)
 <use figs/img/02212019/LQRV3.jpg>
 Package pdftex.def Info: figs/img/02212019/LQRV3.jpg  used on input line 1347.
 (pdftex.def)             Requested size: 344.005pt x 149.52739pt.
  [104 <./figs/img/02212019/LQRV3.jpg>]
-<figs/img/02212019/LQR_PitchV3.png, id=1932, 243.91125pt x 161.85469pt>
+<figs/img/02212019/LQR_PitchV3.png, id=1942, 243.91125pt x 161.85469pt>
 File: figs/img/02212019/LQR_PitchV3.png Graphic file (type png)
 <use figs/img/02212019/LQR_PitchV3.png>
 Package pdftex.def Info: figs/img/02212019/LQR_PitchV3.png  used on input line 
 1355.
 (pdftex.def)             Requested size: 344.005pt x 228.27686pt.
-<figs/img/02212019/LQR_PitchVoltV3.png, id=1933, 243.91125pt x 161.85469pt>
+<figs/img/02212019/LQR_PitchVoltV3.png, id=1943, 243.91125pt x 161.85469pt>
 File: figs/img/02212019/LQR_PitchVoltV3.png Graphic file (type png)
 <use figs/img/02212019/LQR_PitchVoltV3.png>
 Package pdftex.def Info: figs/img/02212019/LQR_PitchVoltV3.png  used on input l
 ine 1362.
 (pdftex.def)             Requested size: 344.005pt x 228.27686pt.
-<figs/img/02212019/LQR_YawV3.png, id=1934, 243.91125pt x 161.85469pt>
+<figs/img/02212019/LQR_YawV3.png, id=1944, 243.91125pt x 161.85469pt>
 File: figs/img/02212019/LQR_YawV3.png Graphic file (type png)
 <use figs/img/02212019/LQR_YawV3.png>
 Package pdftex.def Info: figs/img/02212019/LQR_YawV3.png  used on input line 13
@@ -2560,7 +2560,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [105 <./figs/img/02212019/LQR_PitchV3.png (PNG copy)> <./figs/img/02212019/LQR
 _PitchVoltV3.png (PNG copy)>]
-<figs/img/02212019/LQR_YawVoltV3.png, id=1942, 243.91125pt x 161.85469pt>
+<figs/img/02212019/LQR_YawVoltV3.png, id=1952, 243.91125pt x 161.85469pt>
 File: figs/img/02212019/LQR_YawVoltV3.png Graphic file (type png)
 <use figs/img/02212019/LQR_YawVoltV3.png>
 Package pdftex.def Info: figs/img/02212019/LQR_YawVoltV3.png  used on input lin
@@ -2599,31 +2599,31 @@ Underfull \hbox (badness 10000) in paragraph at lines 1389--1392
 ]
 chapter without number
 Package epstopdf Info: Source file: <figs/img/02262019/Pitch_LQR_RMSE.eps>
-(epstopdf)                    date: 2019-04-23 10:47:13
+(epstopdf)                    date: 2019-05-07 17:10:38
 (epstopdf)                    size: 907233 bytes
 (epstopdf)             Output file: <figs/img/02262019/Pitch_LQR_RMSE.pdf>
-(epstopdf)                    date: 2019-04-23 10:47:13
+(epstopdf)                    date: 2019-05-07 17:10:38
 (epstopdf)                    size: 132799 bytes
 (epstopdf)             Command: <repstopdf figs/img/02262019/Pitch_LQR_RMSE.eps
 >
 (epstopdf)             \includegraphics on input line 1401.
 Package epstopdf Info: Output file is already uptodate.
-<figs/img/02262019/Pitch_LQR_RMSE.pdf, id=1960, 364.36125pt x 305.14pt>
+<figs/img/02262019/Pitch_LQR_RMSE.pdf, id=1970, 364.36125pt x 305.14pt>
 File: figs/img/02262019/Pitch_LQR_RMSE.pdf Graphic file (type pdf)
 <use figs/img/02262019/Pitch_LQR_RMSE.pdf>
 Package pdftex.def Info: figs/img/02262019/Pitch_LQR_RMSE.pdf  used on input li
 ne 1401.
 (pdftex.def)             Requested size: 344.005pt x 288.10272pt.
 Package epstopdf Info: Source file: <figs/img/02262019/Yaw_LQR_RMSE.eps>
-(epstopdf)                    date: 2019-04-23 10:47:13
+(epstopdf)                    date: 2019-05-07 17:10:38
 (epstopdf)                    size: 901470 bytes
 (epstopdf)             Output file: <figs/img/02262019/Yaw_LQR_RMSE.pdf>
-(epstopdf)                    date: 2019-04-23 10:47:13
+(epstopdf)                    date: 2019-05-07 17:10:38
 (epstopdf)                    size: 173863 bytes
 (epstopdf)             Command: <repstopdf figs/img/02262019/Yaw_LQR_RMSE.eps>
 (epstopdf)             \includegraphics on input line 1408.
 Package epstopdf Info: Output file is already uptodate.
-<figs/img/02262019/Yaw_LQR_RMSE.pdf, id=1961, 364.36125pt x 305.14pt>
+<figs/img/02262019/Yaw_LQR_RMSE.pdf, id=1971, 364.36125pt x 305.14pt>
 File: figs/img/02262019/Yaw_LQR_RMSE.pdf Graphic file (type pdf)
 <use figs/img/02262019/Yaw_LQR_RMSE.pdf>
 Package pdftex.def Info: figs/img/02262019/Yaw_LQR_RMSE.pdf  used on input line
@@ -2631,17 +2631,17 @@ Package pdftex.def Info: figs/img/02262019/Yaw_LQR_RMSE.pdf  used on input line
 (pdftex.def)             Requested size: 344.005pt x 288.10272pt.
 Package epstopdf Info: Source file: <figs/img/02262019/PitchVoltage_LQR_RMSE.ep
 s>
-(epstopdf)                    date: 2019-04-23 10:47:13
+(epstopdf)                    date: 2019-05-07 17:10:38
 (epstopdf)                    size: 603672 bytes
 (epstopdf)             Output file: <figs/img/02262019/PitchVoltage_LQR_RMSE.pd
 f>
-(epstopdf)                    date: 2019-04-23 10:47:13
+(epstopdf)                    date: 2019-05-07 17:10:38
 (epstopdf)                    size: 206226 bytes
 (epstopdf)             Command: <repstopdf figs/img/02262019/PitchVoltage_LQR_R
 MSE.eps>
 (epstopdf)             \includegraphics on input line 1415.
 Package epstopdf Info: Output file is already uptodate.
-<figs/img/02262019/PitchVoltage_LQR_RMSE.pdf, id=1962, 364.36125pt x 304.13625p
+<figs/img/02262019/PitchVoltage_LQR_RMSE.pdf, id=1972, 364.36125pt x 304.13625p
 t>
 File: figs/img/02262019/PitchVoltage_LQR_RMSE.pdf Graphic file (type pdf)
 <use figs/img/02262019/PitchVoltage_LQR_RMSE.pdf>
@@ -2650,17 +2650,17 @@ nput line 1415.
 (pdftex.def)             Requested size: 344.005pt x 287.15503pt.
 Package epstopdf Info: Source file: <figs/img/02262019/YawVoltage_LQR_RMSE.eps>
 
-(epstopdf)                    date: 2019-04-23 10:47:13
+(epstopdf)                    date: 2019-05-07 17:10:38
 (epstopdf)                    size: 604188 bytes
 (epstopdf)             Output file: <figs/img/02262019/YawVoltage_LQR_RMSE.pdf>
 
-(epstopdf)                    date: 2019-04-23 10:47:13
+(epstopdf)                    date: 2019-05-07 17:10:38
 (epstopdf)                    size: 202976 bytes
 (epstopdf)             Command: <repstopdf figs/img/02262019/YawVoltage_LQR_RMS
 E.eps>
 (epstopdf)             \includegraphics on input line 1422.
 Package epstopdf Info: Output file is already uptodate.
-<figs/img/02262019/YawVoltage_LQR_RMSE.pdf, id=1963, 364.36125pt x 304.13625pt>
+<figs/img/02262019/YawVoltage_LQR_RMSE.pdf, id=1973, 364.36125pt x 304.13625pt>
 
 File: figs/img/02262019/YawVoltage_LQR_RMSE.pdf Graphic file (type pdf)
 <use figs/img/02262019/YawVoltage_LQR_RMSE.pdf>
@@ -2669,33 +2669,33 @@ ut line 1422.
 (pdftex.def)             Requested size: 344.005pt x 287.15503pt.
 Package epstopdf Info: Source file: <figs/img/02262019/PitchSpeed_LQR_RMSE.eps>
 
-(epstopdf)                    date: 2019-04-23 10:47:13
+(epstopdf)                    date: 2019-05-07 17:10:38
 (epstopdf)                    size: 621367 bytes
 (epstopdf)             Output file: <figs/img/02262019/PitchSpeed_LQR_RMSE.pdf>
 
-(epstopdf)                    date: 2019-04-23 10:47:13
+(epstopdf)                    date: 2019-05-07 17:10:38
 (epstopdf)                    size: 200687 bytes
 (epstopdf)             Command: <repstopdf figs/img/02262019/PitchSpeed_LQR_RMS
 E.eps>
 (epstopdf)             \includegraphics on input line 1429.
 Package epstopdf Info: Output file is already uptodate.
-<figs/img/02262019/PitchSpeed_LQR_RMSE.pdf, id=1964, 364.36125pt x 305.14pt>
+<figs/img/02262019/PitchSpeed_LQR_RMSE.pdf, id=1974, 364.36125pt x 305.14pt>
 File: figs/img/02262019/PitchSpeed_LQR_RMSE.pdf Graphic file (type pdf)
 <use figs/img/02262019/PitchSpeed_LQR_RMSE.pdf>
 Package pdftex.def Info: figs/img/02262019/PitchSpeed_LQR_RMSE.pdf  used on inp
 ut line 1429.
 (pdftex.def)             Requested size: 344.005pt x 288.10272pt.
 Package epstopdf Info: Source file: <figs/img/02262019/YawSpeed_LQR_RMSE.eps>
-(epstopdf)                    date: 2019-04-23 10:47:13
+(epstopdf)                    date: 2019-05-07 17:10:38
 (epstopdf)                    size: 622282 bytes
 (epstopdf)             Output file: <figs/img/02262019/YawSpeed_LQR_RMSE.pdf>
-(epstopdf)                    date: 2019-04-23 10:47:13
+(epstopdf)                    date: 2019-05-07 17:10:38
 (epstopdf)                    size: 199530 bytes
 (epstopdf)             Command: <repstopdf figs/img/02262019/YawSpeed_LQR_RMSE.
 eps>
 (epstopdf)             \includegraphics on input line 1436.
 Package epstopdf Info: Output file is already uptodate.
-<figs/img/02262019/YawSpeed_LQR_RMSE.pdf, id=1965, 364.36125pt x 305.14pt>
+<figs/img/02262019/YawSpeed_LQR_RMSE.pdf, id=1975, 364.36125pt x 305.14pt>
 File: figs/img/02262019/YawSpeed_LQR_RMSE.pdf Graphic file (type pdf)
 <use figs/img/02262019/YawSpeed_LQR_RMSE.pdf>
 Package pdftex.def Info: figs/img/02262019/YawSpeed_LQR_RMSE.pdf  used on input
@@ -2732,7 +2732,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1444--1455
 
 ]
 chapter without number
-<figs/ipe/smartAlg.pdf, id=2065, 564.1075pt x 450.68375pt>
+<figs/ipe/smartAlg.pdf, id=2075, 564.1075pt x 450.68375pt>
 File: figs/ipe/smartAlg.pdf Graphic file (type pdf)
 <use figs/ipe/smartAlg.pdf>
 Package pdftex.def Info: figs/ipe/smartAlg.pdf  used on input line 1469.
@@ -2867,26 +2867,25 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 1714.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1714.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1714.
 
+Package rerunfilecheck Info: File `labNotebook.out' has not changed.
+(rerunfilecheck)             Checksum: E4FC03A4BAB12EA2AFDCB9D25DBA6D41;11464.
 
 
-Package rerunfilecheck Warning: File `labNotebook.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
+Package rerunfilecheck Warning: File `labNotebook.brf' has changed.
+(rerunfilecheck)                Rerun to get bibliographical references right.
 
-Package rerunfilecheck Info: Checksums for `labNotebook.out':
-(rerunfilecheck)             Before: A4B36A02F94A86D2389128BC57105D35;11339
-(rerunfilecheck)             After:  E4FC03A4BAB12EA2AFDCB9D25DBA6D41;11464.
-Package rerunfilecheck Info: File `labNotebook.brf' has not changed.
-(rerunfilecheck)             Checksum: 0ECA58CD630E3A96EF9969A5FF144C91;695.
+Package rerunfilecheck Info: Checksums for `labNotebook.brf':
+(rerunfilecheck)             Before: 138719B07AF0689690164AD122900866;691
+(rerunfilecheck)             After:  0ECA58CD630E3A96EF9969A5FF144C91;695.
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 26396 strings out of 492641
- 478769 string characters out of 6133131
- 793418 words of memory out of 5000000
- 28975 multiletter control sequences out of 15000+600000
+ 26398 strings out of 492641
+ 478799 string characters out of 6133131
+ 793390 words of memory out of 5000000
+ 28977 multiletter control sequences out of 15000+600000
  91132 words of font info for 253 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  73i,11n,80p,9126b,2088s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -2904,10 +2903,10 @@ blic/bera/fvmr8a.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/bera/fvsb8a
 /fonts/type1/urw/palatino/uplb8a.pfb><c:/texlive/2018/texmf-dist/fonts/type1/ur
 w/palatino/uplr8a.pfb><c:/texlive/2018/texmf-dist/fonts/type1/urw/palatino/uplr
 i8a.pfb>
-Output written on labNotebook.pdf (131 pages, 7208694 bytes).
+Output written on labNotebook.pdf (131 pages, 7208657 bytes).
 PDF statistics:
- 2358 PDF objects out of 2487 (max. 8388607)
- 2029 compressed objects within 21 object streams
+ 2366 PDF objects out of 2487 (max. 8388607)
+ 2037 compressed objects within 21 object streams
  506 named destinations out of 1000 (max. 500000)
- 49863 words of extra memory for PDF output out of 51595 (max. 10000000)
+ 49879 words of extra memory for PDF output out of 51595 (max. 10000000)
 
