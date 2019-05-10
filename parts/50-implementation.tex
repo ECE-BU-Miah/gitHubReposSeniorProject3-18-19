@@ -32,7 +32,8 @@ Section~\ref{sec:Androidtut} is the tutorial to setup and implement a simulink m
     \label{fig:Setup}
 \end{figure}
 Figure~\ref{fig:TCPModel} is the TCP communication model between the mobile device and the raspberry pi.
-\todo[inline]{Ken needs to describe figure~\ref{fig:TCPModel} more}
+%\todo[inline]{Ken needs to describe figure~\ref{fig:TCPModel} more}
+When a user wants to send a configuration to the helicopter, the mobile device's network interface card recognizes the protocol that is being used.  In this case, UDP is used to maximize the transmission speed.  Metadata is appended to the orginal data for routing purposes.  After the packet is prepared, it is sent to the wirless router and across the network.  Once it reaches the raspberry pi, it discards the metadata and uses the remaining data to calculate the voltage to apply to the helicopter.
 \begin{figure}[!htbp]
     \centering
     \includegraphics[width=.46\textwidth,keepaspectratio=true]{figs/ipe/TCPModel.eps}
