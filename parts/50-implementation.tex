@@ -6,51 +6,52 @@ This chapter discusses the implementaion method setups and results for the three
 %======================================================================
 \section{Experimental Setup}
 %----------------------------------------------------------------------
+Before implementation was started setup needed to be done to get the system ready for testing.
+%----------------------------------------------------------------------
 \subsection{USB}
 %----------------------------------------------------------------------
-
-
+To setup for USB implementation the QFLEX 2 USB panel had to be installed onto the Quanser Aero.  Figure~\ref{fig:USB_Panel} is the USB panel.  Section~\ref{sec:USBtut} is a tutorial for the USB communication.
 %----------------------------------------------------------------------
 \subsection{Raspberry Pi}
 %----------------------------------------------------------------------
-The communication protocol utilized by the Q-Flex2 embedded panel is SPI.  
+Section~\ref{sec:RPItut} is the tutorial to setup and implement wireless communication using the raspberry pi.  The part that allows this implementation to be used is the QFLEX 2 EMBEDDED which is shown in figure~\ref{fig:Embedded_Panel}.  The communication protocol utilized by the Q-Flex2 embedded panel is SPI.  To enable this communication figure~\ref{fig:SPI_COM} is used in simulink.
 \begin{figure}[!htbp]
     \centering
     \includegraphics[width=.46\textwidth,keepaspectratio=true]{figs/img/SPI_COM.pdf}
     \caption{Block diagram of SPI communication protocol used for communication between the Raspberry Pi and Quanser Aero.}
     \label{fig:SPI_COM}
 \end{figure}
-
-
 %----------------------------------------------------------------------
-\subsection{Android}
+\subsection{Mobile Device}
 %----------------------------------------------------------------------
+Section~\ref{sec:Androidtut} is the tutorial to setup and implement a simulink model using a mobile device as a user interface.  Figure~\ref{fig:Setup} is the physical lab setup for the mobile device experiment using two helicopters and two raspberry pi's. 
+\begin{figure}[!htbp]
+    \centering
+    \includegraphics[width=.5\textwidth,keepaspectratio=true]{figs/ipe/Setup.eps}
+    \caption{Experiment setup for controlling the Quanser Aeros via a mobile device.}
+    \label{fig:Setup}
+\end{figure}
+Figure~\ref{fig:TCPModel} is the TCP communication model between the mobile device and the raspberry pi.
+\todo[inline]{Ken needs to describe figure~\ref{fig:TCPModel} more}
 \begin{figure}[!htbp]
     \centering
     \includegraphics[width=.46\textwidth,keepaspectratio=true]{figs/ipe/TCPModel.eps}
     \caption{Illustration of the TCP model which describes how packets are sent and recieved from mobile devices to the Quanser Aero.}
     \label{fig:TCPModel}
 \end{figure}
-
+Figure~\ref{fig:Android_Interface} is the simulink model to generate the mobile device application.
 \begin{figure}[!htbp]
     \centering
     \includegraphics[width=.46\textwidth,keepaspectratio=true]{figs/img/Android_Interface_2Aero}
     \caption{Simulink model of the android interface using two Quanser Aeros.}
     \label{fig:Android_Interface}
 \end{figure}
-
+A screenshot of the application is shown in figure~\ref{fig:Screenshot_Android_Interface}.  As it can be seen, the application displays the actual pitch and yaw configurations for both helicopters.  It also displays the desired configuration that is being set by the two slide bars.
 \begin{figure}[!htbp]
     \centering
     \includegraphics[width=.46\textwidth,keepaspectratio=true]{figs/img/Screenshot_Android_Interface_2Aero}
     \caption{Screenshot of the mobile user interface.}
     \label{fig:Screenshot_Android_Interface}
-\end{figure}
-
-\begin{figure}[!htbp]
-    \centering
-    \includegraphics[width=.5\textwidth,keepaspectratio=true]{figs/ipe/Setup.eps}
-    \caption{Experiment setup for controlling the Quanser Aeros via a mobile device.}
-    \label{fig:Setup}
 \end{figure}
 
 %======================================================================
@@ -64,7 +65,7 @@ For the LQR motion control algoritm, two types of controllers were implemented. 
 \begin{figure}[!htbp]
     \centering
     \includegraphics[width=.8\textwidth,keepaspectratio=true]{figs/img/LQR_USB}
-    \caption{Block Diagram for LQR P type controller with a USB connection.}
+    \caption{Block diagram for LQR P type controller with a USB connection.}
     \label{fig:LQR_P_USB_Block_Diagram}
 \end{figure}
 %\todo[inline]{Insert LQR PI Block Diagram}
@@ -73,7 +74,7 @@ Figure~\ref{fig:LQR_PI_USB_Block_Diagram} is the simulink model for the LQR PI t
 \begin{figure}[!htbp]
     \centering
     \includegraphics[width=.8\textwidth,keepaspectratio=true]{figs/img/LQR_PI_USB}
-    \caption{Block Diagram for LQR PI type controller with a USB connection.}
+    \caption{Block diagram for LQR PI type controller with a USB connection.}
     \label{fig:LQR_PI_USB_Block_Diagram}
 \end{figure}
 
@@ -107,7 +108,7 @@ Figure~\ref{fig:PvsPI_Step} shows the wave forms for a step input while comparin
     \caption{USB implementation for proportional controller and proportional-integral controller calculated by LQR with a step input.}
     \label{fig:PvsPI_Step}
 \end{figure}
-Figure~\ref{fig:PvsPI_Square} and Figure~\ref{fig:PvsPI_Sine} have similar figures to Figure~\ref{fig:PvsPI_Step}, except Figure~\ref{fig:PvsPI_Square} has a square wave input and Figure~\ref{fig:PvsPI_Sine} has a sine wave input.
+Figure~\ref{fig:PvsPI_Square} and figure~\ref{fig:PvsPI_Sine} have similar figures to figure~\ref{fig:PvsPI_Step}, except figure~\ref{fig:PvsPI_Square} has a square wave input and figure~\ref{fig:PvsPI_Sine} has a sine wave input.
 \begin{figure}[!htbp]
     \centering
     \subfigure[][]{
@@ -179,18 +180,18 @@ Figure~\ref{fig:ADP_P_USB_Block_Diagram} is the simulink model for the ADP motio
 \begin{figure}[!htbp]
     \centering
     \includegraphics[width=.8\textwidth,keepaspectratio=true]{figs/img/ADP_USB}
-    \caption{Block Diagram for ADP P type controller with a USB connection.}
+    \caption{Block diagram for ADP P type controller with a USB connection.}
     \label{fig:ADP_P_USB_Block_Diagram}
 \end{figure}
 Figure~\ref{fig:ADP_P_BlackBox} is what is inside the ADP block in Figure~\ref{fig:ADP_P_USB_Block_Diagram}.
 \begin{figure}[!htbp]
     \centering
     \includegraphics[width=.8\textwidth,keepaspectratio=true]{figs/img/ADP_Black_Box}
-    \caption{Block Diagram for ADP P type controller algorithm.}
+    \caption{Block diagram for ADP P type controller algorithm.}
     \label{fig:ADP_P_BlackBox}
 \end{figure}
 
-For the results of this experiment Figure~\ref{fig:ADP_USB_Step} shows the results for ADP using a step input and USB connection.  Figure~\ref{fig:Pitch_ADP_RMSE_Step} shows the pitch configurations of both the actual and desired angles verses time.  Figure~\ref{fig:Yaw_ADP_RMSE_Step} shows the yaw configurations of both the actual and desired angles verses time.  Figure~\ref{fig:PitchVoltage_ADP_RMSE_Step} displays the voltage that is applied to the main motor verses time.  Figure~\ref{fig:YawVoltage_ADP_RMSE_Step} displays the voltage that is applied to the tail motor verses time.  Figure~\ref{fig:ADP_USB_Square} and Figure~\ref{fig:ADP_USB_Sine} have similar figures to Figure~\ref{fig:ADP_USB_Step}, except Figure~\ref{fig:ADP_USB_Square} has a square wave input and Figure~\ref{fig:ADP_USB_Sine} has a sine wave input.
+For the results of this experiment figure~\ref{fig:ADP_USB_Step} shows the results for ADP using a step input and USB connection.  Figure~\ref{fig:Pitch_ADP_RMSE_Step} shows the pitch configurations of both the actual and desired angles verses time.  Figure~\ref{fig:Yaw_ADP_RMSE_Step} shows the yaw configurations of both the actual and desired angles verses time.  Figure~\ref{fig:PitchVoltage_ADP_RMSE_Step} displays the voltage that is applied to the main motor verses time.  Figure~\ref{fig:YawVoltage_ADP_RMSE_Step} displays the voltage that is applied to the tail motor verses time.  Figure~\ref{fig:ADP_USB_Square} and figure~\ref{fig:ADP_USB_Sine} have similar figures to figure~\ref{fig:ADP_USB_Step}, except figure~\ref{fig:ADP_USB_Square} has a square wave input and figure~\ref{fig:ADP_USB_Sine} has a sine wave input.
 \begin{figure}[!htbp]
     \centering
     \subfigure[][]{
@@ -379,7 +380,7 @@ Figure~\ref{fig:LQR_Android} is the simulink model for mobile device communicati
     \label{fig:LQR_Android}
 \end{figure}
 
-The Figure~\ref{fig:AndroidLQR} shows the results of the implementation using LQR p type for the mobile device user interface.  Figure~\ref{fig:AndroidLQRPitchpos} shows the actual pitch configuration and the desired that was set using the mobile device verses time.  Figure~\ref{fig:AndroidLQRYawpos} shows the actual yaw configuration and the desired that was set using the mobile device verses time.  As can be seen, the actual configuration tries to follow the wave form that is being set by the user.  Figure~\ref{fig:AndroidLQRPitchVolt} and Figure~\ref{fig:AndroidLQRPitchVolt} show the voltages that are applied to the main and tail motors to get these motions in the pitch and yaw directions.
+The figure~\ref{fig:AndroidLQR} shows the results of the implementation using LQR p type for the mobile device user interface.  Figure~\ref{fig:AndroidLQRPitchpos} shows the actual pitch configuration and the desired that was set using the mobile device verses time.  Figure~\ref{fig:AndroidLQRYawpos} shows the actual yaw configuration and the desired that was set using the mobile device verses time.  As can be seen, the actual configuration tries to follow the wave form that is being set by the user.  Figure~\ref{fig:AndroidLQRPitchVolt} and figure~\ref{fig:AndroidLQRPitchVolt} show the voltages that are applied to the main and tail motors to get these motions in the pitch and yaw directions.
 \begin{figure}
     \centering
     \subfigure[][]{
@@ -398,7 +399,7 @@ The Figure~\ref{fig:AndroidLQR} shows the results of the implementation using LQ
     \includegraphics[width=.46\textwidth,keepaspectratio=true]{figs/matlab/LQR/P_Android/LQR_YawVolt.eps}
     \label{fig:AndroidLQRYawVolt}
     }
-    \caption{Implementation results for LQR p type controller using mobile device as user input.}
+    \caption{Implementation results for LQR P type controller using mobile device as user input.}
     \label{fig:AndroidLQR}
 \end{figure}
 
@@ -414,7 +415,7 @@ Figure~\ref{fig:ADP_Android} is the simulink model for mobile device communicati
     \label{fig:ADP_Android}
 \end{figure}
 
-The Figure~\ref{fig:AndroidADP} shows the results of the implementation using ADP for the mobile device user interface.  Figure~\ref{fig:AndroidADPPitchpos} shows the actual pitch configuration and the desired that was set using the mobile device verses time.  Figure~\ref{fig:AndroidADPYawpos} shows the actual yaw configuration and the desired that was set using the mobile device verses time.  As can be seen, the actual configuration tries to follow the wave form that is being set by the user.  Figure~\ref{fig:AndroidADPPitchVolt} and Figure~\ref{fig:AndroidADPPitchVolt} show the voltages that are applied to the main and tail motors to get these motions in the pitch and yaw directions.
+The figure~\ref{fig:AndroidADP} shows the results of the implementation using ADP for the mobile device user interface.  Figure~\ref{fig:AndroidADPPitchpos} shows the actual pitch configuration and the desired that was set using the mobile device verses time.  Figure~\ref{fig:AndroidADPYawpos} shows the actual yaw configuration and the desired that was set using the mobile device verses time.  As can be seen, the actual configuration tries to follow the wave form that is being set by the user.  Figure~\ref{fig:AndroidADPPitchVolt} and figure~\ref{fig:AndroidADPPitchVolt} show the voltages that are applied to the main and tail motors to get these motions in the pitch and yaw directions.
 \begin{figure}
     \centering
     \subfigure[][]{
