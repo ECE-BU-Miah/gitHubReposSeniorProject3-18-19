@@ -4,10 +4,11 @@
 
 %----------------------------------------------------------------------
 \section{USB Connection}
+\label{sec:USBtut}
 %----------------------------------------------------------------------
 \begin{enumerate}
     \item Verify QuaRC is installed on computer
-    \item Install QFLEX 2 USB into Quanser Aero as seen in Figure~\ref{fig:USB_Panel}
+    \item Install QFLEX 2 USB into Quanser Aero as seen in figure~\ref{fig:USB_Panel}
     \item Open Simulink model
     \item Connect Quanser Aero to computer via the included USB adapter cable
     \item Set simulation mode to external
@@ -33,7 +34,7 @@
         \item MATLAB Support Package for Raspberry Pi Hardware
         \item Simulink Support Package for Raspberry Pi Hardware
     \end{enumerate}
-    \item Install QFLEX 2 Embedded into Quanser Aero as seen in Figure~\ref{fig:Embedded_Panel}
+    \item Install QFLEX 2 EMBEDDED into Quanser Aero as seen in figure~\ref{fig:Embedded_Panel}
     \item Assuming Raspberry PI is not connected to network, establish a serial connection to the Raspberry PI
     \begin{enumerate}
 	\item Plug SD card into Linux computer and enable serial connectivity
@@ -55,7 +56,7 @@
     \item Under "Build options", set build action to "Build and run" and type in the file path that you want the model to be stored on the Raspberry PI
     \item Set simulation mode to external
     \item Run MATLAB initialization code for motion controller
-    \item Run MATLAB Raspberry PI/SPI initialization code \ref{ch:RPI3_SPI_Int}
+    \item Run MATLAB Raspberry PI/SPI initialization code in section~\ref{ch:RPI3_SPI_Int}
     \item Click "Deploy to Hardware" button
     \item To stop program you must "kill" it
     \item Open Putty, connect to your Raspberry PI, and log in
@@ -73,11 +74,12 @@
 \end{figure}
 %----------------------------------------------------------------------
 \section{Android Application}
+\label{sec:Androidtut}
 %----------------------------------------------------------------------
 \begin{enumerate}
     \item Make sure software add ons are installed on MATLAB, "Simulink Support Package for Android Devices"
     \item Install Android Studio
-    \item Repeat steps from Appendix~\ref{sec:RPItut} to set up Raspberry Pi and push model to Raspberry Pi
+    \item Repeat steps from appendix~\ref{sec:RPItut} to set up Raspberry Pi and push model to Raspberry Pi
     \item From MATLAB open add on manager and click on the "Setup" gear next to the Android package
     \item Verify Android Studio installed, Next
     \item Verify Android SDK Tools installed

@@ -7,7 +7,7 @@ This chapter discusses the simulation results for the three control algorithms. 
 %----------------------------------------------------------------------
 \section{LQR (P controller)}
 %----------------------------------------------------------------------
-Using MATLAB, we created a program, as seen in \ref{ch:codeLQRsim}, that calculates LQR for our helicopter and then uses differential equations to simulate the trajectory. 
+Using MATLAB, we created a program, as seen in section~\ref{ch:codeLQRsim}, that calculates LQR for our helicopter and then uses differential equations to simulate the trajectory. 
 \begin{figure}[!htbp]
     \centering
     \subfigure[][]{
@@ -27,17 +27,17 @@ Using MATLAB, we created a program, as seen in \ref{ch:codeLQRsim}, that calcula
     }
     \caption{Simulations for proportional gain calculated by LQR.}
 \end{figure}
-Figure~\ref{fig:LQR_Pos_Con} represents the simulated position of the helicopter, Figure~\ref{fig:LQR_Error_Con}, illustrates the difference between the actual and desired configurations, and Figure~\ref{fig:LQR_Volt_Con} show the simulated voltage to the DC motors.  Suprisingly, the error is very small yet not zero which is attributed to a high gain.
+Figure~\ref{fig:LQR_Pos_Con} represents the simulated position of the helicopter, figure~\ref{fig:LQR_Error_Con}, illustrates the difference between the actual and desired configurations, and figure~\ref{fig:LQR_Volt_Con} show the simulated voltage to the DC motors.  Suprisingly, the error is very small yet not zero which is attributed to a high gain.
 
 %----------------------------------------------------------------------
 \section{LQR (PI controller)}
 %----------------------------------------------------------------------
-Unlike the P controller, we created a Simulink model insead of using differential equations.  To do this, we had to create a block that represented our plant and create feedback for the system as seen in Figure~\ref{fig:LQR_Sim_Block_Diagram}.  
+Unlike the P controller, we created a Simulink model insead of using differential equations.  To do this, we had to create a block that represented our plant and create feedback for the system as seen in figure~\ref{fig:LQR_Sim_Block_Diagram}.  
 %\todo[inline]{Insert Block diagram for LQR PI simulation}
 \begin{figure}[!htbp]
     \centering
     \includegraphics[width=.8\textwidth,keepaspectratio=true]{figs/img/LQR_Simulink_Sim}
-    \caption{Block Diagram for LQR Simulation.}
+    \caption{Block diagram for LQR simulation using simulink.}
     \label{fig:LQR_Sim_Block_Diagram}
 \end{figure}
 %\todo[inline]{Insert results for LQR PI simulation}
@@ -61,17 +61,17 @@ Unlike the P controller, we created a Simulink model insead of using differentia
     }
     \caption{Simulations for proportional and integral gain calculated by LQR.}
 \end{figure}
-As expected, as time goes to infinity, the error becomes zero.  A dip in Figure~\ref{fig:Pitch_LQG_Sim} can be seen as a result of the voltage decreasing in Figure~\ref{fig:Yaw_Volt_LQG_Sim} so that the yaw configuration in Figure~\ref{fig:Yaw_LQG_Sim} can converge on the desired orientation.
+As expected, as time goes to infinity, the error becomes zero.  A dip in figure~\ref{fig:Pitch_LQG_Sim} can be seen as a result of the voltage decreasing in figure~\ref{fig:Yaw_Volt_LQG_Sim} so that the yaw configuration in figure~\ref{fig:Yaw_LQG_Sim} can converge on the desired orientation.
 
 %----------------------------------------------------------------------
 \section{LQG (PI Controller)}
 %----------------------------------------------------------------------
-The LQG block diagram required some minor changes including the use a kalman filter as seen in Figure~\ref{fig:LQG_Sim_Block_Diagram}.
+The LQG block diagram required some minor changes including the use a kalman filter as seen in figure~\ref{fig:LQG_Sim_Block_Diagram}.
 %\todo[inline]{Insert Block diagram for LQG PI simulation}
 \begin{figure}[!htbp]
     \centering
     \includegraphics[width=.8\textwidth,keepaspectratio=true]{figs/img/LQG_Simulink}
-    \caption{Block Diagram for LQG Simulation.}
+    \caption{Block diagram for LQG simulation using simulink.}
     \label{fig:LQG_Sim_Block_Diagram}
 \end{figure}
 %\todo[inline]{Insert results for LQG PI simulation}
@@ -95,7 +95,7 @@ The LQG block diagram required some minor changes including the use a kalman fil
     }
     \caption{Simulations for proportional and integral gain calculated by LQG.}
 \end{figure}
-The kalman had a larger effect on the system than we were expecting.  The position in Figure~\ref{fig:Pitch_LQG_Sim} and  Figure~\ref{fig:Yaw_LQG_Sim} had a much slower rise time.  The simulated voltage in  Figure~\ref{fig:Pitch_Volt_LQG_Sim} and  Figure~\ref{fig:Yaw_Volt_LQG_Sim} also rose much more slowly than LQR.  This means that the system is using less energy to reach the desired configuration. 
+The kalman had a larger effect on the system than we were expecting.  The position in figure~\ref{fig:Pitch_LQG_Sim} and  figure~\ref{fig:Yaw_LQG_Sim} had a much slower rise time.  The simulated voltage in figure~\ref{fig:Pitch_Volt_LQG_Sim} and figure~\ref{fig:Yaw_Volt_LQG_Sim} also rose much more slowly than LQR.  This means that the system is using less energy to reach the desired configuration. 
 %%----------------------------------------------------------------------
 %\section{Conclusions}
 %%----------------------------------------------------------------------
