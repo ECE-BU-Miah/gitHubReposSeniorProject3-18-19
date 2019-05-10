@@ -14,11 +14,11 @@
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {5.1}{\ignorespaces Block diagram of SPI communication protocol used for communication between the Raspberry Pi and Quanser Aero.}}{16}{figure.5.1}
 \contentsline {figure}{\numberline {5.2}{\ignorespaces Experiment setup for controlling the Quanser Aeros via a mobile device.}}{16}{figure.5.2}
-\contentsline {figure}{\numberline {5.3}{\ignorespaces Illustration of the TCP model which describes how packets are sent and recieved from mobile devices to the Quanser Aero.}}{16}{figure.5.3}
+\contentsline {figure}{\numberline {5.3}{\ignorespaces Illustration of the TCP model which describes how packets are sent and recieved from mobile devices to the Quanser Aero.}}{17}{figure.5.3}
 \contentsline {figure}{\numberline {5.4}{\ignorespaces Simulink model of the android interface using two Quanser Aeros.}}{17}{figure.5.4}
 \contentsline {figure}{\numberline {5.5}{\ignorespaces Screenshot of the mobile user interface.}}{18}{figure.5.5}
 \contentsline {figure}{\numberline {5.6}{\ignorespaces Block diagram for LQR P type controller with a USB connection.}}{19}{figure.5.6}
-\contentsline {figure}{\numberline {5.7}{\ignorespaces Block diagram for LQR PI type controller with a USB connection.}}{19}{figure.5.7}
+\contentsline {figure}{\numberline {5.7}{\ignorespaces Block diagram for LQR PI type controller with a USB connection.}}{20}{figure.5.7}
 \contentsline {figure}{\numberline {5.8}{\ignorespaces USB implementation for proportional controller and proportional-integral controller calculated by LQR with a step input.}}{21}{figure.5.8}
 \contentsline {figure}{\numberline {5.9}{\ignorespaces USB implementation for proportional controller and proportional-integral controller calculated by LQR with a square wave input.}}{22}{figure.5.9}
 \contentsline {figure}{\numberline {5.10}{\ignorespaces USB implementation for proportional controller and proportional-integral controller calculated by LQR with a sinusoidal input.}}{23}{figure.5.10}
